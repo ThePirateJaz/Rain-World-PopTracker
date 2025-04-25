@@ -1,0 +1,46 @@
+{
+  // sets layouts for shadred items grids
+  // bigger example: https://github.com/Cyb3RGER/sm_ap_tracker/blob/main/layouts/items.json
+  "shared_item_grid": {
+    "type": "array",
+    "orientation": "vertical",
+    "margin": "0,0",
+    "content": [
+      {
+        "type": "array",
+        "orientation": "horizontal",
+        "margin": "0,0",
+        "content": [
+          {
+            "type": "itemgrid",
+            "item_margin": "10, 10",
+            "h_alignment": "left",
+            "rows": [
+              [
+                "Karma1","scug","key","drone","time","gravity","pearl2"
+              ],
+              [
+                "pearl1","glow","speech","Gate_Outskirts-Drainage","Gate_Outskirts-Farm_Arrays","Gate_Outskirts-Industrial","Gate_Farm_Arrays-Subterranean","Gate_Farm_Arrays-Sky_Islands","Gate_Subterranean-Outer_Expanse","Gate_Outer_Expanse-Outskirts","Gate_Subterranean-Drainage"
+              ],
+              [
+                "Gate_Subterranean-Shoreline","Gate_Drainage-Chimney","Gate_Drainage-Garbage","Gate_Industrial-Chimney","Gate_Industrial-Chimney","Gate_Industrial-Shaded","Gate_Industrial-Garbage","Gate_Pipeyard-Sky_Islands","Gate_Pipeyard-Subterranean"
+              ],
+              [
+                "Gate_Chimney-Exterior","Gate_Chimney-Sky_Islands","Gate_Garbage-Shaded","Gate_Garbage-Shoreline","Gate_Shaded-Shoreline","Gate_Shaded-Exterior","Gate_Exterior-Precipice","Gate_Wall-Five_Pebbles","Gate_Underhang-Five_Pebbles","Gate_Pipeyard-Shoreline"
+              ],
+              [
+                "Gate_Shoreline-Silent_Construct","Gate_Precipice-LTTM","Gate_Struts-Waterfront","Gate_Wall-Metropolis","Gate_Bitter_Aerie-Shoreline","Gate_Shoreline-Submerged_Superstructure"
+              ],
+              [
+                "chieftan","pilgrim","nomad","dragon","friend","the_hunter","martyr"
+              ],
+              [
+                "outlaw","scholar","the_monk","mother","the_saint","the_survivor","wanderer"
+              ]
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
