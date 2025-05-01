@@ -1,0 +1,1302 @@
+[
+    {
+        "name": "Sky Islands",
+        "access_rules": ["$has_sky_islands_access"],
+        "children": [
+            {
+                "name": "Sky Islands",
+                "sections": [
+                    {
+                        "name": "Echo"
+                    },
+                    {
+                        "name": "Level Token"
+                    },
+                    {
+                        "name": "Safari Token",
+                        "visibility_rules": ["MSC"]
+                    },
+                    {
+                        "name": "Pearl",
+                        "ref": "@Sky Islands/Pearl/Dark Blue Pearl",
+                        "visibility_rules": [
+                            "monk",
+                            "survivor",
+                            "hunter",
+                            "gourmand",
+                            "arti",
+                            "riv",
+                            "saint"
+                        ]
+                    },
+                    {
+                        "name": "Pearl",
+                        "ref": "@Sky Islands/Pearl/Dark Green Pearl"
+                    },
+                    {
+                        "name": "Pearl",
+                        "ref": "@Sky Islands/Pearl/Dark Purple Pearl",
+                        "visibility_rules": ["MSC"]
+                    },
+                    {
+                        "name": "Pearl",
+                        "ref": "@Sky Islands/Pearl/Dark Magenta Pearl",
+                        "visibility_rules": ["MSC"]
+                    },
+                    {
+                        "name": "Pearl",
+                        "ref": "@Sky Islands/Pearl/Olive Green Pearl",
+                        "visibility_rules": ["MSC"]
+                    },
+                    {
+                        "name": "Vulture Mask Token",
+                        "visibility_rules": ["MSC"]
+                    },
+                    {
+                        "name": "King Vulture Token",
+                        "visibility_rules": [
+                            "hunter",
+                            "gourmand",
+                            "arti"
+                        ]
+                    },
+                    {
+                        "name": "Centiwing Token",
+                        "visibility_rules": [
+                            "survivor",
+                            "hunter",
+                            "gourmand",
+                            "arti",
+                            "riv",
+                            "spearmaster",
+                            "saint"
+                        ]
+                    },
+                    {
+                        "name": "EggBug Token"
+                    },
+                    {
+                        "name": "Dandelion Peach Token",
+                        "visibility_rules": [
+                            "monk,MSC",
+                            "survivor,MSC",
+                            "hunter,MSC",
+                            "gourmand",
+                            "riv"
+                        ]
+                    },
+                    {
+                        "name": "Chatlog",
+                        "ref": "@Sky Islands/Pearl/Chatlog SI0",
+                        "visibility_rules": ["spearmaster"]
+                    },
+                    {
+                        "name": "Chatlog",
+                        "ref": "@Sky Islands/Pearl/Chatlog SI1",
+                        "visibility_rules": ["spearmaster"]
+                    },
+                    {
+                        "name": "Chatlog",
+                        "ref": "@Sky Islands/Broadcast SI2/Chatlog",
+                        "visibility_rules": ["spearmaster"]
+                    },
+                    {
+                        "name": "Chatlog",
+                        "ref": "@Sky Islands/Broadcast SI3/Chatlog",
+                        "visibility_rules": ["spearmaster"]
+                    },
+                    {
+                        "name": "Chatlog",
+                        "ref": "@Sky Islands/Broadcast SI4/Chatlog",
+                        "visibility_rules": ["spearmaster"]
+                    },
+                    {
+                        "name": "Chatlog",
+                        "ref": "@Sky Islands/Pearl/Chatlog SI5",
+                        "visibility_rules": ["spearmaster"]
+                    },
+                    {
+                        "name": "Shelter",
+                        "ref": "@Island Shelters/Shelter S03/Shelter",
+                        "visibility_rules": ["$sheltersanity"]
+                    },
+                    {
+                        "name": "Shelter",
+                        "ref": "@Island Shelters/Shelter S04/Shelter",
+                        "visibility_rules": ["$sheltersanity"]
+                    },
+                    {
+                        "name": "Shelter",
+                        "ref": "@Island Shelters/Shelter S05/Shelter",
+                        "visibility_rules": ["$sheltersanity"]
+                    },
+                    {
+                        "name": "Shelter",
+                        "ref": "@Island Shelters/Shelter S06/Shelter",
+                        "visibility_rules": ["$sheltersanity"]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Vanilla_Monk_Farm_Arrays",
+                        "x": 1200,
+                        "y": 78
+                    },
+                    {
+                        "map": "Vanilla_Survivor_Farm_Arrays",
+                        "x": 1200,
+                        "y": 78
+                    },
+                    {
+                        "map": "Vanilla_Hunter_Farm_Arrays",
+                        "x": 1200,
+                        "y": 78
+                    },
+                    {
+                        "map": "MSC_Monk_Farm_Arrays",
+                        "x": 1230,
+                        "y": 78
+                    },
+                    {
+                        "map": "MSC_Survivor_Farm_Arrays",
+                        "x": 1230,
+                        "y": 78
+                    },
+                    {
+                        "map": "MSC_Hunter_Farm_Arrays",
+                        "x": 1230,
+                        "y": 78
+                    },
+                    {
+                        "map": "Gourmand_Farm_Arrays",
+                        "x": 1230,
+                        "y": 78
+                    },
+                    {
+                        "map": "Arti_Farm_Arrays",
+                        "x": 1230,
+                        "y": 78
+                    },
+                    {
+                        "map": "Riv_Farm_Arrays",
+                        "x": 1230,
+                        "y": 78
+                    },
+                    {
+                        "map": "Spear_Farm_Arrays",
+                        "x": 1230,
+                        "y": 78
+                    },
+                    {
+                        "map": "Desolate_Fields",
+                        "x": 1230,
+                        "y": 78
+                    },
+                    {
+                        "map": "Vanilla_Monk_Chimney",
+                        "x": 100,
+                        "y": 60
+                    },
+                    {
+                        "map": "Vanilla_Survivor_Chimney",
+                        "x": 100,
+                        "y": 60
+                    },
+                    {
+                        "map": "Vanilla_Hunter_Chimney",
+                        "x": 100,
+                        "y": 60
+                    },
+                    {
+                        "map": "MSC_Monk_Chimney",
+                        "x": 100,
+                        "y": 60
+                    },
+                    {
+                        "map": "MSC_Survivor_Chimney",
+                        "x": 100,
+                        "y": 60
+                    },
+                    {
+                        "map": "MSC_Hunter_Chimney",
+                        "x": 100,
+                        "y": 60
+                    },
+                    {
+                        "map": "Gourmand_Chimney",
+                        "x": 100,
+                        "y": 60
+                    },
+                    {
+                        "map": "Arti_Chimney",
+                        "x": 100,
+                        "y": 60
+                    },
+                    {
+                        "map": "Riv_Chimney",
+                        "x": 100,
+                        "y": 60
+                    },
+                    {
+                        "map": "Spear_Chimney",
+                        "x": 100,
+                        "y": 60
+                    },
+                    {
+                        "map": "Solitary Towers",
+                        "x": 100,
+                        "y": 60
+                    },
+                    {
+                        "map": "MSC_Monk_Pipeyard",
+                        "x": 955,
+                        "y": 75
+                    },
+                    {
+                        "map": "MSC_Survivor_Pipeyard",
+                        "x": 955,
+                        "y": 75
+                    },
+                    {
+                        "map": "MSC_Hunter_Pipeyard",
+                        "x": 955,
+                        "y": 75
+                    },
+                    {
+                        "map": "Gourmand_Pipeyard",
+                        "x": 955,
+                        "y": 75
+                    },
+                    {
+                        "map": "Arti",
+                        "x": 955,
+                        "y": 75
+                    },
+                    {
+                        "map": "Riv_Pipeyard",
+                        "x": 955,
+                        "y": 75
+                    },
+                    {
+                        "map": "Spear_Pipeyard",
+                        "x": 955,
+                        "y": 75
+                    },
+                    {
+                        "map": "Barren_Conduits",
+                        "x": 955,
+                        "y": 75
+                    }
+                ]
+            },
+            {
+                "name": "Echo",
+                "sections": [
+                    {
+                        "name": "Droplets Upon Five Large Droplets",
+                        "ref": "@Sky Islands/Sky Islands/Echo"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Vanilla_Monk_Sky_Islands",
+                        "x": 243,
+                        "y": 369
+                    },
+                    {
+                        "map": "MSC_Monk_Sky_Islands",
+                        "x": 262,
+                        "y": 414
+                    },
+                    {
+                        "map": "Vanilla_Survivor_Sky_Islands",
+                        "x": 243,
+                        "y": 369
+                    },
+                    {
+                        "map": "MSC_Survivor_Sky_Islands",
+                        "x": 262,
+                        "y": 414
+                    },
+                    {
+                        "map": "Vanilla_Hunter_Sky_Islands",
+                        "x": 243,
+                        "y": 369
+                    },
+                    {
+                        "map": "MSC_Hunter_Sky_Islands",
+                        "x": 262,
+                        "y": 414
+                    },
+                    {
+                        "map": "Gourmand_Sky_Islands",
+                        "x": 262,
+                        "y": 414
+                    },
+                    {
+                        "map": "Arti_Sky_Islands",
+                        "x": 262,
+                        "y": 414
+                    },
+                    {
+                        "map": "Riv_Sky_Islands",
+                        "x": 262,
+                        "y": 414
+                    },
+                    {
+                        "map": "Spear_Sky_Islands",
+                        "x": 262,
+                        "y": 378
+                    },
+                    {
+                        "map": "Windswept_Spires",
+                        "x": 259,
+                        "y": 378
+                    }
+                ]
+            },
+            {
+                "name": "Level Token",
+                "sections": [
+                    {
+                        "name": "Sky Islands Token",
+                        "ref": "@Sky Islands/Sky Islands/Level Token"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Vanilla_Monk_Sky_Islands",
+                        "x": 185,
+                        "y": 178
+                    },
+                    {
+                        "map": "MSC_Monk_Sky_Islands",
+                        "x": 204,
+                        "y": 223
+                    },
+                    {
+                        "map": "Vanilla_Survivor_Sky_Islands",
+                        "x": 185,
+                        "y": 178
+                    },
+                    {
+                        "map": "MSC_Survivor_Sky_Islands",
+                        "x": 204,
+                        "y": 223
+                    },
+                    {
+                        "map": "Vanilla_Hunter_Sky_Islands",
+                        "x": 185,
+                        "y": 178
+                    },
+                    {
+                        "map": "MSC_Hunter_Sky_Islands",
+                        "x": 204,
+                        "y": 223
+                    },
+                    {
+                        "map": "Gourmand_Sky_Islands",
+                        "x": 204,
+                        "y": 223
+                    },
+                    {
+                        "map": "Arti_Sky_Islands",
+                        "x": 204,
+                        "y": 223
+                    },
+                    {
+                        "map": "Riv_Sky_Islands",
+                        "x": 204,
+                        "y": 223
+                    },
+                    {
+                        "map": "Spear_Sky_Islands",
+                        "x": 204,
+                        "y": 187
+                    },
+                    {
+                        "map": "Windswept_Spires",
+                        "x": 201,
+                        "y": 187
+                    }
+                ]
+            },
+            {
+                "name": "Safari Token",
+                "access_rules": ["MSC"],
+                "sections": [
+                    {
+                        "name": "Safari Token",
+                        "ref": "@Sky Islands/Sky Islands/Safari Token"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "MSC_Monk_Sky_Islands",
+                        "x": 746,
+                        "y": 508
+                    },
+                    {
+                        "map": "MSC_Survivor_Sky_Islands",
+                        "x": 746,
+                        "y": 508
+                    },
+                    {
+                        "map": "MSC_Hunter_Sky_Islands",
+                        "x": 746,
+                        "y": 508
+                    },
+                    {
+                        "map": "Gourmand_Sky_Islands",
+                        "x": 746,
+                        "y": 508
+                    },
+                    {
+                        "map": "Arti_Sky_Islands",
+                        "x": 746,
+                        "y": 508
+                    },
+                    {
+                        "map": "Riv_Sky_Islands",
+                        "x": 746,
+                        "y": 508
+                    },
+                    {
+                        "map": "Spear_Sky_Islands",
+                        "x": 746,
+                        "y": 742
+                    },
+                    {
+                        "map": "Windswept_Spires",
+                        "x": 743,
+                        "y": 472
+                    }
+                ]
+            },
+            {
+                "name": "Pearl",
+                "sections": [
+                    {
+                        "name": "Dark Blue Pearl",
+                        "visibility_rules": [
+                            "monk",
+                            "survivor",
+                            "hunter",
+                            "gourmand",
+                            "arti",
+                            "riv",
+                            "saint"
+                        ]
+                    },
+                    {
+                        "name": "King Vulture Token",
+                        "visibility_rules": [
+                            "hunter",
+                            "gourmand",
+                            "arti"
+                        ]
+                    },
+                    {
+                        "name": "Chatlog SI0",
+                        "visibility_rules": ["spearmaster"]
+                    },
+                    {
+                        "name": "Chatlog SI1",
+                        "visibility_rules": ["spearmaster"]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Vanilla_Monk_Sky_Islands",
+                        "x": 698,
+                        "y": 62
+                      },
+                      {
+                        "map": "MSC_Monk_Sky_Islands",
+                        "x": 729,
+                        "y": 107
+                      },
+                      {
+                        "map": "Vanilla_Survivor_Sky_Islands",
+                        "x": 698,
+                        "y": 62
+                      },
+                      {
+                        "map": "MSC_Survivor_Sky_Islands",
+                        "x": 729,
+                        "y": 107
+                      },
+                      {
+                        "map": "Vanilla_Hunter_Sky_Islands",
+                        "x": 698,
+                        "y": 62
+                      },
+                      {
+                        "map": "MSC_Hunter_Sky_Islands",
+                        "x": 729,
+                        "y": 107
+                      },
+                      {
+                        "map": "Gourmand_Sky_Islands",
+                        "x": 729,
+                        "y": 107
+                      },
+                      {
+                        "map": "Arti_Sky_Islands",
+                        "x": 729,
+                        "y": 107
+                      },
+                      {
+                        "map": "Riv_Sky_Islands",
+                        "x": 729,
+                        "y": 107
+                      },
+                      {
+                        "map": "Spear_Chimney",
+                        "x": 725,
+                        "y": 62
+                      },
+                      {
+                        "map": "Windswept_Spires",
+                        "x": 725,
+                        "y": 71
+                      }
+                ]
+            },
+            {
+                "name": "Pearl",
+                "sections": [
+                    {
+                        "name": "Dark Green Pearl"
+                    },
+                    {
+                        "name": "Chatlog SI5",
+                        "visibility_rules": ["spearmaster"]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Vanilla_Monk_Sky_Islands",
+                        "x": 122,
+                        "y": 349
+                    },
+                    {
+                        "map": "MSC_Monk_Sky_Islands",
+                        "x": 141,
+                        "y": 412
+                    },
+                    {
+                        "map": "Vanilla_Survivor_Sky_Islands",
+                        "x": 122,
+                        "y": 349
+                    },
+                    {
+                        "map": "MSC_Survivor_Sky_Islands",
+                        "x": 141,
+                        "y": 412
+                    },
+                    {
+                        "map": "Vanilla_Hunter_Sky_Islands",
+                        "x": 122,
+                        "y": 349
+                    },
+                    {
+                        "map": "MSC_Hunter_Sky_Islands",
+                        "x": 141,
+                        "y": 412
+                    },
+                    {
+                        "map": "Gourmand_Sky_Islands",
+                        "x": 141,
+                        "y": 412
+                    },
+                    {
+                        "map": "Arti_Sky_Islands",
+                        "x": 141,
+                        "y": 412
+                    },
+                    {
+                        "map": "Riv_Sky_Islands",
+                        "x": 141,
+                        "y": 412
+                    },
+                    {
+                        "map": "Spear_Sky_Islands",
+                        "x": 141,
+                        "y": 376
+                    },
+                    {
+                        "map": "Windswept_Spires",
+                        "x": 138,
+                        "y": 376
+                    }
+                ]
+            },
+            {
+                "name": "Pearl",
+                "access_rules": ["MSC"],
+                "sections": [
+                    {
+                        "name": "Dark Purple Pearl"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "MSC_Monk_Sky_Islands",
+                        "x": 154,
+                        "y": 289
+                    },
+                    {
+                        "map": "MSC_Survivor_Sky_Islands",
+                        "x": 154,
+                        "y": 289
+                    },
+                    {
+                        "map": "MSC_Hunter_Sky_Islands",
+                        "x": 154,
+                        "y": 289
+                    },
+                    {
+                        "map": "Gourmand_Sky_Islands",
+                        "x": 154,
+                        "y": 289
+                    },
+                    {
+                        "map": "Arti_Sky_Islands",
+                        "x": 154,
+                        "y": 289
+                    },
+                    {
+                        "map": "Riv_Sky_Islands",
+                        "x": 154,
+                        "y": 289
+                    },
+                    {
+                        "map": "Spear_Sky_Islands",
+                        "x": 154,
+                        "y": 253
+                    },
+                    {
+                        "map": "Windswept_Spires",
+                        "x": 151,
+                        "y": 253
+                    }
+                ]
+            },
+            {
+                "name": "Pearl",
+                "access_rules": ["MSC"],
+                "sections": [
+                    {
+                        "name": "Dark Magenta Pearl"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "MSC_Monk_Sky_Islands",
+                        "x": 694,
+                        "y": 454
+                    },
+                    {
+                        "map": "MSC_Survivor_Sky_Islands",
+                        "x": 694,
+                        "y": 454
+                    },
+                    {
+                        "map": "MSC_Hunter_Sky_Islands",
+                        "x": 694,
+                        "y": 454
+                    },
+                    {
+                        "map": "Gourmand_Sky_Islands",
+                        "x": 694,
+                        "y": 454
+                    },
+                    {
+                        "map": "Arti_Sky_Islands",
+                        "x": 694,
+                        "y": 454
+                    },
+                    {
+                        "map": "Riv_Sky_Islands",
+                        "x": 694,
+                        "y": 454
+                    },
+                    {
+                        "map": "Spear_Sky_Islands",
+                        "x": 694,
+                        "y": 418
+                    },
+                    {
+                        "map": "Windswept_Spires",
+                        "x": 691,
+                        "y": 418
+                    }
+                ]
+            },
+            {
+                "name": "Pearl",
+                "access_rules": ["MSC"],
+                "sections": [
+                    {
+                        "name": "Olive Green Pearl"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "MSC_Monk_Sky_Islands",
+                        "x": 437,
+                        "y": 559
+                    },
+                    {
+                        "map": "MSC_Survivor_Sky_Islands",
+                        "x": 437,
+                        "y": 559
+                    },
+                    {
+                        "map": "MSC_Hunter_Sky_Islands",
+                        "x": 437,
+                        "y": 559
+                    },
+                    {
+                        "map": "Gourmand_Sky_Islands",
+                        "x": 437,
+                        "y": 559
+                    },
+                    {
+                        "map": "Arti_Sky_Islands",
+                        "x": 437,
+                        "y": 559
+                    },
+                    {
+                        "map": "Riv_Sky_Islands",
+                        "x": 437,
+                        "y": 559
+                    },
+                    {
+                        "map": "Spear_Sky_Islands",
+                        "x": 437,
+                        "y": 513
+                    },
+                    {
+                        "map": "Windswept_Spires",
+                        "x": 434,
+                        "y": 513
+                    }
+                ]
+            },
+            {
+                "name": "Arena Token",
+                "access_rules": ["MSC"],
+                "sections": [
+                    {
+                        "name": "Vulture Mask Token",
+                        "ref": "@Sky Islands/Sky Islands/Vulture Mask Token"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "MSC_Monk_Sky_Islands",
+                        "x": 814,
+                        "y": 117
+                    },
+                    {
+                        "map": "MSC_Survivor_Sky_Islands",
+                        "x": 814,
+                        "y": 117
+                    },
+                    {
+                        "map": "MSC_Hunter_Sky_Islands",
+                        "x": 814,
+                        "y": 117
+                    },
+                    {
+                        "map": "Gourmand_Sky_Islands",
+                        "x": 814,
+                        "y": 117
+                    },
+                    {
+                        "map": "Arti_Sky_Islands",
+                        "x": 814,
+                        "y": 117
+                    },
+                    {
+                        "map": "Riv_Sky_Islands",
+                        "x": 814,
+                        "y": 117
+                    },
+                    {
+                        "map": "Spear_Sky_Islands",
+                        "x": 814,
+                        "y": 81
+                    },
+                    {
+                        "map": "Windswept_Spires",
+                        "x": 811,
+                        "y": 81
+                    }
+                ]
+            },
+            {
+                "name": "Arena Token",
+                "sections": [
+                    {
+                        "name": "Centiwing Token",
+                        "ref": "@Sky Islands/Sky Islands/Centiwing Token"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Vanilla_Survivor_Sky_Islands",
+                        "x": 265,
+                        "y": 288
+                    },
+                    {
+                        "map": "MSC_Survivor_Sky_Islands",
+                        "x": 284,
+                        "y": 333
+                    },
+                    {
+                        "map": "Vanilla_Hunter_Sky_Islands",
+                        "x": 265,
+                        "y": 288
+                    },
+                    {
+                        "map": "MSC_Hunter_Sky_Islands",
+                        "x": 284,
+                        "y": 333
+                    },
+                    {
+                        "map": "Gourmand_Sky_Islands",
+                        "x": 284,
+                        "y": 333
+                    },
+                    {
+                        "map": "Arti_Sky_Islands",
+                        "x": 284,
+                        "y": 333
+                    },
+                    {
+                        "map": "Riv_Sky_Islands",
+                        "x": 284,
+                        "y": 333
+                    },
+                    {
+                        "map": "Spear_Sky_Islands",
+                        "x": 284,
+                        "y": 297
+                    },
+                    {
+                        "map": "Windswept_Spires",
+                        "x": 281,
+                        "y": 297
+                    }
+                ]
+            },
+            {
+                "name": "Arena Token",
+                "sections": [
+                    {
+                        "name": "EggBug Token",
+                        "ref": "@Sky Islands/Sky Islands/EggBug Token"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Vanilla_Monk_Sky_Islands",
+                        "x": 325,
+                        "y": 401
+                    },
+                    {
+                        "map": "MSC_Monk_Sky_Islands",
+                        "x": 344,
+                        "y": 446
+                    },
+                    {
+                        "map": "Vanilla_Survivor_Sky_Islands",
+                        "x": 325,
+                        "y": 401
+                    },
+                    {
+                        "map": "MSC_Survivor_Sky_Islands",
+                        "x": 344,
+                        "y": 446
+                    },
+                    {
+                        "map": "Vanilla_Hunter_Sky_Islands",
+                        "x": 325,
+                        "y": 401
+                    },
+                    {
+                        "map": "MSC_Hunter_Sky_Islands",
+                        "x": 344,
+                        "y": 446
+                    },
+                    {
+                        "map": "Gourmand_Sky_Islands",
+                        "x": 344,
+                        "y": 446
+                    },
+                    {
+                        "map": "Arti_Sky_Islands",
+                        "x": 344,
+                        "y": 446
+                    },
+                    {
+                        "map": "Riv_Sky_Islands",
+                        "x": 344,
+                        "y": 446
+                    },
+                    {
+                        "map": "Spear_Sky_Islands",
+                        "x": 344,
+                        "y": 410
+                    },
+                    {
+                        "map": "Windswept_Spires",
+                        "x": 341,
+                        "y": 410
+                    }
+                ]
+            },
+            {
+                "name": "Arena Token",
+                "access_rules": ["MSC"],
+                "sections": [
+                    {
+                        "name": "Dandelion Peach Token",
+                        "ref": "@Sky Islands/Sky Islands/Dandelion Peach Token"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "MSC_Monk_Sky_Islands",
+                        "x": 613,
+                        "y": 344
+                    },
+                    {
+                        "map": "MSC_Survivor_Sky_Islands",
+                        "x": 613,
+                        "y": 344
+                    },
+                    {
+                        "map": "MSC_Hunter_Sky_Islands",
+                        "x": 613,
+                        "y": 344
+                    },
+                    {
+                        "map": "Gourmand_Sky_Islands",
+                        "x": 613,
+                        "y": 344
+                    },
+                    {
+                        "map": "Riv_Sky_Islands",
+                        "x": 613,
+                        "y": 344
+                    }
+                ]
+            },
+            {
+                "name": "Broadcast SI2",
+                "access_rules": ["spearmaster"],
+                "sections": [
+                    {
+                        "name": "Chatlog"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Spear_Sky_Islands",
+                        "x": 769,
+                        "y": 214
+                    }
+                ]
+            },
+            {
+                "name": "Broadcast SI3",
+                "access_rules": ["spearmaster"],
+                "sections": [
+                    {
+                        "name": "Chatlog"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Spear_Sky_Islands",
+                        "x": 218,
+                        "y": 119
+                    }
+                ]
+            },
+            {
+                "name": "Broadcast SI4",
+                "access_rules": ["spearmaster"],
+                "sections": [
+                    {
+                        "name": "Chatlog"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Spear_Sky_Islands",
+                        "x": 403,
+                        "y": 375
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Island Shelters",
+        "access_rules": ["$has_sky_islands_access"],
+        "visibility_rules": ["$has_sky_islands_access"],
+        "children": [
+            {
+                "name": "Shelter S03",
+                "sections": [
+                    {
+                        "name": "Shelter"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Vanilla_Monk_Sky_Islands",
+                        "x": 343,
+                        "y": 629
+                    },
+                    {
+                        "map": "MSC_Monk_Sky_Islands",
+                        "x": 362,
+                        "y": 692
+                    },
+                    {
+                        "map": "Vanilla_Survivor_Sky_Islands",
+                        "x": 343,
+                        "y": 629
+                    },
+                    {
+                        "map": "MSC_Survivor_Sky_Islands",
+                        "x": 362,
+                        "y": 692
+                    },
+                    {
+                        "map": "Vanilla_Hunter_Sky_Islands",
+                        "x": 343,
+                        "y": 629
+                    },
+                    {
+                        "map": "MSC_Hunter_Sky_Islands",
+                        "x": 362,
+                        "y": 692
+                    },
+                    {
+                        "map": "Gourmand_Sky_Islands",
+                        "x": 362,
+                        "y": 692
+                    },
+                    {
+                        "map": "Arti_Sky_Islands",
+                        "x": 362,
+                        "y": 692
+                    },
+                    {
+                        "map": "Riv_Sky_Islands",
+                        "x": 362,
+                        "y": 692
+                    },
+                    {
+                        "map": "Spear_Sky_Islands",
+                        "x": 362,
+                        "y": 656
+                    },
+                    {
+                        "map": "Windswept_Spires",
+                        "x": 359,
+                        "y": 656
+                    }
+                ]
+            },
+            {
+                "name": "Shelter S04",
+                "sections": [
+                    {
+                        "name": "Shelter"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Vanilla_Monk_Sky_Islands",
+                        "x": 241,
+                        "y": 323
+                    },
+                    {
+                        "map": "MSC_Monk_Sky_Islands",
+                        "x": 260,
+                        "y": 368
+                    },
+                    {
+                        "map": "Vanilla_Survivor_Sky_Islands",
+                        "x": 241,
+                        "y": 323
+                    },
+                    {
+                        "map": "MSC_Survivor_Sky_Islands",
+                        "x": 260,
+                        "y": 368
+                    },
+                    {
+                        "map": "Vanilla_Hunter_Sky_Islands",
+                        "x": 241,
+                        "y": 323
+                    },
+                    {
+                        "map": "MSC_Hunter_Sky_Islands",
+                        "x": 260,
+                        "y": 368
+                    },
+                    {
+                        "map": "Gourmand_Sky_Islands",
+                        "x": 260,
+                        "y": 368
+                    },
+                    {
+                        "map": "Arti_Sky_Islands",
+                        "x": 260,
+                        "y": 368
+                    },
+                    {
+                        "map": "Riv_Sky_Islands",
+                        "x": 260,
+                        "y": 368
+                    },
+                    {
+                        "map": "Spear_Sky_Islands",
+                        "x": 260,
+                        "y": 332
+                    },
+                    {
+                        "map": "Windswept_Spires",
+                        "x": 257,
+                        "y": 332
+                    }
+                ]
+            },
+            {
+                "name": "Shelter S05",
+                "sections": [
+                    {
+                        "name": "Shelter"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Vanilla_Monk_Sky_Islands",
+                        "x": 693,
+                        "y": 368
+                    },
+                    {
+                        "map": "MSC_Monk_Sky_Islands",
+                        "x": 724,
+                        "y": 413
+                    },
+                    {
+                        "map": "Vanilla_Survivor_Sky_Islands",
+                        "x": 693,
+                        "y": 368
+                    },
+                    {
+                        "map": "MSC_Survivor_Sky_Islands",
+                        "x": 724,
+                        "y": 413
+                    },
+                    {
+                        "map": "Vanilla_Hunter_Sky_Islands",
+                        "x": 693,
+                        "y": 368
+                    },
+                    {
+                        "map": "MSC_Hunter_Sky_Islands",
+                        "x": 724,
+                        "y": 413
+                    },
+                    {
+                        "map": "Gourmand_Sky_Islands",
+                        "x": 724,
+                        "y": 413
+                    },
+                    {
+                        "map": "Arti_Sky_Islands",
+                        "x": 724,
+                        "y": 413
+                    },
+                    {
+                        "map": "Riv_Sky_Islands",
+                        "x": 724,
+                        "y": 413
+                    },
+                    {
+                        "map": "Spear_Sky_Islands",
+                        "x": 724,
+                        "y": 377
+                    },
+                    {
+                        "map": "Windswept_Spires",
+                        "x": 721,
+                        "y": 377
+                    }
+                ]
+            },
+            {
+                "name": "Shelter S06",
+                "access_rules": ["MSC"],
+                "sections": [
+                    {
+                        "name": "Shelter"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "MSC_Monk_Sky_Islands",
+                        "x": 750,
+                        "y": 586
+                    },
+                    {
+                        "map": "MSC_Survivor_Sky_Islands",
+                        "x": 750,
+                        "y": 586
+                    },
+                    {
+                        "map": "MSC_Hunter_Sky_Islands",
+                        "x": 750,
+                        "y": 586
+                    },
+                    {
+                        "map": "Gourmand_Sky_Islands",
+                        "x": 750,
+                        "y": 586
+                    },
+                    {
+                        "map": "Arti_Sky_Islands",
+                        "x": 750,
+                        "y": 586
+                    },
+                    {
+                        "map": "Riv_Sky_Islands",
+                        "x": 750,
+                        "y": 586
+                    },
+                    {
+                        "map": "Spear_Sky_Islands",
+                        "x": 750,
+                        "y": 550
+                    },
+                    {
+                        "map": "Windswept_Spires",
+                        "x": 747,
+                        "y": 550
+                    }
+                ]
+            }
+        ]
+    }
+]

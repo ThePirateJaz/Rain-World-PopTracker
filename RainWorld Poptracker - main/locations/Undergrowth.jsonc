@@ -1,0 +1,289 @@
+[
+    {
+        "name": "Undergrowth",
+        "access_rules": ["$has_drainage_access,saint"],
+        "children": [
+            {
+                "name": "Undergrowth",
+                "sections": [
+                    {
+                        "name": "Echo"
+                    },
+                    {
+                        "name": "Level Token"
+                    },
+                    {
+                        "name": "Safari Token"
+                    },
+                    {
+                        "name": "Pearl"
+                    },
+                    {
+                        "name": "Salamander Token"
+                    },
+                    {
+                        "name": "JungleLeech Token"
+                    },
+                    {
+                        "name": "Bubbleweed Token"
+                    },
+                    {
+                        "name": "Hazer Token"
+                    },
+                    {
+                        "name": "Snail Token"
+                    },
+                    {
+                        "name": "Shelter",
+                        "ref": "@Undergrowth Shelters/Shelter S01R/Shelter"
+                    },
+                    {
+                        "name": "Shelter",
+                        "ref": "@Undergrowth Shelters/Shelter S02L/Shelter"
+                    },
+                    {
+                        "name": "Shelter",
+                        "ref": "@Undergrowth Shelters/Shelter S03/Shelter"
+                    },
+                    {
+                        "name": "Shelter",
+                        "ref": "@Undergrowth Shelters/Shelter S04/Shelter"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Suburban_Drifts",
+                        "x": 290,
+                        "y": 505
+                    },
+                    {
+                        "map": "Primordial_Underground",
+                        "x": 1055,
+                        "y": 418
+                    },
+                    {
+                        "map": "Solitary_Towers",
+                        "x": 415,
+                        "y": 1140
+                    },
+                    {
+                        "map": "Glacial_Wasteland",
+                        "x": 80,
+                        "y": 330
+                    }
+                ]
+            },
+            {
+                "name": "Echo",
+                "sections": [
+                    {
+                        "name": "Rhinestones Beneath Shattered Glass",
+                        "ref": "@Undergrowth/Undergrowth/Echo"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Undergrowth",
+                        "x": 114,
+                        "y": 408
+                    }
+                ]
+            },
+            {
+                "name": "Level Token",
+                "sections": [
+                    {
+                        "name": "Undergrowth Token",
+                        "ref": "@Undergrowth/Undergrowth/Level Token"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Undergrowth",
+                        "x": 271,
+                        "y": 561
+                    }
+                ]
+            },
+            {
+                "name": "Safari Token",
+                "sections": [
+                    {
+                        "name": "Safari Token",
+                        "ref": "@Undergrowth/Undergrowth/Safari Token"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Undergrowth",
+                        "x": 125,
+                        "y": 369
+                    }
+                ]
+            },
+            {
+                "name": "Pearl",
+                "sections": [
+                    {
+                        "name": "Blank Green Pearl",
+                        "ref": "@Undergrowth/Undergrowth/Pearl"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Undergrowth",
+                        "x": 490,
+                        "y": 491
+                    }
+                ]
+            },
+            {
+                "name": "Arena Token",
+                "sections": [
+                    {
+                        "name": "Salamander Token",
+                        "ref": "@Undergrowth/Undergrowth/Salamander Token"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Undergrowth",
+                        "x": 589,
+                        "y": 316
+                    }
+                ]
+            },
+            {
+                "name": "Arena Token",
+                "sections": [
+                    {
+                        "name": "JungleLeech Token",
+                        "ref": "@Undergrowth/Undergrowth/JungleLeech Token"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Undergrowth",
+                        "x": 573,
+                        "y": 403
+                    }
+                ]
+            },
+            {
+                "name": "Arena Token",
+                "sections": [
+                    {
+                        "name": "Bubbleweed Token",
+                        "ref": "@Undergrowth/Undergrowth/Bubbleweed Token"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Undergrowth",
+                        "x": 605,
+                        "y": 461
+                    }
+                ]
+            },
+            {
+                "name": "Arena Token",
+                "sections": [
+                    {
+                        "name": "Hazer Token",
+                        "ref": "@Undergrowth/Undergrowth/Hazer Token"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Undergrowth",
+                        "x": 935,
+                        "y": 356
+                    }
+                ]
+            },
+            {
+                "name": "Arena Token",
+                "sections": [
+                    {
+                        "name": "Snail Token",
+                        "ref": "@Undergrowth/Undergrowth/Snail Token"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Undergrowth",
+                        "x": 589,
+                        "y": 316
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Undergrowth Shelters",
+        "access_rules": ["$has_drainage_access"],
+        "visibility_rules": ["$sheltersanity"],
+        "children": [
+            {
+                "name": "Shelter S01R",
+                "sections": [
+                    {
+                        "name": "Shelter"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Undergrowth",
+                        "x": 444,
+                        "y": 432
+                    }
+                ]
+            },
+            {
+                "name": "Shelter S02L",
+                "sections": [
+                    {
+                        "name": "Shelter"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Undergrowth",
+                        "x": 912,
+                        "y": 420
+                    }
+                ]
+            },
+            {
+                "name": "Shelter S03",
+                "sections": [
+                    {
+                        "name": "Shelter"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Undergrowth",
+                        "x": 120,
+                        "y": 534
+                    }
+                ]
+            },
+            {
+                "name": "Shelter S04",
+                "sections": [
+                    {
+                        "name": "Shelter"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Undergrowth",
+                        "x": 657,
+                        "y": 356
+                    }
+                ]
+            }
+        ]
+    }
+]

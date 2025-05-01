@@ -1,0 +1,326 @@
+[
+    {
+        "name": "The Rot",
+        "access_rules": ["$has_rot_access"],
+        "children": [
+            {
+                "name": "The Rot",
+                "sections": [
+                    {
+                        "name": "Rarefaction Cell"
+                    },
+                    {
+                        "name": "Level Token"
+                    },
+                    {
+                        "name": "Safari Token"
+                    },
+                    {
+                        "name": "Pearl"
+                    },
+                    {
+                        "name": "Daddy Long Legs Token"
+                    },
+                    {
+                        "name": "Mother Long Legs Token"
+                    },
+                    {
+                        "name": "Shelter",
+                        "ref": "@Rot Shelters/Shelter S01/Shelter",
+                        "visibility_rules": ["$sheltersanity"]
+                    },
+                    {
+                        "name": "Shelter",
+                        "ref": "@Rot Shelters/Shelter S02/Shelter",
+                        "visibility_rules": ["$sheltersanity"]
+                    },
+                    {
+                        "name": "Shelter",
+                        "ref": "@Rot Shelters/Shelter S03/Shelter",
+                        "visibility_rules": ["$sheltersanity"]
+                    },
+                    {
+                        "name": "Shelter",
+                        "ref": "@Rot Shelters/Shelter S04/Shelter",
+                        "visibility_rules": ["$sheltersanity"]
+                    },
+                    {
+                        "name": "Shelter",
+                        "ref": "@Rot Shelters/Shelter S05/Shelter",
+                        "visibility_rules": ["$sheltersanity"]
+                    },
+                    {
+                        "name": "Shelter",
+                        "ref": "@Rot Shelters/Shelter LCS1/Shelter",
+                        "visibility_rules": ["$sheltersanity"]
+                    },
+                    {
+                        "name": "Shelter",
+                        "ref": "@Rot Shelters/Shelter LCS2/Shelter",
+                        "visibility_rules": ["$sheltersanity"]
+                    },
+                    {
+                        "name": "Shelter",
+                        "ref": "@Rot Shelters/Dead Shelter/Shelter",
+                        "visibility_rules": ["$sheltersanity"]
+                    },
+                    {
+                        "name": "Shelter",
+                        "ref": "@Rot Shelters/Final Shelter/Shelter",
+                        "visibility_rules": ["$sheltersanity"]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Riv_Exterior",
+                        "x": 950,
+                        "y": 125
+                    },
+                    {
+                        "map": "Riv_Exterior",
+                        "x": 1650,
+                        "y": 800
+                    }
+                ]
+            },
+            {
+                "name": "Rarefaction Cell",
+                "sections": [
+                    {
+                        "name": "Remove Rarefaction Cell",
+                        "ref": "@The Rot/The Rot/Rarefaction Cell"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "The_Rot",
+                        "x": 379,
+                        "y": 876
+                    }
+                ]
+            },
+            {
+                "name": "Level Token",
+                "sections": [
+                    {
+                        "name": "The Rot Token",
+                        "ref": "@The Rot/The Rot/Level Token"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "The_Rot",
+                        "x": 254,
+                        "y": 953
+                    }
+                ]
+            },
+            {
+                "name": "Safari Token",
+                "sections": [
+                    {
+                        "name": "Safari Token",
+                        "ref": "@The Rot/The Rot/Safari Token"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "The_Rot",
+                        "x": 1128,
+                        "y": 511
+                    }
+                ]
+            },
+            {
+                "name": "Pearl",
+                "sections": [
+                    {
+                        "name": "Music Pearl",
+                        "ref": "@The Rot/The Rot/Pearl"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "The_Rot",
+                        "x": 816,
+                        "y": 355
+                    }
+                ]
+            },
+            {
+                "name": "Arena Token",
+                "sections": [
+                    {
+                        "name": "Daddy Long Legs Token",
+                        "ref": "@The Rot/The Rot/Daddy Long Legs Token"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "The_Rot",
+                        "x": 120,
+                        "y": 1076
+                    }
+                ]
+            },
+            {
+                "name": "Arena Token",
+                "sections": [
+                    {
+                        "name": "Mother Long Legs Token",
+                        "ref": "@The Rot/The Rot/Mother Long Legs Token"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "The_Rot",
+                        "x": 1251,
+                        "y": 904
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Rot Shelters",
+        "access_rules": ["$has_rot_access"],
+        "visibility_rules": ["$sheltersanity"],
+        "children": [
+            {
+                "name": "Shelter S01",
+                "sections": [
+                    {
+                        "name": "Shelter"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "The_Rot",
+                        "x": 871,
+                        "y": 1464
+                    }
+                ]
+            },
+            {
+                "name": "Shelter S02",
+                "sections": [
+                    {
+                        "name": "Shelter"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "The_Rot",
+                        "x": 291,
+                        "y": 1148
+                    }
+                ]
+            },
+            {
+                "name": "Shelter S03",
+                "sections": [
+                    {
+                        "name": "Shelter"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "The_Rot",
+                        "x": 1137,
+                        "y": 1157
+                    }
+                ]
+            },
+            {
+                "name": "Shelter S04",
+                "sections": [
+                    {
+                        "name": "Shelter"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "The_Rot",
+                        "x": 625,
+                        "y": 116
+                    }
+                ]
+            },
+            {
+                "name": "Shelter S05",
+                "sections": [
+                    {
+                        "name": "Shelter"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "The_Rot",
+                        "x": 254,
+                        "y": 690
+                    }
+                ]
+            },
+            {
+                "name": "Shelter LCS1",
+                "sections": [
+                    {
+                        "name": "Shelter"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "The_Rot",
+                        "x": 646,
+                        "y": 1061
+                    }
+                ]
+            },
+            {
+                "name": "Shelter LCS2",
+                "sections": [
+                    {
+                        "name": "Shelter"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "The_Rot",
+                        "x": 704,
+                        "y": 961
+                    }
+                ]
+            },
+            {
+                "name": "Dead Shelter",
+                "sections": [
+                    {
+                        "name": "Shelter"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "The_Rot",
+                        "x": 1016,
+                        "y": 886
+                    }
+                ]
+            },
+            {
+                "name": "Final Shelter",
+                "sections": [
+                    {
+                        "name": "Shelter"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "The_Rot",
+                        "x": 853,
+                        "y": 672
+                    }
+                ]
+            }
+        ]
+    }
+]

@@ -1,0 +1,378 @@
+[
+    {
+        "name": "Metropolis",
+        "access_rules": ["$has_metro_access"],
+        "children": [
+            {
+                "name": "Metropolis",
+                "sections": [
+                    {
+                        "name": "Echo"
+                    },
+                    {
+                        "name": "Level Token"
+                    },
+                    {
+                        "name": "Safari Token"
+                    },
+                    {
+                        "name": "Artificer Token"
+                    },
+                    {
+                        "name": "Pearl",
+                        "ref": "@Metropolis/Pearl/Bronze Pearl"
+                    },
+                    {
+                        "name": "Pearl",
+                        "ref": "@Metropolis/Pearl/Deep Green Pearl"
+                    },
+                    {
+                        "name": "Zap Spear Token"
+                    },
+                    {
+                        "name": "Singularity Bomb Token"
+                    },
+                    {
+                        "name": "Elite Scavenger Token"
+                    },
+                    {
+                        "name": "Shelter",
+                        "ref": "@Metro Shelters/Shelter S01/Shelter",
+                        "visibility_rules": ["$sheltersanity"]
+                    },
+                    {
+                        "name": "Shelter",
+                        "ref": "@Metro Shelters/Shelter S03/Shelter",
+                        "visibility_rules": ["$sheltersanity"]
+                    },
+                    {
+                        "name": "Shelter",
+                        "ref": "@Metro Shelters/Shelter S04/Shelter",
+                        "visibility_rules": ["$sheltersanity"]
+                    },
+                    {
+                        "name": "Shelter",
+                        "ref": "@Metro Shelters/Shelter S05/Shelter",
+                        "visibility_rules": ["$sheltersanity"]
+                    },
+                    {
+                        "name": "Shelter",
+                        "ref": "@Metro Shelters/Shelter S06/Shelter",
+                        "visibility_rules": ["$sheltersanity"]
+                    },
+                    {
+                        "name": "Shelter",
+                        "ref": "@Metro Shelters/Shelter A05/Shelter",
+                        "visibility_rules": ["$sheltersanity"]
+                    },
+                    {
+                        "name": "Shelter",
+                        "ref": "@Metro Shelters/Shelter Above/Shelter",
+                        "visibility_rules": ["$sheltersanity"]
+                    },
+                    {
+                        "name": "Shelter",
+                        "ref": "@Metro Shelters/Train Shelter/Shelter",
+                        "visibility_rules": ["$sheltersanity"]
+                    },
+                    {
+                        "name": "Shelter",
+                        "ref": "@Metro Shelters/Roof Shelter/Shelter",
+                        "visibility_rules": ["$sheltersanity"]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Arti_Exterior",
+                        "x": 261,
+                        "y": 171
+                    }
+                ]
+            },
+            {
+                "name": "Echo",
+                "sections": [
+                    {
+                        "name": "Twelve Beads Among Burning Skies",
+                        "ref": "@Metropolis/Metropolis/Echo"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Metropolis",
+                        "x": 1400,
+                        "y": 60
+                    }
+                ]
+            },
+            {
+                "name": "Level Token",
+                "sections": [
+                    {
+                        "name": "Metropolis Token",
+                        "ref": "@Metropolis/Metropolis/Level Token"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Metropolis",
+                        "x": 1498,
+                        "y": 986
+                    }
+                ]
+            },
+            {
+                "name": "Safari Token",
+                "sections": [
+                    {
+                        "name": "Safari Token",
+                        "ref": "@Metropolis/Metropolis/Safari Token"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Metropolis",
+                        "x": 1277,
+                        "y": 1151
+                    }
+                ]
+            },
+            {
+                "name": "Scug Token",
+                "sections": [
+                    {
+                        "name": "Artificer Token",
+                        "ref": "@Metropolis/Metropolis/Artificer Token"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Metropolis",
+                        "x": 2406,
+                        "y": 1186
+                    }
+                ]
+            },
+            {
+                "name": "Pearl",
+                "sections": [
+                    {
+                        "name": "Bronze Pearl"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Metropolis",
+                        "x": 1123,
+                        "y": 1108
+                    }
+                ]
+            },
+            {
+                "name": "Pearl",
+                "sections": [
+                    {
+                        "name": "Deep Green Pearl"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Metropolis",
+                        "x": 1720,
+                        "y": 982
+                    }
+                ]
+            },
+            {
+                "name": "Arena Token",
+                "sections": [
+                    {
+                        "name": "Zap Spear Token",
+                        "ref": "@Metropolis/Metropolis/Zap Spear Token"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Metropolis",
+                        "x": 819,
+                        "y": 1011
+                    }
+                ]
+            },
+            {
+                "name": "Arena Token",
+                "sections": [
+                    {
+                        "name": "Singularity Bomb Token",
+                        "ref": "@Metropolis/Metropolis/Singularity Bomb Token"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Metropolis",
+                        "x": 2419,
+                        "y": 727
+                    }
+                ]
+            },
+            {
+                "name": "Arena Token",
+                "sections": [
+                    {
+                        "name": "Elite Scavenger Token",
+                        "ref": "@Metropolis/Metropolis/Elite Scavenger Token"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Metropolis",
+                        "x": 2151,
+                        "y": 525
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Metro Shelters",
+        "access_rules": ["$has_metro_access"],
+        "visibility_rules": ["$sheltersanity"],
+        "children": [
+            {
+                "name": "Shelter S01",
+                "sections": [
+                    {
+                        "name": "Shelter"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Metropolis",
+                        "x": 1497,
+                        "y": 1063
+                    }
+                ]
+            },
+            {
+                "name": "Shelter S03",
+                "sections": [
+                    {
+                        "name": "Shelter"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Metropolis",
+                        "x": 2120,
+                        "y": 734
+                    }
+                ]
+            },
+            {
+                "name": "Shelter S04",
+                "sections": [
+                    {
+                        "name": "Shelter"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Metropolis",
+                        "x": 2923,
+                        "y": 598
+                    }
+                ]
+            },
+            {
+                "name": "Shelter S05",
+                "sections": [
+                    {
+                        "name": "Shelter"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Metropolis",
+                        "x": 2265,
+                        "y": 1082
+                    }
+                ]
+            },
+            {
+                "name": "Shelter S06",
+                "sections": [
+                    {
+                        "name": "Shelter"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Metropolis",
+                        "x": 1915,
+                        "y": 1240
+                    }
+                ]
+            },
+            {
+                "name": "Shelter A05",
+                "sections": [
+                    {
+                        "name": "Shelter"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Metropolis",
+                        "x": 1241,
+                        "y": 1030
+                    }
+                ]
+            },
+            {
+                "name": "Shelter Above",
+                "sections": [
+                    {
+                        "name": "Shelter"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Metropolis",
+                        "x": 394,
+                        "y": 995
+                    }
+                ]
+            },
+            {
+                "name": "Train Shelter",
+                "sections": [
+                    {
+                        "name": "Shelter"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Metropolis",
+                        "x": 1098,
+                        "y": 1248
+                    }
+                ]
+            },
+            {
+                "name": "Roof Shelter",
+                "sections": [
+                    {
+                        "name": "Shelter"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Metropolis",
+                        "x": 1093,
+                        "y": 999
+                    }
+                ]
+            }
+        ]
+    }
+]

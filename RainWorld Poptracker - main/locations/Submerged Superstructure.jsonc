@@ -1,0 +1,737 @@
+[
+    {
+        "name": "Submerged Superstructure",
+        "access_rules": ["$has_submerged_access"],
+        "children": [
+            {
+                "name": "Submerged Superstructure",
+                "sections": [
+                    {
+                        "name": "Echo",
+                        "visibility_rules": ["saint"]
+                    },
+                    {
+                        "name": "Level Token"
+                    },
+                    {
+                        "name": "Safari Token"
+                    },
+                    {
+                        "name": "Rivulet Token",
+                        "visibility_rules": ["riv"]
+                    },
+                    {
+                        "name": "Pearl"
+                    },
+                    {
+                        "name": "Aquapede Token",
+                        "visibility_rules": [
+                            "monk",
+                            "survivor",
+                            "hunter",
+                            "riv",
+                            "saint"
+                        ]
+                    },
+                    {
+                        "name": "Glow Weed Token",
+                        "visibility_rules": [
+                            "monk",
+                            "survivor",
+                            "hunter",
+                            "riv",
+                            "saint"
+                        ]
+                    },
+                    {
+                        "name": "Giant Jellyfish Token",
+                        "visibility_rules": [
+                            "monk",
+                            "survivor",
+                            "hunter",
+                            "riv",
+                            "saint"
+                        ]
+                    },
+                    {
+                        "name": "Miros Vulture Token",
+                        "visibility_rules": ["riv"]
+                    },
+                    {
+                        "name": "Shelter",
+                        "ref": "Submerged Shelters/Shelter S01/Shelter",
+                        "visibility_rules": ["$sheltersanity"]
+                    },
+                    {
+                        "name": "Shelter",
+                        "ref": "Submerged Shelters/Shelter S03/Shelter",
+                        "visibility_rules": ["$sheltersanity"]
+                    },
+                    {
+                        "name": "Shelter",
+                        "ref": "Submerged Shelters/Shelter S04/Shelter",
+                        "visibility_rules": ["$sheltersanity,riv"]
+                    },
+                    {
+                        "name": "Shelter",
+                        "ref": "Submerged Shelters/Shelter S05/Shelter",
+                        "visibility_rules": ["$sheltersanity"]
+                    },
+                    {
+                        "name": "Shelter",
+                        "ref": "Submerged Shelters/Shelter S06/Shelter",
+                        "visibility_rules": ["$sheltersanity"]
+                    },
+                    {
+                        "name": "Shelter",
+                        "ref": "Submerged Shelters/Shelter S07/Shelter",
+                        "visibility_rules": ["$sheltersanity,riv","$sheltersanity,saint"]
+                    },
+                    {
+                        "name": "Shelter",
+                        "ref": "Submerged Shelters/Shelter S09/Shelter",
+                        "visibility_rules": ["$sheltersanity"]
+                    },
+                    {
+                        "name": "Shelter",
+                        "ref": "Submerged Shelters/Shelter S10/Shelter",
+                        "visibility_rules": ["$sheltersanity,riv","$sheltersanity,saint"]
+                    },
+                    {
+                        "name": "Shelter",
+                        "ref": "Submerged Shelters/Shelter LAB5/Shelter",
+                        "visibility_rules": ["$sheltersanity"]
+                    },
+                    {
+                        "name": "Shelter",
+                        "ref": "Submerged Shelters/Bitter Shelter/Shelter",
+                        "visibility_rules": ["$sheltersanity,riv","$sheltersanity,saint"]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "MSC_Monk_Shoreline",
+                        "x": 1800,
+                        "y": 730
+                    },
+                    {
+                        "map": "MSC_Survivor_Shoreline",
+                        "x": 1800,
+                        "y": 730
+                    },
+                    {
+                        "map": "MSC_Hunter_Shoreline",
+                        "x": 1800,
+                        "y": 730
+                    },
+                    {
+                        "map": "Gourmand_Shoreline",
+                        "x": 1800,
+                        "y": 730
+                    },
+                    {
+                        "map": "Riv_Shoreline",
+                        "x": 1800,
+                        "y": 730
+                    },
+                    {
+                        "map": "Frigid_Coast",
+                        "x": 1800,
+                        "y": 730
+                    }
+                ]
+            },
+            {
+                "name": "Echo",
+                "access_rules": ["saint"],
+                "sections": [
+                    {
+                        "name": "Eight Spots on a Blind Eye",
+                        "ref": "@Submerged Superstructure/Submerged Superstructure/Echo"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Saint_Submerged",
+                        "x": 1585,
+                        "y": 85
+                    }
+                ]
+            },
+            {
+                "name": "Level Token",
+                "sections": [
+                    {
+                        "name": "Submerged Superstructure Token",
+                        "ref": "@Submerged Superstructure/Submerged Superstructure/Level Token"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "MSC_Monk_Submerged",
+                        "x": 1935,
+                        "y": 468
+                    },
+                    {
+                        "map": "MSC_Survivor_Submerged",
+                        "x": 1935,
+                        "y": 468
+                    },
+                    {
+                        "map": "MSC_Hunter_Submerged",
+                        "x": 1935,
+                        "y": 468
+                    },
+                    {
+                        "map": "Gourmand_Submerged",
+                        "x": 1935,
+                        "y": 468
+                    },
+                    {
+                        "map": "Riv_Submerged",
+                        "x": 1935,
+                        "y": 1017
+                    },
+                    {
+                        "map": "Saint_Submerged",
+                        "x": 1935,
+                        "y": 1017
+                    }
+                ]
+            },
+            {
+                "name": "Safari Token",
+                "sections": [
+                    {
+                        "name": "Safari Token",
+                        "ref": "@Submerged Superstructure/Submerged Superstructure/Safari Token"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Riv_Submerged",
+                        "x": 1333,
+                        "y": 214
+                    },
+                    {
+                        "map": "Saint_Submerged",
+                        "x": 1333,
+                        "y": 214
+                    }
+                ]
+            },
+            {
+                "name": "Scug Token",
+                "access_rules": ["riv"],
+                "sections": [
+                    {
+                        "name": "Rivulet Token",
+                        "ref": "@Submerged Superstructure/Submerged Superstructure/Rivulet Token"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Riv_Submerged",
+                        "x": 49,
+                        "y": 1461
+                    }
+                ]
+            },
+            {
+                "name": "Pearl",
+                "sections": [
+                    {
+                        "name": "Light Yellow Pearl",
+                        "ref": "@Submerged Superstructure/Submerged Superstructure/Pearl"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "MSC_Monk_Submerged",
+                        "x": 1041,
+                        "y": 142
+                    },
+                    {
+                        "map": "MSC_Survivor_Submerged",
+                        "x": 1041,
+                        "y": 142
+                    },
+                    {
+                        "map": "MSC_Hunter_Submerged",
+                        "x": 1041,
+                        "y": 142
+                    },
+                    {
+                        "map": "Gourmand_Submerged",
+                        "x": 1041,
+                        "y": 142
+                    },
+                    {
+                        "map": "Riv_Submerged",
+                        "x": 1041,
+                        "y": 691
+                    },
+                    {
+                        "map": "Saint_Submerged",
+                        "x": 1041,
+                        "y": 691
+                    }
+                ]
+            },
+            {
+                "name": "Arena Token",
+                "access_rules": ["monk","survivor","hunter","riv","saint"],
+                "sections": [
+                    {
+                        "name": "Aquapede Token",
+                        "ref": "@Submerged Superstructure/Submerged Superstructure/Aquapede Token"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "MSC_Monk_Submerged",
+                        "x": 655,
+                        "y": 1075
+                    },
+                    {
+                        "map": "MSC_Survivor_Submerged",
+                        "x": 655,
+                        "y": 1075
+                    },
+                    {
+                        "map": "MSC_Hunter_Submerged",
+                        "x": 655,
+                        "y": 1075
+                    },
+                    {
+                        "map": "Riv_Submerged",
+                        "x": 655,
+                        "y": 1624
+                    },
+                    {
+                        "map": "Saint_Submerged",
+                        "x": 655,
+                        "y": 1624
+                    }
+                ]
+            },
+            {
+                "name": "Arena Token",
+                "access_rules": ["monk","survivor","hunter","riv","saint"],
+                "sections": [
+                    {
+                        "name": "Glow Weed Token",
+                        "ref": "@Submerged Superstructure/Submerged Superstructure/Glow Weed Token"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "MSC_Monk_Submerged",
+                        "x": 946,
+                        "y": 968
+                    },
+                    {
+                        "map": "MSC_Survivor_Submerged",
+                        "x": 946,
+                        "y": 968
+                    },
+                    {
+                        "map": "MSC_Hunter_Submerged",
+                        "x": 946,
+                        "y": 968
+                    },
+                    {
+                        "map": "Riv_Submerged",
+                        "x": 946,
+                        "y": 1517
+                    },
+                    {
+                        "map": "Saint_Submerged",
+                        "x": 946,
+                        "y": 1517
+                    }
+                ]
+            },
+            {
+                "name": "Arena Token",
+                "access_rules": ["monk","survivor","hunter","riv","saint"],
+                "sections": [
+                    {
+                        "name": "Giant Jellyfish Token",
+                        "ref": "@Submerged Superstructure/Submerged Superstructure/Giant Jellyfish Token"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "MSC_Monk_Submerged",
+                        "x": 915,
+                        "y": 305
+                    },
+                    {
+                        "map": "MSC_Survivor_Submerged",
+                        "x": 915,
+                        "y": 305
+                    },
+                    {
+                        "map": "MSC_Hunter_Submerged",
+                        "x": 915,
+                        "y": 305
+                    },
+                    {
+                        "map": "Riv_Submerged",
+                        "x": 915,
+                        "y": 854
+                    },
+                    {
+                        "map": "Saint_Submerged",
+                        "x": 915,
+                        "y": 854
+                    }
+                ]
+            },
+            {
+                "name": "Arena Token",
+                "access_rules": ["riv"],
+                "sections": [
+                    {
+                        "name": "Miros Vulture Token",
+                        "ref": "@Submerged Superstructure/Submerged Superstructure/Miros Vulture Token"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Riv_Submerged",
+                        "x": 1597,
+                        "y": 82
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Submerged Shelters",
+        "access_rules": ["$has_submerged_access"],
+        "visibility_rules": ["$sheltersanity"],
+        "children": [
+            {
+                "name": "Shelter S01",
+                "sections": [
+                    {
+                        "name": "Shelter"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "MSC_Monk_Submerged",
+                        "x": 427,
+                        "y": 595
+                    },
+                    {
+                        "map": "MSC_Survivor_Submerged",
+                        "x": 427,
+                        "y": 595
+                    },
+                    {
+                        "map": "MSC_Hunter_Submerged",
+                        "x": 427,
+                        "y": 595
+                    },
+                    {
+                        "map": "Gourmand_Submerged",
+                        "x": 427,
+                        "y": 595
+                    },
+                    {
+                        "map": "Riv_Submerged",
+                        "x": 427,
+                        "y": 1144
+                    },
+                    {
+                        "map": "Saint_Submerged",
+                        "x": 427,
+                        "y": 1144
+                    }
+                ]
+            },
+            {
+                "name": "Shelter S03",
+                "sections": [
+                    {
+                        "name": "Shelter"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "MSC_Monk_Submerged",
+                        "x": 994,
+                        "y": 751
+                    },
+                    {
+                        "map": "MSC_Survivor_Submerged",
+                        "x": 994,
+                        "y": 751
+                    },
+                    {
+                        "map": "MSC_Hunter_Submerged",
+                        "x": 994,
+                        "y": 751
+                    },
+                    {
+                        "map": "Gourmand_Submerged",
+                        "x": 994,
+                        "y": 751
+                    },
+                    {
+                        "map": "Riv_Submerged",
+                        "x": 994,
+                        "y": 1300
+                    },
+                    {
+                        "map": "Saint_Submerged",
+                        "x": 994,
+                        "y": 1300
+                    }
+                ]
+            },
+            {
+                "name": "Shelter S04",
+                "access_rules": ["riv"],
+                "sections": [
+                    {
+                        "name": "Shelter"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Riv_Submerged",
+                        "x": 692,
+                        "y": 1038
+                    }
+                ]
+            },
+            {
+                "name": "Shelter S05",
+                "sections": [
+                    {
+                        "name": "Shelter"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "MSC_Monk_Submerged",
+                        "x": 888,
+                        "y": 597
+                    },
+                    {
+                        "map": "MSC_Survivor_Submerged",
+                        "x": 888,
+                        "y": 597
+                    },
+                    {
+                        "map": "MSC_Hunter_Submerged",
+                        "x": 888,
+                        "y": 597
+                    },
+                    {
+                        "map": "Gourmand_Submerged",
+                        "x": 888,
+                        "y": 597
+                    },
+                    {
+                        "map": "Riv_Submerged",
+                        "x": 888,
+                        "y": 1146
+                    },
+                    {
+                        "map": "Saint_Submerged",
+                        "x": 888,
+                        "y": 1146
+                    }
+                ]
+            },
+            {
+                "name": "Shelter S06",
+                "sections": [
+                    {
+                        "name": "Shelter"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "MSC_Monk_Submerged",
+                        "x": 742,
+                        "y": 878
+                    },
+                    {
+                        "map": "MSC_Survivor_Submerged",
+                        "x": 742,
+                        "y": 878
+                    },
+                    {
+                        "map": "MSC_Hunter_Submerged",
+                        "x": 742,
+                        "y": 878
+                    },
+                    {
+                        "map": "Gourmand_Submerged",
+                        "x": 742,
+                        "y": 878
+                    },
+                    {
+                        "map": "Riv_Submerged",
+                        "x": 742,
+                        "y": 1427
+                    },
+                    {
+                        "map": "Saint_Submerged",
+                        "x": 742,
+                        "y": 1427
+                    }
+                ]
+            },
+            {
+                "name": "Shelter S07",
+                "access_rules": ["riv","saint"],
+                "sections": [
+                    {
+                        "name": "Shelter"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Riv_Submerged",
+                        "x": 888,
+                        "y": 401
+                    },
+                    {
+                        "map": "Saint_Submerged",
+                        "x": 888,
+                        "y": 401
+                    }
+                ]
+            },
+            {
+                "name": "Shelter S09",
+                "sections": [
+                    {
+                        "name": "Shelter"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "MSC_Monk_Submerged",
+                        "x": 1577,
+                        "y": 410
+                    },
+                    {
+                        "map": "MSC_Survivor_Submerged",
+                        "x": 1577,
+                        "y": 410
+                    },
+                    {
+                        "map": "MSC_Hunter_Submerged",
+                        "x": 1577,
+                        "y": 410
+                    },
+                    {
+                        "map": "Gourmand_Submerged",
+                        "x": 1577,
+                        "y": 410
+                    },
+                    {
+                        "map": "Riv_Submerged",
+                        "x": 1577,
+                        "y": 959
+                    },
+                    {
+                        "map": "Saint_Submerged",
+                        "x": 1577,
+                        "y": 959
+                    }
+                ]
+            },
+            {
+                "name": "Shelter S10",
+                "access_rules": ["riv","saint"],
+                "sections": [
+                    {
+                        "name": "Shelter"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Riv_Submerged",
+                        "x": 1757,
+                        "y": 525
+                    },
+                    {
+                        "map": "Saint_Submerged",
+                        "x": 1757,
+                        "y": 525
+                    }
+                ]
+            },
+            {
+                "name": "Shelter LAB5",
+                "sections": [
+                    {
+                        "name": "Shelter"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "MSC_Monk_Submerged",
+                        "x": 990,
+                        "y": 183
+                    },
+                    {
+                        "map": "MSC_Survivor_Submerged",
+                        "x": 990,
+                        "y": 183
+                    },
+                    {
+                        "map": "MSC_Hunter_Submerged",
+                        "x": 990,
+                        "y": 183
+                    },
+                    {
+                        "map": "Gourmand_Submerged",
+                        "x": 990,
+                        "y": 183
+                    },
+                    {
+                        "map": "Riv_Submerged",
+                        "x": 990,
+                        "y": 732
+                    },
+                    {
+                        "map": "Saint_Submerged",
+                        "x": 990,
+                        "y": 732
+                    }
+                ]
+            },
+            {
+                "name": "Bitter Shelter",
+                "access_rules": ["riv","saint"],
+                "sections": [
+                    {
+                        "name": "Shelter"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Riv_Submerged",
+                        "x": 1518,
+                        "y": 312
+                    },
+                    {
+                        "map": "Saint_Submerged",
+                        "x": 1518,
+                        "y": 312
+                    }
+                ]
+            }
+        ]
+    }
+]

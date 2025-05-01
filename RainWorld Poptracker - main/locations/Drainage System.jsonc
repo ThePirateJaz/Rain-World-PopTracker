@@ -1,0 +1,1003 @@
+[
+    {
+        "name": "Drainage System",
+        "access_rules": ["$has_drainage_access"],
+        "children": [
+            {
+                "name": "Drainage System",
+                "sections": [
+                    {
+                        "name": "Level Token"
+                    },
+                    {
+                        "name": "Safari Token",
+                        "visibility_rules": ["MSC"]
+                    },
+                    {
+                        "name": "Pearl"
+                    },
+                    {
+                        "name": "Salamander Token"
+                    },
+                    {
+                        "name": "Bubbleweed Token",
+                        "visibility_rules": [
+                            "survivor",
+                            "hunter",
+                            "gourmand",
+                            "arti",
+                            "riv",
+                            "spearmaster"
+                        ]
+                    },
+                    {
+                        "name": "Hazer Token"
+                    },
+                    {
+                        "name": "Leech Token"
+                    },
+                    {
+                        "name": "Snail Token",
+                        "visibility_rules": [
+                            "monk",
+                            "survivor",
+                            "hunter",
+                            "arti",
+                            "spearmaster"
+                        ]
+                    },
+                    {
+                        "name": "Chatlog",
+                        "visibility_rules": ["spearmaster"]
+                    },
+                    {
+                        "name": "Broadcast",
+                        "visibility_rules": ["spearmaster"]
+                    },
+                    {
+                        "name": "Shelter",
+                        "ref": "@Drainage Shelters/Shelter S01R/Shelter",
+                        "visibility_rules": ["$sheltersanity"]
+                    },
+                    {
+                        "name": "Shelter",
+                        "ref": "@Drainage Shelters/Shelter S02L/Shelter",
+                        "visibility_rules": ["$sheltersanity"]
+                    },
+                    {
+                        "name": "Shelter",
+                        "ref": "@Drainage Shelters/Shelter S03/Shelter",
+                        "visibility_rules": ["$sheltersanity"]
+                    },
+                    {
+                        "name": "Shelter",
+                        "ref": "@Drainage Shelters/Shelter S04/Shelter",
+                        "visibility_rules": ["$sheltersanity"]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Vanilla_Monk_Outskirts",
+                        "x": 650,
+                        "y": 475
+                    },
+                    {
+                        "map": "Vanilla_Survivor_Outskirts",
+                        "x": 650,
+                        "y": 475
+                    },
+                    {
+                        "map": "Vanilla_Hunter_Outskirts",
+                        "x": 650,
+                        "y": 475
+                    },
+                    {
+                        "map": "MSC_Monk_Outskirts",
+                        "x": 280,
+                        "y": 510
+                    },
+                    {
+                        "map": "MSC_Survivor_Outskirts",
+                        "x": 280,
+                        "y": 510
+                    },
+                    {
+                        "map": "MSC_Hunter_Outskirts",
+                        "x": 280,
+                        "y": 510
+                    },
+                    {
+                        "map": "Gourmand_Outskirts",
+                        "x": 280,
+                        "y": 510
+                    },
+                    {
+                        "map": "Arti_Outskirts",
+                        "x": 280,
+                        "y": 510
+                    },
+                    {
+                        "map": "Riv_Outskirts",
+                        "x": 280,
+                        "y": 510
+                    },
+                    {
+                        "map": "Spear_Outskirts",
+                        "x": 280,
+                        "y": 510
+                    },
+                    {
+                        "map": "MSC_Monk_Chimney",
+                        "x": 585,
+                        "y": 1155
+                    },
+                    {
+                        "map": "MSC_Survivor_Chimney",
+                        "x": 585,
+                        "y": 1155
+                    },
+                    {
+                        "map": "MSC_Hunter_Chimney",
+                        "x": 585,
+                        "y": 1155
+                    },
+                    {
+                        "map": "Gourmand_Chimney",
+                        "x": 585,
+                        "y": 1155
+                    },
+                    {
+                        "map": "Arti_Chimney",
+                        "x": 585,
+                        "y": 1155
+                    },
+                    {
+                        "map": "Riv_Chimney",
+                        "x": 585,
+                        "y": 1155
+                    },
+                    {
+                        "map": "Spear_Chimney",
+                        "x": 585,
+                        "y": 1155
+                    },
+                    {
+                        "map": "Vanilla_Monk_Subterranean",
+                        "x": 1420,
+                        "y": 450
+                    },
+                    {
+                        "map": "Vanilla_Survivor_Subterranean",
+                        "x": 1420,
+                        "y": 450
+                    },
+                    {
+                        "map": "Vanilla_Hunter_Subterranean",
+                        "x": 1420,
+                        "y": 450
+                    },
+                    {
+                        "map": "MSC_Monk_Subterranean",
+                        "x": 1420,
+                        "y": 420
+                    },
+                    {
+                        "map": "MSC_Survivor_Subterranean",
+                        "x": 1420,
+                        "y": 420
+                    },
+                    {
+                        "map": "MSC_Hunter_Subterranean",
+                        "x": 1420,
+                        "y": 420
+                    },
+                    {
+                        "map": "Gourmand_Subterranean",
+                        "x": 1420,
+                        "y": 420
+                    },
+                    {
+                        "map": "Arti_Subterranean",
+                        "x": 1420,
+                        "y": 420
+                    },
+                    {
+                        "map": "Riv_Subterranean",
+                        "x": 1420,
+                        "y": 420
+                    },
+                    {
+                        "map": "Spear_Subterranean",
+                        "x": 1420,
+                        "y": 420
+                    },
+                    {
+                        "map": "Vanilla_Monk_Garbage",
+                        "x": 110,
+                        "y": 325
+                    },
+                    {
+                        "map": "Vanilla_Survivor_Garbage",
+                        "x": 110,
+                        "y": 325
+                    },
+                    {
+                        "map": "Vanilla_Hunter_Garbage",
+                        "x": 110,
+                        "y": 325
+                    },
+                    {
+                        "map": "MSC_Monk_Garbage",
+                        "x": 110,
+                        "y": 330
+                    },
+                    {
+                        "map": "MSC_Survivor_Garbage",
+                        "x": 110,
+                        "y": 330
+                    },
+                    {
+                        "map": "MSC_Hunter_Garbage",
+                        "x": 110,
+                        "y": 330
+                    },
+                    {
+                        "map": "Gourmand_Garbage",
+                        "x": 110,
+                        "y": 330
+                    },
+                    {
+                        "map": "Riv_Garbage",
+                        "x": 110,
+                        "y": 330
+                    },
+                    {
+                        "map": "Arti_Garbage",
+                        "x": 85,
+                        "y": 420
+                    },
+                    {
+                        "map": "Spear_Garbage",
+                        "x": 85,
+                        "y": 420
+                    }
+                ]
+            },
+            {
+                "name": "Level Token",
+                "sections": [
+                    {
+                        "name": "Drainage System Token",
+                        "ref": "@Drainage System/Drainage System/Level Token"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Vanilla_Monk_Drainage",
+                        "x": 969,
+                        "y": 213
+                    },
+                    {
+                        "map": "MSC_Monk_Drainage",
+                        "x": 1019,
+                        "y": 414
+                    },
+                    {
+                        "map": "Vanilla_Survivor_Drainage",
+                        "x": 969,
+                        "y": 213
+                    },
+                    {
+                        "map": "MSC_Survivor_Drainage",
+                        "x": 1019,
+                        "y": 414
+                    },
+                    {
+                        "map": "Vanilla_Hunter_Drainage",
+                        "x": 969,
+                        "y": 213
+                    },
+                    {
+                        "map": "MSC_Hunter_Drainage",
+                        "x": 1019,
+                        "y": 414
+                    },
+                    {
+                        "map": "Gourmand_Drainage",
+                        "x": 1019,
+                        "y": 414
+                    },
+                    {
+                        "map": "Arti_Drainage",
+                        "x": 1019,
+                        "y": 414
+                    },
+                    {
+                        "map": "Riv_Drainage",
+                        "x": 1019,
+                        "y": 414
+                    },
+                    {
+                        "map": "Spear_Drainage",
+                        "x": 1019,
+                        "y": 414
+                    }
+                ]
+            },
+            {
+                "name": "Safari Token",
+                "access_rules": ["MSC"],
+                "sections": [
+                    {
+                        "name": "Safari Token",
+                        "ref": "@Drainage System/Drainage System/Safari Token"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "MSC_Monk_Drainage",
+                        "x": 303,
+                        "y": 389
+                    },
+                    {
+                        "map": "MSC_Survivor_Drainage",
+                        "x": 303,
+                        "y": 389
+                    },
+                    {
+                        "map": "MSC_Hunter_Drainage",
+                        "x": 303,
+                        "y": 389
+                    },
+                    {
+                        "map": "Gourmand_Drainage",
+                        "x": 303,
+                        "y": 389
+                    },
+                    {
+                        "map": "Arti_Drainage",
+                        "x": 303,
+                        "y": 389
+                    },
+                    {
+                        "map": "Riv_Drainage",
+                        "x": 303,
+                        "y": 389
+                    },
+                    {
+                        "map": "Spear_Drainage",
+                        "x": 303,
+                        "y": 389
+                    }
+                ]
+            },
+            {
+                "name": "Pearl",
+                "sections": [
+                    {
+                        "name": "Bright Green Pearl",
+                        "ref": "@Drainage System/Drainage System/Pearl"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Vanilla_Monk_Drainage",
+                        "x": 574,
+                        "y": 325
+                    },
+                    {
+                        "map": "MSC_Monk_Drainage",
+                        "x": 574,
+                        "y": 526
+                    },
+                    {
+                        "map": "Vanilla_Survivor_Drainage",
+                        "x": 574,
+                        "y": 325
+                    },
+                    {
+                        "map": "MSC_Survivor_Drainage",
+                        "x": 574,
+                        "y": 526
+                    },
+                    {
+                        "map": "Vanilla_Hunter_Drainage",
+                        "x": 574,
+                        "y": 325
+                    },
+                    {
+                        "map": "MSC_Hunter_Drainage",
+                        "x": 574,
+                        "y": 526
+                    },
+                    {
+                        "map": "Gourmand_Drainage",
+                        "x": 574,
+                        "y": 526
+                    },
+                    {
+                        "map": "Arti_Drainage",
+                        "x": 574,
+                        "y": 526
+                    },
+                    {
+                        "map": "Riv_Drainage",
+                        "x": 574,
+                        "y": 526
+                    },
+                    {
+                        "map": "Spear_Drainage",
+                        "x": 574,
+                        "y": 526
+                    }
+                ]
+            },
+            {
+                "name": "Arena Token",
+                "sections": [
+                    {
+                        "name": "Salamander Token",
+                        "ref": "@Drainage System/Drainage System/Salamander Token"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Vanilla_Monk_Drainage",
+                        "x": 475,
+                        "y": 109
+                    },
+                    {
+                        "map": "MSC_Monk_Drainage",
+                        "x": 475,
+                        "y": 310
+                    },
+                    {
+                        "map": "Vanilla_Survivor_Drainage",
+                        "x": 475,
+                        "y": 109
+                    },
+                    {
+                        "map": "MSC_Survivor_Drainage",
+                        "x": 475,
+                        "y": 310
+                    },
+                    {
+                        "map": "Vanilla_Hunter_Drainage",
+                        "x": 475,
+                        "y": 109
+                    },
+                    {
+                        "map": "MSC_Hunter_Drainage",
+                        "x": 475,
+                        "y": 310
+                    },
+                    {
+                        "map": "Gourmand_Drainage",
+                        "x": 475,
+                        "y": 310
+                    },
+                    {
+                        "map": "Arti_Drainage",
+                        "x": 475,
+                        "y": 310
+                    },
+                    {
+                        "map": "Riv_Drainage",
+                        "x": 475,
+                        "y": 310
+                    },
+                    {
+                        "map": "Spear_Drainage",
+                        "x": 475,
+                        "y": 310
+                    }
+                ]
+            },
+            {
+                "name": "Arena Token",
+                "sections": [
+                    {
+                        "name": "Bubbleweed Token",
+                        "ref": "@Drainage System/Drainage System/Bubbleweed Token"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Vanilla_Survivor_Drainage",
+                        "x": 643,
+                        "y": 223
+                    },
+                    {
+                        "map": "MSC_Survivor_Drainage",
+                        "x": 643,
+                        "y": 424
+                    },
+                    {
+                        "map": "Vanilla_Hunter_Drainage",
+                        "x": 643,
+                        "y": 223
+                    },
+                    {
+                        "map": "MSC_Hunter_Drainage",
+                        "x": 643,
+                        "y": 424
+                    },
+                    {
+                        "map": "Gourmand_Drainage",
+                        "x": 643,
+                        "y": 424
+                    },
+                    {
+                        "map": "Arti_Drainage",
+                        "x": 643,
+                        "y": 424
+                    },
+                    {
+                        "map": "Riv_Drainage",
+                        "x": 643,
+                        "y": 424
+                    },
+                    {
+                        "map": "Spear_Drainage",
+                        "x": 643,
+                        "y": 424
+                    }
+                ]
+            },
+            {
+                "name": "Arena Token",
+                "sections": [
+                    {
+                        "name": "Hazer Token",
+                        "ref": "@Drainage System/Drainage System/Hazer Token"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Vanilla_Monk_Drainage",
+                        "x": 814,
+                        "y": 149
+                    },
+                    {
+                        "map": "MSC_Monk_Drainage",
+                        "x": 864,
+                        "y": 350
+                    },
+                    {
+                        "map": "Vanilla_Survivor_Drainage",
+                        "x": 814,
+                        "y": 149
+                    },
+                    {
+                        "map": "MSC_Survivor_Drainage",
+                        "x": 864,
+                        "y": 350
+                    },
+                    {
+                        "map": "Vanilla_Hunter_Drainage",
+                        "x": 814,
+                        "y": 149
+                    },
+                    {
+                        "map": "MSC_Hunter_Drainage",
+                        "x": 864,
+                        "y": 350
+                    },
+                    {
+                        "map": "Gourmand_Drainage",
+                        "x": 864,
+                        "y": 350
+                    },
+                    {
+                        "map": "Arti_Drainage",
+                        "x": 864,
+                        "y": 350
+                    },
+                    {
+                        "map": "Riv_Drainage",
+                        "x": 864,
+                        "y": 350
+                    },
+                    {
+                        "map": "Spear_Drainage",
+                        "x": 864,
+                        "y": 350
+                    }
+                ]
+            },
+            {
+                "name": "Arena Token",
+                "sections": [
+                    {
+                        "name": "Leech Token",
+                        "ref": "@Drainage System/Drainage System/Leech Token"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Vanilla_Monk_Drainage",
+                        "x": 448,
+                        "y": 322
+                    },
+                    {
+                        "map": "MSC_Monk_Drainage",
+                        "x": 448,
+                        "y": 523
+                    },
+                    {
+                        "map": "Vanilla_Survivor_Drainage",
+                        "x": 448,
+                        "y": 322
+                    },
+                    {
+                        "map": "MSC_Survivor_Drainage",
+                        "x": 448,
+                        "y": 523
+                    },
+                    {
+                        "map": "Vanilla_Hunter_Drainage",
+                        "x": 448,
+                        "y": 322
+                    },
+                    {
+                        "map": "MSC_Hunter_Drainage",
+                        "x": 448,
+                        "y": 523
+                    },
+                    {
+                        "map": "Gourmand_Drainage",
+                        "x": 448,
+                        "y": 523
+                    },
+                    {
+                        "map": "Arti_Drainage",
+                        "x": 448,
+                        "y": 523
+                    },
+                    {
+                        "map": "Riv_Drainage",
+                        "x": 448,
+                        "y": 523
+                    },
+                    {
+                        "map": "Spear_Drainage",
+                        "x": 448,
+                        "y": 523
+                    }
+                ]
+            },
+            {
+                "name": "Arena Token",
+                "sections": [
+                    {
+                        "name": "Snail Token",
+                        "ref": "@Drainage System/Drainage System/Snail Token"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Vanilla_Monk_Drainage",
+                        "x": 320,
+                        "y": 274
+                    },
+                    {
+                        "map": "MSC_Monk_Drainage",
+                        "x": 320,
+                        "y": 475
+                    },
+                    {
+                        "map": "Vanilla_Survivor_Drainage",
+                        "x": 320,
+                        "y": 274
+                    },
+                    {
+                        "map": "MSC_Survivor_Drainage",
+                        "x": 320,
+                        "y": 475
+                    },
+                    {
+                        "map": "Vanilla_Hunter_Drainage",
+                        "x": 320,
+                        "y": 274
+                    },
+                    {
+                        "map": "MSC_Hunter_Drainage",
+                        "x": 320,
+                        "y": 475
+                    },
+                    {
+                        "map": "Arti_Drainage",
+                        "x": 320,
+                        "y": 475
+                    },
+                    {
+                        "map": "Spear_Drainage",
+                        "x": 320,
+                        "y": 475
+                    }
+                ]
+            },
+            {
+                "name": "Broadcast",
+                "access_rules": ["spearmaster"],
+                "sections": [
+                    {
+                        "name": "Chatlog",
+                        "ref": "@Drainage System/Drainage System/Chatlog"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Spear_Drainage",
+                        "x": 364,
+                        "y": 275
+                    }
+                ]
+            },
+            {
+                "name": "Broadcast",
+                "access_rules": ["spearmaster"],
+                "sections": [
+                    {
+                        "name": "Broadcast",
+                        "ref": "@Drainage System/Drainage System/Broadcast"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Spear_Drainage",
+                        "x": 686,
+                        "y": 350
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Drainage Shelters",
+        "access_rules": ["$has_drainage_access"],
+        "visibility_rules": ["$sheltersanity"],
+        "children": [
+            {
+                "name": "Shelter S01R",
+                "sections": [
+                    {
+                        "name": "Shelter"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Vanilla_Monk_Drainage",
+                        "x": 368,
+                        "y": 201
+                    },
+                    {
+                        "map": "MSC_Monk_Drainage",
+                        "x": 368,
+                        "y": 402
+                    },
+                    {
+                        "map": "Vanilla_Survivor_Drainage",
+                        "x": 368,
+                        "y": 201
+                    },
+                    {
+                        "map": "MSC_Survivor_Drainage",
+                        "x": 368,
+                        "y": 402
+                    },
+                    {
+                        "map": "Vanilla_Hunter_Drainage",
+                        "x": 368,
+                        "y": 201
+                    },
+                    {
+                        "map": "MSC_Hunter_Drainage",
+                        "x": 368,
+                        "y": 402
+                    },
+                    {
+                        "map": "Gourmand_Drainage",
+                        "x": 368,
+                        "y": 402
+                    },
+                    {
+                        "map": "Arti_Drainage",
+                        "x": 368,
+                        "y": 402
+                    },
+                    {
+                        "map": "Riv_Drainage",
+                        "x": 368,
+                        "y": 402
+                    },
+                    {
+                        "map": "Spear_Drainage",
+                        "x": 368,
+                        "y": 402
+                    }
+                ]
+            },
+            {
+                "name": "Shelter S02L",
+                "sections": [
+                    {
+                        "name": "Shelter"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Vanilla_Monk_Drainage",
+                        "x": 799,
+                        "y": 199
+                    },
+                    {
+                        "map": "MSC_Monk_Drainage",
+                        "x": 849,
+                        "y": 400
+                    },
+                    {
+                        "map": "Vanilla_Survivor_Drainage",
+                        "x": 799,
+                        "y": 199
+                    },
+                    {
+                        "map": "MSC_Survivor_Drainage",
+                        "x": 849,
+                        "y": 400
+                    },
+                    {
+                        "map": "Vanilla_Hunter_Drainage",
+                        "x": 799,
+                        "y": 199
+                    },
+                    {
+                        "map": "MSC_Hunter_Drainage",
+                        "x": 849,
+                        "y": 400
+                    },
+                    {
+                        "map": "Gourmand_Drainage",
+                        "x": 849,
+                        "y": 400
+                    },
+                    {
+                        "map": "Arti_Drainage",
+                        "x": 849,
+                        "y": 400
+                    },
+                    {
+                        "map": "Riv_Drainage",
+                        "x": 849,
+                        "y": 400
+                    },
+                    {
+                        "map": "Spear_Drainage",
+                        "x": 849,
+                        "y": 400
+                    }
+                ]
+            },
+            {
+                "name": "Shelter S03",
+                "sections": [
+                    {
+                        "name": "Shelter"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Vanilla_Monk_Drainage",
+                        "x": 152,
+                        "y": 377
+                    },
+                    {
+                        "map": "MSC_Monk_Drainage",
+                        "x": 152,
+                        "y": 578
+                    },
+                    {
+                        "map": "Vanilla_Survivor_Drainage",
+                        "x": 152,
+                        "y": 377
+                    },
+                    {
+                        "map": "MSC_Survivor_Drainage",
+                        "x": 152,
+                        "y": 578
+                    },
+                    {
+                        "map": "Vanilla_Hunter_Drainage",
+                        "x": 152,
+                        "y": 377
+                    },
+                    {
+                        "map": "MSC_Hunter_Drainage",
+                        "x": 152,
+                        "y": 578
+                    },
+                    {
+                        "map": "Gourmand_Drainage",
+                        "x": 152,
+                        "y": 578
+                    },
+                    {
+                        "map": "Arti_Drainage",
+                        "x": 152,
+                        "y": 578
+                    },
+                    {
+                        "map": "Riv_Drainage",
+                        "x": 152,
+                        "y": 578
+                    },
+                    {
+                        "map": "Spear_Drainage",
+                        "x": 152,
+                        "y": 578
+                    }
+                ]
+            },
+            {
+                "name": "Shelter S04",
+                "sections": [
+                    {
+                        "name": "Shelter"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Vanilla_Monk_Drainage",
+                        "x": 559,
+                        "y": 148
+                    },
+                    {
+                        "map": "MSC_Monk_Drainage",
+                        "x": 559,
+                        "y": 349
+                    },
+                    {
+                        "map": "Vanilla_Survivor_Drainage",
+                        "x": 559,
+                        "y": 148
+                    },
+                    {
+                        "map": "MSC_Survivor_Drainage",
+                        "x": 559,
+                        "y": 349
+                    },
+                    {
+                        "map": "Vanilla_Hunter_Drainage",
+                        "x": 559,
+                        "y": 148
+                    },
+                    {
+                        "map": "MSC_Hunter_Drainage",
+                        "x": 559,
+                        "y": 349
+                    },
+                    {
+                        "map": "Gourmand_Drainage",
+                        "x": 559,
+                        "y": 349
+                    },
+                    {
+                        "map": "Arti_Drainage",
+                        "x": 559,
+                        "y": 349
+                    },
+                    {
+                        "map": "Riv_Drainage",
+                        "x": 559,
+                        "y": 349
+                    },
+                    {
+                        "map": "Spear_Drainage",
+                        "x": 559,
+                        "y": 349
+                    }
+                ]
+            }
+        ]
+    }
+]

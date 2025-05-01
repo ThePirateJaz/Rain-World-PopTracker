@@ -1,0 +1,1554 @@
+[
+    {
+        "name": "Subterranean",
+        "access_rules": ["$has_subterranean_access"],
+        "children": [
+            {
+                "name": "Subterranean",
+                "sections": [
+                    {
+                        "name": "Echo"
+                    },
+                    {
+                        "name": "Level Token",
+                        "ref": "@Subterranean/Level Token/Subterranean Token"
+                    },
+                    {
+                        "name": "Level Token",
+                        "ref": "@Subterranean/Level Token/Filtration System Token",
+                        "visibility_rules": ["MSC"]
+                    },
+                    {
+                        "name": "Safari Token",
+                        "visibility_rules": ["MSC"]
+                    },
+                    {
+                        "name": "Pearl",
+                        "ref": "@Subterranean/Pearl/Dark Magenta Pearl"
+                    },
+                    {
+                        "name": "Pearl",
+                        "ref": "@Subterranean/Pearl/Teal Pearl"
+                    },
+                    {
+                        "name": "Red Centipede Token",
+                        "visibility_rules": [
+                            "hunter",
+                            "arti",
+                            "spearmaster",
+                            "saint"
+                        ]
+                    },
+                    {
+                        "name": "Mushroom Token"
+                    },
+                    {
+                        "name": "Black Lizard Token"
+                    },
+                    {
+                        "name": "Centipede Token"
+                    },
+                    {
+                        "name": "Monster Kelp Token",
+                        "visibility_rules": [
+                            "hunter",
+                            "gourmand",
+                            "arti",
+                            "spearmaster"
+                        ]
+                    },
+                    {
+                        "name": "Broadcast",
+                        "visibility_rules": ["spearmaster"]
+                    },
+                    {
+                        "name": "Chatlog",
+                        "visibility_rules": ["spearmaster"]
+                    },
+                    {
+                        "name": "Shelter",
+                        "ref": "@Subterranean Shelters/Shelter S01/Shelter",
+                        "visibility_rules": ["$sheltersanity"]
+                    },
+                    {
+                        "name": "Shelter",
+                        "ref": "@Subterranean Shelters/Shelter S02/Shelter",
+                        "visibility_rules": ["$sheltersanity"]
+                    },
+                    {
+                        "name": "Shelter",
+                        "ref": "@Subterranean Shelters/Shelter S03/Shelter",
+                        "visibility_rules": ["$sheltersanity"]
+                    },
+                    {
+                        "name": "Shelter",
+                        "ref": "@Subterranean Shelters/Shelter S04/Shelter",
+                        "visibility_rules": ["$sheltersanity"]
+                    },
+                    {
+                        "name": "Shelter",
+                        "ref": "@Subterranean Shelters/Shelter S05/Shelter",
+                        "visibility_rules": ["$sheltersanity"]
+                    },
+                    {
+                        "name": "Shelter",
+                        "ref": "@Subterranean Shelters/Shelter S06/Shelter",
+                        "visibility_rules": ["$sheltersanity"]
+                    },
+                    {
+                        "name": "Shelter",
+                        "ref": "@Subterranean Shelters/Shelter S07/Shelter",
+                        "visibility_rules": ["$sheltersanity"]
+                    },
+                    {
+                        "name": "Shelter",
+                        "ref": "@Subterranean Shelters/Shelter S09/Shelter",
+                        "visibility_rules": ["$sheltersanity"]
+                    },
+                    {
+                        "name": "Shelter",
+                        "ref": "@Subterranean Shelters/Shelter S10/Shelter",
+                        "visibility_rules": ["$sheltersanity"]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Vanilla_Monk_Farm_Arrays",
+                        "x": 100,
+                        "y": 270
+                    },
+                    {
+                        "map": "Vanilla_Survivor_Farm_Arrays",
+                        "x": 100,
+                        "y": 270
+                    },
+                    {
+                        "map": "Vanilla_Hunter_Farm_Arrays",
+                        "x": 100,
+                        "y": 270
+                    },
+                    {
+                        "map": "MSC_Monk_Farm_Arrays",
+                        "x": 170,
+                        "y": 305
+                    },
+                    {
+                        "map": "MSC_Survivor_Farm_Arrays",
+                        "x": 170,
+                        "y": 305
+                    },
+                    {
+                        "map": "MSC_Hunter_Farm_Arrays",
+                        "x": 170,
+                        "y": 305
+                    },
+                    {
+                        "map": "Gourmand_Farm_Arrays",
+                        "x": 170,
+                        "y": 305
+                    },
+                    {
+                        "map": "Arti_Farm_Arrays",
+                        "x": 170,
+                        "y": 305
+                    },
+                    {
+                        "map": "Riv_Farm_Arrays",
+                        "x": 170,
+                        "y": 305
+                    },
+                    {
+                        "map": "Spear_Farm_Arrays",
+                        "x": 170,
+                        "y": 305
+                    },
+                    {
+                        "map": "Desolate_Fields",
+                        "x": 90,
+                        "y": 275
+                    },
+                    {
+                        "map": "Vanilla_Monk_Shoreline",
+                        "x": 230,
+                        "y": 630
+                    },
+                    {
+                        "map": "Vanilla_Survivor_Shoreline",
+                        "x": 230,
+                        "y": 630
+                    },
+                    {
+                        "map": "Vanilla_Hunter_Shoreline",
+                        "x": 230,
+                        "y": 630
+                    },
+                    {
+                        "map": "MSC_Monk_Shoreline",
+                        "x": 190,
+                        "y": 790
+                    },
+                    {
+                        "map": "MSC_Survivor_Shoreline",
+                        "x": 190,
+                        "y": 790
+                    },
+                    {
+                        "map": "MSC_Hunter_Shoreline",
+                        "x": 190,
+                        "y": 790
+                    },
+                    {
+                        "map": "Gourmand_Shoreline",
+                        "x": 190,
+                        "y": 790
+                    },
+                    {
+                        "map": "Riv_Shoreline",
+                        "x": 190,
+                        "y": 790
+                    },
+                    {
+                        "map": "Arti_Waterfront",
+                        "x": 340,
+                        "y": 1130
+                    },
+                    {
+                        "map": "Spear_Waterfront",
+                        "x": 340,
+                        "y": 1460
+                    },
+                    {
+                        "map": "Frigid_Coast",
+                        "x": 190,
+                        "y": 790
+                    },
+                    {
+                        "map": "MSC_Monk_Pipeyard",
+                        "x": 170,
+                        "y": 750
+                    },
+                    {
+                        "map": "MSC_Survivor_Pipeyard",
+                        "x": 170,
+                        "y": 750
+                    },
+                    {
+                        "map": "MSC_Hunter_Pipeyard",
+                        "x": 170,
+                        "y": 750
+                    },
+                    {
+                        "map": "Gourmand_Pipeyard",
+                        "x": 170,
+                        "y": 750
+                    },
+                    {
+                        "map": "Arti_Pipeyard",
+                        "x": 170,
+                        "y": 750
+                    },
+                    {
+                        "map": "Riv_Pipeyard",
+                        "x": 170,
+                        "y": 750
+                    },
+                    {
+                        "map": "Spear_Pipeyard",
+                        "x": 170,
+                        "y": 750
+                    },
+                    {
+                        "map": "Barren_Conduits",
+                        "x": 170,
+                        "y": 750
+                    },
+                    {
+                        "map": "Vanilla_Monk_Drainage",
+                        "x": 50,
+                        "y": 350
+                    },
+                    {
+                        "map": "Vanilla_Survivor_Drainage",
+                        "x": 50,
+                        "y": 350
+                    },
+                    {
+                        "map": "Vanilla_Hunter_Drainage",
+                        "x": 50,
+                        "y": 350
+                    },
+                    {
+                        "map": "MSC_Monk_Drainage",
+                        "x": 50,
+                        "y": 550
+                    },
+                    {
+                        "map": "MSC_Survivor_Drainage",
+                        "x": 50,
+                        "y": 550
+                    },
+                    {
+                        "map": "MSC_Hunter_Drainage",
+                        "x": 50,
+                        "y": 550
+                    },
+                    {
+                        "map": "Gourmand_Drainage",
+                        "x": 50,
+                        "y": 550
+                    },
+                    {
+                        "map": "Arti_Drainage",
+                        "x": 50,
+                        "y": 550
+                    },
+                    {
+                        "map": "Riv_Drainage",
+                        "x": 50,
+                        "y": 550
+                    },
+                    {
+                        "map": "Spear_Drainage",
+                        "x": 50,
+                        "y": 550
+                    },
+                    {
+                        "map": "Undergrowth",
+                        "x": 30,
+                        "y": 550
+                    }
+                ]
+            },
+            {
+                "name": "Echo",
+                "access_rules": ["$has_farm_arrays_access, Gate_Farm_Arrays-Subterranean, Karma4","saint"],
+                "sections": [
+                    {
+                        "name": "Two Sprouts, Twelve Brackets",
+                        "ref": "@Subterranean/Subterranean/Echo"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Vanilla_Monk_Subterranean",
+                        "x": 713,
+                        "y": 199
+                    },
+                    {
+                        "map": "MSC_Monk_Subterranean",
+                        "x": 713,
+                        "y": 172
+                    },
+                    {
+                        "map": "Vanilla_Survivor_Subterranean",
+                        "x": 713,
+                        "y": 199
+                    },
+                    {
+                        "map": "MSC_Survivor_Subterranean",
+                        "x": 713,
+                        "y": 172
+                    },
+                    {
+                        "map": "Vanilla_Hunter_Subterranean",
+                        "x": 713,
+                        "y": 199
+                    },
+                    {
+                        "map": "MSC_Hunter_Subterranean",
+                        "x": 713,
+                        "y": 172
+                    },
+                    {
+                        "map": "Gourmand_Subterranean",
+                        "x": 713,
+                        "y": 172
+                    },
+                    {
+                        "map": "Arti_Subterranean",
+                        "x": 713,
+                        "y": 172
+                    },
+                    {
+                        "map": "Riv_Subterranean",
+                        "x": 713,
+                        "y": 172
+                    },
+                    {
+                        "map": "Spear_Subterranean",
+                        "x": 713,
+                        "y": 172
+                    },
+                    {
+                        "map": "Primordial_Underground",
+                        "x": 392,
+                        "y": 172
+                    }
+                ]
+            },
+            {
+                "name": "Level Token",
+                "sections": [
+                    {
+                        "name": "Subterranean Token"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Vanilla_Monk_Subterranean",
+                        "x": 1397,
+                        "y": 548
+                    },
+                    {
+                        "map": "MSC_Monk_Subterranean",
+                        "x": 1398,
+                        "y": 514
+                    },
+                    {
+                        "map": "Vanilla_Survivor_Subterranean",
+                        "x": 1397,
+                        "y": 548
+                    },
+                    {
+                        "map": "MSC_Survivor_Subterranean",
+                        "x": 1398,
+                        "y": 514
+                    },
+                    {
+                        "map": "Vanilla_Hunter_Subterranean",
+                        "x": 1397,
+                        "y": 548
+                    },
+                    {
+                        "map": "MSC_Hunter_Subterranean",
+                        "x": 1398,
+                        "y": 514
+                    },
+                    {
+                        "map": "Gourmand_Subterranean",
+                        "x": 1398,
+                        "y": 514
+                    },
+                    {
+                        "map": "Arti_Subterranean",
+                        "x": 1398,
+                        "y": 514
+                    },
+                    {
+                        "map": "Riv_Subterranean",
+                        "x": 1398,
+                        "y": 514
+                    },
+                    {
+                        "map": "Spear_Subterranean",
+                        "x": 1398,
+                        "y": 514
+                    },
+                    {
+                        "map": "Primordial_Underground",
+                        "x": 1091,
+                        "y": 514
+                    }
+                ]
+            },
+            {
+                "name": "Level Token",
+                "sections": [
+                    {
+                        "name": "Filtration System Token"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "MSC_Monk_Subterranean",
+                        "x": 1438,
+                        "y": 667
+                    },
+                    {
+                        "map": "MSC_Survivor_Subterranean",
+                        "x": 1438,
+                        "y": 667
+                    },
+                    {
+                        "map": "MSC_Hunter_Subterranean",
+                        "x": 1438,
+                        "y": 667
+                    },
+                    {
+                        "map": "Gourmand_Subterranean",
+                        "x": 1438,
+                        "y": 667
+                    },
+                    {
+                        "map": "Arti_Subterranean",
+                        "x": 1438,
+                        "y": 667
+                    },
+                    {
+                        "map": "Riv_Subterranean",
+                        "x": 1438,
+                        "y": 667
+                    },
+                    {
+                        "map": "Spear_Subterranean",
+                        "x": 1438,
+                        "y": 667
+                    },
+                    {
+                        "map": "Primordial_Underground",
+                        "x": 1117,
+                        "y": 667
+                    }
+                ]
+            },
+            {
+                "name": "Safari Token",
+                "sections": [
+                    {
+                        "name": "Safari Token",
+                        "ref": "@Subterranean/Subterranean/Safari Token"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "MSC_Monk_Subterranean",
+                        "x": 1630,
+                        "y": 318
+                    },
+                    {
+                        "map": "MSC_Survivor_Subterranean",
+                        "x": 1630,
+                        "y": 318
+                    },
+                    {
+                        "map": "MSC_Hunter_Subterranean",
+                        "x": 1630,
+                        "y": 318
+                    },
+                    {
+                        "map": "Gourmand_Subterranean",
+                        "x": 1630,
+                        "y": 318
+                    },
+                    {
+                        "map": "Arti_Subterranean",
+                        "x": 1630,
+                        "y": 318
+                    },
+                    {
+                        "map": "Riv_Subterranean",
+                        "x": 1630,
+                        "y": 318
+                    },
+                    {
+                        "map": "Spear_Subterranean",
+                        "x": 1630,
+                        "y": 318
+                    },
+                    {
+                        "map": "Primordial_Underground",
+                        "x": 1329,
+                        "y": 318
+                    }
+                ]
+            },
+            {
+                "name": "Pearl",
+                "sections": [
+                    {
+                        "name": "Dark Magenta Pearl"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Vanilla_Monk_Subterranean",
+                        "x": 646,
+                        "y": 207
+                    },
+                    {
+                        "map": "MSC_Monk_Subterranean",
+                        "x": 646,
+                        "y": 174
+                    },
+                    {
+                        "map": "Vanilla_Survivor_Subterranean",
+                        "x": 646,
+                        "y": 207
+                    },
+                    {
+                        "map": "MSC_Survivor_Subterranean",
+                        "x": 646,
+                        "y": 174
+                    },
+                    {
+                        "map": "Vanilla_Hunter_Subterranean",
+                        "x": 646,
+                        "y": 207
+                    },
+                    {
+                        "map": "MSC_Hunter_Subterranean",
+                        "x": 646,
+                        "y": 174
+                    },
+                    {
+                        "map": "Gourmand_Subterranean",
+                        "x": 646,
+                        "y": 174
+                    },
+                    {
+                        "map": "Arti_Subterranean",
+                        "x": 646,
+                        "y": 174
+                    },
+                    {
+                        "map": "Riv_Subterranean",
+                        "x": 646,
+                        "y": 174
+                    },
+                    {
+                        "map": "Spear_Subterranean",
+                        "x": 646,
+                        "y": 174
+                    },
+                    {
+                        "map": "Primordial_Underground",
+                        "x": 325,
+                        "y": 174
+                    }
+                ]
+            },
+            {
+                "name": "Pearl",
+                "sections": [
+                    {
+                        "name": "Teal Pearl"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Vanilla_Monk_Subterranean",
+                        "x": 1868,
+                        "y": 581
+                    },
+                    {
+                        "map": "MSC_Monk_Subterranean",
+                        "x": 1868,
+                        "y": 547
+                    },
+                    {
+                        "map": "Vanilla_Survivor_Subterranean",
+                        "x": 1868,
+                        "y": 581
+                    },
+                    {
+                        "map": "MSC_Survivor_Subterranean",
+                        "x": 1868,
+                        "y": 547
+                    },
+                    {
+                        "map": "Vanilla_Hunter_Subterranean",
+                        "x": 1868,
+                        "y": 581
+                    },
+                    {
+                        "map": "MSC_Hunter_Subterranean",
+                        "x": 1868,
+                        "y": 547
+                    },
+                    {
+                        "map": "Gourmand_Subterranean",
+                        "x": 1868,
+                        "y": 547
+                    },
+                    {
+                        "map": "Arti_Subterranean",
+                        "x": 1868,
+                        "y": 547
+                    },
+                    {
+                        "map": "Riv_Subterranean",
+                        "x": 1868,
+                        "y": 547
+                    },
+                    {
+                        "map": "Spear_Subterranean",
+                        "x": 1868,
+                        "y": 547
+                    },
+                    {
+                        "map": "Primordial_Underground",
+                        "x": 1547,
+                        "y": 547
+                    }
+                ]
+            },
+            {
+                "name": "Arena Token",
+                "sections": [
+                    {
+                        "name": "Red Centipede Token",
+                        "ref": "@Subterranean/Subterranean/Red Centipede Token"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Vanilla_Hunter_Subterranean",
+                        "x": 815,
+                        "y": 414
+                    },
+                    {
+                        "map": "MSC_Hunter_Subterranean",
+                        "x": 815,
+                        "y": 381
+                    },
+                    {
+                        "map": "Arti_Subterranean",
+                        "x": 815,
+                        "y": 381
+                    },
+                    {
+                        "map": "Primordial_Underground",
+                        "x": 815,
+                        "y": 381
+                    },
+                    {
+                        "map": "Spear_Subterranean",
+                        "x": 494,
+                        "y": 381
+                    }
+                ]
+            },
+            {
+                "name": "Arena Token",
+                "sections": [
+                    {
+                        "name": "Mushroom Token",
+                        "ref": "@Subterranean/Subterranean/Mushroom Token"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Vanilla_Monk_Subterranean",
+                        "x": 1228,
+                        "y": 575
+                    },
+                    {
+                        "map": "MSC_Monk_Subterranean",
+                        "x": 1228,
+                        "y": 342
+                    },
+                    {
+                        "map": "Vanilla_Survivor_Subterranean",
+                        "x": 1228,
+                        "y": 575
+                    },
+                    {
+                        "map": "MSC_Survivor_Subterranean",
+                        "x": 1228,
+                        "y": 342
+                    },
+                    {
+                        "map": "Vanilla_Hunter_Subterranean",
+                        "x": 1228,
+                        "y": 575
+                    },
+                    {
+                        "map": "MSC_Hunter_Subterranean",
+                        "x": 1228,
+                        "y": 342
+                    },
+                    {
+                        "map": "Gourmand_Subterranean",
+                        "x": 1228,
+                        "y": 342
+                    },
+                    {
+                        "map": "Arti_Subterranean",
+                        "x": 1228,
+                        "y": 342
+                    },
+                    {
+                        "map": "Riv_Subterranean",
+                        "x": 1228,
+                        "y": 342
+                    },
+                    {
+                        "map": "Spear_Subterranean",
+                        "x": 1228,
+                        "y": 342
+                    },
+                    {
+                        "map": "Primordial_Underground",
+                        "x": 907,
+                        "y": 342
+                    }
+                ]
+            },
+            {
+                "name": "Arena Token",
+                "sections": [
+                    {
+                        "name": "Black Lizard Token",
+                        "ref": "@Subterranean/Subterranean/Black Lizard Token"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Vanilla_Monk_Subterranean",
+                        "x": 1216,
+                        "y": 567
+                    },
+                    {
+                        "map": "MSC_Monk_Subterranean",
+                        "x": 1216,
+                        "y": 534
+                    },
+                    {
+                        "map": "Vanilla_Survivor_Subterranean",
+                        "x": 1216,
+                        "y": 567
+                    },
+                    {
+                        "map": "MSC_Survivor_Subterranean",
+                        "x": 1216,
+                        "y": 534
+                    },
+                    {
+                        "map": "Vanilla_Hunter_Subterranean",
+                        "x": 1216,
+                        "y": 567
+                    },
+                    {
+                        "map": "MSC_Hunter_Subterranean",
+                        "x": 1216,
+                        "y": 534
+                    },
+                    {
+                        "map": "Gourmand_Subterranean",
+                        "x": 1216,
+                        "y": 534
+                    },
+                    {
+                        "map": "Arti_Subterranean",
+                        "x": 1216,
+                        "y": 534
+                    },
+                    {
+                        "map": "Riv_Subterranean",
+                        "x": 1216,
+                        "y": 534
+                    },
+                    {
+                        "map": "Spear_Subterranean",
+                        "x": 1216,
+                        "y": 534
+                    },
+                    {
+                        "map": "Primordial_Underground",
+                        "x": 895,
+                        "y": 534
+                    }
+                ]
+            },
+            {
+                "name": "Arena Token",
+                "sections": [
+                    {
+                        "name": "Centipede Token",
+                        "ref": "@Subterranean/Subterranean/Centipede Token"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Vanilla_Monk_Subterranean",
+                        "x": 2442,
+                        "y": 335
+                    },
+                    {
+                        "map": "MSC_Monk_Subterranean",
+                        "x": 2442,
+                        "y": 302
+                    },
+                    {
+                        "map": "Vanilla_Survivor_Subterranean",
+                        "x": 2442,
+                        "y": 335
+                    },
+                    {
+                        "map": "MSC_Survivor_Subterranean",
+                        "x": 2442,
+                        "y": 302
+                    },
+                    {
+                        "map": "Vanilla_Hunter_Subterranean",
+                        "x": 2442,
+                        "y": 335
+                    },
+                    {
+                        "map": "MSC_Hunter_Subterranean",
+                        "x": 2442,
+                        "y": 302
+                    },
+                    {
+                        "map": "Gourmand_Subterranean",
+                        "x": 2442,
+                        "y": 302
+                    },
+                    {
+                        "map": "Arti_Subterranean",
+                        "x": 2442,
+                        "y": 302
+                    },
+                    {
+                        "map": "Riv_Subterranean",
+                        "x": 2442,
+                        "y": 302
+                    },
+                    {
+                        "map": "Spear_Subterranean",
+                        "x": 2442,
+                        "y": 302
+                    },
+                    {
+                        "map": "Primordial_Underground",
+                        "x": 2121,
+                        "y": 302
+                    }
+                ]
+            },
+            {
+                "name": "Arena Token",
+                "sections": [
+                    {
+                        "name": "Monster Kelp Token",
+                        "ref": "@Subterranean/Subterranean/Monster Kelp Token"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Vanilla_Hunter_Subterranean",
+                        "x": 1756,
+                        "y": 577
+                    },
+                    {
+                        "map": "MSC_Hunter_Subterranean",
+                        "x": 1756,
+                        "y": 543
+                    },
+                    {
+                        "map": "Gourmand_Subterranean",
+                        "x": 1756,
+                        "y": 543
+                    },
+                    {
+                        "map": "Arti_Subterranean",
+                        "x": 1756,
+                        "y": 543
+                    },
+                    {
+                        "map": "Spear_Subterranean",
+                        "x": 1756,
+                        "y": 543
+                    }
+                ]
+            },
+            {
+                "name": "Broadcast",
+                "access_rules": ["$has_farm_arrays_access, Gate_Farm_Arrays-Subterranean, Karma4"],
+                "sections": [
+                    {
+                        "name": "Chatlog",
+                        "ref": "@Subterranean/Subterranean/Chatlog"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Spear_Subterranean",
+                        "x": 674,
+                        "y": 80
+                    }
+                ]
+            },
+            {
+                "name": "Broadcast",
+                "sections": [
+                    {
+                        "name": "Broadcast",
+                        "ref": "@Subterranean/Subterranean/Broadcast"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Spear_Subterranean",
+                        "x": 1828,
+                        "y": 409
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Subterranean Shelters",
+        "access_rules": ["$has_subterranean_access"],
+        "visibility_rules": ["$sheltersanity"],
+        "children": [
+            {
+                "name": "Shelter S01",
+                "sections": [
+                    {
+                        "name": "Shelter"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Vanilla_Monk_Subterranean",
+                        "x": 1152,
+                        "y": 636
+                    },
+                    {
+                        "map": "MSC_Monk_Subterranean",
+                        "x": 1108,
+                        "y": 646
+                    },
+                    {
+                        "map": "Vanilla_Survivor_Subterranean",
+                        "x": 1152,
+                        "y": 636
+                    },
+                    {
+                        "map": "MSC_Survivor_Subterranean",
+                        "x": 1108,
+                        "y": 646
+                    },
+                    {
+                        "map": "Vanilla_Hunter_Subterranean",
+                        "x": 1152,
+                        "y": 636
+                    },
+                    {
+                        "map": "MSC_Hunter_Subterranean",
+                        "x": 1108,
+                        "y": 646
+                    },
+                    {
+                        "map": "Gourmand_Subterranean",
+                        "x": 1108,
+                        "y": 646
+                    },
+                    {
+                        "map": "Arti_Subterranean",
+                        "x": 1108,
+                        "y": 646
+                    },
+                    {
+                        "map": "Riv_Subterranean",
+                        "x": 1108,
+                        "y": 646
+                    },
+                    {
+                        "map": "Spear_Subterranean",
+                        "x": 1108,
+                        "y": 646
+                    },
+                    {
+                        "map": "Primordial_Underground",
+                        "x": 787,
+                        "y": 646
+                    }
+                ]
+            },
+            {
+                "name": "Shelter S02",
+                "sections": [
+                    {
+                        "name": "Shelter"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Vanilla_Monk_Subterranean",
+                        "x": 2057,
+                        "y": 626
+                    },
+                    {
+                        "map": "MSC_Monk_Subterranean",
+                        "x": 2057,
+                        "y": 592
+                    },
+                    {
+                        "map": "Vanilla_Survivor_Subterranean",
+                        "x": 2057,
+                        "y": 626
+                    },
+                    {
+                        "map": "MSC_Survivor_Subterranean",
+                        "x": 2057,
+                        "y": 592
+                    },
+                    {
+                        "map": "Vanilla_Hunter_Subterranean",
+                        "x": 2057,
+                        "y": 626
+                    },
+                    {
+                        "map": "MSC_Hunter_Subterranean",
+                        "x": 2057,
+                        "y": 592
+                    },
+                    {
+                        "map": "Gourmand_Subterranean",
+                        "x": 2057,
+                        "y": 592
+                    },
+                    {
+                        "map": "Arti_Subterranean",
+                        "x": 2057,
+                        "y": 592
+                    },
+                    {
+                        "map": "Riv_Subterranean",
+                        "x": 2057,
+                        "y": 592
+                    },
+                    {
+                        "map": "Spear_Subterranean",
+                        "x": 2057,
+                        "y": 592
+                    },
+                    {
+                        "map": "Primordial_Underground",
+                        "x": 1736,
+                        "y": 592
+                    }
+                ]
+            },
+            {
+                "name": "Shelter S03",
+                "sections": [
+                    {
+                        "name": "Shelter"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Vanilla_Monk_Subterranean",
+                        "x": 1140,
+                        "y": 460
+                    },
+                    {
+                        "map": "MSC_Monk_Subterranean",
+                        "x": 1140,
+                        "y": 441
+                    },
+                    {
+                        "map": "Vanilla_Survivor_Subterranean",
+                        "x": 1140,
+                        "y": 460
+                    },
+                    {
+                        "map": "MSC_Survivor_Subterranean",
+                        "x": 1140,
+                        "y": 441
+                    },
+                    {
+                        "map": "Vanilla_Hunter_Subterranean",
+                        "x": 1140,
+                        "y": 460
+                    },
+                    {
+                        "map": "MSC_Hunter_Subterranean",
+                        "x": 1140,
+                        "y": 441
+                    },
+                    {
+                        "map": "Gourmand_Subterranean",
+                        "x": 1140,
+                        "y": 441
+                    },
+                    {
+                        "map": "Arti_Subterranean",
+                        "x": 1140,
+                        "y": 441
+                    },
+                    {
+                        "map": "Riv_Subterranean",
+                        "x": 1140,
+                        "y": 441
+                    },
+                    {
+                        "map": "Spear_Subterranean",
+                        "x": 1140,
+                        "y": 441
+                    },
+                    {
+                        "map": "Primordial_Underground",
+                        "x": 819,
+                        "y": 441
+                    }
+                ]
+            },
+            {
+                "name": "Shelter S04",
+                "sections": [
+                    {
+                        "name": "Shelter"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Vanilla_Monk_Subterranean",
+                        "x": 1181,
+                        "y": 425
+                    },
+                    {
+                        "map": "MSC_Monk_Subterranean",
+                        "x": 1181,
+                        "y": 392
+                    },
+                    {
+                        "map": "Vanilla_Survivor_Subterranean",
+                        "x": 1181,
+                        "y": 425
+                    },
+                    {
+                        "map": "MSC_Survivor_Subterranean",
+                        "x": 1181,
+                        "y": 392
+                    },
+                    {
+                        "map": "Vanilla_Hunter_Subterranean",
+                        "x": 1181,
+                        "y": 425
+                    },
+                    {
+                        "map": "MSC_Hunter_Subterranean",
+                        "x": 1181,
+                        "y": 392
+                    },
+                    {
+                        "map": "Gourmand_Subterranean",
+                        "x": 1181,
+                        "y": 392
+                    },
+                    {
+                        "map": "Arti_Subterranean",
+                        "x": 1181,
+                        "y": 392
+                    },
+                    {
+                        "map": "Riv_Subterranean",
+                        "x": 1181,
+                        "y": 392
+                    },
+                    {
+                        "map": "Spear_Subterranean",
+                        "x": 1181,
+                        "y": 392
+                    },
+                    {
+                        "map": "Primordial_Underground",
+                        "x": 860,
+                        "y": 392
+                    }
+                ]
+            },
+            {
+                "name": "Shelter S05",
+                "sections": [
+                    {
+                        "name": "Shelter"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Vanilla_Monk_Subterranean",
+                        "x": 2534,
+                        "y": 356
+                    },
+                    {
+                        "map": "MSC_Monk_Subterranean",
+                        "x": 2534,
+                        "y": 323
+                    },
+                    {
+                        "map": "Vanilla_Survivor_Subterranean",
+                        "x": 2534,
+                        "y": 356
+                    },
+                    {
+                        "map": "MSC_Survivor_Subterranean",
+                        "x": 2534,
+                        "y": 323
+                    },
+                    {
+                        "map": "Vanilla_Hunter_Subterranean",
+                        "x": 2534,
+                        "y": 356
+                    },
+                    {
+                        "map": "MSC_Hunter_Subterranean",
+                        "x": 2534,
+                        "y": 323
+                    },
+                    {
+                        "map": "Gourmand_Subterranean",
+                        "x": 2534,
+                        "y": 323
+                    },
+                    {
+                        "map": "Arti_Subterranean",
+                        "x": 2534,
+                        "y": 323
+                    },
+                    {
+                        "map": "Riv_Subterranean",
+                        "x": 2534,
+                        "y": 323
+                    },
+                    {
+                        "map": "Spear_Subterranean",
+                        "x": 2534,
+                        "y": 323
+                    },
+                    {
+                        "map": "Primordial_Underground",
+                        "x": 2213,
+                        "y": 323
+                    }
+                ]
+            },
+            {
+                "name": "Shelter S06",
+                "sections": [
+                    {
+                        "name": "Shelter"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Vanilla_Monk_Subterranean",
+                        "x": 524,
+                        "y": 393
+                    },
+                    {
+                        "map": "MSC_Monk_Subterranean",
+                        "x": 480,
+                        "y": 388
+                    },
+                    {
+                        "map": "Vanilla_Survivor_Subterranean",
+                        "x": 524,
+                        "y": 393
+                    },
+                    {
+                        "map": "MSC_Survivor_Subterranean",
+                        "x": 480,
+                        "y": 388
+                    },
+                    {
+                        "map": "Vanilla_Hunter_Subterranean",
+                        "x": 524,
+                        "y": 393
+                    },
+                    {
+                        "map": "MSC_Hunter_Subterranean",
+                        "x": 480,
+                        "y": 388
+                    },
+                    {
+                        "map": "Gourmand_Subterranean",
+                        "x": 480,
+                        "y": 388
+                    },
+                    {
+                        "map": "Arti_Subterranean",
+                        "x": 480,
+                        "y": 388
+                    },
+                    {
+                        "map": "Riv_Subterranean",
+                        "x": 480,
+                        "y": 388
+                    },
+                    {
+                        "map": "Spear_Subterranean",
+                        "x": 480,
+                        "y": 388
+                    },
+                    {
+                        "map": "Primordial_Underground",
+                        "x": 159,
+                        "y": 388
+                    }
+                ]
+            },
+            {
+                "name": "Shelter S07",
+                "sections": [
+                    {
+                        "name": "Shelter"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Vanilla_Monk_Subterranean",
+                        "x": 865,
+                        "y": 546
+                    },
+                    {
+                        "map": "MSC_Monk_Subterranean",
+                        "x": 865,
+                        "y": 513
+                    },
+                    {
+                        "map": "Vanilla_Survivor_Subterranean",
+                        "x": 865,
+                        "y": 546
+                    },
+                    {
+                        "map": "MSC_Survivor_Subterranean",
+                        "x": 865,
+                        "y": 513
+                    },
+                    {
+                        "map": "Vanilla_Hunter_Subterranean",
+                        "x": 865,
+                        "y": 546
+                    },
+                    {
+                        "map": "MSC_Hunter_Subterranean",
+                        "x": 865,
+                        "y": 513
+                    },
+                    {
+                        "map": "Gourmand_Subterranean",
+                        "x": 865,
+                        "y": 513
+                    },
+                    {
+                        "map": "Arti_Subterranean",
+                        "x": 865,
+                        "y": 513
+                    },
+                    {
+                        "map": "Riv_Subterranean",
+                        "x": 865,
+                        "y": 513
+                    },
+                    {
+                        "map": "Spear_Subterranean",
+                        "x": 865,
+                        "y": 513
+                    },
+                    {
+                        "map": "Primordial_Underground",
+                        "x": 544,
+                        "y": 513
+                    }
+                ]
+            },
+            {
+                "name": "Shelter S09",
+                "access_rules": ["$has_farm_arrays_access, Gate_Farm_Arrays-Subterranean, Karma4","saint"],
+                "sections": [
+                    {
+                        "name": "Shelter"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "MSC_Monk_Subterranean",
+                        "x": 777,
+                        "y": 61
+                    },
+                    {
+                        "map": "MSC_Survivor_Subterranean",
+                        "x": 777,
+                        "y": 61
+                    },
+                    {
+                        "map": "MSC_Hunter_Subterranean",
+                        "x": 777,
+                        "y": 61
+                    },
+                    {
+                        "map": "Gourmand_Subterranean",
+                        "x": 777,
+                        "y": 61
+                    },
+                    {
+                        "map": "Arti_Subterranean",
+                        "x": 777,
+                        "y": 61
+                    },
+                    {
+                        "map": "Riv_Subterranean",
+                        "x": 777,
+                        "y": 61
+                    },
+                    {
+                        "map": "Spear_Subterranean",
+                        "x": 777,
+                        "y": 61
+                    },
+                    {
+                        "map": "Primordial_Underground",
+                        "x": 456,
+                        "y": 61
+                    }
+                ]
+            },
+            {
+                "name": "Shelter S10",
+                "access_rules": ["MSC"],
+                "sections": [
+                    {
+                        "name": "Shelter"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "MSC_Monk_Subterranean",
+                        "x": 1383,
+                        "y": 740
+                    },
+                    {
+                        "map": "MSC_Survivor_Subterranean",
+                        "x": 1383,
+                        "y": 740
+                    },
+                    {
+                        "map": "MSC_Hunter_Subterranean",
+                        "x": 1383,
+                        "y": 740
+                    },
+                    {
+                        "map": "Gourmand_Subterranean",
+                        "x": 1383,
+                        "y": 740
+                    },
+                    {
+                        "map": "Arti_Subterranean",
+                        "x": 1383,
+                        "y": 740
+                    },
+                    {
+                        "map": "Riv_Subterranean",
+                        "x": 1383,
+                        "y": 740
+                    },
+                    {
+                        "map": "Spear_Subterranean",
+                        "x": 1383,
+                        "y": 740
+                    },
+                    {
+                        "map": "Primordial_Underground",
+                        "x": 1062,
+                        "y": 740
+                    }
+                ]
+            }
+        ]
+    }
+]
