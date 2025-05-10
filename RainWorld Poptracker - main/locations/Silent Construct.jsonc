@@ -7,120 +7,132 @@
                 "name": "Silent Construct",
                 "sections": [
                     {
-                        "name": "Echo"
+                        "name": "Echo",
+                        "chest_unopened_img": "images/icons/Echo.png",
+                        "chest_opened_img": "images/gathered/Echo.png"
                     },
                     {
                         "name": "Ascend Five Pebbles",
-                        "access_rules": ["Karma10"]
+                        "access_rules": ["Karma10"],
+                        "chest_unopened_img": "images/icons/Five Pebbles.png",
+                        "chest_opened_img": "images/gathered/Five Pebbles.png"
                     },
                     {
-                        "name": "Level Token"
+                        "name": "Level Token",
+                        "chest_unopened_img": "images/icons/Level Token.png",
+                        "chest_opened_img": "images/gathered/Level Token.png"
                     },
                     {
-                        "name": "Safari Token"
+                        "name": "Safari Token",
+                        "chest_unopened_img": "images/icons/Safari Token.png",
+                        "chest_opened_img": "images/gathered/Safari Token.png"
                     },
                     {
-                        "name": "Saint Token"
+                        "name": "Saint Token",
+                        "chest_unopened_img": "images/icons/Saint.png",
+                        "chest_opened_img": "images/gathered/Saint.png"
                     },
                     {
-                        "name": "Pearl"
+                        "name": "Pearl",
+                        "chest_unopened_img": "images/icons/Music Pearl.png",
+                        "chest_opened_img": "images/gathered/Pearl.png"
                     },
                     {
-                        "name": "Spider Token"
+                        "name": "Spider Token",
+                        "chest_unopened_img": "images/icons/Spider.png",
+                        "chest_opened_img": "images/gathered/Spider.png"
                     },
                     {
-                        "name": "Yellow Lizard Token"
+                        "name": "Yellow Lizard Token",
+                        "chest_unopened_img": "images/icons/Yellow Lizard.png",
+                        "chest_opened_img": "images/gathered/Yellow Lizard.png"
                     },
                     {
-                        "name": "Brother Long Legs Token"
+                        "name": "Brother Long Legs Token",
+                        "chest_unopened_img": "images/icons/Brother Long Legs.png",
+                        "chest_opened_img": "images/gathered/Brother Long Legs.png"
                     },
                     {
-                        "name": "SlimeMold Token"
+                        "name": "SlimeMold Token",
+                        "chest_unopened_img": "images/icons/Slime Mold.png",
+                        "chest_opened_img": "images/gathered/Slime Mold.png"
                     },
                     {
-                        "name": "Shelter",
-                        "ref": "@Silent Shelters/Shelter S01/Shelter",
-                        "visibility_rules": ["$sheltersanity"]
+                        "name": "Shelter S01",
+                        "ref": "Silent Shelters/Shelter S01/Shelter"
                     },
                     {
-                        "name": "Shelter",
-                        "ref": "@Silent Shelters/Shelter S02/Shelter",
-                        "visibility_rules": ["$sheltersanity"]
+                        "name": "Shelter S02",
+                        "ref": "Silent Shelters/Shelter S02/Shelter"
                     },
                     {
-                        "name": "Shelter",
-                        "ref": "@Silent Shelters/Shelter S03/Shelter",
-                        "visibility_rules": ["$sheltersanity"]
+                        "name": "Shelter S03",
+                        "ref": "Silent Shelters/Shelter S03/Shelter"
                     },
                     {
-                        "name": "Shelter",
-                        "ref": "@Silent Shelters/Shelter S05/Shelter",
-                        "visibility_rules": ["$sheltersanity"]
+                        "name": "Shelter S05",
+                        "ref": "Silent Shelters/Shelter S05/Shelter"
                     },
                     {
-                        "name": "Shelter",
-                        "ref": "@Silent Shelters/Shelter S08/Shelter",
-                        "visibility_rules": ["$sheltersanity"]
+                        "name": "Shelter S08",
+                        "ref": "Silent Shelters/Shelter S08/Shelter"
                     },
                     {
-                        "name": "Shelter",
-                        "ref": "@Silent Shelters/Shelter S10/Shelter",
-                        "visibility_rules": ["$sheltersanity"]
+                        "name": "Shelter S10",
+                        "ref": "Silent Shelters/Shelter S10/Shelter"
                     },
                     {
-                        "name": "Shelter",
-                        "ref": "@Silent Shelters/Shelter S11/Shelter",
-                        "visibility_rules": ["$sheltersanity"]
+                        "name": "Shelter S11",
+                        "ref": "Silent Shelters/Shelter S11/Shelter"
                     },
                     {
-                        "name": "Shelter",
-                        "ref": "@Silent Shelters/Shelter S12/Shelter",
-                        "visibility_rules": ["$sheltersanity"]
+                        "name": "Shelter S12",
+                        "ref": "Silent Shelters/Shelter S12/Shelter"
                     },
                     {
-                        "name": "Shelter",
-                        "ref": "@Silent Shelters/Shelter S13/Shelter",
-                        "visibility_rules": ["$sheltersanity"]
+                        "name": "Shelter S13",
+                        "ref": "Silent Shelters/Shelter S13/Shelter"
                     },
                     {
-                        "name": "Shelter",
-                        "ref": "@Silent Shelters/Shelter S14/Shelter",
-                        "visibility_rules": ["$sheltersanity"]
+                        "name": "Shelter S14",
+                        "ref": "Silent Shelters/Shelter S14/Shelter"
                     },
                     {
-                        "name": "Shelter",
-                        "ref": "@Silent Shelters/Shelter S15/Shelter",
-                        "visibility_rules": ["$sheltersanity"]
+                        "name": "Shelter S15",
+                        "ref": "Silent Shelters/Shelter S15/Shelter"
                     },
                     {
-                        "name": "Shelter",
-                        "ref": "@Silent Shelters/Shelter S20/Shelter",
-                        "visibility_rules": ["$sheltersanity"]
+                        "name": "Shelter S20",
+                        "ref": "Silent Shelters/Shelter S20/Shelter"
                     },
                     {
-                        "name": "Shelter",
-                        "ref": "@Silent Shelters/Shelter S21/Shelter",
-                        "visibility_rules": ["$sheltersanity"]
+                        "name": "Shelter S21",
+                        "ref": "Silent Shelters/Shelter S21/Shelter"
                     },
                     {
-                        "name": "Shelter",
-                        "ref": "@Silent Shelters/Shelter LCS2/Shelter",
-                        "visibility_rules": ["$sheltersanity"]
+                        "name": "Shelter LCS2",
+                        "ref": "Silent Shelters/Shelter LCS2/Shelter"
                     }
                 ],
                 "map_locations": [
                     {
-                        "map": "Frigid_Coast",
+                        "size": 48,
+                        "shape": "rect",
+                        "map": "Saint_Shoreline",
                         "x": 1430,
                         "y": 130
                     },
                     {
-                        "map": "Icy_Monument",
+                        "size": 48,
+                        "shape": "rect",
+                        "map": "Saint_Industrial",
                         "x": 1170,
                         "y": 275
                     },
                     {
-                        "map": "Glacial_Wasteland",
+                        "size": 48,
+                        "shape": "rect",
+                        "map": "Saint_Garbage",
                         "x": 1930,
                         "y": 100
                     }
@@ -131,12 +143,12 @@
                 "sections": [
                     {
                         "name": "Six Grains of Gravel, Mountains Abound",
-                        "ref": "@Silent Construct/Silent Construct/Echo"
+                        "ref": "Silent Construct/Silent Construct/Echo"
                     }
                 ],
                 "map_locations": [
                     {
-                        "map": "Silent_Construct",
+                        "map": "Saint_Silent_Construct",
                         "x": 2220,
                         "y": 280
                     }
@@ -147,33 +159,32 @@
                 "sections": [
                     {
                         "name": "Ascend Five Pebbles",
-                        "access_rules": ["Karma10"],
-                        "ref": "@Silent Construct/Silent Construct/Ascend Five Pebbles"
+                        "ref": "Silent Construct/Silent Construct/Ascend Five Pebbles"
                     },
                     {
                         "name": "Faded Music Pearl",
-                        "ref": "@Silent Construct/Silent Construct/Pearl"
+                        "ref": "Silent Construct/Silent Construct/Pearl"
                     }
                 ],
                 "map_locations": [
                     {
-                        "map": "Silent_Construct",
+                        "map": "Saint_Silent_Construct",
                         "x": 1905,
                         "y": 157
                     }
                 ]
             },
             {
-                "name": "Level Token",
+                "name": "Silent Construct Token",
                 "sections": [
                     {
-                        "name": "Silent Construct Token",
-                        "ref": "@Silent Construct/Silent Construct/Level Token"
+                        "name": "Level Token",
+                        "ref": "Silent Construct/Silent Construct/Level Token"
                     }
                 ],
                 "map_locations": [
                     {
-                        "map": "Silent_Construct",
+                        "map": "Saint_Silent_Construct",
                         "x": 756,
                         "y": 129
                     }
@@ -184,12 +195,12 @@
                 "sections": [
                     {
                         "name": "Safari Token",
-                        "ref": "@Silent Construct/Silent Construct/Safari Token"
+                        "ref": "Silent Construct/Silent Construct/Safari Token"
                     }
                 ],
                 "map_locations": [
                     {
-                        "map": "Silent_Construct",
+                        "map": "Saint_Silent_Construct",
                         "x": 998,
                         "y": 129
                     }
@@ -200,76 +211,76 @@
                 "sections": [
                     {
                         "name": "Saint Token",
-                        "ref": "@Silent Construct/Silent Construct/Saint Token"
+                        "ref": "Silent Construct/Silent Construct/Saint Token"
                     }
                 ],
                 "map_locations": [
                     {
-                        "map": "Silent_Construct",
+                        "map": "Saint_Silent_Construct",
                         "x": 1156,
                         "y": 677
                     }
                 ]
             },
             {
-                "name": "Arena Token",
+                "name": "Spider Token",
                 "sections": [
                     {
-                        "name": "Spider Token",
-                        "ref": "@Silent Construct/Silent Construct/Spider Token"
+                        "name": "Arena Token",
+                        "ref": "Silent Construct/Silent Construct/Spider Token"
                     }
                 ],
                 "map_locations": [
                     {
-                        "map": "Silent_Construct",
+                        "map": "Saint_Silent_Construct",
                         "x": 411,
                         "y": 528
                     }
                 ]
             },
             {
-                "name": "Arena Token",
+                "name": "Yellow Lizard Token",
                 "sections": [
                     {
-                        "name": "Yellow Lizard Token",
-                        "ref": "@Silent Construct/Silent Construct/Yellow Lizard Token"
+                        "name": "Arena Token",
+                        "ref": "Silent Construct/Silent Construct/Yellow Lizard Token"
                     }
                 ],
                 "map_locations": [
                     {
-                        "map": "Silent_Construct",
+                        "map": "Saint_Silent_Construct",
                         "x": 885,
                         "y": 155
                     }
                 ]
             },
             {
-                "name": "Arena Token",
+                "name": "Brother Long Legs Token",
                 "sections": [
                     {
-                        "name": "Brother Long Legs Token",
-                        "ref": "@Silent Construct/Silent Construct/Brother Long Legs Token"
+                        "name": "Arena Token",
+                        "ref": "Silent Construct/Silent Construct/Brother Long Legs Token"
                     }
                 ],
                 "map_locations": [
                     {
-                        "map": "Silent_Construct",
+                        "map": "Saint_Silent_Construct",
                         "x": 1133,
                         "y": 897
                     }
                 ]
             },
             {
-                "name": "Arena Token",
+                "name": "SlimeMold Token",
                 "sections": [
                     {
-                        "name": "SlimeMold Token",
-                        "ref": "@Silent Construct/Silent Construct/SlimeMold Token"
+                        "name": "Arena Token",
+                        "ref": "Silent Construct/Silent Construct/SlimeMold Token"
                     }
                 ],
                 "map_locations": [
                     {
-                        "map": "Silent_Construct",
+                        "map": "Saint_Silent_Construct",
                         "x": 1476,
                         "y": 692
                     }
@@ -280,7 +291,9 @@
     {
         "name": "Silent Shelters",
         "access_rules": ["$has_silent_access"],
-        "visibility_rules": ["$sheltersanity"],
+        "visibility_rules": ["sheltersanity"],
+        "chest_unopened_img": "images/icons/Shelter.png",
+        "chest_opened_img": "images/gathered/Shelter.png",
         "children": [
             {
                 "name": "Shelter S01",
@@ -291,7 +304,8 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "Silent_Construct",
+                        "shape": "rect",
+                        "map": "Saint_Silent_Construct",
                         "x": 383,
                         "y": 708
                     }
@@ -306,7 +320,8 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "Silent_Construct",
+                        "shape": "rect",
+                        "map": "Saint_Silent_Construct",
                         "x": 2200,
                         "y": 595
                     }
@@ -321,7 +336,8 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "Silent_Construct",
+                        "shape": "rect",
+                        "map": "Saint_Silent_Construct",
                         "x": 79,
                         "y": 514
                     }
@@ -336,7 +352,8 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "Silent_Construct",
+                        "shape": "rect",
+                        "map": "Saint_Silent_Construct",
                         "x": 1169,
                         "y": 524
                     }
@@ -351,7 +368,8 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "Silent_Construct",
+                        "shape": "rect",
+                        "map": "Saint_Silent_Construct",
                         "x": 1641,
                         "y": 182
                     }
@@ -366,7 +384,8 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "Silent_Construct",
+                        "shape": "rect",
+                        "map": "Saint_Silent_Construct",
                         "x": 719,
                         "y": 494
                     }
@@ -381,7 +400,8 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "Silent_Construct",
+                        "shape": "rect",
+                        "map": "Saint_Silent_Construct",
                         "x": 383,
                         "y": 998
                     }
@@ -396,7 +416,8 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "Silent_Construct",
+                        "shape": "rect",
+                        "map": "Saint_Silent_Construct",
                         "x": 774,
                         "y": 623
                     }
@@ -411,7 +432,8 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "Silent_Construct",
+                        "shape": "rect",
+                        "map": "Saint_Silent_Construct",
                         "x": 1561,
                         "y": 783
                     }
@@ -426,7 +448,8 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "Silent_Construct",
+                        "shape": "rect",
+                        "map": "Saint_Silent_Construct",
                         "x": 1099,
                         "y": 448
                     }
@@ -441,7 +464,8 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "Silent_Construct",
+                        "shape": "rect",
+                        "map": "Saint_Silent_Construct",
                         "x": 900,
                         "y": 933
                     }
@@ -456,7 +480,8 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "Silent_Construct",
+                        "shape": "rect",
+                        "map": "Saint_Silent_Construct",
                         "x": 715,
                         "y": 228
                     }
@@ -471,7 +496,8 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "Silent_Construct",
+                        "shape": "rect",
+                        "map": "Saint_Silent_Construct",
                         "x": 1297,
                         "y": 551
                     }
@@ -486,7 +512,8 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "Silent_Construct",
+                        "shape": "rect",
+                        "map": "Saint_Silent_Construct",
                         "x": 1228,
                         "y": 716
                     }

@@ -7,340 +7,452 @@
                 "name": "Industrial Complex",
                 "sections": [
                     {
-                        "name": "Level Token"
+                        "name": "Level Token",
+                        "chest_unopened_img": "images/icons/Level Token.png",
+                        "chest_opened_img": "images/gathered/Level Token.png"
                     },
                     {
                         "name": "Safari Token",
-                        "visibility_rules": ["MSC"]
+                        "access_rules": ["MSC"],
+                        "visibility_rules": ["MSC"],
+                        "chest_unopened_img": "images/icons/Safari Token.png",
+                        "chest_opened_img": "images/gathered/Safari Token.png"
                     },
                     {
-                        "name": "Pearl"
+                        "name": "Pearl",
+                        "chest_unopened_img": "images/icons/Bright Blue Pearl.png",
+                        "chest_opened_img": "images/gathered/Pearl.png"
                     },
                     {
-                        "name": "Cherrybomb Token"
+                        "name": "Cherrybomb Token",
+                        "chest_unopened_img": "images/icons/Cherrybomb.png",
+                        "chest_opened_img": "images/gathered/Cherrybomb.png"
                     },
                     {
-                        "name": "Blue Lizard Token"
+                        "name": "Blue Lizard Token",
+                        "chest_unopened_img": "images/icons/Blue Lizard.png",
+                        "chest_opened_img": "images/gathered/Blue Lizard.png"
                     },
                     {
-                        "name": "Vulture Grub Token"
+                        "name": "Vulture Grub Token",
+                        "chest_unopened_img": "images/icons/Vulture Grub.png",
+                        "chest_opened_img": "images/gathered/Vulture Grub.png"
                     },
                     {
-                        "name": "Centipede token"
+                        "name": "Centipede Token",
+                        "chest_unopened_img": "images/icons/Centipede.png",
+                        "chest_opened_img": "images/gathered/Centipede.png"
                     },
                     {
                         "name": "Broadcast",
-                        "visibility_rules": ["spearmaster"]
+                        "visibility_rules": ["spearmaster"],
+                        "chest_unopened_img": "images/icons/Overseer.png",
+                        "chest_opened_img": "images/gathered/Overseer.png"
                     },
                     {
                         "name": "Chatlog",
-                        "visibility_rules": ["spearmaster"]
+                        "visibility_rules": ["spearmaster"],
+                        "chest_unopened_img": "images/icons/Overseer.png",
+                        "chest_opened_img": "images/gathered/Overseer.png"
                     },
                     {
-                        "name": "Shelter",
-                        "ref": "@Industrial Shelters/Shelter S01/Shelter",
-                        "visibility_rules": ["$sheltersanity"]
+                        "name": "Shelter S01",
+                        "ref": "Industrial Shelters/Shelter S01/Shelter"
                     },
                     {
-                        "name": "Shelter",
-                        "ref": "@Industrial Shelters/Shelter S02/Shelter",
-                        "visibility_rules": ["$sheltersanity"]
+                        "name": "Shelter S02",
+                        "ref": "Industrial Shelters/Shelter S02/Shelter"
                     },
                     {
-                        "name": "Shelter",
-                        "ref": "@Industrial Shelters/Shelter S03/Shelter",
-                        "visibility_rules": [
-                            "$sheltersanity,monk",
-                            "$sheltersanity,survivor",
-                            "$sheltersanity,gourmand",
-                            "$sheltersanity,riv"
-                        ]
+                        "name": "Shelter S03",
+                        "ref": "Industrial Shelters/Shelter S03/Shelter"
                     },
                     {
-                        "name": "Shelter",
-                        "ref": "@Industrial Shelters/Shelter S04/Shelter",
-                        "visibility_rules": ["$sheltersanity"]
+                        "name": "Shelter S04",
+                        "ref": "Industrial Shelters/Shelter S04/Shelter"
                     },
                     {
-                        "name": "Shelter",
-                        "ref": "@Industrial Shelters/Shelter S05/Shelter",
-                        "visibility_rules": ["$sheltersanity"]
+                        "name": "Shelter S05",
+                        "ref": "Industrial Shelters/Shelter S05/Shelter"
                     },
                     {
-                        "name": "Shelter",
-                        "ref": "@Industrial Shelters/Shelter S06/Shelter",
-                        "visibility_rules": ["$sheltersanity"]
+                        "name": "Shelter S06",
+                        "ref": "Industrial Shelters/Shelter S06/Shelter"
                     }
                 ],
                 "map_locations": [
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "Vanilla_Monk_Outskirts",
                         "x": 860,
                         "y": 70
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "Vanilla_Survivor_Outskirts",
                         "x": 860,
                         "y": 70
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "Vanilla_Hunter_Outskirts",
                         "x": 860,
                         "y": 70
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "MSC_Monk_Outskirts",
                         "x": 910,
                         "y": 70
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "MSC_Survivor_Outskirts",
                         "x": 910,
                         "y": 70
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "MSC_Hunter_Outskirts",
                         "x": 910,
                         "y": 70
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "Gourmand_Outskirts",
                         "x": 910,
                         "y": 70
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "Arti_Outskirts",
                         "x": 910,
                         "y": 70
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "Riv_Outskirts",
                         "x": 910,
                         "y": 70
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "Spear_Outskirts",
                         "x": 910,
                         "y": 70
                     },
                     {
-                        "map": "Subarban_Drifts",
+                        "size": 48,
+                        "shape": "rect",
+                        "map": "Saint_Outskirts",
                         "x": 910,
                         "y": 70
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "MSC_Monk_Pipeyard",
                         "x": 320,
                         "y": 170
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "MSC_Survivor_Pipeyard",
                         "x": 320,
                         "y": 170
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "MSC_Hunter_Pipeyard",
                         "x": 320,
                         "y": 170
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "Gourmand_Pipeyard",
                         "x": 320,
                         "y": 170
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "Arti_Pipeyard",
                         "x": 320,
                         "y": 170
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "Riv_Pipeyard",
                         "x": 320,
                         "y": 170
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "Spear_Pipeyard",
                         "x": 320,
                         "y": 170
                     },
                     {
-                        "map": "Barren_Conduits",
+                        "size": 48,
+                        "shape": "rect",
+                        "map": "Saint_Pipeyard",
                         "x": 320,
                         "y": 170
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "Vanilla_Monk_Chimney",
                         "x": 220,
                         "y": 860
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "Vanilla_Survivor_Chimney",
                         "x": 220,
                         "y": 860
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "Vanilla_Hunter_Chimney",
                         "x": 220,
                         "y": 860
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "MSC_Monk_Chimney",
                         "x": 220,
                         "y": 860
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "MSC_Survivor_Chimney",
                         "x": 220,
                         "y": 860
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "MSC_Hunter_Chimney",
                         "x": 220,
                         "y": 860
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "Gourmand_Chimney",
                         "x": 220,
                         "y": 860
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "Arti_Chimney",
                         "x": 220,
                         "y": 860
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "Riv_Chimney",
                         "x": 220,
                         "y": 860
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "Spear_Chimney",
                         "x": 220,
                         "y": 860
                     },
                     {
-                        "map": "Solitary_Towers",
+                        "size": 48,
+                        "shape": "rect",
+                        "map": "Saint_Chimney",
                         "x": 220,
                         "y": 850
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "Vanilla_Monk_Garbage",
                         "x": 170,
                         "y": 110
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "Vanilla_Survivor_Garbage",
                         "x": 170,
                         "y": 110
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "Vanilla_Hunter_Garbage",
                         "x": 170,
                         "y": 110
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "MSC_Monk_Garbage",
                         "x": 170,
                         "y": 120
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "MSC_Survivor_Garbage",
                         "x": 170,
                         "y": 120
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "MSC_Hunter_Garbage",
                         "x": 170,
                         "y": 120
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "Gourmand_Garbage",
                         "x": 170,
                         "y": 120
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "Riv_Garbage",
                         "x": 170,
                         "y": 120
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "Arti_Garbage",
                         "x": 85,
                         "y": 140
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "Spear_Garbage",
                         "x": 85,
                         "y": 140
                     },
                     {
-                        "map": "Glacial_Wasteland",
+                        "size": 48,
+                        "shape": "rect",
+                        "map": "Saint_Garbage",
                         "x": 170,
                         "y": 120
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "Vanilla_Monk_Shaded",
                         "x": 170,
                         "y": 55
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "Vanilla_Survivor_Shaded",
                         "x": 170,
                         "y": 55
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "Vanilla_Hunter_Shaded",
                         "x": 170,
                         "y": 55
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "MSC_Monk_Shaded",
                         "x": 170,
                         "y": 55
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "MSC_Survivor_Shaded",
                         "x": 170,
                         "y": 55
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "MSC_Hunter_Shaded",
                         "x": 170,
                         "y": 55
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "Gourmand_Shaded",
                         "x": 170,
                         "y": 55
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "Arti_Shaded",
                         "x": 170,
                         "y": 55
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "Riv_Shaded",
                         "x": 170,
                         "y": 55
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "Spear_Shaded",
                         "x": 170,
                         "y": 55
                     },
                     {
-                        "map": "Silent_Construct",
+                        "size": 48,
+                        "shape": "rect",
+                        "map": "Saint_Silent_Construct",
                         "x": 70,
                         "y": 390
                     }
                 ]
             },
             {
-                "name": "Level Token",
+                "name": "Industrial Complex Token",
                 "sections": [
                     {
-                        "name": "Industrial Complex Token",
-                        "ref": "@Industrial Complex/Industrial Complex/Level Token"
+                        "name": "Level Token",
+                        "ref": "Industrial Complex/Industrial Complex/Level Token"
                     }
                 ],
                 "map_locations": [
@@ -395,7 +507,7 @@
                         "y": 354
                     },
                     {
-                        "map": "Icy_Monument",
+                        "map": "Saint_Industrial",
                         "x": 1168,
                         "y": 354
                     }
@@ -403,11 +515,10 @@
             },
             {
                 "name": "Safari Token",
-                "access_rules": ["MSC"],
                 "sections": [
                     {
                         "name": "Safari Token",
-                        "ref": "@Industrial Complex/Industrial Complex/Safari Token"
+                        "ref": "Industrial Complex/Industrial Complex/Safari Token"
                     }
                 ],
                 "map_locations": [
@@ -447,18 +558,18 @@
                         "y": 509
                     },
                     {
-                        "map": "Icy_Monument",
+                        "map": "Saint_Industrial",
                         "x": 625,
                         "y": 509
                     }
                 ]
             },
             {
-                "name": "Pearl",
+                "name": "Bright Blue Pearl",
                 "sections": [
                     {
-                        "name": "Bright Blue Pearl",
-                        "ref": "@Industrial Complex/Industrial Complex/Pearl"
+                        "name": "Pearl",
+                        "ref": "Industrial Complex/Industrial Complex/Pearl"
                     }
                 ],
                 "map_locations": [
@@ -513,18 +624,18 @@
                         "y": 328
                     },
                     {
-                        "map": "Icy_Monument",
+                        "map": "Saint_Industrial",
                         "x": 524,
                         "y": 328
                     }
                 ]
             },
             {
-                "name": "Arena Token",
+                "name": "Cherrybomb Token",
                 "sections": [
                     {
-                        "name": "Cherrybomb Token",
-                        "ref": "@Industrial Complex/Industrial Complex/Cherrybomb Token"
+                        "name": "Arena Token",
+                        "ref": "Industrial Complex/Industrial Complex/Cherrybomb Token"
                     }
                 ],
                 "map_locations": [
@@ -579,18 +690,18 @@
                         "y": 354
                     },
                     {
-                        "map": "Icy_Monument",
+                        "map": "Saint_Industrial",
                         "x": 1148,
                         "y": 354
                     }
                 ]
             },
             {
-                "name": "Arena Token",
+                "name": "Blue Lizard Token",
                 "sections": [
                     {
-                        "name": "Blue Lizard Token",
-                        "ref": "@Industrial Complex/Industrial Complex/Blue Lizard Token"
+                        "name": "Arena Token",
+                        "ref": "Industrial Complex/Industrial Complex/Blue Lizard Token"
                     }
                 ],
                 "map_locations": [
@@ -645,18 +756,18 @@
                         "y": 168
                     },
                     {
-                        "map": "Icy_Monument",
+                        "map": "Saint_Industrial",
                         "x": 405,
                         "y": 168
                     }
                 ]
             },
             {
-                "name": "Arena Token",
+                "name": "Vulture Grub Token",
                 "sections": [
                     {
-                        "name": "Vulture Grub Token",
-                        "ref": "@Industrial Complex/Industrial Complex/Vulture Grub Token"
+                        "name": "Arena Token",
+                        "ref": "Industrial Complex/Industrial Complex/Vulture Grub Token"
                     }
                 ],
                 "map_locations": [
@@ -711,18 +822,18 @@
                         "y": 204
                     },
                     {
-                        "map": "Icy_Monument",
+                        "map": "Saint_Industrial",
                         "x": 734,
                         "y": 204
                     }
                 ]
             },
             {
-                "name": "Arena Token",
+                "name": "Centipede Token",
                 "sections": [
                     {
-                        "name": "Centipede token",
-                        "ref": "@Industrial Complex/Industrial Complex/Centipede Token"
+                        "name": "Arena Token",
+                        "ref": "Industrial Complex/Industrial Complex/Centipede Token"
                     }
                 ],
                 "map_locations": [
@@ -777,7 +888,7 @@
                         "y": 392
                     },
                     {
-                        "map": "Icy_Monument",
+                        "map": "Saint_Industrial",
                         "x": 789,
                         "y": 392
                     }
@@ -785,11 +896,10 @@
             },
             {
                 "name": "Broadcast",
-                "access_rules": ["spearmaster"],
                 "sections": [
                     {
                         "name": "Broadcast",
-                        "ref": "@Industrial Complex/Industrial Complex/Broadcast"
+                        "ref": "Industrial Complex/Industrial Complex/Broadcast"
                     }
                 ],
                 "map_locations": [
@@ -801,12 +911,11 @@
                 ]
             },
             {
-                "name": "Broadcast",
-                "access_rules": ["spearmaster"],
+                "name": "Chatlog",
                 "sections": [
                     {
-                        "name": "Chatlog",
-                        "ref": "@Industrial Complex/Industrial Complex/Chatlog"
+                        "name": "Broadcast",
+                        "ref": "Industrial Complex/Industrial Complex/Chatlog"
                     }
                 ],
                 "map_locations": [
@@ -822,7 +931,9 @@
     {
         "name": "Industrial Shelters",
         "access_rules": ["$has_industrial_access"],
-        "visibility_rules": ["$sheltersanity"],
+        "visibility_rules": ["sheltersanity"],
+        "chest_unopened_img": "images/icons/Shelter.png",
+        "chest_opened_img": "images/gathered/Shelter.png",
         "children": [
             {
                 "name": "Shelter S01",
@@ -833,57 +944,68 @@
                 ],
                 "map_locations": [
                     {
+                        "shape": "rect",
                         "map": "Vanilla_Monk_Industrial",
                         "x": 312,
                         "y": 244
                     },
                     {
+                        "shape": "rect",
                         "map": "MSC_Monk_Industrial",
                         "x": 312,
                         "y": 212
                     },
                     {
+                        "shape": "rect",
                         "map": "Vanilla_Survivor_Industrial",
                         "x": 312,
                         "y": 244
                     },
                     {
+                        "shape": "rect",
                         "map": "MSC_Survivor_Industrial",
                         "x": 312,
                         "y": 212
                     },
                     {
+                        "shape": "rect",
                         "map": "Vanilla_Hunter_Industrial",
                         "x": 312,
                         "y": 244
                     },
                     {
+                        "shape": "rect",
                         "map": "MSC_Hunter_Industrial",
                         "x": 312,
                         "y": 212
                     },
                     {
+                        "shape": "rect",
                         "map": "Gourmand_Industrial",
                         "x": 312,
                         "y": 212
                     },
                     {
+                        "shape": "rect",
                         "map": "Arti_Industrial",
                         "x": 312,
                         "y": 212
                     },
                     {
+                        "shape": "rect",
                         "map": "Riv_Industrial",
                         "x": 312,
                         "y": 212
                     },
                     {
+                        "shape": "rect",
                         "map": "Spear_Industrial",
                         "x": 312,
                         "y": 212
                     },
                     {
-                        "map": "Icy_Monument",
+                        "shape": "rect",
+                        "map": "Saint_Industrial",
                         "x": 308,
                         "y": 212
                     }
@@ -898,57 +1020,68 @@
                 ],
                 "map_locations": [
                     {
+                        "shape": "rect",
                         "map": "Vanilla_Monk_Industrial",
                         "x": 584,
                         "y": 406
                     },
                     {
+                        "shape": "rect",
                         "map": "MSC_Monk_Industrial",
                         "x": 632,
                         "y": 406
                     },
                     {
+                        "shape": "rect",
                         "map": "Vanilla_Survivor_Industrial",
                         "x": 584,
                         "y": 406
                     },
                     {
+                        "shape": "rect",
                         "map": "MSC_Survivor_Industrial",
                         "x": 632,
                         "y": 406
                     },
                     {
+                        "shape": "rect",
                         "map": "Vanilla_Hunter_Industrial",
                         "x": 584,
                         "y": 406
                     },
                     {
+                        "shape": "rect",
                         "map": "MSC_Hunter_Industrial",
                         "x": 632,
                         "y": 406
                     },
                     {
+                        "shape": "rect",
                         "map": "Gourmand_Industrial",
                         "x": 632,
                         "y": 406
                     },
                     {
+                        "shape": "rect",
                         "map": "Arti_Industrial",
                         "x": 632,
                         "y": 406
                     },
                     {
+                        "shape": "rect",
                         "map": "Riv_Industrial",
                         "x": 632,
                         "y": 406
                     },
                     {
+                        "shape": "rect",
                         "map": "Spear_Industrial",
                         "x": 632,
                         "y": 406
                     },
                     {
-                        "map": "Icy_Monument",
+                        "shape": "rect",
+                        "map": "Saint_Industrial",
                         "x": 628,
                         "y": 406
                     }
@@ -964,31 +1097,37 @@
                 ],
                 "map_locations": [
                     {
+                        "shape": "rect",
                         "map": "Vanilla_Monk_Industrial",
                         "x": 208,
                         "y": 438
                     },
                     {
+                        "shape": "rect",
                         "map": "MSC_Monk_Industrial",
                         "x": 208,
                         "y": 438
                     },
                     {
+                        "shape": "rect",
                         "map": "Vanilla_Survivor_Industrial",
                         "x": 208,
                         "y": 438
                     },
                     {
+                        "shape": "rect",
                         "map": "MSC_Survivor_Industrial",
                         "x": 208,
                         "y": 438
                     },
                     {
+                        "shape": "rect",
                         "map": "Gourmand_Industrial",
                         "x": 208,
                         "y": 438
                     },
                     {
+                        "shape": "rect",
                         "map": "Riv_Industrial",
                         "x": 208,
                         "y": 438
@@ -1004,57 +1143,68 @@
                 ],
                 "map_locations": [
                     {
+                        "shape": "rect",
                         "map": "Vanilla_Monk_Industrial",
                         "x": 623,
                         "y": 520
                     },
                     {
+                        "shape": "rect",
                         "map": "MSC_Monk_Industrial",
                         "x": 667,
                         "y": 520
                     },
                     {
+                        "shape": "rect",
                         "map": "Vanilla_Survivor_Industrial",
                         "x": 623,
                         "y": 520
                     },
                     {
+                        "shape": "rect",
                         "map": "MSC_Survivor_Industrial",
                         "x": 667,
                         "y": 520
                     },
                     {
+                        "shape": "rect",
                         "map": "Vanilla_Hunter_Industrial",
                         "x": 623,
                         "y": 520
                     },
                     {
+                        "shape": "rect",
                         "map": "MSC_Hunter_Industrial",
                         "x": 667,
                         "y": 520
                     },
                     {
+                        "shape": "rect",
                         "map": "Gourmand_Industrial",
                         "x": 667,
                         "y": 520
                     },
                     {
+                        "shape": "rect",
                         "map": "Arti_Industrial",
                         "x": 667,
                         "y": 520
                     },
                     {
+                        "shape": "rect",
                         "map": "Riv_Industrial",
                         "x": 667,
                         "y": 520
                     },
                     {
+                        "shape": "rect",
                         "map": "Spear_Industrial",
                         "x": 667,
                         "y": 520
                     },
                     {
-                        "map": "Icy_Monument",
+                        "shape": "rect",
+                        "map": "Saint_Industrial",
                         "x": 663,
                         "y": 520
                     }
@@ -1069,57 +1219,68 @@
                 ],
                 "map_locations": [
                     {
+                        "shape": "rect",
                         "map": "Vanilla_Monk_Industrial",
                         "x": 684,
                         "y": 278
                     },
                     {
+                        "shape": "rect",
                         "map": "MSC_Monk_Industrial",
                         "x": 732,
                         "y": 278
                     },
                     {
+                        "shape": "rect",
                         "map": "Vanilla_Survivor_Industrial",
                         "x": 684,
                         "y": 278
                     },
                     {
+                        "shape": "rect",
                         "map": "MSC_Survivor_Industrial",
                         "x": 732,
                         "y": 278
                     },
                     {
+                        "shape": "rect",
                         "map": "Vanilla_Hunter_Industrial",
                         "x": 684,
                         "y": 278
                     },
                     {
+                        "shape": "rect",
                         "map": "MSC_Hunter_Industrial",
                         "x": 732,
                         "y": 278
                     },
                     {
+                        "shape": "rect",
                         "map": "Gourmand_Industrial",
                         "x": 732,
                         "y": 278
                     },
                     {
+                        "shape": "rect",
                         "map": "Arti_Industrial",
                         "x": 732,
                         "y": 278
                     },
                     {
+                        "shape": "rect",
                         "map": "Riv_Industrial",
                         "x": 732,
                         "y": 278
                     },
                     {
+                        "shape": "rect",
                         "map": "Spear_Industrial",
                         "x": 732,
                         "y": 278
                     },
                     {
-                        "map": "Icy_Monument",
+                        "shape": "rect",
+                        "map": "Saint_Industrial",
                         "x": 728,
                         "y": 278
                     }
@@ -1134,57 +1295,68 @@
                 ],
                 "map_locations": [
                     {
+                        "shape": "rect",
                         "map": "Vanilla_Monk_Industrial",
                         "x": 1112,
                         "y": 388
                     },
                     {
+                        "shape": "rect",
                         "map": "MSC_Monk_Industrial",
                         "x": 1160,
                         "y": 388
                     },
                     {
+                        "shape": "rect",
                         "map": "Vanilla_Survivor_Industrial",
                         "x": 1112,
                         "y": 388
                     },
                     {
+                        "shape": "rect",
                         "map": "MSC_Survivor_Industrial",
                         "x": 1160,
                         "y": 388
                     },
                     {
+                        "shape": "rect",
                         "map": "Vanilla_Hunter_Industrial",
                         "x": 1112,
                         "y": 388
                     },
                     {
+                        "shape": "rect",
                         "map": "MSC_Hunter_Industrial",
                         "x": 1160,
                         "y": 388
                     },
                     {
+                        "shape": "rect",
                         "map": "Gourmand_Industrial",
                         "x": 1160,
                         "y": 388
                     },
                     {
+                        "shape": "rect",
                         "map": "Arti_Industrial",
                         "x": 1160,
                         "y": 388
                     },
                     {
+                        "shape": "rect",
                         "map": "Riv_Industrial",
                         "x": 1160,
                         "y": 388
                     },
                     {
+                        "shape": "rect",
                         "map": "Spear_Industrial",
                         "x": 1160,
                         "y": 388
                     },
                     {
-                        "map": "Icy_Monument",
+                        "shape": "rect",
+                        "map": "Saint_Industrial",
                         "x": 1156,
                         "y": 388
                     }

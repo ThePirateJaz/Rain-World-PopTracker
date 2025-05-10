@@ -7,249 +7,330 @@
                 "name": "Outskirts",
                 "sections": [
                     {
-                        "name": "Level Token"
+                        "name": "Level Token",
+                        "chest_unopened_img": "images/icons/Level Token.png",
+                        "chest_opened_img": "images/gathered/Level Token.png"
                     },
                     {
                         "name": "Safari Token",
-                        "visibility_rules": ["MSC"]
+                        "visibility_rules": ["MSC"],
+                        "chest_unopened_img": "images/icons/Safari Token.png",
+                        "chest_opened_img": "images/gathered/Safari Token.png"
                     },
                     {
-                        "name": "Pearl",
-                        "ref": "@Outskirts/Pearl/Light Blue Pearl"
+                        "name": "Light Blue Pearl",
+                        "ref": "Outskirts/Light Blue Pearl/Pearl"
                     },
                     {
-                        "name": "Pearl",
-                        "ref": "@Outskirts/Pearl/Light Pink Pearl",
-                        "visibility_rules": ["MSC"]
+                        "name": "Light Pink Pearl",
+                        "ref": "Outskirts/Light Pink Pearl/Pearl"
                     },
                     {
-                        "name": "Squidcada Token"
+                        "name": "Squidcada Token",
+                        "chest_unopened_img": "images/icons/Squidcada.png",
+                        "chest_opened_img": "images/gathered/Squidcada.png"
                     },
                     {
-                        "name": "Blue Fruit Token"
+                        "name": "Blue Fruit Token",
+                        "chest_unopened_img": "images/icons/Blue Fruit.png",
+                        "chest_opened_img": "images/gathered/Blue Fruit.png"
                     },
                     {
-                        "name": "Pole Plant Token"
+                        "name": "Pole Plant Token",
+                        "chest_unopened_img": "images/icons/Pole Plant.png",
+                        "chest_opened_img": "images/gathered/Pole Plant.png"
                     },
                     {
                         "name": "Broadcast",
-                        "visibility_rules": ["spearmaster"]
+                        "visibility_rules": ["spearmaster"],
+                        "chest_unopened_img": "images/icons/Overseer.png",
+                        "chest_opened_img": "images/gathered/Overseer.png"
                     },
                     {
-                        "name": "Shelter",
-                        "ref": "@Outskirts Shelters/Shelter S01/Shelter",
-                        "visibility_rules": ["$sheltersanity"]
+                        "name": "Shelter S01",
+                        "ref": "Outskirts Shelters/Shelter S01/Shelter"
                     },
                     {
-                        "name": "Shelter",
-                        "ref": "@Outskirts Shelters/Shelter S03/Shelter",
-                        "visibility_rules": ["$sheltersanity"]
+                        "name": "Shelter S03",
+                        "ref": "Outskirts Shelters/Shelter S03/Shelter"
                     },
                     {
-                        "name": "Shelter",
-                        "ref": "@Outskirts Shelters/Shelter S04/Shelter",
-                        "visibility_rules": ["$sheltersanity"]
+                        "name": "Shelter S04",
+                        "ref": "Outskirts Shelters/Shelter S04/Shelter"
                     },
                     {
-                        "name": "Shelter",
-                        "ref": "@Outskirts Shelters/Shelter S05/Shelter",
-                        "visibility_rules": ["$sheltersanity,MSC"]
+                        "name": "Shelter S05",
+                        "ref": "Outskirts Shelters/Shelter S05/Shelter"
                     }
                 ],
                 "map_locations": [
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "Vanilla_Monk_Drainage",
                         "x": 180,
                         "y": 40
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "Vanilla_Survivor_Drainage",
                         "x": 180,
                         "y": 40
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "Vanilla_Hunter_Drainage",
                         "x": 180,
                         "y": 40
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "MSC_Monk_Drainage",
                         "x": 180,
                         "y": 240
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "MSC_Survivor_Drainage",
                         "x": 180,
                         "y": 240
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "MSC_Hunter_Drainage",
                         "x": 180,
                         "y": 240
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "Gourmand_Drainage",
                         "x": 180,
                         "y": 240
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "Arti_Drainage",
                         "x": 180,
                         "y": 240
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "Riv_Drainage",
                         "x": 180,
                         "y": 240
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "Spear_Drainage",
                         "x": 180,
                         "y": 240
                     },
                     {
-                        "map": "Undergrowth",
+                        "size": 48,
+                        "shape": "rect",
+                        "map": "Saint_Undergrowth",
                         "x": 205,
                         "y": 225
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "Vanilla_Monk_Farm_Arrays",
                         "x": 1480,
                         "y": 730
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "Vanilla_Survivor_Farm_Arrays",
                         "x": 1480,
                         "y": 730
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "Vanilla_Hunter_Farm_Arrays",
                         "x": 1480,
                         "y": 730
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "MSC_Monk_Farm_Arrays",
                         "x": 1505,
                         "y": 735
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "MSC_Survivor_Farm_Arrays",
                         "x": 1505,
                         "y": 735
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "MSC_Hunter_Farm_Arrays",
                         "x": 1505,
                         "y": 735
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "Gourmand_Farm_Arrays",
                         "x": 1505,
                         "y": 735
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "Arti_Farm_Arrays",
                         "x": 1505,
                         "y": 735
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "Riv_Farm_Arrays",
                         "x": 1505,
                         "y": 735
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "Spear_Farm_Arrays",
                         "x": 1505,
                         "y": 735
                     },
                     {
-                        "map": "Desolate_Fields",
+                        "size": 48,
+                        "shape": "rect",
+                        "map": "Saint_Farm_Arrays",
                         "x": 1505,
                         "y": 735
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "MSC_Monk_Outer_Expanse",
                         "x": 2945,
                         "y": 540
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "MSC_Survivor_Outer_Expanse",
                         "x": 2945,
                         "y": 540
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "MSC_Hunter_Outer_Expanse",
                         "x": 2945,
                         "y": 540
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "Gourmand_Outer_Expanse",
                         "x": 2945,
                         "y": 540
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "Vanilla_Monk_Industrial",
                         "x": 40,
                         "y": 330
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "Vanilla_Survivor_Industrial",
                         "x": 40,
                         "y": 330
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "Vanilla_Hunter_Industrial",
                         "x": 40,
                         "y": 330
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "MSC_Monk_Industrial",
                         "x": 40,
                         "y": 330
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "MSC_Survivor_Industrial",
                         "x": 40,
                         "y": 330
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "MSC_Hunter_Industrial",
                         "x": 40,
                         "y": 330
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "Gourmand_Industrial",
                         "x": 40,
                         "y": 330
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "Arti_Industrial",
                         "x": 40,
                         "y": 330
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "Riv_Industrial",
                         "x": 40,
                         "y": 330
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "Spear_Industrial",
                         "x": 40,
                         "y": 330
                     },
                     {
-                        "map": "Icy_Monument",
+                        "size": 48,
+                        "shape": "rect",
+                        "map": "Saint_Industrial",
                         "x": 40,
                         "y": 340
                     }
                 ]
             },
             {
-                "name": "Level Token",
+                "name": "Outskirts Token",
                 "sections": [
                     {
-                        "name": "Outskirts Token",
-                        "ref": "@Outskirts/Outskirts/Level Token"
+                        "name": "Level Token",
+                        "ref": "Outskirts/Outskirts/Level Token"
                     }
                 ],
                 "map_locations": [
@@ -304,7 +385,7 @@
                         "y": 413
                     },
                     {
-                        "map": "Suburban_Drifts",
+                        "map": "Saint_Outskirts",
                         "x": 296,
                         "y": 413
                     }
@@ -316,7 +397,7 @@
                 "sections": [
                     {
                         "name": "Safari Token",
-                        "ref": "@Outskirts/Outskirts/Safari Token"
+                        "ref": "Outskirts/Outskirts/Safari Token"
                     }
                 ],
                 "map_locations": [
@@ -356,17 +437,19 @@
                         "y": 198
                     },
                     {
-                        "map": "Suburban_Drifts",
+                        "map": "Saint_Outskirts",
                         "x": 444,
                         "y": 198
                     }
                 ]
             },
             {
-                "name": "Pearl",
+                "name": "Light Blue Pearl",
                 "sections": [
                     {
-                        "name": "Light Blue Pearl"
+                        "name": "Pearl",
+                        "chest_unopened_img": "images/icons/Light Blue Pearl.png",
+                        "chest_opened_img": "images/gathered/Pearl.png"
                     }
                 ],
                 "map_locations": [
@@ -421,18 +504,21 @@
                         "y": 272
                     },
                     {
-                        "map": "Suburban_Drifts",
+                        "map": "Saint_Outskirts",
                         "x": 430,
                         "y": 272
                     }
                 ]
             },
             {
-                "name": "Pearl",
+                "name": "Light Pink Pearl",
                 "access_rules": ["MSC","[early]","[$has_outer_expanse_access],[Gate_Outer_Expanse-Outskirts]"],
+                "visibility_rules": ["MSC"],
                 "sections": [
                     {
-                        "name": "Light Pink Pearl"
+                        "name": "Pearl",
+                        "chest_unopened_img": "images/icons/Light Pink Pearl.png",
+                        "chest_opened_img": "images/gathered/Pearl.png"
                     }
                 ],
                 "map_locations": [
@@ -472,18 +558,18 @@
                         "y": 388
                     },
                     {
-                        "map": "Suburban_Drifts",
+                        "map": "Saint_Outskirts",
                         "x": 529,
                         "y": 388
                     }
                 ]
             },
             {
-                "name": "Arena Token",
+                "name": "Squidcada Token",
                 "sections": [
                     {
-                        "name": "Squidcada Token",
-                        "ref": "@Outskirts/Outskirts/Squidcada Token"
+                        "name": "Arena Token",
+                        "ref": "Outskirts/Outskirts/Squidcada Token"
                     }
                 ],
                 "map_locations": [
@@ -538,18 +624,18 @@
                         "y": 119
                     },
                     {
-                        "map": "Suburban_Drifts",
+                        "map": "Saint_Outskirts",
                         "x": 564,
                         "y": 119
                     }
                 ]
             },
             {
-                "name": "Arena Token",
+                "name": "Blue Fruit Token",
                 "sections": [
                     {
-                        "name": "Blue Fruit Token",
-                        "ref": "@Outskirts/Outskirts/Blue Fruit Token"
+                        "name": "Arena Token",
+                        "ref": "Outskirts/Outskirts/Blue Fruit Token"
                     }
                 ],
                 "map_locations": [
@@ -604,18 +690,18 @@
                         "y": 413
                     },
                     {
-                        "map": "Suburban_Drifts",
+                        "map": "Saint_Outskirts",
                         "x": 247,
                         "y": 413
                     }
                 ]
             },
             {
-                "name": "Arena Token",
+                "name": "Pole Plant Token",
                 "sections": [
                     {
-                        "name": "Pole Plant Token",
-                        "ref": "@Outskirts/Outskirts/Pole Plant Token"
+                        "name": "Arena Token",
+                        "ref": "Outskirts/Outskirts/Pole Plant Token"
                     }
                 ],
                 "map_locations": [
@@ -670,7 +756,7 @@
                         "y": 363
                     },
                     {
-                        "map": "Suburban_Drifts",
+                        "map": "Saint_Outskirts",
                         "x": 243,
                         "y": 363
                     }
@@ -682,7 +768,7 @@
                 "sections": [
                     {
                         "name": "Broadcast",
-                        "ref": "@Outskirts/Outskirts/Broadcast"
+                        "ref": "Outskirts/Outskirts/Broadcast"
                     }
                 ],
                 "map_locations": [
@@ -698,7 +784,9 @@
     {
         "name": "Outskirts Shelters",
         "access_rules": ["$has_outskirts_access"],
-        "visibility_rules": ["$sheltersanity"],
+        "visibility_rules": ["sheltersanity"],
+        "chest_unopened_img": "images/icons/Shelter.png",
+        "chest_opened_img": "images/gathered/Shelter.png",
         "children": [
             {
                 "name": "Shelter S01",
@@ -709,57 +797,68 @@
                 ],
                 "map_locations": [
                     {
+                        "shape": "rect",
                         "map": "Vanilla_Monk_Outskirts",
                         "x": 801,
                         "y": 394
                     },
                     {
+                        "shape": "rect",
                         "map": "MSC_Monk_Outskirts",
                         "x": 850,
                         "y": 426
                     },
                     {
+                        "shape": "rect",
                         "map": "Vanilla_Survivor_Outskirts",
                         "x": 801,
                         "y": 394
                     },
                     {
+                        "shape": "rect",
                         "map": "MSC_Survivor_Outskirts",
                         "x": 850,
                         "y": 426
                     },
                     {
+                        "shape": "rect",
                         "map": "Vanilla_Hunter_Outskirts",
                         "x": 801,
                         "y": 394
                     },
                     {
+                        "shape": "rect",
                         "map": "MSC_Hunter_Outskirts",
                         "x": 850,
                         "y": 426
                     },
                     {
+                        "shape": "rect",
                         "map": "Gourmand_Outskirts",
                         "x": 850,
                         "y": 426
                     },
                     {
+                        "shape": "rect",
                         "map": "Arti_Outskirts",
                         "x": 850,
                         "y": 426
                     },
                     {
+                        "shape": "rect",
                         "map": "Riv_Outskirts",
                         "x": 850,
                         "y": 426
                     },
                     {
+                        "shape": "rect",
                         "map": "Spear_Outskirts",
                         "x": 850,
                         "y": 426
                     },
                     {
-                        "map": "Suburban_Drifts",
+                        "shape": "rect",
+                        "map": "Saint_Outskirts",
                         "x": 850,
                         "y": 426
                     }
@@ -774,57 +873,68 @@
                 ],
                 "map_locations": [
                     {
+                        "shape": "rect",
                         "map": "Vanilla_Monk_Outskirts",
                         "x": 550,
                         "y": 368
                     },
                     {
+                        "shape": "rect",
                         "map": "MSC_Monk_Outskirts",
                         "x": 355,
                         "y": 368
                     },
                     {
+                        "shape": "rect",
                         "map": "Vanilla_Survivor_Outskirts",
                         "x": 550,
                         "y": 368
                     },
                     {
+                        "shape": "rect",
                         "map": "MSC_Survivor_Outskirts",
                         "x": 355,
                         "y": 368
                     },
                     {
+                        "shape": "rect",
                         "map": "Vanilla_Hunter_Outskirts",
                         "x": 550,
                         "y": 368
                     },
                     {
+                        "shape": "rect",
                         "map": "MSC_Hunter_Outskirts",
                         "x": 355,
                         "y": 368
                     },
                     {
+                        "shape": "rect",
                         "map": "Gourmand_Outskirts",
                         "x": 355,
                         "y": 368
                     },
                     {
+                        "shape": "rect",
                         "map": "Arti_Outskirts",
                         "x": 355,
                         "y": 368
                     },
                     {
+                        "shape": "rect",
                         "map": "Riv_Outskirts",
                         "x": 355,
                         "y": 368
                     },
                     {
+                        "shape": "rect",
                         "map": "Spear_Outskirts",
                         "x": 355,
                         "y": 368
                     },
                     {
-                        "map": "Suburban_Drifts",
+                        "shape": "rect",
+                        "map": "Saint_Outskirts",
                         "x": 355,
                         "y": 368
                     }
@@ -839,57 +949,68 @@
                 ],
                 "map_locations": [
                     {
+                        "shape": "rect",
                         "map": "Vanilla_Monk_Outskirts",
                         "x": 891,
                         "y": 158
                     },
                     {
+                        "shape": "rect",
                         "map": "MSC_Monk_Outskirts",
                         "x": 940,
                         "y": 154
                     },
                     {
+                        "shape": "rect",
                         "map": "Vanilla_Survivor_Outskirts",
                         "x": 891,
                         "y": 158
                     },
                     {
+                        "shape": "rect",
                         "map": "MSC_Survivor_Outskirts",
                         "x": 940,
                         "y": 154
                     },
                     {
+                        "shape": "rect",
                         "map": "Vanilla_Hunter_Outskirts",
                         "x": 891,
                         "y": 158
                     },
                     {
+                        "shape": "rect",
                         "map": "MSC_Hunter_Outskirts",
                         "x": 940,
                         "y": 154
                     },
                     {
+                        "shape": "rect",
                         "map": "Gourmand_Outskirts",
                         "x": 940,
                         "y": 154
                     },
                     {
+                        "shape": "rect",
                         "map": "Arti_Outskirts",
                         "x": 940,
                         "y": 154
                     },
                     {
+                        "shape": "rect",
                         "map": "Riv_Outskirts",
                         "x": 940,
                         "y": 154
                     },
                     {
+                        "shape": "rect",
                         "map": "Spear_Outskirts",
                         "x": 940,
                         "y": 154
                     },
                     {
-                        "map": "Suburban_Drifts",
+                        "shape": "rect",
+                        "map": "Saint_Outskirts",
                         "x": 940,
                         "y": 154
                     }
@@ -905,42 +1026,50 @@
                 ],
                 "map_locations": [
                     {
+                        "shape": "rect",
                         "map": "MSC_Monk_Outskirts",
                         "x": 423,
                         "y": 414
                     },
                     {
+                        "shape": "rect",
                         "map": "MSC_Survivor_Outskirts",
                         "x": 423,
                         "y": 414
                     },
                     {
+                        "shape": "rect",
                         "map": "MSC_Hunter_Outskirts",
                         "x": 423,
                         "y": 414
                     },
                     {
+                        "shape": "rect",
                         "map": "Gourmand_Outskirts",
                         "x": 423,
                         "y": 414
                     },
                     {
+                        "shape": "rect",
                         "map": "Arti_Outskirts",
                         "x": 423,
                         "y": 414
                     },
                     {
+                        "shape": "rect",
                         "map": "Riv_Outskirts",
                         "x": 423,
                         "y": 414
                     },
                     {
+                        "shape": "rect",
                         "map": "Spear_Outskirts",
                         "x": 423,
                         "y": 414
                     },
                     {
-                        "map": "Suburban_Drifts",
+                        "shape": "rect",
+                        "map": "Saint_Outskirts",
                         "x": 423,
                         "y": 414
                     }

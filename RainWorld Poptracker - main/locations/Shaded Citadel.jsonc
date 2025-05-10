@@ -7,26 +7,45 @@
                 "name": "Shaded Citadel",
                 "sections": [
                     {
-                        "name": "Echo"
+                        "name": "Echo",
+                        "access_rules": ["[glow]","[glow-option]"],
+                        "chest_unopened_img": "images/icons/Echo.png",
+                        "chest_opened_img": "images/gathered/Echo.png"
                     },
                     {
-                        "name": "Level Token"
+                        "name": "Level Token",
+                        "access_rules": ["[glow]","[glow-option]"],
+                        "chest_unopened_img": "images/icons/Level Token.png",
+                        "chest_opened_img": "images/gathered/Level Token.png"
                     },
                     {
                         "name": "Safari Token",
-                        "visibility_rules": ["MSC"]
+                        "visibility_rules": ["MSC"],
+                        "access_rules": ["[glow]","[glow-option]"],
+                        "chest_unopened_img": "images/icons/Safari Token.png",
+                        "chest_opened_img": "images/gathered/Safari Token.png"
                     },
                     {
-                        "name": "Pearl"
+                        "name": "Pearl",
+                        "access_rules": ["[glow]","[glow-option]"],
+                        "chest_unopened_img": "images/icons/Deep Magenta Pearl.png",
+                        "chest_opened_img": "images/gathered/Pearl.png"
                     },
                     {
-                        "name": "Spider Token"
+                        "name": "Spider Token",
+                        "chest_unopened_img": "images/icons/Spider.png",
+                        "chest_opened_img": "images/gathered/Spider.png"
                     },
                     {
-                        "name": "Coalescipede Token"
+                        "name": "Coalescipede Token",
+                        "access_rules": ["[glow]","[glow-option]"],
+                        "chest_unopened_img": "images/icons/Coalescipede.png",
+                        "chest_opened_img": "images/gathered/Coalescipede.png"
                     },
                     {
-                        "name": "Lanternmouse Token"
+                        "name": "LanternMouse Token",
+                        "chest_unopened_img": "images/icons/Lantern Mouse.png",
+                        "chest_opened_img": "images/gathered/Lantern Mouse.png"
                     },
                     {
                         "name": "Miros Bird Token",
@@ -36,262 +55,332 @@
                             "arti",
                             "riv",
                             "spearmaster"
-                        ]
+                        ],
+                        "access_rules": ["[glow]","[glow-option]","$has_exterior_access,Gate_Shaded-Exterior"],
+                        "chest_unopened_img": "images/icons/Miros Bird.png",
+                        "chest_opened_img": "images/gathered/Miros Bird.png"
                     },
                     {
-                        "name": "Flashbang Token"
+                        "name": "Flashbang Token",
+                        "access_rules": ["[glow]","[glow-option]","$has_exterior_access,Gate_Shaded-Exterior"],
+                        "chest_unopened_img": "images/icons/Flashbang.png",
+                        "chest_opened_img": "images/gathered/Flashbang.png"
                     },
                     {
-                        "name": "Lantern Token"
+                        "name": "Lantern Token",
+                        "access_rules": ["[glow]","[glow-option]"],
+                        "chest_unopened_img": "images/icons/Lantern.png",
+                        "chest_opened_img": "images/gathered/Lantern.png"
                     },
                     {
                         "name": "Broadcast",
-                        "ref": "@Shaded Citadel/Broadcast/Broadcast",
-                        "visibility_rules": ["spearmaster"]
+                        "ref": "Shaded Citadel/Broadcast/Broadcast"
                     },
                     {
-                        "name": "Broadcast",
-                        "ref": "@Shaded Citadel/Broadcast/Chatlog",
-                        "visibility_rules": ["spearmaster"]
+                        "name": "Chatlog",
+                        "ref": "Shaded Citadel/Broadcast/Chatlog"
                     },
                     {
-                        "name": "Shelter",
-                        "ref": "@Shaded Shelters/Shelter S01/Shelter",
-                        "visibility_rules": ["$sheltersanity"]
+                        "name": "Shelter S01",
+                        "ref": "Shaded Shelters/Shelter S01/Shelter"
                     },
                     {
-                        "name": "Shelter",
-                        "ref": "@Shaded Shelters/Shelter S02/Shelter",
-                        "visibility_rules": ["$sheltersanity"]
+                        "name": "Shelter S02",
+                        "ref": "Shaded Shelters/Shelter S02/Shelter"
                     },
                     {
-                        "name": "Shelter",
-                        "ref": "@Shaded Shelters/Shelter S03/Shelter",
-                        "visibility_rules": ["$sheltersanity"]
+                        "name": "Shelter S03",
+                        "ref": "Shaded Shelters/Shelter S03/Shelter"
                     },
                     {
-                        "name": "Shelter",
-                        "ref": "@Shaded Shelters/Shelter S04/Shelter",
-                        "visibility_rules": ["$sheltersanity"]
+                        "name": "Shelter S04",
+                        "ref": "Shaded Shelters/Shelter S04/Shelter"
                     },
                     {
-                        "name": "Shelter",
-                        "ref": "@Shaded Shelters/Shelter S05/Shelter",
-                        "visibility_rules": ["$sheltersanity"]
+                        "name": "Shelter S05",
+                        "ref": "Shaded Shelters/Shelter S05/Shelter"
                     },
                     {
-                        "name": "Shelter",
-                        "ref": "@Shaded Shelters/Shelter S06/Shelter",
-                        "visibility_rules": ["$sheltersanity"]
+                        "name": "Shelter S06",
+                        "ref": "Shaded Shelters/Shelter S06/Shelter"
                     },
                     {
-                        "name": "Shelter",
-                        "ref": "@Shaded Shelters/Shelter S07/Shelter",
-                        "visibility_rules": ["$sheltersanity"]
+                        "name": "Shelter S07",
+                        "ref": "Shaded Shelters/Shelter S07/Shelter"
                     },
                     {
-                        "name": "Shelter",
-                        "ref": "@Shaded Shelters/Shelter S08/Shelter",
-                        "visibility_rules": ["$sheltersanity"]
+                        "name": "Shelter S08",
+                        "ref": "Shaded Shelters/Shelter S08/Shelter"
                     },
                     {
-                        "name": "Shelter",
-                        "ref": "@Shaded Shelters/Shelter S09/Shelter",
-                        "visibility_rules": ["$sheltersanity"]
+                        "name": "Shelter S09",
+                        "ref": "Shaded Shelters/Shelter S09/Shelter"
                     },
                     {
-                        "name": "Shelter",
-                        "ref": "@Shaded Shelters/Shelter S10/Shelter",
-                        "visibility_rules": ["$sheltersanity"]
+                        "name": "Shelter S10",
+                        "ref": "Shaded Shelters/Shelter S10/Shelter"
                     },
                     {
-                        "name": "Shelter",
-                        "ref": "@Shaded Shelters/Shelter S11/Shelter",
-                        "visibility_rules": ["$sheltersanity,MSC"]
+                        "name": "Shelter S11",
+                        "ref": "Shaded Shelters/Shelter S11/Shelter"
                     }
                 ],
                 "map_locations":[
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "Vanilla_Monk_Industrial",
                         "x": 1125,
                         "y": 275
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "Vanilla_Survivor_Industrial",
                         "x": 1125,
                         "y": 275
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "Vanilla_Hunter_Industrial",
                         "x": 1125,
                         "y": 275
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "MSC_Monk_Industrial",
                         "x": 1170,
                         "y": 280
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "MSC_Survivor_Industrial",
                         "x": 1170,
                         "y": 280
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "MSC_Hunter_Industrial",
                         "x": 1170,
                         "y": 280
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "Gourmand_Industrial",
                         "x": 1170,
                         "y": 280
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "Arti_Industrial",
                         "x": 1170,
                         "y": 280
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "Riv_Industrial",
                         "x": 1170,
                         "y": 280
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "Spear_Industrial",
                         "x": 1170,
                         "y": 280
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "MSC_Monk_Garbage",
                         "x": 1879,
                         "y": 60
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "MSC_Survivor_Garbage",
                         "x": 1879,
                         "y": 60
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "MSC_Hunter_Garbage",
                         "x": 1879,
                         "y": 60
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "Gourmand_Garbage",
                         "x": 1879,
                         "y": 60
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "Riv_Garbage",
                         "x": 1879,
                         "y": 60
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "Arti_Garbage",
                         "x": 1879,
                         "y": 80
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "Spear_Garbage",
                         "x": 1879,
                         "y": 80
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "Vanilla_Monk_Shoreline",
                         "x": 1120,
                         "y": 50
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "Vanilla_Survivor_Shoreline",
                         "x": 1120,
                         "y": 50
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "Vanilla_Hunter_Shoreline",
                         "x": 1120,
                         "y": 50
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "MSC_Monk_Shoreline",
                         "x": 1110,
                         "y": 50
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "MSC_Survivor_Shoreline",
                         "x": 1110,
                         "y": 50
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "MSC_Hunter_Shoreline",
                         "x": 1110,
                         "y": 50
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "Gourmand_Shoreline",
                         "x": 1110,
                         "y": 50
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "Riv_Shoreline",
                         "x": 1110,
                         "y": 50
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "Arti_Waterfront",
                         "x": 1105,
                         "y": 480
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "Spear_Waterfront",
                         "x": 1410,
                         "y": 810
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "Vanilla_Monk_Exterior",
                         "x": 1755,
                         "y": 1600
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "Vanilla_Survivor_Exterior",
                         "x": 1755,
                         "y": 1600
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "Vanilla_Hunter_Exterior",
                         "x": 1755,
                         "y": 1600
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "MSC_Monk_Exterior",
                         "x": 1750,
                         "y": 1600
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "MSC_Survivor_Exterior",
                         "x": 1750,
                         "y": 1600
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "MSC_Hunter_Exterior",
                         "x": 1750,
                         "y": 1600
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "Gourmand_Exterior",
                         "x": 1750,
                         "y": 1600
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "Arti_Exterior",
                         "x": 1750,
                         "y": 1600
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "Riv_Exterior",
                         "x": 1750,
                         "y": 1600
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "Spear_Exterior",
                         "x": 1750,
                         "y": 1600
@@ -303,7 +392,7 @@
                 "sections": [
                     {
                         "name": "Four Needles Under Plentiful Leaves",
-                        "ref": "@Shaded Citadel/Shaded Citadel/Echo"
+                        "ref": "Shaded Citadel/Shaded Citadel/Echo"
                     }
                 ],
                 "map_locations": [
@@ -360,11 +449,11 @@
                 ]
             },
             {
-                "name": "Level Token",
+                "name": "Shaded Citadel Token",
                 "sections": [
                     {
-                        "name": "Shaded Citadel Token",
-                        "ref": "@Shaded Citadel/Shaded Citadel/Level Token"
+                        "name": "Level Token",
+                        "ref": "Shaded Citadel/Shaded Citadel/Level Token"
                     }
                 ],
                 "map_locations": [
@@ -426,7 +515,7 @@
                 "sections": [
                     {
                         "name": "Safari Token",
-                        "ref": "@Shaded Citadel/Shaded Citadel/Safari Token"
+                        "ref": "Shaded Citadel/Shaded Citadel/Safari Token"
                     }
                 ],
                 "map_locations": [
@@ -468,11 +557,11 @@
                 ]
             },
             {
-                "name": "Pearl",
+                "name": "Deep Magenta Pearl",
                 "sections": [
                     {
-                        "name": "Deep Magenta Pearl",
-                        "ref": "@Shaded Citadel/Shaded Citadel/Pearl"
+                        "name": "Pearl",
+                        "ref": "Shaded Citadel/Shaded Citadel/Pearl"
                     }
                 ],
                 "map_locations": [
@@ -529,11 +618,11 @@
                 ]
             },
             {
-                "name": "Arena Token",
+                "name": "Spider Token",
                 "sections": [
                     {
-                        "name": "Spider Token",
-                        "ref": "@Shaded Citadel/Shaded Citadel/Spider Token"
+                        "name": "Arena Token",
+                        "ref": "Shaded Citadel/Shaded Citadel/Spider Token"
                     }
                 ],
                 "map_locations": [
@@ -590,11 +679,11 @@
                 ]
             },
             {
-                "name": "Arena Token",
+                "name": "Coalescipede Token",
                 "sections": [
                     {
-                        "name": "Coalescipede Token",
-                        "ref": "@Shaded Citadel/Shaded Citadel/Coalescipede Token"
+                        "name": "Arena Token",
+                        "ref": "Shaded Citadel/Shaded Citadel/Coalescipede Token"
                     }
                 ],
                 "map_locations": [
@@ -651,11 +740,11 @@
                 ]
             },
             {
-                "name": "Arena Token",
+                "name": "LanternMouse Token",
                 "sections": [
                     {
-                        "name": "Lanternmouse Token",
-                        "ref": "@Shaded Citadel/Shaded Citadel/Lanternmouse Token"
+                        "name": "Arena Token",
+                        "ref": "Shaded Citadel/Shaded Citadel/LanternMouse Token"
                     }
                 ],
                 "map_locations": [
@@ -712,11 +801,11 @@
                 ]
             },
             {
-                "name": "Arena Token",
+                "name": "Miros Bird Token",
                 "sections": [
                     {
-                        "name": "Miros Bird Token",
-                        "ref": "@Shaded Citadel/Shaded Citadel/Miros Bird Token"
+                        "name": "Arena Token",
+                        "ref": "Shaded Citadel/Shaded Citadel/Miros Bird Token"
                     }
                 ],
                 "map_locations": [
@@ -753,11 +842,11 @@
                 ]
             },
             {
-                "name": "Arena Token",
+                "name": "Flashbang Token",
                 "sections": [
                     {
-                        "name": "Flashbang Token",
-                        "ref": "@Shaded Citadel/Shaded Citadel/Flashbang Token"
+                        "name": "Arena Token",
+                        "ref": "Shaded Citadel/Shaded Citadel/Flashbang Token"
                     }
                 ],
                 "map_locations": [
@@ -814,11 +903,11 @@
                 ]
             },
             {
-                "name": "Arena Token",
+                "name": "Lantern Token",
                 "sections": [
                     {
-                        "name": "Lantern Token",
-                        "ref": "@Shaded Citadel/Shaded Citadel/Lantern Token"
+                        "name": "Arena Token",
+                        "ref": "Shaded Citadel/Shaded Citadel/Lantern Token"
                     }
                 ],
                 "map_locations": [
@@ -879,7 +968,9 @@
                 "sections": [
                     {
                         "name": "Broadcast",
-                        "access_rules": ["spearmaster"]
+                        "access_rules": ["spearmaster,[glow]","spearmaster,[glow-option]"],
+                        "chest_unopened_img": "images/icons/Overseer.png",
+                        "chest_opened_img": "images/gathered/Overseer.png"
                     }
                 ],
                 "map_locations": [
@@ -891,11 +982,13 @@
                 ]
             },
             {
-                "name": "Broadcast",
+                "name": "Chatlog",
                 "sections": [
                     {
-                        "name": "Chatlog",
-                        "access_rules": ["spearmaster"]
+                        "name": "Broadcast",
+                        "access_rules": ["spearmaster"],
+                        "chest_unopened_img": "images/icons/Overseer.png",
+                        "chest_opened_img": "images/gathered/Overseer.png"
                     }
                 ],
                 "map_locations": [
@@ -911,10 +1004,13 @@
     {
         "name": "Shaded Shelters",
         "access_rules": ["$has_shaded_access"],
-        "visibility_rules": ["$sheltersanity"],
+        "visibility_rules": ["sheltersanity"],
+        "chest_unopened_img": "images/icons/Shelter.png",
+        "chest_opened_img": "images/gathered/Shelter.png",
         "children": [
             {
                 "name": "Shelter S01",
+                "access_rules": ["[glow]","[glow-option]"],
                 "sections": [
                     {
                         "name": "Shelter"
@@ -922,51 +1018,61 @@
                 ],
                 "map_locations": [
                     {
+                        "shape": "rect",
                         "map": "Vanilla_Monk_Shaded",
                         "x": 396,
                         "y": 356
                     },
                     {
+                        "shape": "rect",
                         "map": "MSC_Monk_Shaded",
                         "x": 396,
                         "y": 348
                     },
                     {
+                        "shape": "rect",
                         "map": "Vanilla_Survivor_Shaded",
                         "x": 396,
                         "y": 356
                     },
                     {
+                        "shape": "rect",
                         "map": "MSC_Survivor_Shaded",
                         "x": 396,
                         "y": 348
                     },
                     {
+                        "shape": "rect",
                         "map": "Vanilla_Hunter_Shaded",
                         "x": 396,
                         "y": 356
                     },
                     {
+                        "shape": "rect",
                         "map": "MSC_Hunter_Shaded",
                         "x": 396,
                         "y": 348
                     },
                     {
+                        "shape": "rect",
                         "map": "Gourmand_Shaded",
                         "x": 396,
                         "y": 348
                     },
                     {
+                        "shape": "rect",
                         "map": "Arti_Shaded",
                         "x": 396,
                         "y": 348
                     },
                     {
+                        "shape": "rect",
                         "map": "Riv_Shaded",
                         "x": 396,
                         "y": 348
                     },
                     {
+                        "shape": "rect",
                         "map": "Spear_Shaded",
                         "x": 396,
                         "y": 348
@@ -975,6 +1081,7 @@
             },
             {
                 "name": "Shelter S02",
+                "access_rules": ["[glow]","[glow-option]"],
                 "sections": [
                     {
                         "name": "Shelter"
@@ -982,51 +1089,61 @@
                 ],
                 "map_locations": [
                     {
+                        "shape": "rect",
                         "map": "Vanilla_Monk_Shaded",
                         "x": 1254,
                         "y": 264
                     },
                     {
+                        "shape": "rect",
                         "map": "MSC_Monk_Shaded",
                         "x": 1254,
                         "y": 264
                     },
                     {
+                        "shape": "rect",
                         "map": "Vanilla_Survivor_Shaded",
                         "x": 1254,
                         "y": 264
                     },
                     {
+                        "shape": "rect",
                         "map": "MSC_Survivor_Shaded",
                         "x": 1254,
                         "y": 264
                     },
                     {
+                        "shape": "rect",
                         "map": "Vanilla_Hunter_Shaded",
                         "x": 1254,
                         "y": 264
                     },
                     {
+                        "shape": "rect",
                         "map": "MSC_Hunter_Shaded",
                         "x": 1254,
                         "y": 264
                     },
                     {
+                        "shape": "rect",
                         "map": "Gourmand_Shaded",
                         "x": 1254,
                         "y": 264
                     },
                     {
+                        "shape": "rect",
                         "map": "Arti_Shaded",
                         "x": 1254,
                         "y": 264
                     },
                     {
+                        "shape": "rect",
                         "map": "Riv_Shaded",
                         "x": 1254,
                         "y": 264
                     },
                     {
+                        "shape": "rect",
                         "map": "Spear_Shaded",
                         "x": 1254,
                         "y": 264
@@ -1042,51 +1159,61 @@
                 ],
                 "map_locations": [
                     {
+                        "shape": "rect",
                         "map": "Vanilla_Monk_Shaded",
                         "x": 100,
                         "y": 174
                     },
                     {
+                        "shape": "rect",
                         "map": "MSC_Monk_Shaded",
                         "x": 100,
                         "y": 174
                     },
                     {
+                        "shape": "rect",
                         "map": "Vanilla_Survivor_Shaded",
                         "x": 100,
                         "y": 174
                     },
                     {
+                        "shape": "rect",
                         "map": "MSC_Survivor_Shaded",
                         "x": 100,
                         "y": 174
                     },
                     {
+                        "shape": "rect",
                         "map": "Vanilla_Hunter_Shaded",
                         "x": 100,
                         "y": 174
                     },
                     {
+                        "shape": "rect",
                         "map": "MSC_Hunter_Shaded",
                         "x": 100,
                         "y": 174
                     },
                     {
+                        "shape": "rect",
                         "map": "Gourmand_Shaded",
                         "x": 100,
                         "y": 174
                     },
                     {
+                        "shape": "rect",
                         "map": "Arti_Shaded",
                         "x": 100,
                         "y": 174
                     },
                     {
+                        "shape": "rect",
                         "map": "Riv_Shaded",
                         "x": 100,
                         "y": 174
                     },
                     {
+                        "shape": "rect",
                         "map": "Spear_Shaded",
                         "x": 100,
                         "y": 174
@@ -1095,6 +1222,7 @@
             },
             {
                 "name": "Shelter S04",
+                "access_rules": ["[glow]","[glow-option]"],
                 "sections": [
                     {
                         "name": "Shelter"
@@ -1102,51 +1230,61 @@
                 ],
                 "map_locations": [
                     {
+                        "shape": "rect",
                         "map": "Vanilla_Monk_Shaded",
                         "x": 791,
                         "y": 190
                     },
                     {
+                        "shape": "rect",
                         "map": "MSC_Monk_Shaded",
                         "x": 791,
                         "y": 190
                     },
                     {
+                        "shape": "rect",
                         "map": "Vanilla_Survivor_Shaded",
                         "x": 791,
                         "y": 190
                     },
                     {
+                        "shape": "rect",
                         "map": "MSC_Survivor_Shaded",
                         "x": 791,
                         "y": 190
                     },
                     {
+                        "shape": "rect",
                         "map": "Vanilla_Hunter_Shaded",
                         "x": 791,
                         "y": 190
                     },
                     {
+                        "shape": "rect",
                         "map": "MSC_Hunter_Shaded",
                         "x": 791,
                         "y": 190
                     },
                     {
+                        "shape": "rect",
                         "map": "Gourmand_Shaded",
                         "x": 791,
                         "y": 190
                     },
                     {
+                        "shape": "rect",
                         "map": "Arti_Shaded",
                         "x": 791,
                         "y": 190
                     },
                     {
+                        "shape": "rect",
                         "map": "Riv_Shaded",
                         "x": 791,
                         "y": 190
                     },
                     {
+                        "shape": "rect",
                         "map": "Spear_Shaded",
                         "x": 791,
                         "y": 190
@@ -1162,51 +1300,61 @@
                 ],
                 "map_locations": [
                     {
+                        "shape": "rect",
                         "map": "Vanilla_Monk_Shaded",
                         "x": 1787,
                         "y": 268
                     },
                     {
+                        "shape": "rect",
                         "map": "MSC_Monk_Shaded",
                         "x": 1787,
                         "y": 268
                     },
                     {
+                        "shape": "rect",
                         "map": "Vanilla_Survivor_Shaded",
                         "x": 1787,
                         "y": 268
                     },
                     {
+                        "shape": "rect",
                         "map": "MSC_Survivor_Shaded",
                         "x": 1787,
                         "y": 268
                     },
                     {
+                        "shape": "rect",
                         "map": "Vanilla_Hunter_Shaded",
                         "x": 1787,
                         "y": 268
                     },
                     {
+                        "shape": "rect",
                         "map": "MSC_Hunter_Shaded",
                         "x": 1787,
                         "y": 268
                     },
                     {
+                        "shape": "rect",
                         "map": "Gourmand_Shaded",
                         "x": 1787,
                         "y": 268
                     },
                     {
+                        "shape": "rect",
                         "map": "Arti_Shaded",
                         "x": 1787,
                         "y": 268
                     },
                     {
+                        "shape": "rect",
                         "map": "Riv_Shaded",
                         "x": 1787,
                         "y": 268
                     },
                     {
+                        "shape": "rect",
                         "map": "Spear_Shaded",
                         "x": 1787,
                         "y": 268
@@ -1215,6 +1363,7 @@
             },
             {
                 "name": "Shelter S06",
+                "access_rules": ["[glow]","[glow-option]"],
                 "sections": [
                     {
                         "name": "Shelter"
@@ -1222,51 +1371,61 @@
                 ],
                 "map_locations": [
                     {
+                        "shape": "rect",
                         "map": "Vanilla_Monk_Shaded",
                         "x": 892,
                         "y": 438
                     },
                     {
+                        "shape": "rect",
                         "map": "MSC_Monk_Shaded",
                         "x": 892,
                         "y": 472
                     },
                     {
+                        "shape": "rect",
                         "map": "Vanilla_Survivor_Shaded",
                         "x": 892,
                         "y": 438
                     },
                     {
+                        "shape": "rect",
                         "map": "MSC_Survivor_Shaded",
                         "x": 892,
                         "y": 472
                     },
                     {
+                        "shape": "rect",
                         "map": "Vanilla_Hunter_Shaded",
                         "x": 892,
                         "y": 438
                     },
                     {
+                        "shape": "rect",
                         "map": "MSC_Hunter_Shaded",
                         "x": 892,
                         "y": 472
                     },
                     {
+                        "shape": "rect",
                         "map": "Gourmand_Shaded",
                         "x": 892,
                         "y": 472
                     },
                     {
+                        "shape": "rect",
                         "map": "Arti_Shaded",
                         "x": 892,
                         "y": 472
                     },
                     {
+                        "shape": "rect",
                         "map": "Riv_Shaded",
                         "x": 892,
                         "y": 472
                     },
                     {
+                        "shape": "rect",
                         "map": "Spear_Shaded",
                         "x": 892,
                         "y": 472
@@ -1275,6 +1434,7 @@
             },
             {
                 "name": "Shelter S07",
+                "access_rules": ["[glow]","[glow-option]"],
                 "sections": [
                     {
                         "name": "Shelter"
@@ -1282,51 +1442,61 @@
                 ],
                 "map_locations": [
                     {
+                        "shape": "rect",
                         "map": "Vanilla_Monk_Shaded",
                         "x": 1235,
                         "y": 454
                     },
                     {
+                        "shape": "rect",
                         "map": "MSC_Monk_Shaded",
                         "x": 1199,
                         "y": 456
                     },
                     {
+                        "shape": "rect",
                         "map": "Vanilla_Survivor_Shaded",
                         "x": 1235,
                         "y": 454
                     },
                     {
+                        "shape": "rect",
                         "map": "MSC_Survivor_Shaded",
                         "x": 1199,
                         "y": 456
                     },
                     {
+                        "shape": "rect",
                         "map": "Vanilla_Hunter_Shaded",
                         "x": 1235,
                         "y": 454
                     },
                     {
+                        "shape": "rect",
                         "map": "MSC_Hunter_Shaded",
                         "x": 1199,
                         "y": 456
                     },
                     {
+                        "shape": "rect",
                         "map": "Gourmand_Shaded",
                         "x": 1199,
                         "y": 456
                     },
                     {
+                        "shape": "rect",
                         "map": "Arti_Shaded",
                         "x": 1199,
                         "y": 456
                     },
                     {
+                        "shape": "rect",
                         "map": "Riv_Shaded",
                         "x": 1199,
                         "y": 456
                     },
                     {
+                        "shape": "rect",
                         "map": "Spear_Shaded",
                         "x": 1199,
                         "y": 456
@@ -1335,6 +1505,7 @@
             },
             {
                 "name": "Shelter S08",
+                "access_rules": ["[glow]","[glow-option]"],
                 "sections": [
                     {
                         "name": "Shelter"
@@ -1342,51 +1513,61 @@
                 ],
                 "map_locations": [
                     {
+                        "shape": "rect",
                         "map": "Vanilla_Monk_Shaded",
                         "x": 898,
                         "y": 678
                     },
                     {
+                        "shape": "rect",
                         "map": "MSC_Monk_Shaded",
                         "x": 841,
                         "y": 612
                     },
                     {
+                        "shape": "rect",
                         "map": "Vanilla_Survivor_Shaded",
                         "x": 898,
                         "y": 678
                     },
                     {
+                        "shape": "rect",
                         "map": "MSC_Survivor_Shaded",
                         "x": 841,
                         "y": 612
                     },
                     {
+                        "shape": "rect",
                         "map": "Vanilla_Hunter_Shaded",
                         "x": 898,
                         "y": 678
                     },
                     {
+                        "shape": "rect",
                         "map": "MSC_Hunter_Shaded",
                         "x": 841,
                         "y": 612
                     },
                     {
+                        "shape": "rect",
                         "map": "Gourmand_Shaded",
                         "x": 841,
                         "y": 612
                     },
                     {
+                        "shape": "rect",
                         "map": "Arti_Shaded",
                         "x": 841,
                         "y": 612
                     },
                     {
+                        "shape": "rect",
                         "map": "Riv_Shaded",
                         "x": 841,
                         "y": 612
                     },
                     {
+                        "shape": "rect",
                         "map": "Spear_Shaded",
                         "x": 841,
                         "y": 612
@@ -1395,6 +1576,7 @@
             },
             {
                 "name": "Shelter S09",
+                "access_rules": ["[glow]","[glow-option]"],
                 "sections": [
                     {
                         "name": "Shelter"
@@ -1402,51 +1584,61 @@
                 ],
                 "map_locations": [
                     {
+                        "shape": "rect",
                         "map": "Vanilla_Monk_Shaded",
                         "x": 1205,
                         "y": 618
                     },
                     {
+                        "shape": "rect",
                         "map": "MSC_Monk_Shaded",
                         "x": 1223,
                         "y": 622
                     },
                     {
+                        "shape": "rect",
                         "map": "Vanilla_Survivor_Shaded",
                         "x": 1205,
                         "y": 618
                     },
                     {
+                        "shape": "rect",
                         "map": "MSC_Survivor_Shaded",
                         "x": 1223,
                         "y": 622
                     },
                     {
+                        "shape": "rect",
                         "map": "Vanilla_Hunter_Shaded",
                         "x": 1205,
                         "y": 618
                     },
                     {
+                        "shape": "rect",
                         "map": "MSC_Hunter_Shaded",
                         "x": 1223,
                         "y": 622
                     },
                     {
+                        "shape": "rect",
                         "map": "Gourmand_Shaded",
                         "x": 1223,
                         "y": 622
                     },
                     {
+                        "shape": "rect",
                         "map": "Arti_Shaded",
                         "x": 1223,
                         "y": 622
                     },
                     {
+                        "shape": "rect",
                         "map": "Riv_Shaded",
                         "x": 1223,
                         "y": 622
                     },
                     {
+                        "shape": "rect",
                         "map": "Spear_Shaded",
                         "x": 1223,
                         "y": 622
@@ -1455,6 +1647,7 @@
             },
             {
                 "name": "Shelter S10",
+                "access_rules": ["[glow]","[glow-option]"],
                 "sections": [
                     {
                         "name": "Shelter"
@@ -1462,51 +1655,61 @@
                 ],
                 "map_locations": [
                     {
+                        "shape": "rect",
                         "map": "Vanilla_Monk_Shaded",
                         "x": 858,
                         "y": 266
                     },
                     {
+                        "shape": "rect",
                         "map": "MSC_Monk_Shaded",
                         "x": 858,
                         "y": 266
                     },
                     {
+                        "shape": "rect",
                         "map": "Vanilla_Survivor_Shaded",
                         "x": 858,
                         "y": 266
                     },
                     {
+                        "shape": "rect",
                         "map": "MSC_Survivor_Shaded",
                         "x": 858,
                         "y": 266
                     },
                     {
+                        "shape": "rect",
                         "map": "Vanilla_Hunter_Shaded",
                         "x": 858,
                         "y": 266
                     },
                     {
+                        "shape": "rect",
                         "map": "MSC_Hunter_Shaded",
                         "x": 858,
                         "y": 266
                     },
                     {
+                        "shape": "rect",
                         "map": "Gourmand_Shaded",
                         "x": 858,
                         "y": 266
                     },
                     {
+                        "shape": "rect",
                         "map": "Arti_Shaded",
                         "x": 858,
                         "y": 266
                     },
                     {
+                        "shape": "rect",
                         "map": "Riv_Shaded",
                         "x": 858,
                         "y": 266
                     },
                     {
+                        "shape": "rect",
                         "map": "Spear_Shaded",
                         "x": 858,
                         "y": 266
@@ -1516,6 +1719,7 @@
             {
                 "name": "Shelter S11",
                 "access_rules": ["MSC"],
+                "visibility_rules": ["MSC"],
                 "sections": [
                     {
                         "name": "Shelter"
@@ -1523,36 +1727,43 @@
                 ],
                 "map_locations": [
                     {
+                        "shape": "rect",
                         "map": "MSC_Monk_Shaded",
                         "x": 294,
                         "y": 450
                     },
                     {
+                        "shape": "rect",
                         "map": "MSC_Survivor_Shaded",
                         "x": 294,
                         "y": 450
                     },
                     {
+                        "shape": "rect",
                         "map": "MSC_Hunter_Shaded",
                         "x": 294,
                         "y": 450
                     },
                     {
+                        "shape": "rect",
                         "map": "Gourmand_Shaded",
                         "x": 294,
                         "y": 450
                     },
                     {
+                        "shape": "rect",
                         "map": "Arti_Shaded",
                         "x": 294,
                         "y": 450
                     },
                     {
+                        "shape": "rect",
                         "map": "Riv_Shaded",
                         "x": 294,
                         "y": 450
                     },
                     {
+                        "shape": "rect",
                         "map": "Spear_Shaded",
                         "x": 294,
                         "y": 450

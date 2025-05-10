@@ -1,0 +1,234 @@
+[
+    {
+        "name": "Rubicon",
+        "access_rules": ["$has_rubicon_access"],
+        "visibility_rules": ["sheltersanity"],
+        "chest_unopened_img": "images/icons/Shelter.png",
+        "chest_opened_img": "images/gathered/Shelter.png",
+        "children": [
+            {
+                "name": "Rubicon",
+                "sections": [
+                    {
+                        "name": "Shelter S01",
+                        "ref": "Rubicon/Shelter S01/Shelter"
+                    },
+                    {
+                        "name": "Shelter S02",
+                        "ref": "Rubicon/Shelter S02/Shelter"
+                    },
+                    {
+                        "name": "Shelter S03",
+                        "ref": "Rubicon/Shelter S03/Shelter"
+                    },
+                    {
+                        "name": "Shelter S04",
+                        "ref": "Rubicon/Shelter S04/Shelter"
+                    },
+                    {
+                        "name": "Shelter S05",
+                        "ref": "Rubicon/Shelter S05/Shelter"
+                    },
+                    {
+                        "name": "Shelter S06",
+                        "ref": "Rubicon/Shelter S06/Shelter"
+                    },
+                    {
+                        "name": "Shelter S10",
+                        "ref": "Rubicon/Shelter S10/Shelter"
+                    },
+                    {
+                        "name": "Shelter S11",
+                        "ref": "Rubicon/Shelter S11/Shelter"
+                    },
+                    {
+                        "name": "Shelter S12",
+                        "ref": "Rubicon/Shelter S12/Shelter"
+                    },
+                    {
+                        "name": "Shelter S1R",
+                        "ref": "Rubicon/Shelter S1R/Shelter"
+                    },
+                    {
+                        "name": "Shelter SHR",
+                        "ref": "Rubicon/Shelter SHR/Shelter"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "size": 48,
+                        "shape": "square",
+                        "map": "Saint_Subterranean",
+                        "x": 915,
+                        "y": 960
+                    }
+                ]
+            },
+            {
+                "name": "Shelter S01",
+                "sections": [
+                    {
+                        "name": "Shelter"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Saint_Rubicon",
+                        "x": 1416,
+                        "y": 648
+                    }
+                ]
+            },
+            {
+                "name": "Shelter S02",
+                "sections": [
+                    {
+                        "name": "Shelter"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Saint_Rubicon",
+                        "x": 836,
+                        "y": 1360
+                    }
+                ]
+            },
+            {
+                "name": "Shelter S03",
+                "sections": [
+                    {
+                        "name": "Shelter"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Saint_Rubicon",
+                        "x": 1487,
+                        "y": 884
+                    }
+                ]
+            },
+            {
+                "name": "Shelter S04",
+                "sections": [
+                    {
+                        "name": "Shelter"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Saint_Rubicon",
+                        "x": 182,
+                        "y": 839
+                    }
+                ]
+            },
+            {
+                "name": "Shelter S05",
+                "sections": [
+                    {
+                        "name": "Shelter"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Saint_Rubicon",
+                        "x": 827,
+                        "y": 646
+                    }
+                ]
+            },
+            {
+                "name": "Shelter S06",
+                "sections": [
+                    {
+                        "name": "Shelter"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Saint_Rubicon",
+                        "x": 99,
+                        "y": 564
+                    }
+                ]
+            },
+            {
+                "name": "Shelter S10",
+                "sections": [
+                    {
+                        "name": "Shelter"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Saint_Rubicon",
+                        "x": 1059,
+                        "y": 473
+                    }
+                ]
+            },
+            {
+                "name": "Shelter S11",
+                "sections": [
+                    {
+                        "name": "Shelter"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Saint_Rubicon",
+                        "x": 736,
+                        "y": 853
+                    }
+                ]
+            },
+            {
+                "name": "Shelter S12",
+                "sections": [
+                    {
+                        "name": "Shelter"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Saint_Rubicon",
+                        "x": 251,
+                        "y": 478
+                    }
+                ]
+            },
+            {
+                "name": "Shelter S1R",
+                "sections": [
+                    {
+                        "name": "Shelter"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Saint_Rubicon",
+                        "x": 586,
+                        "y": 1181
+                    }
+                ]
+            },
+            {
+                "name": "Shelter SHR",
+                "sections": [
+                    {
+                        "name": "Shelter"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Saint_Rubicon",
+                        "x": 635,
+                        "y": 1052
+                    }
+                ]
+            }
+        ]
+    }
+]

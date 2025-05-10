@@ -7,18 +7,26 @@
                 "name": "Chimney Canopy",
                 "sections":[
                     {
-                        "name": "Echo"
+                        "name": "Echo",
+                        "chest_unopened_img": "images/icons/Echo.png",
+                        "chest_opened_img": "images/gathered/Echo.png"
                     },
                     {
-                        "name": "Chimney Canopy Token"
+                        "name": "Chimney Canopy Token",
+                        "chest_unopened_img": "images/icons/Level Token.png",
+                        "chest_opened_img": "images/gathered/Level Token.png"
                     },
                     {
                         "name": "Gutter Token",
-                        "visibility_rules": ["MSC"]
+                        "visibility_rules": ["MSC"],
+                        "chest_unopened_img": "images/icons/Level Token.png",
+                        "chest_opened_img": "images/gathered/Level Token.png"
                     },
                     {
                         "name": "Safari Token",
-                        "visibility_rules": ["MSC"]
+                        "visibility_rules": ["MSC"],
+                        "chest_unopened_img": "images/icons/Safari Token.png",
+                        "chest_opened_img": "images/gathered/Safari Token.png"
                     },
                     {
                         "name": "Cyan Lizard Token",
@@ -28,16 +36,24 @@
                             "arti",
                             "spearmaster",
                             "saint"
-                        ]
+                        ],
+                        "chest_unopened_img": "images/icons/Cyan Lizard.png",
+                        "chest_opened_img": "images/gathered/Cyan Lizard.png"
                     },
                     {
-                        "name": "Gold Pearl"
+                        "name": "Pearl",
+                        "chest_unopened_img": "images/icons/Gold Pearl.png",
+                        "chest_opened_img": "images/gathered/Pearl.png"
                     },
                     {
-                        "name": "White Lizard Token"
+                        "name": "White Lizard Token",
+                        "chest_unopened_img": "images/icons/White Lizard.png",
+                        "chest_opened_img": "images/gathered/White Lizard.png"
                     },
                     {
-                        "name": "Vulture Token"
+                        "name": "Vulture Token",
+                        "chest_unopened_img": "images/icons/Vulture.png",
+                        "chest_opened_img": "images/gathered/Vulture.png"
                     },
                     {
                         "name": "Dropwig Token",
@@ -47,240 +63,318 @@
                             "gourmand",
                             "arti",
                             "spearmaster"
-                        ]
+                        ],
+                        "chest_unopened_img": "images/icons/Dropwig.png",
+                        "chest_opened_img": "images/gathered/Dropwig.png"
                     },
                     {
                         "name": "Chatlog",
-                        "visibility_rules": ["spearmaster"]
+                        "visibility_rules": ["spearmaster"],
+                        "chest_unopened_img": "images/icons/Overseer.png",
+                        "chest_opened_img": "images/gathered/Overseer.png"
                     },
                     {
-                        "name": "Shelter",
-                        "ref": "@Chimney Shelters/Shelter S01/Shelter",
-                        "visibility_rules": ["$sheltersanity"]
+                        "name": "Shelter S01",
+                        "ref": "Chimney Shelters/Shelter S01/Shelter"
                     },
                     {
-                        "name": "Shelter",
-                        "ref": "@Chimney Shelters/Shelter S03/Shelter",
-                        "visibility_rules": ["$sheltersanity"]
+                        "name": "Shelter S03",
+                        "ref": "Chimney Shelters/Shelter S03/Shelter"
                     },
                     {
-                        "name": "Shelter",
-                        "ref": "@Chimney Shelters/Shelter S04/Shelter",
-                        "visibility_rules": ["$sheltersanity"]
+                        "name": "Shelter S04",
+                        "ref": "Chimney Shelters/Shelter S04/Shelter"
                     },
                     {
-                        "name": "Shelter",
-                        "ref": "@Chimney Shelters/Shelter S05/Shelter",
-                        "visibility_rules": ["$sheltersanity"]
+                        "name": "Shelter S05",
+                        "ref": "Chimney Shelters/Shelter S05/Shelter"
                     },
                     {
-                        "name": "Shelter",
-                        "ref": "@Chimney Shelters/Shelter S06/Shelter",
-                        "visibility_rules": ["$sheltersanity"]
+                        "name": "Shelter S06",
+                        "ref": "Chimney Shelters/Shelter S06/Shelter"
                     },
                     {
-                        "name": "Shelter",
-                        "ref": "@Chimney Shelters/Shelter S07/Shelter",
-                        "visibility_rules": ["$sheltersanity"]
+                        "name": "Shelter S07",
+                        "ref": "Chimney Shelters/Shelter S07/Shelter"
                     }
                 ],
                 "map_locations": [
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "Vanilla_Monk_Industrial",
                         "x": 740,
                         "y": 80
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "Vanilla_Survivor_Industrial",
                         "x": 740,
                         "y": 80
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "Vanilla_Hunter_Industrial",
                         "x": 740,
                         "y": 80
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "MSC_Monk_Industrial",
                         "x": 785,
                         "y": 80
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "MSC_Survivor_Industrial",
                         "x": 785,
                         "y": 80
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "MSC_Hunter_Industrial",
                         "x": 785,
                         "y": 80
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "Gourmand_Industrial",
                         "x": 785,
                         "y": 80
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "Arti_Industrial",
                         "x": 785,
                         "y": 80
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "Riv_Industrial",
                         "x": 785,
                         "y": 80
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "Spear_Industrial",
                         "x": 785,
                         "y": 80
                     },
                     {
-                        "map": "Icy_Monument",
+                        "size": 48,
+                        "shape": "rect",
+                        "map": "Saint_Industrial",
                         "x": 785,
                         "y": 80
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "MSC_Monk_Drainage",
                         "x": 615,
                         "y": 80
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "MSC_Survivor_Drainage",
                         "x": 615,
                         "y": 80
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "MSC_Hunter_Drainage",
                         "x": 615,
                         "y": 80
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "Gourmand_Drainage",
                         "x": 615,
                         "y": 80
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "Arti_Drainage",
                         "x": 615,
                         "y": 80
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "Riv_Drainage",
                         "x": 615,
                         "y": 80
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "Spear_Drainage",
                         "x": 615,
                         "y": 80
                     },
                     {
-                        "map": "UnderGrowth",
+                        "size": 48,
+                        "shape": "rect",
+                        "map": "Saint_UnderGrowth",
                         "x": 842,
                         "y": 80
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "Vanilla_Monk_Sky_Islands",
                         "x": 1165,
                         "y": 203
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "Vanilla_Survivor_Sky_Islands",
                         "x": 1165,
                         "y": 203
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "Vanilla_Hunter_Sky_Islands",
                         "x": 1165,
                         "y": 203
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "MSC_Monk_Sky_Islands",
                         "x": 1195,
                         "y": 249
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "MSC_Survivor_Sky_Islands",
                         "x": 1195,
                         "y": 249
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "MSC_Hunter_Sky_Islands",
                         "x": 1195,
                         "y": 249
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "Gourmand_Sky_Islands",
                         "x": 1195,
                         "y": 249
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "Arti_Sky_Islands",
                         "x": 1195,
                         "y": 249
                     },
                     {
-                        "map": "Arti_Sky_Islands",
+                        "size": 48,
+                        "shape": "rect",
+                        "map": "Riv_Sky_Islands",
                         "x": 1195,
                         "y": 249
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "Spear_Sky_Islands",
                         "x": 1195,
                         "y": 213
                     },
                     {
-                        "map": "Windswept_Spires",
+                        "size": 48,
+                        "shape": "rect",
+                        "map": "Saint_Sky_Islands",
                         "x": 1195,
                         "y": 249
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "Vanilla_Monk_Exterior",
                         "x": 350,
                         "y": 880
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "Vanilla_Survivor_Exterior",
                         "x": 350,
                         "y": 880
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "Vanilla_Hunter_Exterior",
                         "x": 350,
                         "y": 880
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "MSC_Monk_Exterior",
                         "x": 350,
                         "y": 880
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "MSC_Survivor_Exterior",
                         "x": 350,
                         "y": 880
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "MSC_Hunter_Exterior",
                         "x": 350,
                         "y": 880
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "Gourmand_Exterior",
                         "x": 350,
                         "y": 880
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "Arti_Exterior",
                         "x": 350,
                         "y": 880
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "Spear_Exterior",
                         "x": 350,
                         "y": 880
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "Riv_Exterior",
                         "x": 350,
                         "y": 880
@@ -292,7 +386,7 @@
                 "sections": [
                     {
                         "name": "Nineteen Spades, Endless Reflections",
-                        "ref": "@Chimney Canopy/Chimney Canopy/Echo"
+                        "ref": "Chimney Canopy/Chimney Canopy/Echo"
                     }
                 ],
                 "map_locations": [
@@ -347,29 +441,22 @@
                         "y": 60
                     },
                     {
-                        "map": "Solitary_Towers",
+                        "map": "Saint_Chimney",
                         "x": 311,
                         "y": 60
                     }
                 ]
             },
             {
-                "name": "Level Token",
+                "name": "Chimney Canopy Token",
                 "sections": [
                     {
-                        "name": "Chimney Canopy Token",
-                        "ref": "@Chimney Canopy/Chimney Canopy/Chimney Canopy Token"
+                        "name": "Level Token",
+                        "ref": "Chimney Canopy/Chimney Canopy/Chimney Canopy Token"
                     },
                     {
                         "name": "Cyan Lizard Token",
-                        "visibility_rules": [
-                            "hunter",
-                            "gourmand",
-                            "arti",
-                            "spearmaster",
-                            "saint"
-                        ],
-                        "ref": "@Chimney Canopy/Chimney Canopy/Cyan Lizard Token"
+                        "ref": "Chimney Canopy/Chimney Canopy/Cyan Lizard Token"
                     }
                 ],
                 "map_locations": [
@@ -424,19 +511,19 @@
                         "y": 392
                     },
                     {
-                        "map": "Solitary_Towers",
+                        "map": "Saint_Chimney",
                         "x": 435,
                         "y": 392
                     }
                 ]
             },
             {
-                "name": "Level Token",
+                "name": "Gutter Token",
+                "access_rules": ["MSC"],
                 "sections": [
                     {
-                        "name": "Gutter Token",
-                        "access_rules": ["MSC"],
-                        "ref": "@Chimney Canopy/Chimney Canopy/Gutter Token"
+                        "name": "Level Token",
+                        "ref": "Chimney Canopy/Chimney Canopy/Gutter Token"
                     }
                 ],
                 "map_locations": [
@@ -476,7 +563,7 @@
                         "y": 910
                     },
                     {
-                        "map": "Solitary_Towers",
+                        "map": "Saint_Chimney",
                         "x": 465,
                         "y": 910
                     }
@@ -484,11 +571,11 @@
             },
             {
                 "name": "Safari Token",
+                "access_rules": ["MSC"],
                 "sections": [
                     {
                         "name": "Safari Token",
-                        "access_rules": ["MSC"],
-                        "ref": "@Chimney Canopy/Chimney Canopy/Safari Token"
+                        "ref": "Chimney Canopy/Chimney Canopy/Safari Token"
                     }
                 ],
                 "map_locations": [
@@ -528,141 +615,79 @@
                         "y": 1042
                     },
                     {
-                        "map": "Solitary_Towers",
+                        "map": "Saint_Chimney",
                         "x": 576,
                         "y": 1042
                     }
                 ]
             },
             {
-                "name": "Pearl",
+                "name": "Gold Pearl",
                 "sections": [
                     {
-                        "name": "Gold Pearl",
-                        "ref": "@Chimney Canopy/Chimney Canopy/Gold Pearl"
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "Vanilla_Monk_Chimney",
-                        "x": 232,
-                        "y": 470
+                        "name": "Pearl",
+                        "ref": "Chimney Canopy/Chimney Canopy/Pearl"
                     },
-                    {
-                        "map": "MSC_Monk_Chimney",
-                        "x": 232,
-                        "y": 470
-                    },
-                    {
-                        "map": "Vanilla_Survivor_Chimney",
-                        "x": 232,
-                        "y": 470
-                    },
-                    {
-                        "map": "MSC_Survivor_Chimney",
-                        "x": 232,
-                        "y": 470
-                    },
-                    {
-                        "map": "Vanilla_Hunter_Chimney",
-                        "x": 232,
-                        "y": 470
-                    },
-                    {
-                        "map": "MSC_Hunter_Chimney",
-                        "x": 232,
-                        "y": 470
-                    },
-                    {
-                        "map": "Gourmand_Chimney",
-                        "x": 232,
-                        "y": 470
-                    },
-                    {
-                        "map": "Arti_Chimney",
-                        "x": 232,
-                        "y": 470
-                    },
-                    {
-                        "map": "Riv_Chimney",
-                        "x": 232,
-                        "y": 470
-                    },
-                    {
-                        "map": "Spear_Chimney",
-                        "x": 232,
-                        "y": 470
-                    },
-                    {
-                        "map": "Solitary_Towers",
-                        "x": 232,
-                        "y": 470
-                    }
-                ]
-            },
-            {
-                "name": "White Lizard Token",
-                "sections": [
                     {
                         "name": "White Lizard Token",
-                        "ref": "@Chimney Canopy/Chimney Canopy/White Lizard Token"
+                        "ref": "Chimney Canopy/Chimney Canopy/White Lizard Token"
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Vanilla_Monk_Chimney",
-                        "x": 229,
-                        "y": 467
+                        "x": 232,
+                        "y": 470
                     },
                     {
                         "map": "MSC_Monk_Chimney",
-                        "x": 229,
-                        "y": 467
+                        "x": 232,
+                        "y": 470
                     },
                     {
                         "map": "Vanilla_Survivor_Chimney",
-                        "x": 229,
-                        "y": 467
+                        "x": 232,
+                        "y": 470
                     },
                     {
                         "map": "MSC_Survivor_Chimney",
-                        "x": 229,
-                        "y": 467
+                        "x": 232,
+                        "y": 470
                     },
                     {
                         "map": "Vanilla_Hunter_Chimney",
-                        "x": 229,
-                        "y": 467
+                        "x": 232,
+                        "y": 470
                     },
                     {
                         "map": "MSC_Hunter_Chimney",
-                        "x": 229,
-                        "y": 467
+                        "x": 232,
+                        "y": 470
                     },
                     {
                         "map": "Gourmand_Chimney",
-                        "x": 229,
-                        "y": 467
+                        "x": 232,
+                        "y": 470
                     },
                     {
                         "map": "Arti_Chimney",
-                        "x": 229,
-                        "y": 467
+                        "x": 232,
+                        "y": 470
                     },
                     {
                         "map": "Riv_Chimney",
-                        "x": 229,
-                        "y": 467
+                        "x": 232,
+                        "y": 470
                     },
                     {
                         "map": "Spear_Chimney",
-                        "x": 229,
-                        "y": 467
+                        "x": 232,
+                        "y": 470
                     },
                     {
-                        "map": "Solitary_Towers",
-                        "x": 229,
-                        "y": 467
+                        "map": "Saint_Chimney",
+                        "x": 232,
+                        "y": 470
                     }
                 ]
             },
@@ -670,8 +695,8 @@
                 "name": "Vulture Token",
                 "sections": [
                     {
-                        "name": "Vulture Token",
-                        "ref": "@Chimney Canopy/Chimney Canopy/Vulture Token"
+                        "name": "Arena Token",
+                        "ref": "Chimney Canopy/Chimney Canopy/Vulture Token"
                     }
                 ],
                 "map_locations": [
@@ -726,7 +751,7 @@
                         "y": 297
                     },
                     {
-                        "map": "Solitary_Towers",
+                        "map": "Saint_Chimney",
                         "x": 608,
                         "y": 297
                     }
@@ -736,8 +761,8 @@
                 "name": "Dropwig Token",
                 "sections": [
                     {
-                        "name": "Dropwig Token",
-                        "ref": "@Chimney Canopy/Chimney Canopy/Dropwig Token"
+                        "name": "Arena Token",
+                        "ref": "Chimney Canopy/Chimney Canopy/Dropwig Token"
                     }
                 ],
                 "map_locations": [
@@ -783,7 +808,7 @@
                 "sections": [
                     {
                         "name": "Chatlog",
-                        "ref": "@Chimney Canopy/Chimney Canopy/Chatlog"
+                        "ref": "Chimney Canopy/Chimney Canopy/Chatlog"
                     }
                 ],
                 "map_locations": [
@@ -799,7 +824,9 @@
     {
         "name": "Chimney Shelters",
         "access_rules": ["$has_chimney_access"],
-        "visibility_rules": ["$sheltersanity"],
+        "visibility_rules": ["sheltersanity"],
+        "chest_unopened_img": "images/icons/Shelter.png",
+        "chest_opened_img": "images/gathered/Shelter.png",
         "children": [
             {
                 "name": "Shelter S01",
@@ -810,57 +837,68 @@
                 ],
                 "map_locations": [
                     {
+                        "shape": "rect",
                         "map": "Vanilla_Monk_Chimney",
                         "x": 44,
                         "y": 732
                     },
                     {
+                        "shape": "rect",
                         "map": "MSC_Monk_Chimney",
                         "x": 44,
                         "y": 732
                     },
                     {
+                        "shape": "rect",
                         "map": "Vanilla_Survivor_Chimney",
                         "x": 44,
                         "y": 732
                     },
                     {
+                        "shape": "rect",
                         "map": "MSC_Survivor_Chimney",
                         "x": 44,
                         "y": 732
                     },
                     {
+                        "shape": "rect",
                         "map": "Vanilla_Hunter_Chimney",
                         "x": 44,
                         "y": 732
                     },
                     {
+                        "shape": "rect",
                         "map": "MSC_Hunter_Chimney",
                         "x": 44,
                         "y": 732
                     },
                     {
+                        "shape": "rect",
                         "map": "Gourmand_Chimney",
                         "x": 44,
                         "y": 732
                     },
                     {
+                        "shape": "rect",
                         "map": "Arti_Chimney",
                         "x": 44,
                         "y": 732
                     },
                     {
+                        "shape": "rect",
                         "map": "Riv_Chimney",
                         "x": 44,
                         "y": 732
                     },
                     {
+                        "shape": "rect",
                         "map": "Spear_Chimney",
                         "x": 44,
                         "y": 732
                     },
                     {
-                        "map": "Solitary_Towers",
+                        "shape": "rect",
+                        "map": "Saint_Chimney",
                         "x": 44,
                         "y": 732
                     }
@@ -875,57 +913,68 @@
                 ],
                 "map_locations": [
                     {
+                        "shape": "rect",
                         "map": "Vanilla_Monk_Chimney",
                         "x": 551,
                         "y": 702
                     },
                     {
+                        "shape": "rect",
                         "map": "MSC_Monk_Chimney",
                         "x": 551,
                         "y": 702
                     },
                     {
+                        "shape": "rect",
                         "map": "Vanilla_Survivor_Chimney",
                         "x": 551,
                         "y": 702
                     },
                     {
+                        "shape": "rect",
                         "map": "MSC_Survivor_Chimney",
                         "x": 551,
                         "y": 702
                     },
                     {
+                        "shape": "rect",
                         "map": "Vanilla_Hunter_Chimney",
                         "x": 551,
                         "y": 702
                     },
                     {
+                        "shape": "rect",
                         "map": "MSC_Hunter_Chimney",
                         "x": 551,
                         "y": 702
                     },
                     {
+                        "shape": "rect",
                         "map": "Gourmand_Chimney",
                         "x": 551,
                         "y": 702
                     },
                     {
+                        "shape": "rect",
                         "map": "Arti_Chimney",
                         "x": 551,
                         "y": 702
                     },
                     {
+                        "shape": "rect",
                         "map": "Riv_Chimney",
                         "x": 551,
                         "y": 702
                     },
                     {
+                        "shape": "rect",
                         "map": "Spear_Chimney",
                         "x": 551,
                         "y": 702
                     },
                     {
-                        "map": "Solitary_Towers",
+                        "shape": "rect",
+                        "map": "Saint_Chimney",
                         "x": 551,
                         "y": 702
                     }
@@ -940,57 +989,68 @@
                 ],
                 "map_locations": [
                     {
+                        "shape": "rect",
                         "map": "Vanilla_Monk_Chimney",
                         "x": 109,
                         "y": 204
                     },
                     {
+                        "shape": "rect",
                         "map": "MSC_Monk_Chimney",
                         "x": 109,
                         "y": 204
                     },
                     {
+                        "shape": "rect",
                         "map": "Vanilla_Survivor_Chimney",
                         "x": 109,
                         "y": 204
                     },
                     {
+                        "shape": "rect",
                         "map": "MSC_Survivor_Chimney",
                         "x": 109,
                         "y": 204
                     },
                     {
+                        "shape": "rect",
                         "map": "Vanilla_Hunter_Chimney",
                         "x": 109,
                         "y": 204
                     },
                     {
+                        "shape": "rect",
                         "map": "MSC_Hunter_Chimney",
                         "x": 109,
                         "y": 204
                     },
                     {
+                        "shape": "rect",
                         "map": "Gourmand_Chimney",
                         "x": 109,
                         "y": 204
                     },
                     {
+                        "shape": "rect",
                         "map": "Arti_Chimney",
                         "x": 109,
                         "y": 204
                     },
                     {
+                        "shape": "rect",
                         "map": "Riv_Chimney",
                         "x": 109,
                         "y": 204
                     },
                     {
+                        "shape": "rect",
                         "map": "Spear_Chimney",
                         "x": 109,
                         "y": 204
                     },
                     {
-                        "map": "Solitary_Towers",
+                        "shape": "rect",
+                        "map": "Saint_Chimney",
                         "x": 109,
                         "y": 204
                     }
@@ -1005,57 +1065,68 @@
                 ],
                 "map_locations": [
                     {
+                        "shape": "rect",
                         "map": "Vanilla_Monk_Chimney",
                         "x": 508,
                         "y": 238
                     },
                     {
+                        "shape": "rect",
                         "map": "MSC_Monk_Chimney",
                         "x": 508,
                         "y": 238
                     },
                     {
+                        "shape": "rect",
                         "map": "Vanilla_Survivor_Chimney",
                         "x": 508,
                         "y": 238
                     },
                     {
+                        "shape": "rect",
                         "map": "MSC_Survivor_Chimney",
                         "x": 508,
                         "y": 238
                     },
                     {
+                        "shape": "rect",
                         "map": "Vanilla_Hunter_Chimney",
                         "x": 508,
                         "y": 238
                     },
                     {
+                        "shape": "rect",
                         "map": "MSC_Hunter_Chimney",
                         "x": 508,
                         "y": 238
                     },
                     {
+                        "shape": "rect",
                         "map": "Gourmand_Chimney",
                         "x": 508,
                         "y": 238
                     },
                     {
+                        "shape": "rect",
                         "map": "Arti_Chimney",
                         "x": 508,
                         "y": 238
                     },
                     {
+                        "shape": "rect",
                         "map": "Riv_Chimney",
                         "x": 508,
                         "y": 238
                     },
                     {
+                        "shape": "rect",
                         "map": "Spear_Chimney",
                         "x": 508,
                         "y": 238
                     },
                     {
-                        "map": "Solitary_Towers",
+                        "shape": "rect",
+                        "map": "Saint_Chimney",
                         "x": 508,
                         "y": 238
                     }
@@ -1070,42 +1141,50 @@
                 ],
                 "map_locations": [
                     {
+                        "shape": "rect",
                         "map": "MSC_Monk_Chimney",
                         "x": 295,
                         "y": 960
                     },
                     {
+                        "shape": "rect",
                         "map": "MSC_Survivor_Chimney",
                         "x": 295,
                         "y": 960
                     },
                     {
+                        "shape": "rect",
                         "map": "MSC_Hunter_Chimney",
                         "x": 295,
                         "y": 960
                     },
                     {
+                        "shape": "rect",
                         "map": "Gourmand_Chimney",
                         "x": 295,
                         "y": 960
                     },
                     {
+                        "shape": "rect",
                         "map": "Arti_Chimney",
                         "x": 295,
                         "y": 960
                     },
                     {
+                        "shape": "rect",
                         "map": "Riv_Chimney",
                         "x": 295,
                         "y": 960
                     },
                     {
+                        "shape": "rect",
                         "map": "Spear_Chimney",
                         "x": 295,
                         "y": 960
                     },
                     {
-                        "map": "Solitary_Towers",
+                        "shape": "rect",
+                        "map": "Saint_Chimney",
                         "x": 295,
                         "y": 960
                     }
@@ -1120,42 +1199,50 @@
                 ],
                 "map_locations": [
                     {
+                        "shape": "rect",
                         "map": "MSC_Monk_Chimney",
                         "x": 425,
                         "y": 1050
                     },
                     {
+                        "shape": "rect",
                         "map": "MSC_Survivor_Chimney",
                         "x": 425,
                         "y": 1050
                     },
                     {
+                        "shape": "rect",
                         "map": "MSC_Hunter_Chimney",
                         "x": 425,
                         "y": 1050
                     },
                     {
+                        "shape": "rect",
                         "map": "Gourmand_Chimney",
                         "x": 425,
                         "y": 1050
                     },
                     {
+                        "shape": "rect",
                         "map": "Arti_Chimney",
                         "x": 425,
                         "y": 1050
                     },
                     {
+                        "shape": "rect",
                         "map": "Riv_Chimney",
                         "x": 425,
                         "y": 1050
                     },
                     {
+                        "shape": "rect",
                         "map": "Spear_Chimney",
                         "x": 425,
                         "y": 1050
                     },
                     {
-                        "map": "Solitary_Towers",
+                        "shape": "rect",
+                        "map": "Saint_Chimney",
                         "x": 425,
                         "y": 1050
                     }

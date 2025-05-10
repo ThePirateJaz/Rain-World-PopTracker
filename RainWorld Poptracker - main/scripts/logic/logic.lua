@@ -14,18 +14,22 @@ function has_outskirts_access()
     end
     if Tracker:FindObjectForCode("Gate_Outskirts-Industrial").Active and (Tracker:FindObjectForCode("Karma").CurrentStage >= 1) and has_industrial_access() then
         visited["outskirts"] = false 
+        Tracker:FindObjectForCode("Outskirts").Active = true
         return true
     end
     if (Tracker:FindObjectForCode("Karma").CurrentStage >= 1) and has_farm_arrays_access() and Tracker:FindObjectForCode("Gate_Outskirts-Farm_arrays").Active then 
         visited["outskirts"] = false 
+        Tracker:FindObjectForCode("Outskirts").Active = true
         return true
     end
     if Tracker:FindObjectForCode("Gate_Outskirts-Drainage").Active and (Tracker:FindObjectForCode("Karma").CurrentStage >= 1) and has_drainage_access() then 
         visited["outskirts"] = false 
+        Tracker:FindObjectForCode("Outskirts").Active = true
         return true
     end
     if Tracker:FindObjectForCode("Gate_Outer_Expanse-Outskirts").Active and (Tracker:FindObjectForCode("Karma").CurrentStage >= 1) and has_outer_expanse_access() then
         visited["outskirts"] = false 
+        Tracker:FindObjectForCode("Outskirts").Active = true
         return true
     end
     visited["outskirts"] = false
@@ -42,22 +46,27 @@ function has_industrial_access()
     end
     if Tracker:FindObjectForCode("Gate_Outskirts-Industrial").Active and (Tracker:FindObjectForCode("Karma").CurrentStage >= 2) and has_outskirts_access() then
         visited["industrial"] = false 
+        Tracker:FindObjectForCode("Industrial").Active = true
         return true
     end
     if Tracker:FindObjectForCode("Gate_Industrial-Pipeyard").Active and (Tracker:FindObjectForCode("Karma").CurrentStage >= 1) and has_pipeyard_access() then
         visited["industrial"] = false 
+        Tracker:FindObjectForCode("Industrial").Active = true
         return true
     end
     if Tracker:FindObjectForCode("Gate_Industrial-Chimney").Active and (Tracker:FindObjectForCode("Karma").CurrentStage >= 2) and has_chimney_access() then
         visited["industrial"] = false 
+        Tracker:FindObjectForCode("Industrial").Active = true
         return true
     end
     if Tracker:FindObjectForCode("Gate_Industrial-Shaded").Active and (has_shaded_access() or has_silent_access()) then
         visited["industrial"] = false 
+        Tracker:FindObjectForCode("Industrial").Active = true
         return true
     end
     if Tracker:FindObjectForCode("Gate_Industrial-Garbage").Active and (Tracker:FindObjectForCode("Karma").CurrentStage >= 1) and has_garbage_access() then
         visited["industrial"] = false 
+        Tracker:FindObjectForCode("Industrial").Active = true
         return true
     end
     visited["industrial"] = false
@@ -74,18 +83,22 @@ function has_chimney_access()
     end
     if Tracker:FindObjectForCode("Gate_Industrial-Chimney").Active and (Tracker:FindObjectForCode("Karma").CurrentStage >= 2) and has_industrial_access() then
         visited["chimney"] = false 
+        Tracker:FindObjectForCode("Chimney").Active = true
         return true
     end
     if Tracker:FindObjectForCode("Gate_Drainage-Chimney").Active and (Tracker:FindObjectForCode("Karma").CurrentStage >= 4) and has_drainage_access() and Tracker:FindObjectForCode("MSC") then
         visited["chimney"] = false 
+        Tracker:FindObjectForCode("Chimney").Active = true
         return true
     end
     if Tracker:FindObjectForCode("Gate_Chimney-Exterior").Active and has_exterior_access() then
         visited["chimney"] = false 
+        Tracker:FindObjectForCode("Chimney").Active = true
         return true
     end
     if Tracker:FindObjectForCode("Gate_Chimney-Sky_Islands").Active and (Tracker:FindObjectForCode("Karma").CurrentStage >= 2) and has_sky_islands_access() then
         visited["chimney"] = false 
+        Tracker:FindObjectForCode("Chimney").Active = true
         return true
     end
     visited["chimney"] = false
@@ -102,10 +115,12 @@ function has_farm_arrays_access()
     end
     if Tracker:FindObjectForCode("Gate_Outskirts-Farm_Arrays").Active and (Tracker:FindObjectForCode("Karma").CurrentStage >= 4) and has_outskirts_access() then
         visited["farm"] = false 
+        Tracker:FindObjectForCode("Farm").Active = true
         return true
     end
     if Tracker:FindObjectForCode("Gate_Farm_Arrays-Sky_Islands").Active and (Tracker:FindObjectForCode("Karma").CurrentStage >= 2) and has_sky_islands_access() then
         visited["farm"] = false 
+        Tracker:FindObjectForCode("Farm").Active = true
         return true
     end
     visited["farm"] = false
@@ -122,22 +137,27 @@ function has_subterranean_access()
     end
     if Tracker:FindObjectForCode("Gate_Farm_Arrays-Subterranean").Active and (Tracker:FindObjectForCode("Karma").CurrentStage >= 3) and has_farm_arrays_access() then
         visited["subterranean"] = false 
+        Tracker:FindObjectForCode("Subterranean").Active = true
         return true
     end
     if Tracker:FindObjectForCode("Gate_Subterranean-Outer_Expanse").Active and (Tracker:FindObjectForCode("Karma").CurrentStage >= 4) and has_outer_expanse_access() then
         visited["subterranean"] = false 
+        Tracker:FindObjectForCode("Subterranean").Active = true
         return true
     end
     if Tracker:FindObjectForCode("Gate_Pipeyard-Subterranean").Active and (Tracker:FindObjectForCode("Karma").CurrentStage >= 4) and has_pipeyard_access() then
         visited["subterranean"] = false 
+        Tracker:FindObjectForCode("Subterranean").Active = true
         return true
     end
     if Tracker:FindObjectForCode("Gate_Subterranean-Shoreline").Active and (Tracker:FindObjectForCode("Karma").CurrentStage >= 4) and (has_shoreline_access() or has_waterfront_access()) then
         visited["subterranean"] = false 
+        Tracker:FindObjectForCode("Subterranean").Active = true
         return true
     end
     if Tracker:FindObjectForCode("Gate_Subterranean-Drainage").Active and (Tracker:FindObjectForCode("Karma").CurrentStage >= 3) and has_drainage_access() then
         visited["subterranean"] = false 
+        Tracker:FindObjectForCode("Subterranean").Active = true
         return true
     end
     visited["subterranean"] = false
@@ -154,6 +174,7 @@ function has_outer_expanse_access()
     end
     if Tracker:FindObjectForCode("Gate_Subterranean-Outer_Expanse").Active and has_subterranean_access() then
         visited["outer"] = false 
+        Tracker:FindObjectForCode("Outer").Active = true
         return true
     end
     visited["outer"] = false
@@ -170,18 +191,22 @@ function has_drainage_access()
     end
     if Tracker:FindObjectForCode("Gate_Outskirts-Drainage").Active and (Tracker:FindObjectForCode("Karma").CurrentStage >= 3) and has_outskirts_access() then
         visited["drainage"] = false 
+        Tracker:FindObjectForCode("Drainage").Active = true
         return true
     end
     if Tracker:FindObjectForCode("Gate_Subterranean-Drainage").Active and has_subterranean_access() then 
         visited["drainage"] = false
+        Tracker:FindObjectForCode("Drainage").Active = true
         return true
     end
     if Tracker:FindObjectForCode("Gate_Drainage-Garbage").Active and (Tracker:FindObjectForCode("Karma").CurrentStage >= 2) and has_garbage_access() then
         visited["drainage"] = false 
+        Tracker:FindObjectForCode("Drainage").Active = true
         return true
     end
     if Tracker:FindObjectForCode("Gate_Drainage-Chimney").Active and (Tracker:FindObjectForCode("Karma").CurrentStage >= 2) and Tracker:FindObjectForCode("MSC").Active and has_chimney_access() then
         visited["drainage"] = false
+        Tracker:FindObjectForCode("Drainage").Active = true
         return true
     end
     visited["drainage"] = false
@@ -198,18 +223,22 @@ function has_garbage_access()
     end
     if Tracker:FindObjectForCode("Gate_Industrial-Garbage").Active and (Tracker:FindObjectForCode("Karma").CurrentStage >= 1) and has_industrial_access() then
         visited["garbage"] = false 
+        Tracker:FindObjectForCode("Garbage").Active = true
         return true
     end
     if Tracker:FindObjectForCode("Gate_Drainage-Garbage").Active and has_drainage_access() then
         visited["garbage"] = false 
+        Tracker:FindObjectForCode("Garbage").Active = true
         return true
     end
     if Tracker:FindObjectForCode("Gate_Garbage-Shoreline").Active and (Tracker:FindObjectForCode("Karma").CurrentStage >= 1) and (has_shoreline_access() or has_waterfront_access()) then
         visited["garbage"] = false 
+        Tracker:FindObjectForCode("Garbage").Active = true
         return true
     end
     if Tracker:FindObjectForCode("Gate_Garbage-Shaded").Active and (Tracker:FindObjectForCode("Karma").CurrentStage >= 1) and Tracker:FindObjectForCode("MSC").Active and (has_shaded_access() or has_silent_access()) then
         visited["garbage"] = false 
+        Tracker:FindObjectForCode("Garbage").Active = true
         return true
     end
     visited["garbage"] = false
@@ -220,24 +249,28 @@ function has_shaded_access()
         return false
     end
     visited["shaded"] = true
-    if Tracker:FindObjectForCode("Shaded").Active then
+    if Tracker:FindObjectForCode("Shaded").Active and (Tracker:FindObjectForCode("Castle").CurrentStage == 0) and (Tracker:FindObjectForCode("saint") == false) then
         visited["shaded"] = false
         return true
     end
-    if Tracker:FindObjectForCode("Gate_Industrial-Shaded").Active and (Tracker:FindObjectForCode("Karma").CurrentStage >= 4) and has_industrial_access() and (Tracker:FindObjectForCode("saint").Active == false) then
+    if Tracker:FindObjectForCode("Gate_Industrial-Shaded").Active and (Tracker:FindObjectForCode("Karma").CurrentStage >= 4) and has_industrial_access() and (Tracker:FindObjectForCode("saint").Active == false) and Tracker:FindObjectForCode("Castle").CurrentStage == 0 then
         visited["shaded"] = false 
+        Tracker:FindObjectForCode("Shaded").Active = true
         return true
     end
-    if Tracker:FindObjectForCode("Gate_Garbage-Shaded").Active and (Tracker:FindObjectForCode("Karma").CurrentStage >= 3) and Tracker:FindObjectForCode("MSC").Active and has_garbage_access() and (Tracker:FindObjectForCode("saint").Active == false) then
+    if Tracker:FindObjectForCode("Gate_Garbage-Shaded").Active and (Tracker:FindObjectForCode("Karma").CurrentStage >= 3) and Tracker:FindObjectForCode("MSC").Active and has_garbage_access() and (Tracker:FindObjectForCode("saint").Active == false) and Tracker:FindObjectForCode("Castle").CurrentStage == 0 then
         visited["shaded"] = false 
+        Tracker:FindObjectForCode("Shaded").Active = true
         return true
     end
-    if Tracker:FindObjectForCode("Gate_Shaded-Shoreline").Active and (Tracker:FindObjectForCode("Karma").CurrentStage >= 1) and (has_shoreline_access() or has_waterfront_access()) and (Tracker:FindObjectForCode("saint").Active == false) then
+    if Tracker:FindObjectForCode("Gate_Shaded-Shoreline").Active and (Tracker:FindObjectForCode("Karma").CurrentStage >= 1) and (has_shoreline_access() or has_waterfront_access()) and (Tracker:FindObjectForCode("saint").Active == false) and Tracker:FindObjectForCode("Castle").CurrentStage == 0 then
         visited["shaded"] = false 
+        Tracker:FindObjectForCode("Shaded").Active = true
         return true
     end
-    if Tracker:FindObjectForCode("Gate_Shaded-Exterior").Active and has_exterior_access() and (Tracker:FindObjectForCode("saint").Active == false) then 
+    if Tracker:FindObjectForCode("Gate_Shaded-Exterior").Active and has_exterior_access() and (Tracker:FindObjectForCode("saint").Active == false) and Tracker:FindObjectForCode("Castle").CurrentStage == 0 then 
         visited["shaded"] = false
+        Tracker:FindObjectForCode("Shaded").Active = true
         return true
     end
     visited["shaded"] = false
@@ -248,32 +281,38 @@ function has_exterior_access()
         return false
     end
     visited["exterior"] = true
-    if Tracker:FindObjectForCode("Exterior").Active then
+    if Tracker:FindObjectForCode("Exterior").Active and (Tracker:FindObjectForCode("saint").Active == false) then
         visited["exterior"] = false
         return true
     end
     if Tracker:FindObjectForCode("Gate_Chimney-Exterior").Active and (Tracker:FindObjectForCode("Karma").CurrentStage >= 3) and has_chimney_access() and (Tracker:FindObjectForCode("saint").Active == false) then
         visited["exterior"] = false 
+        Tracker:FindObjectForCode("Exterior").Active = true
         return true
     end
     if Tracker:FindObjectForCode("Gate_Wall-Metropolis").Active and (Tracker:FindObjectForCode("Karma").CurrentStage >= 4) and has_metropolis_access() and (Tracker:FindObjectForCode("saint").Active == false) then 
         visited["exterior"] = false
+        Tracker:FindObjectForCode("Exterior").Active = true
         return true
     end
     if Tracker:FindObjectForCode("Gate_Wall-Five_Pebbles").Active and (has_five_pebbles_access() or (has_rot_access() and Tracker:FindObjectForCode("riv"))) and (Tracker:FindObjectForCode("saint").Active == false) then 
         visited["exterior"] = false
+        Tracker:FindObjectForCode("Exterior").Active = true
         return true
     end
     if Tracker:FindObjectForCode("Gate_Underhang-Five_Pebbles").Active and (has_five_pebbles_access() or (has_rot_access() and Tracker:FindObjectForCode("riv"))) and (Tracker:FindObjectForCode("saint").Active == false) then 
         visited["exterior"] = false
+        Tracker:FindObjectForCode("Exterior").Active = true
         return true
     end
     if Tracker:FindObjectForCode("Gate_Shaded-Exterior").Active and has_shaded_access() and (Tracker:FindObjectForCode("saint").Active == false) then 
         visited["exterior"] = false
+        Tracker:FindObjectForCode("Exterior").Active = true
         return true
     end
     if Tracker:FindObjectForCode("Gate_Exterior-Precipice").Active and has_waterfront_access() then 
         visited["exterior"] = false
+        Tracker:FindObjectForCode("Exterior").Active = true
         return true
     end
     visited["exterior"] = false
@@ -284,12 +323,13 @@ function has_five_pebbles_access()
         return false
     end
     visited["5p"] = true
-    if Tracker:FindObjectForCode("5P").Active then
+    if Tracker:FindObjectForCode("5P").Active and Tracker:FindObjectForCode("Pebbsi").CurrentStage == 0 and (Tracker:FindObjectForCode("riv").Active == false) and (Tracker:FindObjectForCode("saint").Active == false) then
         visited["5p"] = false
         return true
     end
-    if (Tracker:FindObjectForCode("Gate_Wall-Five_Pebbles").Active and has_exterior_access()) or (Tracker:FindObjectForCode("Gate_Underhang-Five_Pebbles").Active and (Tracker:FindObjectForCode("Karma").CurrentStage >= 4) and has_exterior_access()) and (Tracker:FindObjectForCode("riv").Active == false) and (Tracker:FindObjectForCode("saint").Active == false) then 
+    if  Tracker:FindObjectForCode("Pebbsi").CurrentStage == 0 and (Tracker:FindObjectForCode("Gate_Wall-Five_Pebbles").Active and has_exterior_access()) or (Tracker:FindObjectForCode("Gate_Underhang-Five_Pebbles").Active and (Tracker:FindObjectForCode("Karma").CurrentStage >= 4) and has_exterior_access()) and (Tracker:FindObjectForCode("riv").Active == false) and (Tracker:FindObjectForCode("saint").Active == false) then 
         visited["5p"] = false
+        Tracker:FindObjectForCode("5P").Active = true
         return true
     end
     visited["5p"] = false
@@ -306,18 +346,22 @@ function has_pipeyard_access()
     end
     if Tracker:FindObjectForCode("Gate_Industrial-Pipeyard").Active and (Tracker:FindObjectForCode("Karma").CurrentStage >= 3) and has_industrial_access() then
         visited["pipes"] = false 
+        Tracker:FindObjectForCode("Pipeyard").Active = true
         return true
     end
     if Tracker:FindObjectForCode("Gate_Pipeyard-Subterranean").Active and (Tracker:FindObjectForCode("Karma").CurrentStage >= 2) and has_subterranean_access() then 
         visited["pipes"] = false
+        Tracker:FindObjectForCode("Pipeyard").Active = true
         return true
     end
     if Tracker:FindObjectForCode("Gate_Pipeyard-Sky_Islands").Active and (Tracker:FindObjectForCode("Karma").CurrentStage >= 2) and has_sky_islands_access() then 
         visited["pipes"] = false
+        Tracker:FindObjectForCode("Pipeyard").Active = true
         return true
     end
     if Tracker:FindObjectForCode("Gate_Pipeyard-Shoreline").Active and (Tracker:FindObjectForCode("Karma").CurrentStage >= 2) and (has_shoreline_access() or has_waterfront_access()) then 
         visited["pipes"] = false
+        Tracker:FindObjectForCode("Pipeyard").Active = true
         return true
     end
     visited["pipes"] = false
@@ -334,14 +378,17 @@ function has_sky_islands_access()
     end
     if Tracker:FindObjectForCode("Gate_Chimney-Sky_Islands").Active and (Tracker:FindObjectForCode("Karma").CurrentStage >= 1) and has_chimney_access() then 
         visited["sky"] = false
+        Tracker:FindObjectForCode("Sky").Active = true
         return true
     end
     if Tracker:FindObjectForCode("Gate_Pipeyard-Sky_Islands").Active and (Tracker:FindObjectForCode("Karma").CurrentStage >= 3) and has_pipeyard_access() then
         visited["sky"] = false 
+        Tracker:FindObjectForCode("Sky").Active = true
         return true
     end
     if Tracker:FindObjectForCode("Gate_Farm_Arrays-Sky_Islands").Active and ((Tracker:FindObjectForCode("Karma").CurrentStage >= 2)) and has_farm_arrays_access() then 
         visited["sky"] = false
+        Tracker:FindObjectForCode("Sky").Active = true
         return true
     end
     visited["sky"] = false
@@ -358,30 +405,37 @@ function has_shoreline_access()
     end
     if Tracker:FindObjectForCode("Gate_Garbage-Shoreline").Active and (Tracker:FindObjectForCode("Karma").CurrentStage >= 2) and has_garbage_access() and (Tracker:FindObjectForCode("arti").Active == false) and (Tracker:FindObjectForCode("spearmaster").Active == false) then 
         visited["shoreline"] = false
+        Tracker:FindObjectForCode("Shoreline").Active = true
         return true
     end
     if Tracker:FindObjectForCode("Gate_Pipeyard-Shoreline").Active and (Tracker:FindObjectForCode("Karma").CurrentStage >= 2) and has_pipeyard_access() and (Tracker:FindObjectForCode("arti").Active == false) and (Tracker:FindObjectForCode("spearmaster").Active == false) then 
         visited["shoreline"] = false
+        Tracker:FindObjectForCode("Shoreline").Active = true
         return true
     end
     if Tracker:FindObjectForCode("Gate_Subterranean-Shoreline").Active and (Tracker:FindObjectForCode("Karma").CurrentStage >= 1) and has_subterranean_access() and (Tracker:FindObjectForCode("arti").Active == false) and (Tracker:FindObjectForCode("spearmaster").Active == false) then 
         visited["shoreline"] = false
+        Tracker:FindObjectForCode("Shoreline").Active = true
         return true
     end
     if Tracker:FindObjectForCode("Gate_Shaded-Shoreline").Active and (Tracker:FindObjectForCode("Karma").CurrentStage >= 2) and has_shaded_access() and (Tracker:FindObjectForCode("arti").Active == false) and (Tracker:FindObjectForCode("spearmaster").Active == false) then 
         visited["shoreline"] = false
+        Tracker:FindObjectForCode("Shoreline").Active = true
         return true
     end
     if Tracker:FindObjectForCode("Gate_Shoreline-Submerged_Superstructure").Active and has_submerged_access() then 
         visited["shoreline"] = false
+        Tracker:FindObjectForCode("Shoreline").Active = true
         return true
     end
     if Tracker:FindObjectForCode("Gate_Bitter_Aerie-Shoreline").Active and (Tracker:FindObjectForCode("Karma").CurrentStage >= 4) and has_submerged_access() then 
         visited["shoreline"] = false
+        Tracker:FindObjectForCode("Shoreline").Active = true
         return true
     end
     if has_silent_access() and Tracker:FindObjectForCode("Gate_Shoreline-Silent_Construct").Active then
         visited["shoreline"] = false
+        Tracker:FindObjectForCode("Shoreline").Active = true
         return true
     end
     visited["shoreline"] = false
@@ -392,12 +446,13 @@ function has_submerged_access()
         return false
     end
     visited["submerged"] = true
-    if Tracker:FindObjectForCode("Submerged").Active then
+    if Tracker:FindObjectForCode("Submerged").Active and Tracker:FindObjectForCode("Moonstructure").CurrentStage == 0 then
         visited["submerged"] = false
         return true
     end
-    if Tracker:FindObjectForCode("Gate_Shoreline-Submerged_Superstructure").Active and (Tracker:FindObjectForCode("Karma").CurrentStage >= 4) and has_shoreline_access() then
+    if Tracker:FindObjectForCode("Gate_Shoreline-Submerged_Superstructure").Active and Tracker:FindObjectForCode("Moonstructure").CurrentStage == 0 and (Tracker:FindObjectForCode("Karma").CurrentStage >= 4) and has_shoreline_access() then
         visited["submerged"] = false 
+        Tracker:FindObjectForCode("Submerged").Active = true
         return true
     end
     visited["submerged"] = false
@@ -408,36 +463,43 @@ function has_waterfront_access()
         return false
     end
     visited["water"] = true
-    if Tracker:FindObjectForCode("Waterfront").Active then
+    if Tracker:FindObjectForCode("Waterfront").Active and Tracker:FindObjectForCode("Waterfront").CurrentStage == 1 then
         visited["water"] = false
         return true
     end
-    if has_exterior_access() and Tracker:FindObjectForCode("Gate_Exterior-Precipice").Active and (Tracker:FindObjectForCode("arti").Active or Tracker:FindObjectForCode("spearmaster").Active) then 
+    if has_exterior_access() and Tracker:FindObjectForCode("Gate_Exterior-Precipice").Active and (Tracker:FindObjectForCode("arti").Active or Tracker:FindObjectForCode("spearmaster").Active) and Tracker:FindObjectForCode("Waterfront").CurrentStage == 1 then 
         visited["water"] = false
+        Tracker:FindObjectForCode("Waterfront").Active = true
         return true
     end
-    if has_garbage_access() and (Tracker:FindObjectForCode("Karma").CurrentStage >= 2) and Tracker:FindObjectForCode("Gate_Garbage-Shoreline").Active and (Tracker:FindObjectForCode("arti").Active or Tracker:FindObjectForCode("spearmaster").Active) then 
+    if has_garbage_access() and (Tracker:FindObjectForCode("Karma").CurrentStage >= 2) and Tracker:FindObjectForCode("Gate_Garbage-Shoreline").Active and (Tracker:FindObjectForCode("arti").Active or Tracker:FindObjectForCode("spearmaster").Active) and Tracker:FindObjectForCode("Waterfront").CurrentStage == 1 then 
         visited["water"] = false
+        Tracker:FindObjectForCode("Waterfront").Active = true
         return true
     end
-    if has_shaded_access() and (Tracker:FindObjectForCode("Karma").CurrentStage >= 2) and Tracker:FindObjectForCode("Gate_Shaded-Shoreline").Active and (Tracker:FindObjectForCode("arti").Active or Tracker:FindObjectForCode("spearmaster").Active) then 
+    if has_shaded_access() and (Tracker:FindObjectForCode("Karma").CurrentStage >= 2) and Tracker:FindObjectForCode("Gate_Shaded-Shoreline").Active and (Tracker:FindObjectForCode("arti").Active or Tracker:FindObjectForCode("spearmaster").Active) and Tracker:FindObjectForCode("Waterfront").CurrentStage == 1 then 
         visited["water"] = false
+        Tracker:FindObjectForCode("Waterfront").Active = true
         return true
     end
-    if has_subterranean_access() and (Tracker:FindObjectForCode("Karma").CurrentStage >= 1) and Tracker:FindObjectForCode("Gate_Subterranean-Shoreline").Active and (Tracker:FindObjectForCode("arti").Active or Tracker:FindObjectForCode("spearmaster").Active) then 
+    if has_subterranean_access() and (Tracker:FindObjectForCode("Karma").CurrentStage >= 1) and Tracker:FindObjectForCode("Gate_Subterranean-Shoreline").Active and (Tracker:FindObjectForCode("arti").Active or Tracker:FindObjectForCode("spearmaster").Active) and Tracker:FindObjectForCode("Waterfront").CurrentStage == 1 then 
         visited["water"] = false
+        Tracker:FindObjectForCode("Waterfront").Active = true
         return true
     end
-    if has_pipeyard_access() and (Tracker:FindObjectForCode("Karma").CurrentStage >= 2) and Tracker:FindObjectForCode("Gate_Pipeyard-Shoreline").Active and (Tracker:FindObjectForCode("arti").Active or Tracker:FindObjectForCode("spearmaster").Active) then 
+    if has_pipeyard_access() and (Tracker:FindObjectForCode("Karma").CurrentStage >= 2) and Tracker:FindObjectForCode("Gate_Pipeyard-Shoreline").Active and (Tracker:FindObjectForCode("arti").Active or Tracker:FindObjectForCode("spearmaster").Active) and Tracker:FindObjectForCode("Waterfront").CurrentStage == 1 then 
         visited["water"] = false
+        Tracker:FindObjectForCode("Waterfront").Active = true
         return true
     end
-    if Tracker:FindObjectForCode("Gate_Struts-Waterfront").Active and Tracker:FindObjectForCode("spearmaster").Active and has_lttm_access() then 
+    if Tracker:FindObjectForCode("Gate_Struts-Waterfront").Active and Tracker:FindObjectForCode("spearmaster").Active and has_lttm_access() and Tracker:FindObjectForCode("Waterfront").CurrentStage == 1 then 
         visited["water"] = false
+        Tracker:FindObjectForCode("Waterfront").Active = true
         return true
     end
-    if Tracker:FindObjectForCode("Gate_Precipice-LTTM").Active and Tracker:FindObjectForCode("spearmaster").Active and has_lttm_access() then 
+    if Tracker:FindObjectForCode("Gate_Precipice-LTTM").Active and Tracker:FindObjectForCode("spearmaster").Active and has_lttm_access() and Tracker:FindObjectForCode("Waterfront").CurrentStage == 1 then 
         visited["water"] = false
+        Tracker:FindObjectForCode("Waterfront").Active = true
         return true
     end
     visited["water"] = false
@@ -454,6 +516,7 @@ function has_metro_access()
     end
     if Tracker:FindObjectForCode("Gate_Wall-Metropolis").Active and Tracker:FindObjectForCode("drone").Active and Tracker:FindObjectForCode("arti").Active and has_exterior_access() then 
         visited["metro"] = false
+        Tracker:FindObjectForCode("Metro").Active = true
         return true
     end
     visited["metro"] = false
@@ -464,12 +527,13 @@ function has_rot_access()
         return false
     end
     visited["rot"] = true
-    if Tracker:FindObjectForCode("Rot").Active then
+    if Tracker:FindObjectForCode("Rot").Active and Tracker:FindObjectForCode("Pebbsi").CurrentStage == 1 and Tracker:FindObjectForCode("Riv").Active then
         visited["rot"] = false
         return true
     end
-    if has_exterior_access() and (Tracker:FindObjectForCode("Gate_Wall-Five_Pebbles").Active or Tracker:FindObjectForCode("Gate_Underhang-Five_Pebbles")) and Tracker:FindObjectForCode("riv").Active then 
+    if has_exterior_access() and Tracker:FindObjectForCode("Pebbsi").CurrentStage == 1 and (Tracker:FindObjectForCode("Gate_Wall-Five_Pebbles").Active or Tracker:FindObjectForCode("Gate_Underhang-Five_Pebbles")) and Tracker:FindObjectForCode("riv").Active then 
         visited["rot"] = false
+        Tracker:FindObjectForCode("Rot").Active = true
         return true
     end
     visited["rot"] = false
@@ -480,16 +544,18 @@ function has_lttm_access()
         return false
     end
     visited["moon"] = true
-    if Tracker:FindObjectForCode("Moon").Active then
+    if Tracker:FindObjectForCode("Moon").Active and Tracker:FindObjectForCode("Moonstructure").CurrentStage == 1 then
         visited["moon"] = false
         return true
     end
-    if Tracker:FindObjectForCode("Gate_Struts-Waterfront") and has_waterfront_access() then 
+    if Tracker:FindObjectForCode("Gate_Struts-Waterfront") and has_waterfront_access() and Tracker:FindObjectForCode("spearmaster").Active and Tracker:FindObjectForCode("Moonstructure").CurrentStage == 1 then 
         visited["moon"] = false
+        Tracker:FindObjectForCode("Moon").Active = true
         return true
     end
-    if Tracker:FindObjectForCode("Gate_Precipice-LTTM") and has_waterfront_access() then 
+    if Tracker:FindObjectForCode("Gate_Precipice-LTTM") and has_waterfront_access() and Tracker:FindObjectForCode("spearmaster").Active and Tracker:FindObjectForCode("Moonstructure").CurrentStage == 1 then 
         visited["moon"] = false
+        Tracker:FindObjectForCode("Moon").Active = true
         return true
     end
     visited["moon"] = false
@@ -500,27 +566,31 @@ function has_silent_access()
         return false
     end
     visited["silent"] = true
-    if Tracker:FindObjectForCode("Silent").Active then
+    if Tracker:FindObjectForCode("Silent").Active and Tracker:FindObjectForCode("Castle").CurrentStage == 1 then
         visited["silent"] = false
         return true
     end
-    if has_shoreline_access() and Tracker:FindObjectForCode("Gate_Shoreline-Silent_Construct").Active and (Tracker:FindObjectForCode("Karma").CurrentStage >= 4) and Tracker:FindObjectForCode("saint").Active then 
+    if has_shoreline_access() and Tracker:FindObjectForCode("Gate_Shoreline-Silent_Construct").Active and (Tracker:FindObjectForCode("Karma").CurrentStage >= 4) and Tracker:FindObjectForCode("saint").Active and Tracker:FindObjectForCode("Castle").CurrentStage == 1 then 
         visited["silent"] = false
+        Tracker:FindObjectForCode("Silent").Active = true
         return true
     end
-    if Tracker:FindObjectForCode("Gate_Industrial-Shaded").Active and (Tracker:FindObjectForCode("Karma").CurrentStage >= 4) and Tracker:FindObjectForCode("saint").Active and has_industrial_access() then 
+    if Tracker:FindObjectForCode("Gate_Industrial-Shaded").Active and (Tracker:FindObjectForCode("Karma").CurrentStage >= 4) and Tracker:FindObjectForCode("saint").Active and has_industrial_access() and Tracker:FindObjectForCode("Castle").CurrentStage == 1 then 
         visited["silent"] = false
+        Tracker:FindObjectForCode("Silent").Active = true
         return true
     end
-    if Tracker:FindObjectForCode("Gate_Garbage-Shaded").Active and (Tracker:FindObjectForCode("Karma").CurrentStage >= 3) and Tracker:FindObjectForCode("saint").Active and has_garbage_access() then 
+    if Tracker:FindObjectForCode("Gate_Garbage-Shaded").Active and (Tracker:FindObjectForCode("Karma").CurrentStage >= 3) and Tracker:FindObjectForCode("saint").Active and has_garbage_access() and Tracker:FindObjectForCode("Castle").CurrentStage == 1 then 
         visited["silent"] = false
+        Tracker:FindObjectForCode("Silent").Active = true
         return true
     end
     visited["silent"] = false
     return false
 end
 function has_rubicon_access()
-    if has_subterranean_access() and Tracker:FindObjectForCode("Karma10").Active and Tracker:FindObjectForCode("saint") then 
+    if has_subterranean_access() and (Tracker:FindObjectForCode("Karma").CurrentStage == 8) and Tracker:FindObjectForCode("saint").Active then 
+        Tracker:FindObjectForCode("Rubicon").Active = true
         return true
     end
     return false

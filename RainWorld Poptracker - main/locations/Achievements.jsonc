@@ -1,0 +1,267 @@
+[
+    {
+        "name": "Achievements",
+        "children": [
+            {
+                "name": "Food Quest",
+                "sections": [
+                    {
+                        "name": "Slime Mold"
+                    },
+                    {
+                        "name": "Blue Fruit"
+                    },
+                    {
+                        "name": "Batfly"
+                    },
+                    {
+                        "name": "Mushroom"
+                    },
+                    {
+                        "name": "Black Lizard"
+                    },
+                    {
+                        "name": "Bubble Fruit"
+                    },
+                    {
+                        "name": "Jellyfish"
+                    },
+                    {
+                        "name": "Jetfish"
+                    },
+                    {
+                        "name": "Glow Weed"
+                    },
+                    {
+                        "name": "Eel Lizard or Salamander"
+                    },
+                    {
+                        "name": "Snail"
+                    },
+                    {
+                        "name": "Hazer"
+                    },
+                    {
+                        "name": "Eggbug"
+                    },
+                    {
+                        "name": "Lilypuck"
+                    },
+                    {
+                        "name": "Yellow Lizard"
+                    },
+                    {
+                        "name": "Grapple Worm"
+                    },
+                    {
+                        "name": "Neuron Fly"
+                    },
+                    {
+                        "name": "CentiWing"
+                    },
+                    {
+                        "name": "Dandelion Peach"
+                    },
+                    {
+                        "name": "Cyan Lizard"
+                    },
+                    {
+                        "name": "Gooieduck"
+                    },
+                    {
+                        "name": "Red Centipede or Aquapede"
+                    },
+                    {
+                        "name": "Popcorn Plant"
+                    },
+                    {
+                        "name": "Centipede"
+                    },
+                    {
+                        "name": "Vulture Grub"
+                    },
+                    {
+                        "name": "Noodlefly"
+                    },
+                    {
+                        "name": "Green Lizard"
+                    },
+                    {
+                        "name": "Blue Lizard"
+                    },
+                    {
+                        "name": "Pink Lizard"
+                    },
+                    {
+                        "name": "White Lizard"
+                    },
+                    {
+                        "name": "Red Lizard"
+                    },
+                    {
+                        "name": "Caramel Lizard"
+                    },
+                    {
+                        "name": "Strawberry Lizard"
+                    },
+                    {
+                        "name": "Train Lizard"
+                    },
+                    {
+                        "name": "Spider"
+                    },
+                    {
+                        "name": "Spitter Spider"
+                    },
+                    {
+                        "name": "Splitter Spider"
+                    },
+                    {
+                        "name": "Vulture"
+                    },
+                    {
+                        "name": "King Vulture"
+                    },
+                    {
+                        "name": "Miros Vulture"
+                    },
+                    {
+                        "name": "Lantern Mouse"
+                    },
+                    {
+                        "name": "Squidcada"
+                    },
+                    {
+                        "name": "Yeek"
+                    },
+                    {
+                        "name": "Dropwig"
+                    },
+                    {
+                        "name": "Miros Bird"
+                    },
+                    {
+                        "name": "Scavenger"
+                    },
+                    {
+                        "name": "Rot"
+                    },
+                    {
+                        "name": "Pole Plant"
+                    },
+                    {
+                        "name": "Monster Kelp"
+                    },
+                    {
+                        "name": "Leviathan"
+                    },
+                    {
+                        "name": "Inspector"
+                    }
+                ]
+            },
+            {
+                "name": "Passage",
+                "sections": [
+                    {
+                        "name": "The Martyr"
+                    },
+                    {
+                        "name": "The Mother"
+                    },
+                    {
+                        "name": "The Chieftain"
+                    },
+                    {
+                        "name": "The Monk"
+                    },
+                    {
+                        "name": "The Survivor"
+                    },
+                    {
+                        "name": "The Hunter"
+                    },
+                    {
+                        "name": "The Saint"
+                    },
+                    {
+                        "name": "The Friend"
+                    },
+                    {
+                        "name": "The Scholar"
+                    },
+                    {
+                        "name": "The Wanderer"
+                    },
+                    {
+                        "name": "The Nomad"
+                    },
+                    {
+                        "name": "The Dragon Slayer"
+                    },
+                    {
+                        "name": "The Pilgrim"
+                    },
+                    {
+                        "name": "The Outlaw"
+                    }
+                ]
+            },
+            {
+                "name": "Wanderer",
+                "sections": [
+                    {
+                        "name": "1 pip"
+                    },
+                    {
+                        "name": "2 pips"
+                    },
+                    {
+                        "name": "3 pips"
+                    },
+                    {
+                        "name": "4 pips"
+                    },
+                    {
+                        "name": "5 pips"
+                    },
+                    {
+                        "name": "6 pips"
+                    },
+                    {
+                        "name": "7 pips"
+                    },
+                    {
+                        "name": "8 pips"
+                    },
+                    {
+                        "name": "9 pips"
+                    },
+                    {
+                        "name": "10 pips"
+                    },
+                    {
+                        "name": "11 pips"
+                    },
+                    {
+                        "name": "12 pips"
+                    },
+                    {
+                        "name": "13 pips"
+                    },
+                    {
+                        "name": "14 pips"
+                    }
+                ]
+            },
+            {
+                "name": "Eat a Neuron Fly",
+                "sections": [
+                    {
+                        "name": "Eat a Neuron Fly"
+                    }
+                ]
+            }
+        ]
+    }
+]

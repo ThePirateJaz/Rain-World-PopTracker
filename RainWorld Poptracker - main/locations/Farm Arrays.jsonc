@@ -7,26 +7,33 @@
                 "name": "Farm Arrays",
                 "sections": [
                     {
-                        "name": "Echo"
+                        "name": "Echo",
+                        "chest_unopened_img": "images/icons/Echo.png",
+                        "chest_opened_img": "images/gathered/Echo.png"
                     },
                     {
-                        "name": "Level Token"
+                        "name": "Level Token",
+                        "chest_unopened_img": "images/icons/Level Token.png",
+                        "chest_opened_img": "images/gathered/Level Token.png"
                     },
                     {
                         "name": "Safari Token",
-                        "visibility_rules": ["MSC"]
+                        "visibility_rules": ["MSC"],
+                        "chest_unopened_img": "images/icons/Safari Token.png",
+                        "chest_opened_img": "images/gathered/Safari Token.png"
                     },
                     {
-                        "name": "Pearl",
-                        "ref": "@Farm Arrays/Pearl/Deep Pink Pearl"
+                        "name": "Deep Pink Pearl",
+                        "ref": "Farm Arrays/Deep Pink Pearl/Pearl"
                     },
                     {
-                        "name": "Pearl",
-                        "ref": "@Farm Arrays/Pearl/Bright Red Pearl",
-                        "visibility_rules": ["MSC"]
+                        "name": "Bright Red Pearl",
+                        "ref": "Farm Arrays/Bright Red Pearl/Pearl"
                     },
                     {
-                        "name": "Sporepuff Token"
+                        "name": "Sporepuff Token",
+                        "chest_unopened_img": "images/icons/Spore Puff.png",
+                        "chest_opened_img": "images/gathered/Spore Puff.png"
                     },
                     {
                         "name": "Rain Deer Token",
@@ -35,13 +42,19 @@
                             "gourmand",
                             "arti",
                             "spearmaster"
-                        ]
+                        ],
+                        "chest_unopened_img": "images/icons/Rain Deer.png",
+                        "chest_opened_img": "images/gathered/Rain Deer.png"
                     },
                     {
-                        "name": "Bee Bomb Token"
+                        "name": "Bee Bomb Token",
+                        "chest_unopened_img": "images/icons/Beehive.png",
+                        "chest_opened_img": "images/gathered/Beehive.png"
                     },
                     {
-                        "name": "Batnip Token"
+                        "name": "Batnip Token",
+                        "chest_unopened_img": "images/icons/Batnip.png",
+                        "chest_opened_img": "images/gathered/Batnip.png"
                     },
                     {
                         "name": "Grenade Token",
@@ -53,18 +66,22 @@
                             "riv",
                             "spearmaster",
                             "saint"
-                        ]
+                        ],
+                        "chest_unopened_img": "images/icons/Grenade.png",
+                        "chest_opened_img": "images/gathered/Grenade.png"
                     },
                     {
                         "name": "Noodlefly Token",
                         "visibility_rules": [
-                            "$has_no_msc",
+                            "vanilla",
                             "survivor",
                             "hunter",
                             "gourmand",
                             "arti",
                             "spearmaster"
-                        ]
+                        ],
+                        "chest_unopened_img": "images/icons/Noodlefly.png",
+                        "chest_opened_img": "images/gathered/Noodlefly.png"
                     },
                     {
                         "name": "Spitter Spider Token",
@@ -74,156 +91,197 @@
                             "riv",
                             "spearmaster",
                             "saint"
-                        ]
+                        ],
+                        "chest_unopened_img": "images/icons/Spitter Spider.png",
+                        "chest_opened_img": "images/gathered/Spitter Spider.png"
                     },
                     {
                         "name": "Broadcast",
-                        "visibility_rules": ["spearmaster"]
+                        "visibility_rules": ["spearmaster"],
+                        "chest_unopened_img": "images/icons/Overseer.png",
+                        "chest_opened_img": "images/gathered/Overseer.png"
                     },
                     {
-                        "name": "Shelter",
-                        "ref": "@Farm Shelters/Shelter S01/Shelter",
-                        "visibility_rules": ["$sheltersanity"]
+                        "name": "Shelter S01",
+                        "ref": "Farm Shelters/Shelter S01/Shelter"
                     },
                     {
-                        "name": "Shelter",
-                        "ref": "@Farm Shelters/Shelter S02/Shelter",
-                        "visibility_rules": ["$sheltersanity"]
+                        "name": "Shelter S02",
+                        "ref": "Farm Shelters/Shelter S02/Shelter"
                     },
                     {
-                        "name": "Shelter",
-                        "ref": "@Farm Shelters/Shelter S03/Shelter",
-                        "visibility_rules": ["$sheltersanity"]
+                        "name": "Shelter S03",
+                        "ref": "Farm Shelters/Shelter S03/Shelter"
                     },
                     {
-                        "name": "Shelter",
-                        "ref": "@Farm Shelters/Shelter S04/Shelter",
-                        "visibility_rules": ["$sheltersanity"]
+                        "name": "Shelter S04",
+                        "ref": "Farm Shelters/Shelter S04/Shelter"
                     },
                     {
-                        "name": "Shelter",
-                        "ref": "@Farm Shelters/Shelter S05/Shelter",
-                        "visibility_rules": ["$sheltersanity"]
+                        "name": "Shelter S05",
+                        "ref": "Farm Shelters/Shelter S05/Shelter"
                     },
                     {
-                        "name": "Shelter",
-                        "ref": "@Farm Shelters/Shelter S06/Shelter",
-                        "visibility_rules": ["$sheltersanity"]
+                        "name": "Shelter S06",
+                        "ref": "Farm Shelters/Shelter S06/Shelter"
                     },
                     {
-                        "name": "Shelter",
-                        "ref": "@Farm Shelters/Shelter S07/Shelter",
-                        "visibility_rules": ["$sheltersanity"]
+                        "name": "Shelter S07",
+                        "ref": "Farm Shelters/Shelter S07/Shelter"
                     }
                 ],
                 "map_locations": [
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "Vanilla_Monk_Outskirts",
                         "x": 87,
                         "y": 115
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "Vanilla_Survivor_Outskirts",
                         "x": 87,
                         "y": 115
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "Vanilla_Hunter_Outskirts",
                         "x": 87,
                         "y": 115
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "MSC_Monk_Outskirts",
                         "x": 180,
                         "y": 170
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "MSC_Survivor_Outskirts",
                         "x": 180,
                         "y": 170
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "MSC_Hunter_Outskirts",
                         "x": 180,
                         "y": 170
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "Gourmand_Outskirts",
                         "x": 180,
                         "y": 170
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "Arti_Outskirts",
                         "x": 180,
                         "y": 170
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "Riv_Outskirts",
                         "x": 180,
                         "y": 170
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "Spear_Outskirts",
                         "x": 180,
                         "y": 170
                     },
                     {
-                        "map": "Suburban_Drifts",
+                        "size": 48,
+                        "shape": "rect",
+                        "map": "Saint_Outskirts",
                         "x": 170,
                         "y": 170
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "Vanilla_Monk_Sky_Islands",
                         "x": 525,
                         "y": 550
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "Vanilla_Survivor_Sky_Islands",
                         "x": 525,
                         "y": 550
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "Vanilla_Hunter_Sky_Islands",
                         "x": 525,
                         "y": 550
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "MSC_Monk_Sky_Islands",
                         "x": 570,
                         "y": 675
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "MSC_Survivor_Sky_Islands",
                         "x": 570,
                         "y": 675
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "MSC_Hunter_Sky_Islands",
                         "x": 570,
                         "y": 675
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "Gourmand_Sky_Islands",
                         "x": 570,
                         "y": 675
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "Arti_Sky_Islands",
                         "x": 570,
                         "y": 675
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "Riv_Sky_Islands",
                         "x": 570,
                         "y": 675
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "Spear_Sky_Islands",
                         "x": 570,
                         "y": 635
                     },
                     {
-                        "map": "Windswept_Spires",
+                        "size": 48,
+                        "shape": "rect",
+                        "map": "Saint_Sky_Islands",
                         "x": 535,
                         "y": 575
                     }
@@ -234,7 +292,7 @@
                 "sections": [
                     {
                         "name": "A Bell, Eighteen Amber Beads",
-                        "ref": "@Farm Arrays/Farm Arrays/Echo"
+                        "ref": "Farm Arrays/Farm Arrays/Echo"
                     }
                 ],
                 "map_locations": [
@@ -289,29 +347,22 @@
                         "y": 721
                     },
                     {
-                        "map": "Desolate_Fields",
+                        "map": "Saint_Farm_Arrays",
                         "x": 1094,
                         "y": 721
                     }
                 ]
             },
             {
-                "name": "Level Token",
+                "name": "Farm Arrays Token",
                 "sections": [
                     {
-                        "name": "Farm Arrays Token",
-                        "ref": "@Farm Arrays/Farm Arrays/Level Token"
+                        "name": "Level Token",
+                        "ref": "Farm Arrays/Farm Arrays/Level Token"
                     },
                     {
                         "name": "Spitter Spider Token",
-                        "ref": "@Farm Arrays/Farm Arrays/Spitter Spider Token",
-                        "visibility_rules": [
-                            "hunter",
-                            "arti",
-                            "riv",
-                            "spearmaster",
-                            "saint"
-                        ]
+                        "ref": "Farm Arrays/Farm Arrays/Spitter Spider Token"
                     }
                 ],
                 "map_locations": [
@@ -366,7 +417,7 @@
                         "y": 578
                     },
                     {
-                        "map": "Desolate_Fields",
+                        "map": "Saint_Farm_Arrays",
                         "x": 371,
                         "y": 578
                     }
@@ -374,10 +425,11 @@
             },
             {
                 "name": "Safari Token",
+                "access_rules": ["MSC"],
                 "sections": [
                     {
                         "name": "Safari Token",
-                        "ref": "@Farm Arrays/Farm Arrays/Safari Token"
+                        "ref": "Farm Arrays/Farm Arrays/Safari Token"
                     }
                 ],
                 "map_locations": [
@@ -417,17 +469,19 @@
                         "y": 768
                     },
                     {
-                        "map": "Desolate_Fields",
+                        "map": "Saint_Farm_Arrays",
                         "x": 655,
                         "y": 768
                     }
                 ]
             },
             {
-                "name": "Pearl",
+                "name": "Deep Pink Pearl",
                 "sections": [
                     {
-                        "name": "Deep Pink Pearl"
+                        "name": "Pearl",
+                        "chest_unopened_img": "images/icons/Deep Pink Pearl.png",
+                        "chest_opened_img": "images/gathered/Pearl.png"
                     }
                 ],
                 "map_locations": [
@@ -482,17 +536,19 @@
                         "y": 550
                     },
                     {
-                        "map": "Desolate_Fields",
+                        "map": "Saint_Farm_Arrays",
                         "x": 701,
                         "y": 550
                     }
                 ]
             },
             {
-                "name": "Pearl",
+                "name": "Bright Red Pearl",
                 "sections": [
                     {
-                        "name": "Bright Red Pearl"
+                        "name": "Pearl",
+                        "chest_unopened_img": "images/icons/Bright Red Pearl.png",
+                        "chest_opened_img": "images/gathered/Pearl.png"
                     }
                 ],
                 "map_locations": [
@@ -547,18 +603,18 @@
                         "y": 760
                     },
                     {
-                        "map": "Desolate_Fields",
+                        "map": "Saint_Farm_Arrays",
                         "x": 873,
                         "y": 760
                     }
                 ]
             },
             {
-                "name": "Arena Token",
+                "name": "Sporepuff Token",
                 "sections": [
                     {
-                        "name": "Sporepuff Token",
-                        "ref": "@Farm Arrays/Farm Arrays/Sporepuff Token"
+                        "name": "Arena Token",
+                        "ref": "Farm Arrays/Farm Arrays/Sporepuff Token"
                     }
                 ],
                 "map_locations": [
@@ -613,18 +669,18 @@
                         "y": 332
                     },
                     {
-                        "map": "Desolate_Fields",
+                        "map": "Saint_Farm_Arrays",
                         "x": 1335,
                         "y": 332
                     }
                 ]
             },
             {
-                "name": "Arena Token",
+                "name": "Rain Deer Token",
                 "sections": [
                     {
-                        "name": "Rain Deer Token",
-                        "ref": "@Farm Arrays/Farm Arrays/Rain Deer Token"
+                        "name": "Arena Token",
+                        "ref": "Farm Arrays/Farm Arrays/Rain Deer Token"
                     }
                 ],
                 "map_locations": [
@@ -656,11 +712,11 @@
                 ]
             },
             {
-                "name": "Arena Token",
+                "name": "Bee Bomb Token",
                 "sections": [
                     {
-                        "name": "Bee Bomb Token",
-                        "ref": "@Farm Arrays/Farm Arrays/Bee Bomb Token"
+                        "name": "Arena Token",
+                        "ref": "Farm Arrays/Farm Arrays/Bee Bomb Token"
                     }
                 ],
                 "map_locations": [
@@ -715,18 +771,18 @@
                         "y": 472
                     },
                     {
-                        "map": "Desolate_Fields",
+                        "map": "Saint_Farm_Arrays",
                         "x": 839,
                         "y": 472
                     }
                 ]
             },
             {
-                "name": "Arena Token",
+                "name": "Batnip Token",
                 "sections": [
                     {
-                        "name": "Batnip Token",
-                        "ref": "@Farm Arrays/Farm Arrays/Batnip Token"
+                        "name": "Arena Token",
+                        "ref": "Farm Arrays/Farm Arrays/Batnip Token"
                     }
                 ],
                 "map_locations": [
@@ -781,18 +837,18 @@
                         "y": 548
                     },
                     {
-                        "map": "Desolate_Fields",
+                        "map": "Saint_Farm_Arrays",
                         "x": 662,
                         "y": 548
                     }
                 ]
             },
             {
-                "name": "Arena Token",
+                "name": "Grenade Token",
                 "sections": [
                     {
-                        "name": "Grenade Token",
-                        "ref": "@Farm Arrays/Farm Arrays/Grenade Token"
+                        "name": "Arena Token",
+                        "ref": "Farm Arrays/Farm Arrays/Grenade Token"
                     }
                 ],
                 "map_locations": [
@@ -837,18 +893,18 @@
                         "y": 541
                     },
                     {
-                        "map": "Desolate_Fields",
+                        "map": "Saint_Farm_Arrays",
                         "x": 1393,
                         "y": 541
                     }
                 ]
             },
             {
-                "name": "Arena Token",
+                "name": "Noodlefly Token",
                 "sections": [
                     {
-                        "name": "Noodlefly Token",
-                        "ref": "@Farm Arrays/Farm Arrays/Noodlefly Token"
+                        "name": "Arena Token",
+                        "ref": "Farm Arrays/Farm Arrays/Noodlefly Token"
                     }
                 ],
                 "map_locations": [
@@ -899,7 +955,7 @@
                 "sections": [
                     {
                         "name": "Broadcast",
-                        "ref": "@Farm Arrays/Farm Arrays/Broadcast"
+                        "ref": "Farm Arrays/Farm Arrays/Broadcast"
                     }
                 ],
                 "map_locations": [
@@ -914,8 +970,10 @@
     },
     {
         "name": "Farm Shelters",
-        "access_rules": ["$has_farm_arrays_access,$sheltersanity"],
-        "visibility_rules": ["$sheltersanity"],
+        "access_rules": ["$has_farm_arrays_access,"],
+        "visibility_rules": ["sheltersanity"],
+        "chest_unopened_img": "images/icons/Shelter.png",
+        "chest_opened_img": "images/gathered/Shelter.png",
         "children": [
             {
                 "name": "Shelter S01",
@@ -926,57 +984,68 @@
                 ],
                 "map_locations": [
                     {
+                        "shape": "rect",
                         "map": "Vanilla_Monk_Farm_Arrays",
                         "x": 618,
                         "y": 492
                     },
                     {
+                        "shape": "rect",
                         "map": "MSC_Monk_Farm_Arrays",
                         "x": 636,
                         "y": 498
                     },
                     {
+                        "shape": "rect",
                         "map": "Vanilla_Survivor_Farm_Arrays",
                         "x": 618,
                         "y": 492
                     },
                     {
+                        "shape": "rect",
                         "map": "MSC_Survivor_Farm_Arrays",
                         "x": 636,
                         "y": 498
                     },
                     {
+                        "shape": "rect",
                         "map": "Vanilla_Hunter_Farm_Arrays",
                         "x": 618,
                         "y": 492
                     },
                     {
+                        "shape": "rect",
                         "map": "MSC_Hunter_Farm_Arrays",
                         "x": 636,
                         "y": 498
                     },
                     {
+                        "shape": "rect",
                         "map": "Gourmand_Farm_Arrays",
                         "x": 636,
                         "y": 498
                     },
                     {
+                        "shape": "rect",
                         "map": "Arti_Farm_Arrays",
                         "x": 636,
                         "y": 498
                     },
                     {
+                        "shape": "rect",
                         "map": "Riv_Farm_Arrays",
                         "x": 636,
                         "y": 498
                     },
                     {
+                        "shape": "rect",
                         "map": "Spear_Farm_Arrays",
                         "x": 636,
                         "y": 498
                     },
                     {
-                        "map": "Desolate_Fields",
+                        "shape": "rect",
+                        "map": "Saint_Farm_Arrays",
                         "x": 636,
                         "y": 498
                     }
@@ -991,57 +1060,68 @@
                 ],
                 "map_locations": [
                     {
+                        "shape": "rect",
                         "map": "Vanilla_Monk_Farm_Arrays",
                         "x": 1319,
                         "y": 392
                     },
                     {
+                        "shape": "rect",
                         "map": "MSC_Monk_Farm_Arrays",
                         "x": 1365,
                         "y": 408
                     },
                     {
+                        "shape": "rect",
                         "map": "Vanilla_Survivor_Farm_Arrays",
                         "x": 1319,
                         "y": 392
                     },
                     {
+                        "shape": "rect",
                         "map": "MSC_Survivor_Farm_Arrays",
                         "x": 1365,
                         "y": 408
                     },
                     {
+                        "shape": "rect",
                         "map": "Vanilla_Hunter_Farm_Arrays",
                         "x": 1319,
                         "y": 392
                     },
                     {
+                        "shape": "rect",
                         "map": "MSC_Hunter_Farm_Arrays",
                         "x": 1365,
                         "y": 408
                     },
                     {
+                        "shape": "rect",
                         "map": "Gourmand_Farm_Arrays",
                         "x": 1365,
                         "y": 408
                     },
                     {
+                        "shape": "rect",
                         "map": "Arti_Farm_Arrays",
                         "x": 1365,
                         "y": 408
                     },
                     {
+                        "shape": "rect",
                         "map": "Riv_Farm_Arrays",
                         "x": 1365,
                         "y": 408
                     },
                     {
+                        "shape": "rect",
                         "map": "Spear_Farm_Arrays",
                         "x": 1365,
                         "y": 408
                     },
                     {
-                        "map": "Desolate_Fields",
+                        "shape": "rect",
+                        "map": "Saint_Farm_Arrays",
                         "x": 1365,
                         "y": 408
                     }
@@ -1056,57 +1136,68 @@
                 ],
                 "map_locations": [
                     {
+                        "shape": "rect",
                         "map": "Vanilla_Monk_Farm_Arrays",
                         "x": 247,
                         "y": 550
                     },
                     {
+                        "shape": "rect",
                         "map": "MSC_Monk_Farm_Arrays",
                         "x": 265,
                         "y": 578
                     },
                     {
+                        "shape": "rect",
                         "map": "Vanilla_Survivor_Farm_Arrays",
                         "x": 247,
                         "y": 550
                     },
                     {
+                        "shape": "rect",
                         "map": "MSC_Survivor_Farm_Arrays",
                         "x": 265,
                         "y": 578
                     },
                     {
+                        "shape": "rect",
                         "map": "Vanilla_Hunter_Farm_Arrays",
                         "x": 247,
                         "y": 550
                     },
                     {
+                        "shape": "rect",
                         "map": "MSC_Hunter_Farm_Arrays",
                         "x": 265,
                         "y": 578
                     },
                     {
+                        "shape": "rect",
                         "map": "Gourmand_Farm_Arrays",
                         "x": 265,
                         "y": 578
                     },
                     {
+                        "shape": "rect",
                         "map": "Arti_Farm_Arrays",
                         "x": 265,
                         "y": 578
                     },
                     {
+                        "shape": "rect",
                         "map": "Riv_Farm_Arrays",
                         "x": 265,
                         "y": 578
                     },
                     {
+                        "shape": "rect",
                         "map": "Spear_Farm_Arrays",
                         "x": 265,
                         "y": 578
                     },
                     {
-                        "map": "Desolate_Fields",
+                        "shape": "rect",
+                        "map": "Saint_Farm_Arrays",
                         "x": 265,
                         "y": 578
                     }
@@ -1121,57 +1212,68 @@
                 ],
                 "map_locations": [
                     {
+                        "shape": "rect",
                         "map": "Vanilla_Monk_Farm_Arrays",
                         "x": 112,
                         "y": 424
                     },
                     {
+                        "shape": "rect",
                         "map": "MSC_Monk_Farm_Arrays",
                         "x": 112,
                         "y": 424
                     },
                     {
+                        "shape": "rect",
                         "map": "Vanilla_Survivor_Farm_Arrays",
                         "x": 112,
                         "y": 424
                     },
                     {
+                        "shape": "rect",
                         "map": "MSC_Survivor_Farm_Arrays",
                         "x": 112,
                         "y": 424
                     },
                     {
+                        "shape": "rect",
                         "map": "Vanilla_Hunter_Farm_Arrays",
                         "x": 112,
                         "y": 424
                     },
                     {
+                        "shape": "rect",
                         "map": "MSC_Hunter_Farm_Arrays",
                         "x": 112,
                         "y": 424
                     },
                     {
+                        "shape": "rect",
                         "map": "Gourmand_Farm_Arrays",
                         "x": 112,
                         "y": 424
                     },
                     {
+                        "shape": "rect",
                         "map": "Arti_Farm_Arrays",
                         "x": 112,
                         "y": 424
                     },
                     {
+                        "shape": "rect",
                         "map": "Riv_Farm_Arrays",
                         "x": 112,
                         "y": 424
                     },
                     {
+                        "shape": "rect",
                         "map": "Spear_Farm_Arrays",
                         "x": 112,
                         "y": 424
                     },
                     {
-                        "map": "Desolate_Fields",
+                        "shape": "rect",
+                        "map": "Saint_Farm_Arrays",
                         "x": 112,
                         "y": 424
                     }
@@ -1186,57 +1288,68 @@
                 ],
                 "map_locations": [
                     {
+                        "shape": "rect",
                         "map": "Vanilla_Monk_Farm_Arrays",
                         "x": 1363,
                         "y": 768
                     },
                     {
+                        "shape": "rect",
                         "map": "MSC_Monk_Farm_Arrays",
                         "x": 1393,
                         "y": 774
                     },
                     {
+                        "shape": "rect",
                         "map": "Vanilla_Survivor_Farm_Arrays",
                         "x": 1363,
                         "y": 768
                     },
                     {
+                        "shape": "rect",
                         "map": "MSC_Survivor_Farm_Arrays",
                         "x": 1393,
                         "y": 774
                     },
                     {
+                        "shape": "rect",
                         "map": "Vanilla_Hunter_Farm_Arrays",
                         "x": 1363,
                         "y": 768
                     },
                     {
+                        "shape": "rect",
                         "map": "MSC_Hunter_Farm_Arrays",
                         "x": 1393,
                         "y": 774
                     },
                     {
+                        "shape": "rect",
                         "map": "Gourmand_Farm_Arrays",
                         "x": 1393,
                         "y": 774
                     },
                     {
+                        "shape": "rect",
                         "map": "Arti_Farm_Arrays",
                         "x": 1393,
                         "y": 774
                     },
                     {
+                        "shape": "rect",
                         "map": "Riv_Farm_Arrays",
                         "x": 1393,
                         "y": 774
                     },
                     {
+                        "shape": "rect",
                         "map": "Spear_Farm_Arrays",
                         "x": 1393,
                         "y": 774
                     },
                     {
-                        "map": "Desolate_Fields",
+                        "shape": "rect",
+                        "map": "Saint_Farm_Arrays",
                         "x": 1393,
                         "y": 774
                     }
@@ -1251,57 +1364,68 @@
                 ],
                 "map_locations": [
                     {
+                        "shape": "rect",
                         "map": "Vanilla_Monk_Farm_Arrays",
                         "x": 685,
                         "y": 398
                     },
                     {
+                        "shape": "rect",
                         "map": "MSC_Monk_Farm_Arrays",
                         "x": 715,
                         "y": 396
                     },
                     {
+                        "shape": "rect",
                         "map": "Vanilla_Survivor_Farm_Arrays",
                         "x": 685,
                         "y": 398
                     },
                     {
+                        "shape": "rect",
                         "map": "MSC_Survivor_Farm_Arrays",
                         "x": 715,
                         "y": 396
                     },
                     {
+                        "shape": "rect",
                         "map": "Vanilla_Hunter_Farm_Arrays",
                         "x": 685,
                         "y": 398
                     },
                     {
+                        "shape": "rect",
                         "map": "MSC_Hunter_Farm_Arrays",
                         "x": 715,
                         "y": 396
                     },
                     {
+                        "shape": "rect",
                         "map": "Gourmand_Farm_Arrays",
                         "x": 715,
                         "y": 396
                     },
                     {
+                        "shape": "rect",
                         "map": "Arti_Farm_Arrays",
                         "x": 715,
                         "y": 396
                     },
                     {
+                        "shape": "rect",
                         "map": "Riv_Farm_Arrays",
                         "x": 715,
                         "y": 396
                     },
                     {
+                        "shape": "rect",
                         "map": "Spear_Farm_Arrays",
                         "x": 715,
                         "y": 396
                     },
                     {
-                        "map": "Desolate_Fields",
+                        "shape": "rect",
+                        "map": "Saint_Farm_Arrays",
                         "x": 715,
                         "y": 396
                     }
@@ -1316,37 +1440,44 @@
                 ],
                 "map_locations": [
                     {
+                        "shape": "rect",
                         "map": "Vanilla_Monk_Farm_Arrays",
                         "x": 1472,
                         "y": 522
                     },
                     {
+                        "shape": "rect",
                         "map": "MSC_Monk_Farm_Arrays",
                         "x": 1502,
                         "y": 528
                     },
                     {
+                        "shape": "rect",
                         "map": "Vanilla_Survivor_Farm_Arrays",
                         "x": 1472,
                         "y": 522
                     },
                     {
+                        "shape": "rect",
                         "map": "MSC_Survivor_Farm_Arrays",
                         "x": 1502,
                         "y": 528
                     },
                     {
+                        "shape": "rect",
                         "map": "Gourmand_Farm_Arrays",
                         "x": 1502,
                         "y": 528
                     },
                     {
+                        "shape": "rect",
                         "map": "Riv_Farm_Arrays",
                         "x": 1502,
                         "y": 528
                     },
                     {
-                        "map": "Desolate_Fields",
+                        "shape": "rect",
+                        "map": "Saint_Farm_Arrays",
                         "x": 1502,
                         "y": 528
                     }

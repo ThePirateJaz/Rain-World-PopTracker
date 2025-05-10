@@ -8,11 +8,15 @@
                 "sections": [
                     {
                         "name": "Echo",
-                        "visibility_rules": ["saint"]
+                        "visibility_rules": ["saint"],
+                        "chest_unopened_img": "images/icons/Echo.png",
+                        "chest_opened_img": "images/gathered/Echo.png"
                     },
                     {
                         "name": "Meet Looks to the Moon",
-                        "access_rules": ["speech"]
+                        "access_rules": ["speech"],
+                        "chest_unopened_img": "images/icons/Looks to the Moon.png",
+                        "chest_opened_img": "images/gathered/Looks to the Moon.png"
                     },
                     {
                         "name": "Give a Neuron Fly to Looks to the Moon",
@@ -22,39 +26,51 @@
                             "survivor",
                             "gourmand",
                             "riv"
-                        ]
+                        ],
+                        "chest_unopened_img": "images/icons/Looks to the Moon.png",
+                        "chest_opened_img": "images/gathered/Looks to the Moon.png"
                     },
                     {
                         "name": "Revive Looks to the Moon",
                         "access_rules": ["key"],
-                        "visibility_rules": ["hunter"]
+                        "visibility_rules": ["hunter"],
+                        "chest_unopened_img": "images/icons/Looks to the Moon.png",
+                        "chest_opened_img": "images/gathered/Looks to the Moon.png"
                     },
                     {
                         "name": "Ascend Looks to the Moon",
                         "access_rules": ["Karma10"],
-                        "visibility_rules": ["saint"]
+                        "visibility_rules": ["saint"],
+                        "chest_unopened_img": "images/icons/Looks to the Moon.png",
+                        "chest_opened_img": "images/gathered/Looks to the Moon.png"
                     },
                     {
-                        "name": "Level Token"
+                        "name": "Level Token",
+                        "chest_unopened_img": "images/icons/Level Token.png",
+                        "chest_opened_img": "images/gathered/Level Token.png"
                     },
                     {
                         "name": "Safari Token",
-                        "visibility_rules": ["MSC"]
+                        "visibility_rules": ["MSC"],
+                        "chest_unopened_img": "images/icons/Safari Token.png",
+                        "chest_opened_img": "images/gathered/Safari Token.png"
                     },
                     {
-                        "name": "Pearl",
-                        "ref": "@Shoreline/Pearl/Bright Purple Pearl"
+                        "name": "Bright Purple Pearl",
+                        "ref": "Shoreline/Bright Purple Pearl/Pearl"
                     },
                     {
-                        "name": "Pearl",
-                        "ref": "@Shoreline/Pearl/Pale Yellow Pearl"
+                        "name": "Pale Yellow Pearl",
+                        "ref": "Shoreline/Pale Yellow Pearl/Pearl"
                     },
                     {
-                        "name": "Pearl",
-                        "ref": "@Shoreline/Pearl/Bright Magenta Pearl"
+                        "name": "Bright Magenta Pearl",
+                        "ref": "Shoreline/Bright Magenta Pearl/Pearl"
                     },
                     {
-                        "name": "Jellyfish Token"
+                        "name": "Jellyfish Token",
+                        "chest_unopened_img": "images/icons/Jellyfish.png",
+                        "chest_opened_img": "images/gathered/Jellyfish.png"
                     },
                     {
                         "name": "Jetfish Token",
@@ -63,302 +79,359 @@
                             "survivor",
                             "hunter",
                             "riv"
-                        ]
+                        ],
+                        "chest_unopened_img": "images/icons/Jetfish.png",
+                        "chest_opened_img": "images/gathered/Jetfish.png"
                     },
                     {
                         "name": "Leviathan Token",
                         "visibility_rules": [
                             "hunter",
                             "gourmand"
-                        ]
+                        ],
+                        "chest_unopened_img": "images/icons/Leviathan.png",
+                        "chest_opened_img": "images/gathered/Leviathan.png"
                     },
                     {
                         "name": "SeaLeech Token",
                         "visibility_rules": [
-                            "monk,$has_no_msc",
+                            "monk,vanilla",
                             "survivor",
                             "hunter",
                             "gourmand",
                             "riv",
                             "saint"
-                        ]
+                        ],
+                        "chest_unopened_img": "images/icons/Sea Leech.png",
+                        "chest_opened_img": "images/gathered/Sea Leech.png"
                     },
                     {
-                        "name": "Shelter",
-                        "ref": "@Shoreline Shelters/Shelter S02/Shelter",
-                        "visibility_rules": [
-                            "$sheltersanity,monk",
-                            "$sheltersanity,survivor",
-                            "$sheltersanity,hunter",
-                            "$sheltersanity,gourmand",
-                            "$sheltersanity,riv"
-                        ]
+                        "name": "Shelter S02",
+                        "ref": "Shoreline Shelters/Shelter S02/Shelter"
                     },
                     {
-                        "name": "Shelter",
-                        "ref": "@Shoreline Shelters/Shelter S03/Shelter",
-                        "visibility_rules": ["$sheltersanity"]
+                        "name": "Shelter S03",
+                        "ref": "Shoreline Shelters/Shelter S03/Shelter"
                     },
                     {
-                        "name": "Shelter",
-                        "ref": "@Shoreline Shelters/Shelter S04/Shelter",
-                        "visibility_rules": ["$sheltersanity"]
+                        "name": "Shelter S04",
+                        "ref": "Shoreline Shelters/Shelter S04/Shelter"
                     },
                     {
-                        "name": "Shelter",
-                        "ref": "@Shoreline Shelters/Shelter S05/Shelter",
-                        "visibility_rules": ["$sheltersanity"]
+                        "name": "Shelter S05",
+                        "ref": "Shoreline Shelters/Shelter S05/Shelter"
                     },
                     {
-                        "name": "Shelter",
-                        "ref": "@Shoreline Shelters/Shelter S06/Shelter",
-                        "visibility_rules": ["$sheltersanity"]
+                        "name": "Shelter S06",
+                        "ref": "Shoreline Shelters/Shelter S06/Shelter"
                     },
                     {
-                        "name": "Shelter",
-                        "ref": "@Shoreline Shelters/Shelter S07/Shelter",
-                        "visibility_rules": ["$sheltersanity"]
+                        "name": "Shelter S07",
+                        "ref": "Shoreline Shelters/Shelter S07/Shelter"
                     },
                     {
-                        "name": "Shelter",
-                        "ref": "@Shoreline Shelters/Shelter S08/Shelter",
-                        "visibility_rules": ["$sheltersanity"]
+                        "name": "Shelter S08",
+                        "ref": "Shoreline Shelters/Shelter S08/Shelter"
                     },
                     {
-                        "name": "Shelter",
-                        "ref": "@Shoreline Shelters/Shelter S09/Shelter",
-                        "visibility_rules": ["$sheltersanity"]
+                        "name": "Shelter S09",
+                        "ref": "Shoreline Shelters/Shelter S09/Shelter"
                     },
                     {
-                        "name": "Shelter",
-                        "ref": "@Shoreline Shelters/Shelter S10/Shelter",
-                        "visibility_rules": ["$sheltersanity"]
+                        "name": "Shelter S10",
+                        "ref": "Shoreline Shelters/Shelter S10/Shelter"
                     },
                     {
-                        "name": "Shelter",
-                        "ref": "@Shoreline Shelters/Shelter S11/Shelter",
-                        "visibility_rules": ["$sheltersanity"]
+                        "name": "Shelter S11",
+                        "ref": "Shoreline Shelters/Shelter S11/Shelter"
                     },
                     {
-                        "name": "Shelter",
-                        "ref": "@Shoreline Shelters/Shelter S13/Shelter",
-                        "visibility_rules": [
-                            "$sheltersanity,monk,MSC",
-                            "$sheltersanity,survivor,MSC",
-                            "$sheltersanity,hunter,MSC",
-                            "$sheltersanity,gourmand",
-                            "$sheltersanity,riv"
-                        ]
-
+                        "name": "Shelter S13",
+                        "ref": "Shoreline Shelters/Shelter S13/Shelter"
                     },
                     {
-                        "name": "Shelter",
-                        "ref": "@Shoreline Shelters/Shelter S15/Shelter",
-                        "visibility_rules": ["$sheltersanity,MSC"]
+                        "name": "Shelter S15",
+                        "ref": "Shoreline Shelters/Shelter S15/Shelter"
                     },
                     {
-                        "name": "Shelter",
-                        "ref": "@Shoreline Shelters/Top Shelter/Shelter",
-                        "visibility_rules": ["$sheltersanity,riv"]
+                        "name": "Top Shelter",
+                        "ref": "Shoreline Shelters/Top Shelter/Shelter"
                     },
                     {
-                        "name": "Shelter",
-                        "ref": "@Shoreline Shelters/Crushed Shelter/Shelter",
-                        "visibility_rules": ["$sheltersanity,saint"]
+                        "name": "Crushed Shelter",
+                        "ref": "Shoreline Shelters/Crushed Shelter/Shelter"
                     }
                 ],
                 "map_locations": [
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "Vanilla_Monk_Garbage",
                         "x": 1505,
                         "y": 100
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "Vanilla_Survivor_Garbage",
                         "x": 1505,
                         "y": 100
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "Vanilla_Hunter_Garbage",
                         "x": 1505,
                         "y": 100
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "MSC_Monk_Garbage",
                         "x": 1650,
                         "y": 300
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "MSC_Survivor_Garbage",
                         "x": 1650,
                         "y": 300
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "MSC_Hunter_Garbage",
                         "x": 1650,
                         "y": 300
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "Gourmand_Garbage",
                         "x": 1650,
                         "y": 300
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "Riv_Garbage",
                         "x": 1650,
                         "y": 300
                     },
                     {
-                        "map": "Glacial Wasteland",
+                        "size": 48,
+                        "shape": "rect",
+                        "map": "Saint_Garbage",
                         "x": 1650,
                         "y": 300
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "MSC_Monk_Pipeyard",
                         "x": 2250,
                         "y": 650
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "MSC_Survivor_Pipeyard",
                         "x": 2250,
                         "y": 650
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "MSC_Hunter_Pipeyard",
                         "x": 2250,
                         "y": 650
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "Gourmand_Pipeyard",
                         "x": 2250,
                         "y": 650
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "Riv_Pipeyard",
                         "x": 2250,
                         "y": 650
                     },
                     {
-                        "map": "Barren_Conduits",
+                        "size": 48,
+                        "shape": "rect",
+                        "map": "Saint_Pipeyard",
                         "x": 2250,
                         "y": 650
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "Vanilla_Monk_Subterranean",
                         "x": 2485,
                         "y": 510
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "Vanilla_Survivor_Subterranean",
                         "x": 2485,
                         "y": 510
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "Vanilla_Hunter_Subterranean",
                         "x": 2485,
                         "y": 510
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "MSC_Monk_Subterranean",
                         "x": 2485,
                         "y": 470
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "MSC_Survivor_Subterranean",
                         "x": 2485,
                         "y": 470
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "MSC_Hunter_Subterranean",
                         "x": 2485,
                         "y": 470
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "Gourmand_Subterranean",
                         "x": 2485,
                         "y": 470
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "Riv_Subterranean",
                         "x": 2485,
                         "y": 470
                     },
                     {
-                        "map": "Primordial_Underground",
+                        "size": 48,
+                        "shape": "rect",
+                        "map": "Saint_Subterranean",
                         "x": 2160,
                         "y": 470
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "Vanilla_Monk_Shaded",
                         "x": 1810,
                         "y": 120
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "Vanilla_Survivor_Shaded",
                         "x": 1810,
                         "y": 120
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "Vanilla_Hunter_Shaded",
                         "x": 1810,
                         "y": 120
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "MSC_Monk_Shaded",
                         "x": 1810,
                         "y": 120
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "MSC_Survivor_Shaded",
                         "x": 1810,
                         "y": 120
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "MSC_Hunter_Shaded",
                         "x": 1810,
                         "y": 120
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "Gourmand_Shaded",
                         "x": 1810,
                         "y": 120
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "Riv_Shaded",
                         "x": 1810,
                         "y": 120
                     },
                     {
-                        "map": "Silent_Construct",
+                        "size": 48,
+                        "shape": "rect",
+                        "map": "Saint_Silent_Construct",
                         "x": 1460,
                         "y": 910
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "MSC_Monk_Submerged",
                         "x": 75,
                         "y": 540
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "MSC_Survivor_Submerged",
                         "x": 75,
                         "y": 540
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "MSC_Hunter_Submerged",
                         "x": 75,
                         "y": 540
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "Gourmand_Submerged",
                         "x": 75,
                         "y": 540
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "Riv_Submerged",
                         "x": 80,
                         "y": 1085
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "Saint_Submerged",
                         "x": 80,
                         "y": 1085
@@ -370,12 +443,12 @@
                 "sections": [
                     {
                         "name": "Distant Towers Upon Cracked Earth",
-                        "ref": "@Shoreline/Shoreline/Echo"
+                        "ref": "Shoreline/Shoreline/Echo"
                     }
                 ],
                 "map_locations": [
                     {
-                        "map": "Frigid_Coast",
+                        "map": "Saint_Shoreline",
                         "x": 1581,
                         "y": 91
                     }
@@ -386,30 +459,19 @@
                 "sections": [
                     {
                         "name": "Meet Looks to the Moon",
-                        "ref": "@Shoreline/Shoreline/Meet Looks to the Moon",
-                        "access_rules": ["speech"]
+                        "ref": "Shoreline/Shoreline/Meet Looks to the Moon"
                     },
                     {
                         "name": "Give a Neuron Fly to Looks to the Moon",
-                        "ref": "@Shoreline/Shoreline/Give a Neuron Fly to Looks to the Moon",
-                        "visibility_rules": [
-                            "monk",
-                            "survivor",
-                            "gourmand"
-                        ],
-                        "access_rules":["$has_five_pebbles_access"]
+                        "ref": "Shoreline/Shoreline/Give a Neuron Fly to Looks to the Moon"
                     },
                     {
                         "name": "Revive Looks to the Moon",
-                        "ref": "@Shoreline/Shoreline/Revive Looks to the Moon",
-                        "visibility_rules": ["hunter"],
-                        "access_rules": ["key"]
+                        "ref": "Shoreline/Shoreline/Revive Looks to the Moon"
                     },
                     {
                         "name": "Ascend Looks to the Moon",
-                        "ref": "@Shoreline/Shoreline/Ascend Looks to the Moon",
-                        "visibility_rules": ["saint"],
-                        "access_rules": ["Karma10"]
+                        "ref": "Shoreline/Shoreline/Ascend Looks to the Moon"
                     }
                 ],
                 "map_locations": [
@@ -454,30 +516,22 @@
                         "y": 388
                     },
                     {
-                        "map": "Frigid_Coast",
+                        "map": "Saint_Shoreline",
                         "x": 2051,
                         "y": 385
                     }
                 ]
             },
             {
-                "name": "Level Token",
+                "name": "Shoreline Token",
                 "sections": [
                     {
-                        "name": "Shoreline Token",
-                        "ref": "@Shoreline/Shoreline/Level Token"
+                        "name": "Level Token",
+                        "ref": "Shoreline/Shoreline/Level Token"
                     },
                     {
                         "name": "SeaLeech Token",
-                        "ref": "@Shoreline/Shoreline/SeaLeech Token",
-                        "visibility_rules": [
-                            "monk,$has_no_msc",
-                            "survivor",
-                            "hunter",
-                            "gourmand",
-                            "riv",
-                            "saint"
-                        ]
+                        "ref": "Shoreline/Shoreline/SeaLeech Token"
                     }
                 ],
                 "map_locations": [
@@ -522,7 +576,7 @@
                         "y": 761
                     },
                     {
-                        "map": "Frigid_Coast",
+                        "map": "Saint_Shoreline",
                         "x": 563,
                         "y": 758
                     }
@@ -534,7 +588,7 @@
                 "sections": [
                     {
                         "name": "Safari Token",
-                        "ref": "@Shoreline/Shoreline/Safari Token"
+                        "ref": "Shoreline/Shoreline/Safari Token"
                     }
                 ],
                 "map_locations": [
@@ -564,17 +618,19 @@
                         "y": 333
                     },
                     {
-                        "map": "Frigid_Coast",
+                        "map": "Saint_Shoreline",
                         "x": 1908,
                         "y": 330
                     }
                 ]
             },
             {
-                "name": "Pearl",
+                "name": "Bright Purple Pearl",
                 "sections": [
                     {
-                        "name": "Bright Purple Pearl"
+                        "name": "Pearl",
+                        "chest_unopened_img": "images/icons/Bright Purple Pearl.png",
+                        "chest_opened_img": "images/gathered/Pearl.png"
                     }
                 ],
                 "map_locations": [
@@ -619,17 +675,19 @@
                         "y": 162
                     },
                     {
-                        "map": "Frigid_Coast",
+                        "map": "Saint_Shoreline",
                         "x": 768,
                         "y": 159
                     }
                 ]
             },
             {
-                "name": "Pearl",
+                "name": "Pale Yellow Pearl",
                 "sections": [
                     {
-                        "name": "Pale Yellow Pearl"
+                        "name": "Pearl",
+                        "chest_unopened_img": "images/icons/Pale Yellow Pearl.png",
+                        "chest_opened_img": "images/gathered/Pearl.png"
                     }
                 ],
                 "map_locations": [
@@ -674,17 +732,19 @@
                         "y": 313
                     },
                     {
-                        "map": "Frigid_Coast",
+                        "map": "Saint_Shoreline",
                         "x": 1909,
                         "y": 310
                     }
                 ]
             },
             {
-                "name": "Pearl",
+                "name": "Bright Magenta Pearl",
                 "sections": [
                     {
-                        "name": "Bright Magenta Pearl"
+                        "name": "Pearl",
+                        "chest_unopened_img": "images/icons/Bright Magenta Pearl.png",
+                        "chest_opened_img": "images/gathered/Pearl.png"
                     }
                 ],
                 "map_locations": [
@@ -729,18 +789,18 @@
                         "y": 267
                     },
                     {
-                        "map": "Frigid_Coast",
+                        "map": "Saint_Shoreline",
                         "x": 941,
                         "y": 264
                     }
                 ]
             },
             {
-                "name": "Arena Token",
+                "name": "Jellyfish Token",
                 "sections": [
                     {
-                        "name": "Jellyfish Token",
-                        "ref": "@Shoreline/Shoreline/Jellyfish Token"
+                        "name": "Arena Token",
+                        "ref": "Shoreline/Shoreline/Jellyfish Token"
                     }
                 ],
                 "map_locations": [
@@ -785,18 +845,18 @@
                         "y": 159
                     },
                     {
-                        "map": "Frigid_Coast",
+                        "map": "Saint_Shoreline",
                         "x": 827,
                         "y": 156
                     }
                 ]
             },
             {
-                "name": "Arena Token",
+                "name": "Jetfish Token",
                 "sections": [
                     {
-                        "name": "Jetfish Token",
-                        "ref": "@Shoreline/Shoreline/Jetfish Token"
+                        "name": "Arena Token",
+                        "ref": "Shoreline/Shoreline/Jetfish Token"
                     }
                 ],
                 "map_locations": [
@@ -838,11 +898,11 @@
                 ]
             },
             {
-                "name": "Arena Token",
+                "name": "Leviathan Token",
                 "sections": [
                     {
-                        "name": "Leviathan Token",
-                        "ref": "@Shoreline/Shoreline/Leviathan Token"
+                        "name": "Arena Token",
+                        "ref": "Shoreline/Shoreline/Leviathan Token"
                     }
                 ],
                 "map_locations": [
@@ -868,10 +928,19 @@
     {
         "name": "Shoreline Shelters",
         "access_rules": ["$has_shoreline_access"],
-        "visibility_rules": ["$sheltersanity"],
+        "visibility_rules": ["sheltersanity"],
+        "chest_unopened_img": "images/icons/Shelter.png",
+        "chest_opened_img": "images/gathered/Shelter.png",
         "children": [
             {
                 "name": "Shelter S02",
+                "visibility_rules": [
+                    "monk",
+                    "survivor",
+                    "hunter",
+                    "gourmand",
+                    "riv"
+                ],
                 "sections": [
                     {
                         "name": "Shelter"
@@ -879,41 +948,49 @@
                 ],
                 "map_locations": [
                     {
+                        "shape": "rect",
                         "map": "Vanilla_Monk_Shoreline",
                         "x": 1055,
                         "y": 150
                     },
                     {
+                        "shape": "rect",
                         "map": "MSC_Monk_Shoreline",
                         "x": 1045,
                         "y": 150
                     },
                     {
+                        "shape": "rect",
                         "map": "Vanilla_Survivor_Shoreline",
                         "x": 1055,
                         "y": 150
                     },
                     {
+                        "shape": "rect",
                         "map": "MSC_Survivor_Shoreline",
                         "x": 1045,
                         "y": 150
                     },
                     {
+                        "shape": "rect",
                         "map": "Vanilla_Hunter_Shoreline",
                         "x": 1055,
                         "y": 150
                     },
                     {
+                        "shape": "rect",
                         "map": "MSC_Hunter_Shoreline",
                         "x": 1045,
                         "y": 150
                     },
                     {
+                        "shape": "rect",
                         "map": "Gourmand_Shoreline",
                         "x": 1045,
                         "y": 150
                     },
                     {
+                        "shape": "rect",
                         "map": "Riv_Shoreline",
                         "x": 1045,
                         "y": 150
@@ -929,47 +1006,56 @@
                 ],
                 "map_locations": [
                     {
+                        "shape": "rect",
                         "map": "Vanilla_Monk_Shoreline",
                         "x": 817,
                         "y": 528
                     },
                     {
+                        "shape": "rect",
                         "map": "MSC_Monk_Shoreline",
                         "x": 795,
                         "y": 514
                     },
                     {
+                        "shape": "rect",
                         "map": "Vanilla_Survivor_Shoreline",
                         "x": 817,
                         "y": 528
                     },
                     {
+                        "shape": "rect",
                         "map": "MSC_Survivor_Shoreline",
                         "x": 795,
                         "y": 514
                     },
                     {
+                        "shape": "rect",
                         "map": "Vanilla_Hunter_Shoreline",
                         "x": 817,
                         "y": 528
                     },
                     {
+                        "shape": "rect",
                         "map": "MSC_Hunter_Shoreline",
                         "x": 795,
                         "y": 514
                     },
                     {
+                        "shape": "rect",
                         "map": "Gourmand_Shoreline",
                         "x": 795,
                         "y": 514
                     },
                     {
+                        "shape": "rect",
                         "map": "Riv_Shoreline",
                         "x": 795,
                         "y": 514
                     },
                     {
-                        "map": "Frigid_Coast",
+                        "shape": "rect",
+                        "map": "Saint_Shoreline",
                         "x": 795,
                         "y": 511
                     }
@@ -984,47 +1070,56 @@
                 ],
                 "map_locations": [
                     {
+                        "shape": "rect",
                         "map": "Vanilla_Monk_Shoreline",
                         "x": 701,
                         "y": 686
                     },
                     {
+                        "shape": "rect",
                         "map": "MSC_Monk_Shoreline",
                         "x": 701,
                         "y": 736
                     },
                     {
+                        "shape": "rect",
                         "map": "Vanilla_Survivor_Shoreline",
                         "x": 701,
                         "y": 686
                     },
                     {
+                        "shape": "rect",
                         "map": "MSC_Survivor_Shoreline",
                         "x": 701,
                         "y": 736
                     },
                     {
+                        "shape": "rect",
                         "map": "Vanilla_Hunter_Shoreline",
                         "x": 701,
                         "y": 686
                     },
                     {
+                        "shape": "rect",
                         "map": "MSC_Hunter_Shoreline",
                         "x": 701,
                         "y": 736
                     },
                     {
+                        "shape": "rect",
                         "map": "Gourmand_Shoreline",
                         "x": 701,
                         "y": 736
                     },
                     {
+                        "shape": "rect",
                         "map": "Riv_Shoreline",
                         "x": 701,
                         "y": 736
                     },
                     {
-                        "map": "Frigid_Coast",
+                        "shape": "rect",
+                        "map": "Saint_Shoreline",
                         "x": 701,
                         "y": 733
                     }
@@ -1039,47 +1134,56 @@
                 ],
                 "map_locations": [
                     {
+                        "shape": "rect",
                         "map": "Vanilla_Monk_Shoreline",
                         "x": 705,
                         "y": 350
                     },
                     {
+                        "shape": "rect",
                         "map": "MSC_Monk_Shoreline",
                         "x": 691,
                         "y": 350
                     },
                     {
+                        "shape": "rect",
                         "map": "Vanilla_Survivor_Shoreline",
                         "x": 705,
                         "y": 350
                     },
                     {
+                        "shape": "rect",
                         "map": "MSC_Survivor_Shoreline",
                         "x": 691,
                         "y": 350
                     },
                     {
+                        "shape": "rect",
                         "map": "Vanilla_Hunter_Shoreline",
                         "x": 705,
                         "y": 350
                     },
                     {
+                        "shape": "rect",
                         "map": "MSC_Hunter_Shoreline",
                         "x": 691,
                         "y": 350
                     },
                     {
+                        "shape": "rect",
                         "map": "Gourmand_Shoreline",
                         "x": 691,
                         "y": 350
                     },
                     {
+                        "shape": "rect",
                         "map": "Riv_Shoreline",
                         "x": 691,
                         "y": 350
                     },
                     {
-                        "map": "Frigid_Coast",
+                        "shape": "rect",
+                        "map": "Saint_Shoreline",
                         "x": 697,
                         "y": 347
                     }
@@ -1094,47 +1198,56 @@
                 ],
                 "map_locations": [
                     {
+                        "shape": "rect",
                         "map": "Vanilla_Monk_Shoreline",
                         "x": 1956,
                         "y": 320
                     },
                     {
+                        "shape": "rect",
                         "map": "MSC_Monk_Shoreline",
                         "x": 1960,
                         "y": 320
                     },
                     {
+                        "shape": "rect",
                         "map": "Vanilla_Survivor_Shoreline",
                         "x": 1956,
                         "y": 320
                     },
                     {
+                        "shape": "rect",
                         "map": "MSC_Survivor_Shoreline",
                         "x": 1960,
                         "y": 320
                     },
                     {
+                        "shape": "rect",
                         "map": "Vanilla_Hunter_Shoreline",
                         "x": 1956,
                         "y": 320
                     },
                     {
+                        "shape": "rect",
                         "map": "MSC_Hunter_Shoreline",
                         "x": 1960,
                         "y": 320
                     },
                     {
+                        "shape": "rect",
                         "map": "Gourmand_Shoreline",
                         "x": 1960,
                         "y": 320
                     },
                     {
+                        "shape": "rect",
                         "map": "Riv_Shoreline",
                         "x": 1960,
                         "y": 320
                     },
                     {
-                        "map": "Frigid_Coast",
+                        "shape": "rect",
+                        "map": "Saint_Shoreline",
                         "x": 1960,
                         "y": 317
                     }
@@ -1149,47 +1262,56 @@
                 ],
                 "map_locations": [
                     {
+                        "shape": "rect",
                         "map": "Vanilla_Monk_Shoreline",
                         "x": 61,
                         "y": 464
                     },
                     {
+                        "shape": "rect",
                         "map": "MSC_Monk_Shoreline",
                         "x": 61,
                         "y": 464
                     },
                     {
+                        "shape": "rect",
                         "map": "Vanilla_Survivor_Shoreline",
                         "x": 61,
                         "y": 464
                     },
                     {
+                        "shape": "rect",
                         "map": "MSC_Survivor_Shoreline",
                         "x": 61,
                         "y": 464
                     },
                     {
+                        "shape": "rect",
                         "map": "Vanilla_Hunter_Shoreline",
                         "x": 61,
                         "y": 464
                     },
                     {
+                        "shape": "rect",
                         "map": "MSC_Hunter_Shoreline",
                         "x": 61,
                         "y": 464
                     },
                     {
+                        "shape": "rect",
                         "map": "Gourmand_Shoreline",
                         "x": 61,
                         "y": 464
                     },
                     {
+                        "shape": "rect",
                         "map": "Riv_Shoreline",
                         "x": 61,
                         "y": 464
                     },
                     {
-                        "map": "Frigid_Coast",
+                        "shape": "rect",
+                        "map": "Saint_Shoreline",
                         "x": 61,
                         "y": 461
                     }
@@ -1204,47 +1326,56 @@
                 ],
                 "map_locations": [
                     {
+                        "shape": "rect",
                         "map": "Vanilla_Monk_Shoreline",
                         "x": 1284,
                         "y": 576
                     },
                     {
+                        "shape": "rect",
                         "map": "MSC_Monk_Shoreline",
                         "x": 1256,
                         "y": 576
                     },
                     {
+                        "shape": "rect",
                         "map": "Vanilla_Survivor_Shoreline",
                         "x": 1284,
                         "y": 576
                     },
                     {
+                        "shape": "rect",
                         "map": "MSC_Survivor_Shoreline",
                         "x": 1256,
                         "y": 576
                     },
                     {
+                        "shape": "rect",
                         "map": "Vanilla_Hunter_Shoreline",
                         "x": 1284,
                         "y": 576
                     },
                     {
+                        "shape": "rect",
                         "map": "MSC_Hunter_Shoreline",
                         "x": 1256,
                         "y": 576
                     },
                     {
+                        "shape": "rect",
                         "map": "Gourmand_Shoreline",
                         "x": 1256,
                         "y": 576
                     },
                     {
+                        "shape": "rect",
                         "map": "Riv_Shoreline",
                         "x": 1256,
                         "y": 576
                     },
                     {
-                        "map": "Frigid_Coast",
+                        "shape": "rect",
+                        "map": "Saint_Shoreline",
                         "x": 1256,
                         "y": 573
                     }
@@ -1259,47 +1390,56 @@
                 ],
                 "map_locations": [
                     {
+                        "shape": "rect",
                         "map": "Vanilla_Monk_Shoreline",
                         "x": 663,
                         "y": 637
                     },
                     {
+                        "shape": "rect",
                         "map": "MSC_Monk_Shoreline",
                         "x": 661,
                         "y": 637
                     },
                     {
+                        "shape": "rect",
                         "map": "Vanilla_Survivor_Shoreline",
                         "x": 663,
                         "y": 637
                     },
                     {
+                        "shape": "rect",
                         "map": "MSC_Survivor_Shoreline",
                         "x": 661,
                         "y": 637
                     },
                     {
+                        "shape": "rect",
                         "map": "Vanilla_Hunter_Shoreline",
                         "x": 663,
                         "y": 637
                     },
                     {
+                        "shape": "rect",
                         "map": "MSC_Hunter_Shoreline",
                         "x": 661,
                         "y": 637
                     },
                     {
+                        "shape": "rect",
                         "map": "Gourmand_Shoreline",
                         "x": 661,
                         "y": 637
                     },
                     {
+                        "shape": "rect",
                         "map": "Riv_Shoreline",
                         "x": 661,
                         "y": 637
                     },
                     {
-                        "map": "Frigid_Coast",
+                        "shape": "rect",
+                        "map": "Saint_Shoreline",
                         "x": 661,
                         "y": 634
                     }
@@ -1314,47 +1454,56 @@
                 ],
                 "map_locations": [
                     {
+                        "shape": "rect",
                         "map": "Vanilla_Monk_Shoreline",
                         "x": 1704,
                         "y": 343
                     },
                     {
+                        "shape": "rect",
                         "map": "MSC_Monk_Shoreline",
                         "x": 1708,
                         "y": 343
                     },
                     {
+                        "shape": "rect",
                         "map": "Vanilla_Survivor_Shoreline",
                         "x": 1704,
                         "y": 343
                     },
                     {
+                        "shape": "rect",
                         "map": "MSC_Survivor_Shoreline",
                         "x": 1708,
                         "y": 343
                     },
                     {
+                        "shape": "rect",
                         "map": "Vanilla_Hunter_Shoreline",
                         "x": 1704,
                         "y": 343
                     },
                     {
+                        "shape": "rect",
                         "map": "MSC_Hunter_Shoreline",
                         "x": 1708,
                         "y": 343
                     },
                     {
+                        "shape": "rect",
                         "map": "Gourmand_Shoreline",
                         "x": 1708,
                         "y": 343
                     },
                     {
+                        "shape": "rect",
                         "map": "Riv_Shoreline",
                         "x": 1708,
                         "y": 343
                     },
                     {
-                        "map": "Frigid_Coast",
+                        "shape": "rect",
+                        "map": "Saint_Shoreline",
                         "x": 1708,
                         "y": 340
                     }
@@ -1363,6 +1512,7 @@
             {
                 "name": "Shelter S11",
                 "access_rules": ["monk","riv"],
+                "visibility_rules": ["monk","riv"],
                 "sections": [
                     {
                         "name": "Shelter"
@@ -1370,16 +1520,19 @@
                 ],
                 "map_locations": [
                     {
+                        "shape": "rect",
                         "map": "Vanilla_Monk_Shoreline",
                         "x": 1196,
                         "y": 273
                     },
                     {
+                        "shape": "rect",
                         "map": "MSC_Monk_Shoreline",
                         "x": 1190,
                         "y": 273
                     },
                     {
+                        "shape": "rect",
                         "map": "Riv_Shoreline",
                         "x": 1190,
                         "y": 273
@@ -1389,6 +1542,13 @@
             {
                 "name": "Shelter S13",
                 "access_rules": ["$has_exterior_access,Gate_Exterior-Precipice"],
+                "visibility_rules": [
+                    "monk,MSC",
+                    "survivor,MSC",
+                    "hunter,MSC",
+                    "gourmand",
+                    "riv"
+                ],
                 "sections": [
                     {
                         "name": "Shelter"
@@ -1396,51 +1556,61 @@
                 ],
                 "map_locations": [
                     {
+                        "shape": "rect",
                         "map": "MSC_Monk_Shoreline",
                         "x": 170,
                         "y": 112
                     },
                     {
+                        "shape": "rect",
                         "map": "MSC_Survivor_Shoreline",
                         "x": 170,
                         "y": 112
                     },
                     {
+                        "shape": "rect",
                         "map": "MSC_Hunter_Shoreline",
                         "x": 170,
                         "y": 112
                     },
                     {
+                        "shape": "rect",
                         "map": "Gourmand_Shoreline",
                         "x": 170,
                         "y": 112
                     },
                     {
+                        "shape": "rect",
                         "map": "Riv_Shoreline",
                         "x": 170,
                         "y": 112
                     },
                     {
+                        "shape": "rect",
                         "map": "MSC_Monk_Exterior",
                         "x": 2220,
                         "y": 1010
                     },
                     {
+                        "shape": "rect",
                         "map": "MSC_Survivor_Exterior",
                         "x": 2220,
                         "y": 1010
                     },
                     {
+                        "shape": "rect",
                         "map": "MSC_Hunter_Exterior",
                         "x": 2220,
                         "y": 1010
                     },
                     {
+                        "shape": "rect",
                         "map": "Gourmand_Exterior",
                         "x": 2220,
                         "y": 1010
                     },
                     {
+                        "shape": "rect",
                         "map": "Riv_Exterior",
                         "x": 2220,
                         "y": 1010
@@ -1450,6 +1620,7 @@
             {
                 "name": "Shelter S15",
                 "access_rules": ["MSC"],
+                "visibility_rules": ["MSC"],
                 "sections": [
                     {
                         "name": "Shelter"
@@ -1457,32 +1628,38 @@
                 ],
                 "map_locations": [
                     {
+                        "shape": "rect",
                         "map": "MSC_Monk_Shoreline",
                         "x": 1710,
                         "y": 822
                     },
                     {
+                        "shape": "rect",
                         "map": "MSC_Survivor_Shoreline",
                         "x": 1710,
                         "y": 822
                     },
                     {
+                        "shape": "rect",
                         "map": "MSC_Hunter_Shoreline",
                         "x": 1710,
                         "y": 822
                     },
                     {
+                        "shape": "rect",
                         "map": "Gourmand_Shoreline",
                         "x": 1710,
                         "y": 822
                     },
                     {
+                        "shape": "rect",
                         "map": "Riv_Shoreline",
                         "x": 1710,
                         "y": 822
                     },
                     {
-                        "map": "Frigid_Coast",
+                        "shape": "rect",
+                        "map": "Saint_Shoreline",
                         "x": 1710,
                         "y": 819
                     }
@@ -1491,6 +1668,7 @@
             {
                 "name": "Top Shelter",
                 "access_rules": ["[$has_submerged_access],[Gate_Bitter_Aerie-Shoreline]"],
+                "visibility_rules": ["riv"],
                 "sections": [
                     {
                         "name": "Shelter"
@@ -1498,11 +1676,13 @@
                 ],
                 "map_locations": [
                     {
+                        "shape": "rect",
                         "map": "Riv_Shoreline",
                         "x": 1942,
                         "y": 145
                     },
                     {
+                        "shape": "rect",
                         "map": "Riv_Submerged",
                         "x": 700,
                         "y": 340
@@ -1511,6 +1691,7 @@
             },
             {
                 "name": "Crushed Shelter",
+                "visibility_rules": ["saint"],
                 "sections": [
                     {
                         "name": "Shelter"
@@ -1518,7 +1699,8 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "Frigid_Coast",
+                        "shape": "rect",
+                        "map": "Saint_Shoreline",
                         "x": 1308,
                         "y": 147
                     }

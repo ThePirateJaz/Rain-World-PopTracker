@@ -5,6 +5,7 @@
 -- this is useful since remote items will not reset but local items might
 -- if you run into issues when touching A LOT of items/locations here, see the comment about Tracker.AllowDeferredLogicUpdate in autotracking.lua
 ScriptHost:LoadScript("scripts/autotracking/spawn_table.lua")
+ScriptHost:LoadScript("scripts/autotracking/map_switching.lua")
 ScriptHost:LoadScript("scripts/autotracking/item_mapping.lua")
 ScriptHost:LoadScript("scripts/autotracking/location_mapping.lua")
 
@@ -79,10 +80,47 @@ end
 
 -- apply everything needed from slot_data, called from onClear
 function apply_slot_data(slot_data)
+	CURRENT_CAMPAIGN = slot_data["which_campaign"]
+	local vanillagame = nil
+	local vanillaneeded = nil
+	if slot_data["which_campaign"] < 2 then
+		if slot_data["is_msc_enabled"] == 0 then
+			vanillagame = true
+		end
+		vanillaneeded = true
+	end
+	if vanillaneeded then
+		if vanillagame then
+			CAMPAIGN_NAMING[CURRENT_CAMPAIGN] = string.format("Vanilla %s", CAMPAIGN_NAMING[CURRENT_CAMPAIGN])
+		else
+			CAMPAIGN_NAMING[CURRENT_CAMPAIGN] = string.format("MSC %s", CAMPAIGN_NAMING[CURRENT_CAMPAIGN])
+		end
+	end
+	Tracker:UiHint("ActivateTab", CAMPAIGN_NAMING[CURRENT_CAMPAIGN])
 	if slot_data["is_msc_enabled"] == 1 and Tracker:FindObjectForCode("MSC").Active == false then
 		Tracker:FindObjectForCode("MSC").Active = true
+	elseif slot_data["is_msc_enabled"] == 0 then
+		Tracker:FindObjectForCode("vanilla").Active = true
+	end
+	if slot_data["checks_sheltersanity"] == 1 then
+		Tracker:FindObjectForCode("sheltersanity").Active = true
 	end
 	Tracker:FindObjectForCode("scug").CurrentStage = slot_data["which_campaign"]
+	if slot_data["which_campaign"] == 4 or slot_data["which_campaign"] == 6 then
+		Tracker:FindObjectForCode("WaterMap").CurrentStage = 1
+		Tracker:FindObjectForCode("Gate_UpperMoon-WaterMap").CurrentStage = 1
+		Tracker:FindObjectForCode("Gate_LowerMoon-WaterMap").CurrentStage = 1
+	end
+	if slot_data["which_campaign"] == 5 then
+		Tracker:FindObjectForCode("Pebbsi").CurrentStage = 1
+		Tracker:FindObjectForCode("Gate_Wall-Pebbsi").CurrentStage = 1
+		Tracker:FindObjectForCode("Gate_Underhang-Pebbsi").CurrentStage = 1
+	end
+	if slot_data["which_campaign"] == 7 then
+		Tracker:FindObjectForCode("Gate-WaterMap-Pebbs").CurrentStage = 1
+		Tracker:FindObjectForCode("Drainage").CurrentStage = 1
+		Tracker:FindObjectForCode("Castle").CurrentStage = 1
+	end
 	if slot_data["starting_room"] ~= nil then
 		local spawn = SPAWN_TABLE[slot_data["starting_room"]]
 		print(string.format("%s is the starting region",spawn))
@@ -111,6 +149,7 @@ end
 -- called right after an AP slot is connected
 function onClear(slot_data)
 	-- use bulk update to pause logic updates until we are done resetting all items/locations
+	slot_name = string.format("RW_%s_room", Archipelago:GetPlayerAlias(Archipelago.PlayerNumber))
 	Tracker.BulkUpdate = true	
 	if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
 		print(string.format("called onClear, slot_data:\n%s", dump_table(slot_data)))
@@ -149,6 +188,11 @@ function onClear(slot_data)
 			print(string.format("onClear: skipping item_table with no item_code: %s",item_table))
 		end
 	end
+	Tracker:FindObjectForCode("Gate").CurrentStage = 0
+	Tracker:FindObjectForCode("Gate").Active = false
+	Tracker:FindObjectForCode("region").CurrentStage = 0
+	Tracker:FindObjectForCode("region").Active = false
+	Tracker:FindObjectForCode("early").Active = false
 	apply_slot_data(slot_data)
 	LOCAL_ITEMS = {}
 	GLOBAL_ITEMS = {}
@@ -210,6 +254,21 @@ function onItem(index, item_id, item_name, player_number)
 	if PopVersion < "0.20.1" or AutoTracker:GetConnectionState("SNES") == 3 then
 		-- add snes interface functions for local item tracking here
 	end
+	if (Tracker:FindObjectForCode("Gate_Shaded-Shoreline").Active or Tracker:FindObjectForCode("Gate_Shoreline-Silent_Construct").Active) and (Tracker:FindObjectForCode("Gate_WaterMap-Pebbs").Active == false) then
+		Tracker:FindObjectForCode("Gate_WaterMap-Pebbs").Active = true
+	end
+	if (Tracker:FindObjectForCode("Gate_Precipice-LTTM").Active or Tracker:FindObjectForCode("Gate_Bitter_Aerie-Shoreline").Active) and (Tracker:FindObjectForCode("Gate_UpperMoon-WaterMap").Active == false) then
+		Tracker:FindObjectForCode("Gate_UpperMoon-WaterMap").Active = true
+	end
+	if (Tracker:FindObjectForCode("Gate_Struts-Waterfront").Active or Tracker:FindObjectForCode("Gate_Shoreline-Submerged_Superstructure").Active) and (Tracker:FindObjectForCode("Gate_LowerMoon-WaterMap").Active == false) then
+		Tracker:FindObjectForCode("Gate_LowerMoon-WaterMap").Active = true
+	end
+	if Tracker:FindObjectForCode("Gate_Wall-Five_Pebbles").Active and (Tracker:FindObjectForCode("Gate_Wall-Pebbsi").Active == false) then
+		Tracker:FindObjectForCode("Gate_Wall-Pebbsi").active = true
+	end
+	if Tracker:FindObjectForCode("Gate_Underhang-Five_Pebbles").Active and (Tracker:FindObjectForCode("Gate_Underhang-Pebbsi").Active == false) then
+		Tracker:FindObjectForCode("Gate_Underhang-Pebbsi").Active = true
+	end
 end
 
 -- called when a location gets cleared
@@ -256,10 +315,23 @@ end
 
 -- called when a bounce message is received
 function onBounce(json)
-	if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
-		print(string.format("called onBounce: %s", dump_table(json)))
-	end
+	print(string.format("called onBounce: %s", dump_table(json)))
 	-- your code goes here
+	local roomid = nil
+	CURRENT_ROOM = string.lower(json.data[slot_name])
+	print(string.format(CURRENT_ROOM))
+	if CAMPAIGN_NAMING[CURRENT_CAMPAIGN] == "Saint" and SAINT_TABLE[TABS_MAPPING[CURRENT_ROOM]] ~= nil then
+		roomid = string.format(SAINT_TABLE[TABS_MAPPING[CURRENT_ROOM]])
+	else
+		roomid = string.format(TABS_MAPPING[CURRENT_ROOM])
+	end
+	if CAMPAIGN_NAMING[CURRENT_CAMPAIGN] == "Inv" and TABS_MAPPING[INV_TABLE[CURRENT_ROOM]] ~= nil then
+		roomid = string.format(INV_TABLE[TABS_MAPPING[CURRENT_ROOM]])
+	else
+		roomid = string.format(TABS_MAPPING[CURRENT_ROOM])
+	end
+	Tracker:UiHint("ActivateTab", CAMPAIGN_NAMING[CURRENT_CAMPAIGN])
+	Tracker:UiHint("ActivateTab", roomid)
 end
 
 -- add AP callbacks
@@ -272,4 +344,4 @@ if AUTOTRACKER_ENABLE_LOCATION_TRACKING then
 	Archipelago:AddLocationHandler("location handler", onLocation)
 end
 -- Archipelago:AddScoutHandler("scout handler", onScout)
--- Archipelago:AddBouncedHandler("bounce handler", onBounce)
+Archipelago:AddBouncedHandler("bounce handler", onBounce)

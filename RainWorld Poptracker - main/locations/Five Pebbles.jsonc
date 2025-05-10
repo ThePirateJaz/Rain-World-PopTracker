@@ -7,144 +7,186 @@
                 "name": "Five Pebbles",
                 "sections": [
                     {
-                        "name": "Meet Five Pebbles"
+                        "name": "Meet Five Pebbles",
+                        "access_rules": ["speech"],
+                        "chest_unopened_img": "images/icons/Five Pebbles.png",
+                        "chest_opened_img": "images/gathered/Five Pebbles.png"
                     },
                     {
                         "name": "Safari Token",
-                        "visibility_rules": ["MSC"]
+                        "visibility_rules": ["MSC"],
+                        "chest_unopened_img": "images/icons/Safari Token.png",
+                        "chest_opened_img": "images/gathered/Safari Token.png"
                     },
                     {
                         "name": "Daddy Long Legs Token",
                         "visibility_rules": [
                             "monk",
                             "survivor"
-                        ]
+                        ],
+                        "chest_unopened_img": "images/icons/Daddy Long Legs.png",
+                        "chest_opened_img": "images/gathered/Daddy Long Legs.png"
                     },
                     {
                         "name": "Inspector Token",
                         "visibility_rules": [
-                            "hunter",
+                            "hunter,MSC",
                             "arti",
                             "spearmaster"
-                        ]
+                        ],
+                        "chest_unopened_img": "images/icons/Inspector.png",
+                        "chest_opened_img": "images/gathered/Inspector.png"
                     },
                     {
                         "name": "Chatlog",
-                        "visibility_rules": ["spearmaster"]
+                        "visibility_rules": ["spearmaster"],
+                        "chest_unopened_img": "images/icons/Overseer.png",
+                        "chest_opened_img": "images/gathered/Overseer.png"
                     },
                     {
-                        "name": "Shelter",
-                        "ref": "@Five Shelters/Shelter S01/Shelter",
-                        "visibility_rules": ["$sheltersanity"]
+                        "name": "Shelter S01",
+                        "ref": "Five Shelters/Shelter S01/Shelter"
                     },
                     {
-                        "name": "Shelter",
-                        "ref": "@Five Shelters/Shelter S02/Shelter",
-                        "visibility_rules": ["$sheltersanity"]
+                        "name": "Shelter S02",
+                        "ref": "Five Shelters/Shelter S02/Shelter"
                     },
                     {
-                        "name": "Shelter",
-                        "ref": "@Five Shelters/Shelter S03/Shelter",
-                        "visibility_rules": ["$sheltersanity"]
+                        "name": "Shelter S03",
+                        "ref": "Five Shelters/Shelter S03/Shelter"
                     },
                     {
-                        "name": "Shelter",
-                        "ref": "@Five Shelters/Shelter S04/Shelter",
-                        "visibility_rules": ["$sheltersanity"]
+                        "name": "Shelter S04",
+                        "ref": "Five Shelters/Shelter S04/Shelter"
                     },
                     {
-                        "name": "Shelter",
-                        "ref": "@Five Shelters/Shelter S05/Shelter",
-                        "visibility_rules": ["$sheltersanity"]
+                        "name": "Shelter S05",
+                        "ref": "Five Shelters/Shelter S05/Shelter"
                     }
                 ],
                 "map_locations": [
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "Vanilla_Monk_Exterior",
                         "x": 950,
                         "y": 125
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "Vanilla_Survivor_Exterior",
                         "x": 950,
                         "y": 125
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "Vanilla_Hunter_Exterior",
                         "x": 950,
                         "y": 125
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "MSC_Monk_Exterior",
                         "x": 950,
                         "y": 125
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "MSC_Survivor_Exterior",
                         "x": 950,
                         "y": 125
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "MSC_Hunter_Exterior",
                         "x": 950,
                         "y": 125
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "Gourmand_Exterior",
                         "x": 950,
                         "y": 125
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "Arti_Exterior",
                         "x": 950,
                         "y": 125
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "Spear_Exterior",
                         "x": 950,
                         "y": 125
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "Vanilla_Monk_Exterior",
                         "x": 1650,
                         "y": 800
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "Vanilla_Survivor_Exterior",
                         "x": 1650,
                         "y": 800
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "Vanilla_Hunter_Exterior",
                         "x": 1650,
                         "y": 800
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "MSC_Monk_Exterior",
                         "x": 1650,
                         "y": 800
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "MSC_Survivor_Exterior",
                         "x": 1650,
                         "y": 800
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "MSC_Hunter_Exterior",
                         "x": 1650,
                         "y": 800
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "Gourmand_Exterior",
                         "x": 1650,
                         "y": 800
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "Arti_Exterior",
                         "x": 1650,
                         "y": 800
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "Spear_Exterior",
                         "x": 1650,
                         "y": 800
@@ -156,7 +198,7 @@
                 "sections": [
                     {
                         "name": "Meet Five Pebbles",
-                        "ref": "@Five Pebbles/Five Pebbles/Meet Five Pebbles"
+                        "ref": "Five Pebbles/Five Pebbles/Meet Five Pebbles"
                     }
                 ],
                 "map_locations": [
@@ -213,7 +255,7 @@
                 "sections": [
                     {
                         "name": "Safari Token",
-                        "ref": "@Five Pebbles/Five Pebbles/Safari Token"
+                        "ref": "Five Pebbles/Five Pebbles/Safari Token"
                     }
                 ],
                 "map_locations": [
@@ -250,11 +292,11 @@
                 ]
             },
             {
-                "name": "Arena Token",
+                "name": "Daddy Long Legs Token",
                 "sections": [
                     {
-                        "name": "Daddy Long Legs Token",
-                        "ref": "@Five Pebbles/Five Pebbles/Daddy Long Legs Token"
+                        "name": "Arena Token",
+                        "ref": "Five Pebbles/Five Pebbles/Daddy Long Legs Token"
                     }
                 ],
                 "map_locations": [
@@ -281,12 +323,12 @@
                 ]
             },
             {
-                "name": "Arena Token",
+                "name": "Inspector Token",
                 "access_rules": ["MSC"],
                 "sections": [
                     {
-                        "name": "Inspector Token",
-                        "ref": "@Five Pebbles/Five Pebbles/Inspector Token"
+                        "name": "Arena Token",
+                        "ref": "Five Pebbles/Five Pebbles/Inspector Token"
                     }
                 ],
                 "map_locations": [
@@ -313,7 +355,7 @@
                 "sections": [
                     {
                         "name": "Chatlog",
-                        "ref": "@Five Pebbles/Five Pebbles/Chatlog"
+                        "ref": "Five Pebbles/Five Pebbles/Chatlog"
                     }
                 ],
                 "map_locations": [
@@ -329,7 +371,9 @@
     {
         "name": "Five Shelters",
         "access_rules": ["$has_five_pebbles_access"],
-        "visibility_rules": ["$sheltersanity"],
+        "visibility_rules": ["sheltersanity"],
+        "chest_unopened_img": "images/icons/Shelter.png",
+        "chest_opened_img": "images/gathered/Shelter.png",
         "children": [
             {
                 "name": "Shelter S01",
@@ -340,46 +384,55 @@
                 ],
                 "map_locations": [
                     {
+                        "shape": "rect",
                         "map": "Vanilla_Monk_Five_Pebbles",
                         "x": 632,
                         "y": 1378
                     },
                     {
+                        "shape": "rect",
                         "map": "MSC_Monk_Five_Pebbles",
                         "x": 632,
                         "y": 1378
                     },
                     {
+                        "shape": "rect",
                         "map": "Vanilla_Survivor_Five_Pebbles",
                         "x": 632,
                         "y": 1378
                     },
                     {
+                        "shape": "rect",
                         "map": "MSC_Survivor_Five_Pebbles",
                         "x": 632,
                         "y": 1378
                     },
                     {
+                        "shape": "rect",
                         "map": "Vanilla_Hunter_Five_Pebbles",
                         "x": 632,
                         "y": 1378
                     },
                     {
+                        "shape": "rect",
                         "map": "MSC_Hunter_Five_Pebbles",
                         "x": 632,
                         "y": 1378
                     },
                     {
+                        "shape": "rect",
                         "map": "Gourmand_Five_Pebbles",
                         "x": 632,
                         "y": 1378
                     },
                     {
+                        "shape": "rect",
                         "map": "Arti_Five_Pebbles",
                         "x": 632,
                         "y": 1378
                     },
                     {
+                        "shape": "rect",
                         "map": "Spear_Five_Pebbles",
                         "x": 632,
                         "y": 1378
@@ -395,46 +448,55 @@
                 ],
                 "map_locations": [
                     {
+                        "shape": "rect",
                         "map": "Vanilla_Monk_Five_Pebbles",
                         "x": 279,
                         "y": 1066
                     },
                     {
+                        "shape": "rect",
                         "map": "MSC_Monk_Five_Pebbles",
                         "x": 279,
                         "y": 1066
                     },
                     {
+                        "shape": "rect",
                         "map": "Vanilla_Survivor_Five_Pebbles",
                         "x": 279,
                         "y": 1066
                     },
                     {
+                        "shape": "rect",
                         "map": "MSC_Survivor_Five_Pebbles",
                         "x": 279,
                         "y": 1066
                     },
                     {
+                        "shape": "rect",
                         "map": "Vanilla_Hunter_Five_Pebbles",
                         "x": 279,
                         "y": 1066
                     },
                     {
+                        "shape": "rect",
                         "map": "MSC_Hunter_Five_Pebbles",
                         "x": 279,
                         "y": 1066
                     },
                     {
+                        "shape": "rect",
                         "map": "Gourmand_Five_Pebbles",
                         "x": 279,
                         "y": 1066
                     },
                     {
+                        "shape": "rect",
                         "map": "Arti_Five_Pebbles",
                         "x": 279,
                         "y": 1066
                     },
                     {
+                        "shape": "rect",
                         "map": "Spear_Five_Pebbles",
                         "x": 279,
                         "y": 1066
@@ -450,46 +512,55 @@
                 ],
                 "map_locations": [
                     {
+                        "shape": "rect",
                         "map": "Vanilla_Monk_Five_Pebbles",
                         "x": 870,
                         "y": 960
                     },
                     {
+                        "shape": "rect",
                         "map": "MSC_Monk_Five_Pebbles",
                         "x": 870,
                         "y": 960
                     },
                     {
+                        "shape": "rect",
                         "map": "Vanilla_Survivor_Five_Pebbles",
                         "x": 870,
                         "y": 960
                     },
                     {
+                        "shape": "rect",
                         "map": "MSC_Survivor_Five_Pebbles",
                         "x": 870,
                         "y": 960
                     },
                     {
+                        "shape": "rect",
                         "map": "Vanilla_Hunter_Five_Pebbles",
                         "x": 870,
                         "y": 960
                     },
                     {
+                        "shape": "rect",
                         "map": "MSC_Hunter_Five_Pebbles",
                         "x": 870,
                         "y": 960
                     },
                     {
+                        "shape": "rect",
                         "map": "Gourmand_Five_Pebbles",
                         "x": 870,
                         "y": 960
                     },
                     {
+                        "shape": "rect",
                         "map": "Arti_Five_Pebbles",
                         "x": 870,
                         "y": 960
                     },
                     {
+                        "shape": "rect",
                         "map": "Spear_Five_Pebbles",
                         "x": 870,
                         "y": 960
@@ -505,46 +576,55 @@
                 ],
                 "map_locations": [
                     {
+                        "shape": "rect",
                         "map": "Vanilla_Monk_Five_Pebbles",
                         "x": 411,
                         "y": 115
                     },
                     {
+                        "shape": "rect",
                         "map": "MSC_Monk_Five_Pebbles",
                         "x": 411,
                         "y": 115
                     },
                     {
+                        "shape": "rect",
                         "map": "Vanilla_Survivor_Five_Pebbles",
                         "x": 411,
                         "y": 115
                     },
                     {
+                        "shape": "rect",
                         "map": "MSC_Survivor_Five_Pebbles",
                         "x": 411,
                         "y": 115
                     },
                     {
+                        "shape": "rect",
                         "map": "Vanilla_Hunter_Five_Pebbles",
                         "x": 411,
                         "y": 115
                     },
                     {
+                        "shape": "rect",
                         "map": "MSC_Hunter_Five_Pebbles",
                         "x": 411,
                         "y": 115
                     },
                     {
+                        "shape": "rect",
                         "map": "Gourmand_Five_Pebbles",
                         "x": 411,
                         "y": 115
                     },
                     {
+                        "shape": "rect",
                         "map": "Arti_Five_Pebbles",
                         "x": 411,
                         "y": 115
                     },
                     {
+                        "shape": "rect",
                         "map": "Spear_Five_Pebbles",
                         "x": 411,
                         "y": 115
@@ -560,46 +640,55 @@
                 ],
                 "map_locations": [
                     {
+                        "shape": "rect",
                         "map": "Vanilla_Monk_Five_Pebbles",
                         "x": 274,
                         "y": 722
                     },
                     {
+                        "shape": "rect",
                         "map": "MSC_Monk_Five_Pebbles",
                         "x": 274,
                         "y": 722
                     },
                     {
+                        "shape": "rect",
                         "map": "Vanilla_Survivor_Five_Pebbles",
                         "x": 274,
                         "y": 722
                     },
                     {
+                        "shape": "rect",
                         "map": "MSC_Survivor_Five_Pebbles",
                         "x": 274,
                         "y": 722
                     },
                     {
+                        "shape": "rect",
                         "map": "Vanilla_Hunter_Five_Pebbles",
                         "x": 274,
                         "y": 722
                     },
                     {
+                        "shape": "rect",
                         "map": "MSC_Hunter_Five_Pebbles",
                         "x": 274,
                         "y": 722
                     },
                     {
+                        "shape": "rect",
                         "map": "Gourmand_Five_Pebbles",
                         "x": 274,
                         "y": 722
                     },
                     {
+                        "shape": "rect",
                         "map": "Arti_Five_Pebbles",
                         "x": 274,
                         "y": 722
                     },
                     {
+                        "shape": "rect",
                         "map": "Spear_Five_Pebbles",
                         "x": 274,
                         "y": 722

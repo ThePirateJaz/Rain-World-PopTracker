@@ -11,12 +11,14 @@
                         "visibility_rules":[
                             "monk",
                             "survivor",
-                            "hunter,$has_no_msc",
+                            "hunter,vanilla",
                             "gourmand",
                             "riv",
                             "spearmaster",
                             "saint"
-                        ]
+                        ],
+                        "chest_unopened_img": "images/icons/Scavenger.png",
+                        "chest_opened_img": "images/gathered/Scavenger.png"
                     },
                     {
                         "name": "Explosive Spear Token",
@@ -28,10 +30,14 @@
                             "riv",
                             "spearmaster",
                             "saint"
-                        ]
+                        ],
+                        "chest_unopened_img": "images/icons/Explosive Spear.png",
+                        "chest_opened_img": "images/gathered/Explosive Spear.png"
                     },
                     {
-                        "name": "Grenade Token"
+                        "name": "Grenade Token",
+                        "chest_unopened_img": "images/icons/Grenade.png",
+                        "chest_opened_img": "images/gathered/Grenade.png"
                     },
                     {
                         "name": "Red Lizard Token",
@@ -40,7 +46,9 @@
                             "arti",
                             "spearmaster",
                             "saint"
-                        ]
+                        ],
+                        "chest_unopened_img": "images/icons/Red Lizard.png",
+                        "chest_opened_img": "images/gathered/Red Lizard.png"
                     },
                     {
                         "name": "Bubble Fruit Token",
@@ -51,7 +59,9 @@
                             "gourmand",
                             "riv",
                             "saint"
-                        ]
+                        ],
+                        "chest_unopened_img": "images/icons/Bubble Fruit.png",
+                        "chest_opened_img": "images/gathered/Bubble Fruit.png"
                     },
                     {
                         "name": "Garbage Wastes Token",
@@ -62,14 +72,18 @@
                             "gourmand",
                             "riv",
                             "saint"
-                        ]
+                        ],
+                        "chest_unopened_img": "images/icons/Level Token.png",
+                        "chest_opened_img": "images/gathered/Level Token.png"
                     },
                     {
                         "name": "Past Garbage Wastes Token",
                         "visibility_rules": [
                             "arti",
                             "spearmaster"
-                        ]
+                        ],
+                        "chest_unopened_img": "images/icons/Level Token.png",
+                        "chest_opened_img": "images/gathered/Level Token.png"
                     },
                     {
                         "name": "Brother Long Legs Token",
@@ -79,14 +93,18 @@
                             "hunter",
                             "gourmand",
                             "arti"
-                        ]
+                        ],
+                        "chest_unopened_img": "images/icons/Brother Long Legs.png",
+                        "chest_opened_img": "images/gathered/Brother Long Legs.png"
                     },
                     {
                         "name": "Dull Yellow Pearl",
                         "visibility_rules": [
                             "arti",
                             "spearmaster"
-                        ]
+                        ],
+                        "chest_unopened_img": "images/icons/Dull Yellow Pearl.png",
+                        "chest_opened_img": "images/gathered/Pearl.png"
                     },
                     {
                         "name": "Viridian Pearl",
@@ -98,271 +116,347 @@
                             "arti",
                             "riv",
                             "spearmaster"
-                        ]
+                        ],
+                        "chest_unopened_img": "images/icons/Viridian Pearl.png",
+                        "chest_opened_img": "images/gathered/Pearl.png"
                     },
                     {
                         "name": "Safari Token",
-                        "visibility_rules": ["MSC"]
+                        "access_rules": ["MSC"],
+                        "visibility_rules": ["MSC"],
+                        "chest_unopened_img": "images/icons/Safari Token.png",
+                        "chest_opened_img": "images/gathered/Safari Token.png"
                     },
                     {
-                        "name": "Chatlog",
-                        "ref": "@Garbage Wastes/Chatlog GW0/Chatlog",
-                        "visibility_rules": ["spearmaster"]
+                        "name": "Chatlog GW0",
+                        "ref": "Garbage Wastes/Chatlog GW0/Chatlog"
                     },
                     {
-                        "name": "Chatlog",
-                        "ref": "@Garbage Wastes/Chatlog GW1/Chatlog",
-                        "visibility_rules": ["spearmaster"]
+                        "name": "Chatlog GW1",
+                        "ref": "Garbage Wastes/Chatlog GW1/Chatlog"
                     },
                     {
-                        "name": "Shelter",
-                        "ref": "@Garbage Shelters/Shelter GW S01/Shelter",
-                        "visibility_rules": ["$sheltersanity"]
+                        "name": "Shelter S01",
+                        "ref": "Garbage Shelters/Shelter GW S01/Shelter"
                     },
                     {
-                        "name": "Shelter",
-                        "ref": "@Garbage Shelters/Shelter GW S02/Shelter",
-                        "visibility_rules": ["$sheltersanity"]
+                        "name": "Shelter S02",
+                        "ref": "Garbage Shelters/Shelter GW S02/Shelter"
                     },
                     {
-                        "name": "Shelter",
-                        "ref": "@Garbage Shelters/Shelter GW S03/Shelter",
-                        "visibility_rules": ["$sheltersanity"]
+                        "name": "Shelter S03",
+                        "ref": "Garbage Shelters/Shelter GW S03/Shelter"
                     },
                     {
-                        "name": "Shelter",
-                        "ref": "@Garbage Shelters/Shelter GW S04/Shelter",
-                        "visibility_rules": ["$sheltersanity"]
+                        "name": "Shelter S04",
+                        "ref": "Garbage Shelters/Shelter GW S04/Shelter"
                     },
                     {
-                        "name": "Shelter",
-                        "ref": "@Garbage Shelters/Shelter GW S05/Shelter",
-                        "visibility_rules": ["$sheltersanity"]
+                        "name": "Shelter S05",
+                        "ref": "Garbage Shelters/Shelter GW S05/Shelter"
                     },
                     {
-                        "name": "Shelter",
-                        "ref": "@Garbage Shelters/Shelter GW S06/Shelter",
-                        "visibility_rules": ["$sheltersanity"]
+                        "name": "Shelter S06",
+                        "ref": "Garbage Shelters/Shelter GW S06/Shelter"
                     },
                     {
-                        "name": "Shelter",
-                        "ref": "@Garbage Shelters/Shelter GW S07/Shelter",
-                        "visibility_rules": ["$sheltersanity"]
+                        "name": "Shelter S07",
+                        "ref": "Garbage Shelters/Shelter GW S07/Shelter"
                     },
                     {
-                        "name": "Shelter",
-                        "ref": "@Garbage Shelters/Shelter GW S08/Shelter",
-                        "visibility_rules": ["$sheltersanity"]
+                        "name": "Shelter S08",
+                        "ref": "Garbage Shelters/Shelter GW S08/Shelter"
                     },
                     {
-                        "name": "Shelter",
-                        "ref": "@Garbage Shelters/Shelter GW S09/Shelter",
-                        "visibility_rules": ["$sheltersanity"]
+                        "name": "Shelter S09",
+                        "ref": "Garbage Shelters/Shelter GW S09/Shelter"
                     }
                 ],
                 "map_locations":[
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "Vanilla_Monk_Industrial",
                         "x": 774,
                         "y": 504
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "Vanilla_Survivor_Industrial",
                         "x": 774,
                         "y": 504
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "Vanilla_Hunter_Industrial",
                         "x": 774,
                         "y": 504
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "MSC_Monk_Industrial",
                         "x": 1056,
                         "y": 508
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "MSC_Survivor_Industrial",
                         "x": 1056,
                         "y": 508
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "MSC_Hunter_Industrial",
                         "x": 1056,
                         "y": 508
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "Gourmand_Industrial",
                         "x": 1056,
                         "y": 508
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "Arti_Industrial",
                         "x": 1056,
                         "y": 508
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "Riv_Industrial",
                         "x": 1056,
                         "y": 508
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "Spear_Industrial",
                         "x": 1056,
                         "y": 508
                     },
                     {
-                        "map": "Icy_Monument",
+                        "size": 48,
+                        "shape": "rect",
+                        "map": "Saint_Industrial",
                         "x": 1086,
                         "y": 508
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "Vanilla_Monk_Drainage",
                         "x": 1040,
                         "y": 214
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "Vanilla_Survivor_Drainage",
                         "x": 1040,
                         "y": 214
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "Vanilla_Hunter_Drainage",
                         "x": 1040,
                         "y": 214
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "MSC_Monk_Drainage",
                         "x": 1088,
                         "y": 415
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "MSC_Survivor_Drainage",
                         "x": 1088,
                         "y": 415
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "MSC_Hunter_Drainage",
                         "x": 1088,
                         "y": 415
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "Gourmand_Drainage",
                         "x": 1088,
                         "y": 415
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "Arti_Drainage",
                         "x": 1088,
                         "y": 415
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "Riv_Drainage",
                         "x": 1088,
                         "y": 415
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "Spear_Drainage",
                         "x": 1088,
                         "y": 415
                     },
                     {
-                        "map": "UnderGrowth",
+                        "size": 48,
+                        "shape": "rect",
+                        "map": "Saint_UnderGrowth",
                         "x": 1158,
                         "y": 473
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "MSC_Monk_Shaded",
                         "x": 165,
                         "y": 413
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "MSC_Survivor_Shaded",
                         "x": 165,
                         "y": 413
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "MSC_Hunter_Shaded",
                         "x": 165,
                         "y": 413
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "Gourmand_Shaded",
                         "x": 165,
                         "y": 413
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "Arti_Shaded",
                         "x": 165,
                         "y": 413
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "Riv_Shaded",
                         "x": 165,
                         "y": 413
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "Spear_Shaded",
                         "x": 165,
                         "y": 413
                     },
                     {
-                        "map": "Silent_Construct",
+                        "size": 48,
+                        "shape": "rect",
+                        "map": "Saint_Silent_Construct",
                         "x": 225,
                         "y": 976
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "Vanilla_Monk_Shoreline",
                         "x": 165,
                         "y": 380
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "Vanilla_Survivor_Shoreline",
                         "x": 165,
                         "y": 380
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "Vanilla_Hunter_Shoreline",
                         "x": 165,
                         "y": 380
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "MSC_Monk_Shoreline",
                         "x": 170,
                         "y": 380
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "MSC_Survivor_Shoreline",
                         "x": 170,
                         "y": 380
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "MSC_Hunter_Shoreline",
                         "x": 170,
                         "y": 380
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "Gourmand_Shoreline",
                         "x": 170,
                         "y": 380
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "Riv_Shoreline",
                         "x": 170,
                         "y": 380
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "Arti_Waterfront",
                         "x": 150,
                         "y": 450
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "Spear_Waterfront",
                         "x": 150,
                         "y": 775
                     },
                     {
-                        "map": "Frigid_Coast",
+                        "size": 48,
+                        "shape": "rect",
+                        "map": "Saint_Shoreline",
                         "x": 175,
                         "y": 380
                     }
@@ -373,7 +467,7 @@
                 "sections":[
                     {
                         "name": "Safari Token",
-                        "ref": "@Garbage Wastes/Garbage Wastes/Safari Token"
+                        "ref": "Garbage Wastes/Garbage Wastes/Safari Token"
                     }
                 ],
                 "map_locations":[
@@ -413,7 +507,7 @@
                         "y": 178
                     },
                     {
-                        "map": "Glacial_Wasteland",
+                        "map": "Saint_Garbage",
                         "x": 1434,
                         "y": 163
                     }
@@ -424,20 +518,11 @@
                 "sections":[
                     {
                         "name": "Scavenger Token",
-                        "ref": "@Garbage Wastes/Garbage Wastes/Scavenger Token",
-                        "visibility_rules": [
-                            "monk",
-                            "survivor",
-                            "hunter,$has_no_msc",
-                            "gourmand",
-                            "riv",
-                            "spearmaster",
-                            "saint"
-                        ]
+                        "ref": "Garbage Wastes/Garbage Wastes/Scavenger Token"
                     },
                     {
                         "name": "Explosive Spear Token",
-                        "ref": "@Garbage Wastes/Garbage Wastes/Explosive Spear Token"
+                        "ref": "Garbage Wastes/Garbage Wastes/Explosive Spear Token"
                     }
                 ],
                 "map_locations":[
@@ -487,7 +572,7 @@
                         "y": 125
                     },
                     {
-                        "map": "Glacial_Wasteland",
+                        "map": "Saint_Garbage",
                         "x": 1324,
                         "y": 108
                     }
@@ -497,8 +582,8 @@
                 "name": "Grenade Token",
                 "sections":[
                     {
-                        "name": "Grenade Token",
-                        "ref": "@Garbage Wastes/Garbage Wastes/Grenade Token"
+                        "name": "Arena Token",
+                        "ref": "Garbage Wastes/Garbage Wastes/Grenade Token"
                     }
                 ],
                 "map_locations":[
@@ -553,7 +638,7 @@
                         "y": 184
                     },
                     {
-                        "map": "Glacial_Wasteland",
+                        "map": "Saint_Garbage",
                         "x": 1086,
                         "y": 167
                     }
@@ -563,8 +648,8 @@
                 "name": "Red Lizard Token",
                 "sections":[
                     {
-                        "name": "Red Lizard Token",
-                        "ref": "@Garbage Wastes/Garbage Wastes/Red Lizard Token"
+                        "name": "Arena Token",
+                        "ref": "Garbage Wastes/Garbage Wastes/Red Lizard Token"
                     }
                 ],
                 "map_locations":[
@@ -584,7 +669,7 @@
                         "y": 286
                     },
                     {
-                        "map": "Glacial_Wasteland",
+                        "map": "Saint_Garbage",
                         "x": 718,
                         "y": 301
                     },
@@ -599,8 +684,8 @@
                 "name": "Bubble Fruit Token",
                 "sections":[
                     {
-                        "name": "Bubble Fruit Token",
-                        "ref": "@Garbage Wastes/Garbage Wastes/Bubble Fruit Token"
+                        "name": "Arena Token",
+                        "ref": "Garbage Wastes/Garbage Wastes/Bubble Fruit Token"
                     }
                 ],
                 "map_locations":[
@@ -645,7 +730,7 @@
                         "y": 411
                     },
                     {
-                        "map": "Glacial_Wasteland",
+                        "map": "Saint_Garbage",
                         "x": 487,
                         "y": 411
                     }
@@ -655,8 +740,8 @@
                 "name": "Garbage Wastes Token",
                 "sections":[
                     {
-                        "name": "Garbage Wastes Token",
-                        "ref": "@Garbage Wastes/Garbage Wastes/Garbage Wastes Token"
+                        "name": "Level Token",
+                        "ref": "Garbage Wastes/Garbage Wastes/Garbage Wastes Token"
                     }
                 ],
                 "map_locations":[
@@ -701,7 +786,7 @@
                         "y": 400
                     },
                     {
-                        "map": "Glacial_Wasteland",
+                        "map": "Saint_Garbage",
                         "x": 586,
                         "y": 400
                     }
@@ -711,8 +796,8 @@
                 "name": "Past Garbage Wastes Token",
                 "sections":[
                     {
-                        "name": "Garbage Wastes Token",
-                        "ref": "@Garbage Wastes/Garbage Wastes/Past Garbage Wastes Token"
+                        "name": "Level Token",
+                        "ref": "Garbage Wastes/Garbage Wastes/Past Garbage Wastes Token"
                     }
                 ],
                 "map_locations":[
@@ -732,8 +817,8 @@
                 "name": "Brother Long Legs Token",
                 "sections":[
                     {
-                        "name": "Brother Long Legs Token",
-                        "ref": "@Garbage Wastes/Garbage Wastes/Brother Long Legs Token"
+                        "name": "Arena Token",
+                        "ref": "Garbage Wastes/Garbage Wastes/Brother Long Legs Token"
                     }
                 ],
                 "map_locations":[
@@ -783,8 +868,8 @@
                 "name": "Dull Yellow Pearl",
                 "sections":[
                     {
-                        "name": "Dull Yellow Pearl",
-                        "ref": "@Garbage Wastes/Garbage Wastes/Dull Yellow Pearl"
+                        "name": "Pearl",
+                        "ref": "Garbage Wastes/Garbage Wastes/Dull Yellow Pearl"
                     }
                 ],
                 "map_locations":[
@@ -804,8 +889,8 @@
                 "name": "Viridian Pearl",
                 "sections":[
                     {
-                        "name": "Viridian Pearl",
-                        "ref": "@Garbage Wastes/Garbage Wastes/Viridian Pearl"
+                        "name": "Pearl",
+                        "ref": "Garbage Wastes/Garbage Wastes/Viridian Pearl"
                     }
                 ],
                 "map_locations":[
@@ -863,9 +948,13 @@
             },
             {
                 "name": "Chatlog GW0",
+                "access_rules": ["spearmaster"],
+                "visibility_rules": ["spearmaster"],
                 "sections":[
                     {
-                        "name": "Chatlog"
+                        "name": "Chatlog",
+                        "chest_unopened_img": "images/icons/Overseer.png",
+                        "chest_opened_img": "images/gathered/Overseer.png"
                     }
                 ],
                 "map_locations":[
@@ -878,9 +967,13 @@
             },
             {
                 "name": "Chatlog GW1",
+                "access_rules": ["spearmaster"],
+                "visibility_rules": ["spearmaster"],
                 "sections":[
                     {
-                        "name": "Chatlog"
+                        "name": "Chatlog",
+                        "chest_unopened_img": "images/icons/Overseer.png",
+                        "chest_opened_img": "images/gathered/Overseer.png"
                     }
                 ],
                 "map_locations":[
@@ -895,11 +988,13 @@
     },
     {
         "name": "Garbage Shelters",
-        "access_rules": ["$has_garbage_access,$sheltersanity"],
-        "visibility_rules": ["$sheltersanity"],
+        "access_rules": ["$has_garbage_access"],
+        "visibility_rules": ["sheltersanity"],
+        "chest_unopened_img": "images/icons/Shelter.png",
+        "chest_opened_img": "images/gathered/Shelter.png",
         "children":[
             {
-                "name": "Shelter GW S01",
+                "name": "Shelter S01",
                 "sections":[
                     {
                         "name": "Shelter"
@@ -907,64 +1002,75 @@
                 ],
                 "map_locations":[
                     {
+                        "shape": "rect",
                         "map": "Vanilla_Monk_Garbage",
                         "x": 385,
                         "y": 266
                     },
                     {
+                        "shape": "rect",
                         "map": "MSC_Monk_Garbage",
                         "x": 383,
                         "y": 274
                     },
                     {
+                        "shape": "rect",
                         "map": "Vanilla_Survivor_Garbage",
                         "x": 385,
                         "y": 266
                     },
                     {
+                        "shape": "rect",
                         "map": "MSC_Survivor_Garbage",
                         "x": 383,
                         "y": 274
                     },
                     {
+                        "shape": "rect",
                         "map": "Vanilla_Hunter_Garbage",
                         "x": 385,
                         "y": 266
                     },
                     {
+                        "shape": "rect",
                         "map": "MSC_Hunter_Garbage",
                         "x": 383,
                         "y": 274
                     },
                     {
+                        "shape": "rect",
                         "map": "Gourmand_Garbage",
                         "x": 383,
                         "y": 274
                     },
                     {
+                        "shape": "rect",
                         "map": "Arti_Garbage",
                         "x": 391,
                         "y": 368
                     },
                     {
+                        "shape": "rect",
                         "map": "Riv_Garbage",
                         "x": 383,
                         "y": 274
                     },
                     {
+                        "shape": "rect",
                         "map": "Spear_Garbage",
                         "x": 391,
                         "y": 368
                     },
                     {
-                        "map": "Glacial_Wasteland",
+                        "shape": "rect",
+                        "map": "Saint_Garbage",
                         "x": 383,
                         "y": 274
                     }
                 ]
             },
             {
-                "name": "Shelter GW S02",
+                "name": "Shelter S02",
                 "sections":[
                     {
                         "name": "Shelter"
@@ -972,64 +1078,75 @@
                 ],
                 "map_locations":[
                     {
+                        "shape": "rect",
                         "map": "Vanilla_Monk_Garbage",
                         "x": 678,
                         "y": 138
                     },
                     {
+                        "shape": "rect",
                         "map": "MSC_Monk_Garbage",
                         "x": 676,
                         "y": 148
                     },
                     {
+                        "shape": "rect",
                         "map": "Vanilla_Survivor_Garbage",
                         "x": 678,
                         "y": 138
                     },
                     {
+                        "shape": "rect",
                         "map": "MSC_Survivor_Garbage",
                         "x": 676,
                         "y": 148
                     },
                     {
+                        "shape": "rect",
                         "map": "Vanilla_Hunter_Garbage",
                         "x": 678,
                         "y": 138
                     },
                     {
+                        "shape": "rect",
                         "map": "MSC_Hunter_Garbage",
                         "x": 676,
                         "y": 148
                     },
                     {
+                        "shape": "rect",
                         "map": "Gourmand_Garbage",
                         "x": 676,
                         "y": 148
                     },
                     {
+                        "shape": "rect",
                         "map": "Arti_Garbage",
                         "x": 658,
                         "y": 162
                     },
                     {
+                        "shape": "rect",
                         "map": "Riv_Garbage",
                         "x": 676,
                         "y": 148
                     },
                     {
+                        "shape": "rect",
                         "map": "Spear_Garbage",
                         "x": 658,
                         "y": 162
                     },
                     {
-                        "map": "Glacial_Wasteland",
+                        "shape": "rect",
+                        "map": "Saint_Garbage",
                         "x": 676,
                         "y": 148
                     }
                 ]
             },
             {
-                "name": "Shelter GW S03",
+                "name": "Shelter S03",
                 "sections":[
                     {
                         "name": "Shelter"
@@ -1037,64 +1154,75 @@
                 ],
                 "map_locations":[
                     {
+                        "shape": "rect",
                         "map": "Vanilla_Monk_Garbage",
                         "x": 140,
                         "y": 192
                     },
                     {
+                        "shape": "rect",
                         "map": "MSC_Monk_Garbage",
                         "x": 140,
                         "y": 202
                     },
                     {
+                        "shape": "rect",
                         "map": "Vanilla_Survivor_Garbage",
                         "x": 140,
                         "y": 192
                     },
                     {
+                        "shape": "rect",
                         "map": "MSC_Survivor_Garbage",
                         "x": 140,
                         "y": 202
                     },
                     {
+                        "shape": "rect",
                         "map": "Vanilla_Hunter_Garbage",
                         "x": 140,
                         "y": 192
                     },
                     {
+                        "shape": "rect",
                         "map": "MSC_Hunter_Garbage",
                         "x": 140,
                         "y": 202
                     },
                     {
+                        "shape": "rect",
                         "map": "Gourmand_Garbage",
                         "x": 140,
                         "y": 202
                     },
                     {
+                        "shape": "rect",
                         "map": "Arti_Garbage",
                         "x": 140,
                         "y": 300
                     },
                     {
+                        "shape": "rect",
                         "map": "Riv_Garbage",
                         "x": 140,
                         "y": 202
                     },
                     {
+                        "shape": "rect",
                         "map": "Spear_Garbage",
                         "x": 140,
                         "y": 300
                     },
                     {
-                        "map": "Glacial_Wasteland",
+                        "shape": "rect",
+                        "map": "Saint_Garbage",
                         "x": 140,
                         "y": 202
                     }
                 ]
             },
             {
-                "name": "Shelter GW S04",
+                "name": "Shelter S04",
                 "sections":[
                     {
                         "name": "Shelter"
@@ -1102,64 +1230,75 @@
                 ],
                 "map_locations":[
                     {
+                        "shape": "rect",
                         "map": "Vanilla_Monk_Garbage",
                         "x": 1496,
                         "y": 262
                     },
                     {
+                        "shape": "rect",
                         "map": "MSC_Monk_Garbage",
                         "x": 1480,
                         "y": 278
                     },
                     {
+                        "shape": "rect",
                         "map": "Vanilla_Survivor_Garbage",
                         "x": 1496,
                         "y": 262
                     },
                     {
+                        "shape": "rect",
                         "map": "MSC_Survivor_Garbage",
                         "x": 1480,
                         "y": 278
                     },
                     {
+                        "shape": "rect",
                         "map": "Vanilla_Hunter_Garbage",
                         "x": 1496,
                         "y": 262
                     },
                     {
+                        "shape": "rect",
                         "map": "MSC_Hunter_Garbage",
                         "x": 1480,
                         "y": 278
                     },
                     {
+                        "shape": "rect",
                         "map": "Gourmand_Garbage",
                         "x": 1480,
                         "y": 278
                     },
                     {
+                        "shape": "rect",
                         "map": "Arti_Garbage",
                         "x": 1521,
                         "y": 344
                     },
                     {
+                        "shape": "rect",
                         "map": "Riv_Garbage",
                         "x": 1480,
                         "y": 278
                     },
                     {
+                        "shape": "rect",
                         "map": "Spear_Garbage",
                         "x": 1521,
                         "y": 344
                     },
                     {
-                        "map": "Glacial_Wasteland",
+                        "shape": "rect",
+                        "map": "Saint_Garbage",
                         "x": 1480,
                         "y": 278
                     }
                 ]
             },
             {
-                "name": "Shelter GW S05",
+                "name": "Shelter S05",
                 "sections":[
                     {
                         "name": "Shelter"
@@ -1167,64 +1306,75 @@
                 ],
                 "map_locations":[
                     {
+                        "shape": "rect",
                         "map": "Vanilla_Monk_Garbage",
                         "x": 229,
                         "y": 366
                     },
                     {
+                        "shape": "rect",
                         "map": "MSC_Monk_Garbage",
                         "x": 227,
                         "y": 376
                     },
                     {
+                        "shape": "rect",
                         "map": "Vanilla_Survivor_Garbage",
                         "x": 229,
                         "y": 366
                     },
                     {
+                        "shape": "rect",
                         "map": "MSC_Survivor_Garbage",
                         "x": 227,
                         "y": 376
                     },
                     {
+                        "shape": "rect",
                         "map": "Vanilla_Hunter_Garbage",
                         "x": 229,
                         "y": 366
                     },
                     {
+                        "shape": "rect",
                         "map": "MSC_Hunter_Garbage",
                         "x": 227,
                         "y": 376
                     },
                     {
+                        "shape": "rect",
                         "map": "Gourmand_Garbage",
                         "x": 227,
                         "y": 376
                     },
                     {
+                        "shape": "rect",
                         "map": "Arti_Garbage",
                         "x": 247,
                         "y": 476
                     },
                     {
+                        "shape": "rect",
                         "map": "Riv_Garbage",
                         "x": 227,
                         "y": 376
                     },
                     {
+                        "shape": "rect",
                         "map": "Spear_Garbage",
                         "x": 247,
                         "y": 476
                     },
                     {
-                        "map": "Glacial_Wasteland",
+                        "shape": "rect",
+                        "map": "Saint_Garbage",
                         "x": 227,
                         "y": 376
                     }
                 ]
             },
             {
-                "name": "Shelter GW S06",
+                "name": "Shelter S06",
                 "sections":[
                     {
                         "name": "Shelter"
@@ -1232,64 +1382,75 @@
                 ],
                 "map_locations":[
                     {
+                        "shape": "rect",
                         "map": "Vanilla_Monk_Garbage",
                         "x": 835,
                         "y": 276
                     },
                     {
+                        "shape": "rect",
                         "map": "MSC_Monk_Garbage",
                         "x": 833,
                         "y": 284
                     },
                     {
+                        "shape": "rect",
                         "map": "Vanilla_Survivor_Garbage",
                         "x": 835,
                         "y": 276
                     },
                     {
+                        "shape": "rect",
                         "map": "MSC_Survivor_Garbage",
                         "x": 833,
                         "y": 284
                     },
                     {
+                        "shape": "rect",
                         "map": "Vanilla_Hunter_Garbage",
                         "x": 835,
                         "y": 276
                     },
                     {
+                        "shape": "rect",
                         "map": "MSC_Hunter_Garbage",
                         "x": 833,
                         "y": 284
                     },
                     {
+                        "shape": "rect",
                         "map": "Gourmand_Garbage",
                         "x": 833,
                         "y": 284
                     },
                     {
+                        "shape": "rect",
                         "map": "Arti_Garbage",
                         "x": 766,
                         "y": 426
                     },
                     {
+                        "shape": "rect",
                         "map": "Riv_Garbage",
                         "x": 833,
                         "y": 284
                     },
                     {
+                        "shape": "rect",
                         "map": "Spear_Garbage",
                         "x": 766,
                         "y": 426
                     },
                     {
-                        "map": "Glacial_Wasteland",
+                        "shape": "rect",
+                        "map": "Saint_Garbage",
                         "x": 833,
                         "y": 284
                     }
                 ]
             },
             {
-                "name": "Shelter GW S07",
+                "name": "Shelter S07",
                 "sections":[
                     {
                         "name": "Shelter"
@@ -1297,64 +1458,75 @@
                 ],
                 "map_locations":[
                     {
+                        "shape": "rect",
                         "map": "Vanilla_Monk_Garbage",
                         "x": 979,
                         "y": 162
                     },
                     {
+                        "shape": "rect",
                         "map": "MSC_Monk_Garbage",
                         "x": 977,
                         "y": 172
                     },
                     {
+                        "shape": "rect",
                         "map": "Vanilla_Survivor_Garbage",
                         "x": 979,
                         "y": 162
                     },
                     {
+                        "shape": "rect",
                         "map": "MSC_Survivor_Garbage",
                         "x": 977,
                         "y": 172
                     },
                     {
+                        "shape": "rect",
                         "map": "Vanilla_Hunter_Garbage",
                         "x": 979,
                         "y": 162
                     },
                     {
+                        "shape": "rect",
                         "map": "MSC_Hunter_Garbage",
                         "x": 977,
                         "y": 172
                     },
                     {
+                        "shape": "rect",
                         "map": "Gourmand_Garbage",
                         "x": 977,
                         "y": 172
                     },
                     {
+                        "shape": "rect",
                         "map": "Arti_Garbage",
                         "x": 978,
                         "y": 186
                     },
                     {
+                        "shape": "rect",
                         "map": "Riv_Garbage",
                         "x": 977,
                         "y": 172
                     },
                     {
+                        "shape": "rect",
                         "map": "Spear_Garbage",
                         "x": 978,
                         "y": 186
                     },
                     {
-                        "map": "Glacial_Wasteland",
+                        "shape": "rect",
+                        "map": "Saint_Garbage",
                         "x": 977,
                         "y": 172
                     }
                 ]
             },
             {
-                "name": "Shelter GW S08",
+                "name": "Shelter S08",
                 "sections":[
                     {
                         "name": "Shelter"
@@ -1362,64 +1534,75 @@
                 ],
                 "map_locations":[
                     {
+                        "shape": "rect",
                         "map": "Vanilla_Monk_Garbage",
                         "x": 971,
                         "y": 216
                     },
                     {
+                        "shape": "rect",
                         "map": "MSC_Monk_Garbage",
                         "x": 969,
                         "y": 226
                     },
                     {
+                        "shape": "rect",
                         "map": "Vanilla_Survivor_Garbage",
                         "x": 971,
                         "y": 216
                     },
                     {
+                        "shape": "rect",
                         "map": "MSC_Survivor_Garbage",
                         "x": 969,
                         "y": 226
                     },
                     {
+                        "shape": "rect",
                         "map": "Vanilla_Hunter_Garbage",
                         "x": 971,
                         "y": 216
                     },
                     {
+                        "shape": "rect",
                         "map": "MSC_Hunter_Garbage",
                         "x": 969,
                         "y": 226
                     },
                     {
+                        "shape": "rect",
                         "map": "Gourmand_Garbage",
                         "x": 969,
                         "y": 226
                     },
                     {
+                        "shape": "rect",
                         "map": "Arti_Garbage",
                         "x": 976,
                         "y": 310
                     },
                     {
+                        "shape": "rect",
                         "map": "Riv_Garbage",
                         "x": 969,
                         "y": 226
                     },
                     {
+                        "shape": "rect",
                         "map": "Spear_Garbage",
                         "x": 976,
                         "y": 310
                     },
                     {
-                        "map": "Glacial_Wasteland",
+                        "shape": "rect",
+                        "map": "Saint_Garbage",
                         "x": 969,
                         "y": 226
                     }
                 ]
             },
             {
-                "name": "Shelter GW S09",
+                "name": "Shelter S09",
                 "sections":[
                     {
                         "name": "Shelter"
@@ -1427,42 +1610,50 @@
                 ],
                 "map_locations":[
                     {
+                        "shape": "rect",
                         "map": "MSC_Monk_Garbage",
                         "x": 1738,
                         "y": 194
                     },
                     {
+                        "shape": "rect",
                         "map": "MSC_Survivor_Garbage",
                         "x": 1738,
                         "y": 194
                     },
                     {
+                        "shape": "rect",
                         "map": "MSC_Hunter_Garbage",
                         "x": 1738,
                         "y": 194
                     },
                     {
+                        "shape": "rect",
                         "map": "Gourmand_Garbage",
                         "x": 1738,
                         "y": 194
                     },
                     {
+                        "shape": "rect",
                         "map": "Arti_Garbage",
                         "x": 1739,
                         "y": 208
                     },
                     {
+                        "shape": "rect",
                         "map": "Riv_Garbage",
                         "x": 1738,
                         "y": 194
                     },
                     {
+                        "shape": "rect",
                         "map": "Spear_Garbage",
                         "x": 1739,
                         "y": 208
                     },
                     {
-                        "map": "Glacial_Wasteland",
+                        "shape": "rect",
+                        "map": "Saint_Garbage",
                         "x": 1738,
                         "y": 194
                     }

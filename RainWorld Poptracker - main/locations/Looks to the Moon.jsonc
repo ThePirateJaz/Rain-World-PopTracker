@@ -7,99 +7,103 @@
                 "name": "Moon",
                 "sections": [
                     {
-                        "name": "Meet Looks to the Moon"
+                        "name": "Meet Looks to the Moon",
+                        "chest_unopened_img": "images/icons/Looks to the Moon.png",
+                        "chest_opened_img": "images/gathered/Looks to the Moon.png"
                     },
                     {
-                        "name": "Level Token"
+                        "name": "Level Token",
+                        "chest_unopened_img": "images/icons/Level Token.png",
+                        "chest_opened_img": "images/gathered/Level Token.png"
                     },
                     {
-                        "name": "Safari Token"
+                        "name": "Safari Token",
+                        "chest_unopened_img": "images/icons/Safari Token.png",
+                        "chest_opened_img": "images/gathered/Safari Token.png"
                     },
                     {
-                        "name": "Spearmaster Token"
+                        "name": "Spearmaster Token",
+                        "chest_unopened_img": "images/icons/Spearmaster.png",
+                        "chest_opened_img": "images/gathered/Spearmaster.png"
                     },
                     {
-                        "name": "Pearl"
+                        "name": "Pearl",
+                        "chest_unopened_img": "images/icons/Light Yellow Pearl.png",
+                        "chest_opened_img": "images/gathered/Pearl.png"
                     },
                     {
-                        "name": "Splitter Spider Token"
+                        "name": "Splitter Spider Token",
+                        "chest_unopened_img": "images/icons/Splitter Spider.png",
+                        "chest_opened_img": "images/gathered/Splitter Spider.png"
                     },
                     {
-                        "name": "Chatlog",
-                        "ref": "@Moon/Chatlog DM0/Chatlog"
+                        "name": "Chatlog DM0",
+                        "ref": "Moon/Chatlog DM0/Chatlog"
                     },
                     {
-                        "name": "Chatlog",
-                        "ref": "@Moon/Chatlog DM1/Chatlog"
+                        "name": "Chatlog DM1",
+                        "ref": "Moon/Chatlog DM1/Chatlog"
                     },
                     {
-                        "name": "Shelter",
-                        "ref": "@Moon Shelters/Shelter S01/Shelter",
-                        "visibility_rules": ["$sheltersanity"]
+                        "name": "Shelter S01",
+                        "ref": "Moon Shelters/Shelter S01/Shelter"
                     },
                     {
-                        "name": "Shelter",
-                        "ref": "@Moon Shelters/Shelter S02/Shelter",
-                        "visibility_rules": ["$sheltersanity"]
+                        "name": "Shelter S02",
+                        "ref": "Moon Shelters/Shelter S02/Shelter"
                     },
                     {
-                        "name": "Shelter",
-                        "ref": "@Moon Shelters/Shelter S03/Shelter",
-                        "visibility_rules": ["$sheltersanity"]
+                        "name": "Shelter S03",
+                        "ref": "Moon Shelters/Shelter S03/Shelter"
                     },
                     {
-                        "name": "Shelter",
-                        "ref": "@Moon Shelters/Shelter S04/Shelter",
-                        "visibility_rules": ["$sheltersanity"]
+                        "name": "Shelter S04",
+                        "ref": "Moon Shelters/Shelter S04/Shelter"
                     },
                     {
-                        "name": "Shelter",
-                        "ref": "@Moon Shelters/Shelter S05/Shelter",
-                        "visibility_rules": ["$sheltersanity"]
+                        "name": "Shelter S05",
+                        "ref": "Moon Shelters/Shelter S05/Shelter"
                     },
                     {
-                        "name": "Shelter",
-                        "ref": "@Moon Shelters/Shelter S06/Shelter",
-                        "visibility_rules": ["$sheltersanity"]
+                        "name": "Shelter S06",
+                        "ref": "Moon Shelters/Shelter S06/Shelter"
                     },
                     {
-                        "name": "Shelter",
-                        "ref": "@Moon Shelters/Shelter S10/Shelter",
-                        "visibility_rules": ["$sheltersanity"]
+                        "name": "Shelter S10",
+                        "ref": "Moon Shelters/Shelter S10/Shelter"
                     },
                     {
-                        "name": "Shelter",
-                        "ref": "@Moon Shelters/Shelter S11/Shelter",
-                        "visibility_rules": ["$sheltersanity"]
+                        "name": "Shelter S11",
+                        "ref": "Moon Shelters/Shelter S11/Shelter"
                     },
                     {
-                        "name": "Shelter",
-                        "ref": "@Moon Shelters/Shelter S13/Shelter",
-                        "visibility_rules": ["$sheltersanity"]
+                        "name": "Shelter S13",
+                        "ref": "Moon Shelters/Shelter S13/Shelter"
                     },
                     {
-                        "name": "Shelter",
-                        "ref": "@Moon Shelters/Shelter S14/Shelter",
-                        "visibility_rules": ["$sheltersanity"]
+                        "name": "Shelter S14",
+                        "ref": "Moon Shelters/Shelter S14/Shelter"
                     },
                     {
-                        "name": "Shelter",
-                        "ref": "@Moon Shelters/Shelter LAB5/Shelter",
-                        "visibility_rules": ["$sheltersanity"]
+                        "name": "Shelter LAB5",
+                        "ref": "Moon Shelters/Shelter LAB5/Shelter"
                     },
                     {
-                        "name": "Shelter",
-                        "ref": "@Moon Shelters/Top Shelter/Shelter",
-                        "visibility_rules": ["$sheltersanity"]
+                        "name": "Top Shelter",
+                        "ref": "Moon Shelters/Top Shelter/Shelter"
                     }
                 ],
                 "map_locations": [
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "Spear_Waterfront",
                         "x": 1800,
                         "y": 1075
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "Spear_Waterfront",
                         "x": 1700,
                         "y": 110
@@ -111,28 +115,28 @@
                 "sections": [
                     {
                         "name": "Meet Looks to the Moon",
-                        "ref": "@Moon/Moon/Meet Looks to the Moon"
+                        "ref": "Moon/Moon/Meet Looks to the Moon"
                     }
                 ],
                 "map_locations": [
                     {
-                        "map": "LTTM",
+                        "map": "Spear_Moon",
                         "x": 592,
                         "y": 474
                     }
                 ]
             },
             {
-                "name": "Level Token",
+                "name": "Looks to the Moon Token",
                 "sections": [
                     {
-                        "name": "Looks to the Moon Token",
-                        "ref": "@Moon/Moon/Level Token"
+                        "name": "Level Token",
+                        "ref": "Moon/Moon/Level Token"
                     }
                 ],
                 "map_locations": [
                     {
-                        "map": "LTTM",
+                        "map": "Spear_Moon",
                         "x": 1013,
                         "y": 746
                     }
@@ -143,12 +147,12 @@
                 "sections": [
                     {
                         "name": "Safari Token",
-                        "ref": "@Moon/Moon/Safari Token"
+                        "ref": "Moon/Moon/Safari Token"
                     }
                 ],
                 "map_locations": [
                     {
-                        "map": "LTTM",
+                        "map": "Spear_Moon",
                         "x": 450,
                         "y": 461
                     }
@@ -159,44 +163,44 @@
                 "sections": [
                     {
                         "name": "Spearmaster Token",
-                        "ref": "@Moon/Moon/Spearmaster Token"
+                        "ref": "Moon/Moon/Spearmaster Token"
                     }
                 ],
                 "map_locations": [
                     {
-                        "map": "LTTM",
+                        "map": "Spear_Moon",
                         "x": 151,
                         "y": 1044
                     }
                 ]
             },
             {
-                "name": "Pearl",
+                "name": "Light Yellow Pearl",
                 "sections": [
                     {
-                        "name": "Light Yellow Pearl",
-                        "ref": "@Moon/Moon/Pearl"
+                        "name": "Pearl",
+                        "ref": "Moon/Moon/Pearl"
                     }
                 ],
                 "map_locations": [
                     {
-                        "map": "LTTM",
+                        "map": "Spear_Moon",
                         "x": 1009,
                         "y": 397
                     }
                 ]
             },
             {
-                "name": "Arena Token",
+                "name": "Splitter Spider Token",
                 "sections": [
                     {
-                        "name": "Splitter Spider Token",
-                        "ref": "@Moon/Moon/Splitter Spider Token"
+                        "name": "Arena Token",
+                        "ref": "Moon/Moon/Splitter Spider Token"
                     }
                 ],
                 "map_locations": [
                     {
-                        "map": "LTTM",
+                        "map": "Spear_Moon",
                         "x": 1234,
                         "y": 991
                     }
@@ -206,12 +210,14 @@
                 "name": "Chatlog DM0",
                 "sections": [
                     {
-                        "name": "Chatlog"
+                        "name": "Chatlog",
+                        "chest_unopened_img": "images/icons/Overseer.png",
+                        "chest_opened_img": "images/gathered/Overseer.png"
                     }
                 ],
                 "map_locations": [
                     {
-                        "map": "LTTM",
+                        "map": "Spear_Moon",
                         "x": 75,
                         "y": 195
                     }
@@ -221,12 +227,14 @@
                 "name": "Chatlog DM1",
                 "sections": [
                     {
-                        "name": "Chatlog"
+                        "name": "Chatlog",
+                        "chest_unopened_img": "images/icons/Overseer.png",
+                        "chest_opened_img": "images/gathered/Overseer.png"
                     }
                 ],
                 "map_locations": [
                     {
-                        "map": "LTTM",
+                        "map": "Spear_Moon",
                         "x": 911,
                         "y": 1085
                     }
@@ -237,7 +245,9 @@
     {
         "name": "Moon Shelters",
         "access_rules": ["$has_lttm_access"],
-        "visibility_rules": ["$sheltersanity"],
+        "visibility_rules": ["sheltersanity"],
+        "chest_unopened_img": "images/icons/Shelter.png",
+        "chest_opened_img": "images/gathered/Shelter.png",
         "children": [
             {
                 "name": "Shelter S01",
@@ -248,7 +258,8 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "LTTM",
+                        "shape": "rect",
+                        "map": "Spear_Moon",
                         "x": 462,
                         "y": 481
                     }
@@ -263,7 +274,8 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "LTTM",
+                        "shape": "rect",
+                        "map": "Spear_Moon",
                         "x": 691,
                         "y": 960
                     }
@@ -278,7 +290,8 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "LTTM",
+                        "shape": "rect",
+                        "map": "Spear_Moon",
                         "x": 960,
                         "y": 775
                     }
@@ -293,7 +306,8 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "LTTM",
+                        "shape": "rect",
+                        "map": "Spear_Moon",
                         "x": 648,
                         "y": 724
                     }
@@ -308,7 +322,8 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "LTTM",
+                        "shape": "rect",
+                        "map": "Spear_Moon",
                         "x": 853,
                         "y": 818
                     }
@@ -323,7 +338,8 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "LTTM",
+                        "shape": "rect",
+                        "map": "Spear_Moon",
                         "x": 483,
                         "y": 414
                     }
@@ -338,7 +354,8 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "LTTM",
+                        "shape": "rect",
+                        "map": "Spear_Moon",
                         "x": 243,
                         "y": 427
                     }
@@ -353,7 +370,8 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "LTTM",
+                        "shape": "rect",
+                        "map": "Spear_Moon",
                         "x": 189,
                         "y": 1289
                     }
@@ -368,7 +386,8 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "LTTM",
+                        "shape": "rect",
+                        "map": "Spear_Moon",
                         "x": 218,
                         "y": 1102
                     }
@@ -383,7 +402,8 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "LTTM",
+                        "shape": "rect",
+                        "map": "Spear_Moon",
                         "x": 304,
                         "y": 1610
                     }
@@ -398,7 +418,8 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "LTTM",
+                        "shape": "rect",
+                        "map": "Spear_Moon",
                         "x": 955,
                         "y": 452
                     }
@@ -413,7 +434,8 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "LTTM",
+                        "shape": "rect",
+                        "map": "Spear_Moon",
                         "x": 462,
                         "y": 192
                     }

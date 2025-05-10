@@ -7,17 +7,25 @@
                 "name": "The Exterior",
                 "sections": [
                     {
-                        "name": "Echo"
+                        "name": "Echo",
+                        "chest_unopened_img": "images/icons/Echo.png",
+                        "chest_opened_img": "images/gathered/Echo.png"
                     },
                     {
-                        "name": "Level Token"
+                        "name": "Level Token",
+                        "chest_unopened_img": "images/icons/Level Token.png",
+                        "chest_opened_img": "images/gathered/Level Token.png"
                     },
                     {
                         "name": "Safari Token",
-                        "visibility_rules": ["MSC"]
+                        "visibility_rules": ["MSC"],
+                        "chest_unopened_img": "images/icons/Safari Token.png",
+                        "chest_opened_img": "images/gathered/Safari Token.png"
                     },
                     {
-                        "name": "Pearl"
+                        "name": "Pearl",
+                        "chest_unopened_img": "images/icons/Pale Green Pearl.png",
+                        "chest_opened_img": "images/gathered/Pearl.png"
                     },
                     {
                         "name": "Yellow Lizard Token",
@@ -29,7 +37,9 @@
                             "arti",
                             "riv",
                             "spearmaster"
-                        ]
+                        ],
+                        "chest_unopened_img": "images/icons/Yellow Lizard.png",
+                        "chest_opened_img": "images/gathered/Yellow Lizard.png"
                     },
                     {
                         "name": "SlimeMold Token",
@@ -39,7 +49,9 @@
                             "gourmand",
                             "arti",
                             "spearmaster"
-                        ]
+                        ],
+                        "chest_unopened_img": "images/icons/Slime Mold.png",
+                        "chest_opened_img": "images/gathered/Slime Mold.png"
                     },
                     {
                         "name": "GrappleWorm Token",
@@ -50,208 +62,339 @@
                             "gourmand",
                             "arti",
                             "spearmaster"
-                        ]
+                        ],
+                        "chest_unopened_img": "images/icons/Grapple Worm.png",
+                        "chest_opened_img": "images/gathered/Grapple Worm.png"
                     },
                     {
                         "name": "Broadcast",
-                        "visibility_rules": ["spearmaster"]
+                        "visibility_rules": ["spearmaster"],
+                        "chest_unopened_img": "images/icons/Overseer.png",
+                        "chest_opened_img": "images/gathered/Overseer.png"
                     },
                     {
-                        "name": "Shelter",
-                        "ref": "Exterior Shelters/Shelter S01/Shelter",
-                        "visibility_rules": ["$sheltersanity"]
+                        "name": "Shelter S01",
+                        "ref": "Exterior Shelters/Shelter S01/Shelter"
                     },
                     {
-                        "name": "Shelter",
-                        "ref": "Exterior Shelters/Shelter S02/Shelter",
-                        "visibility_rules": ["$sheltersanity"]
+                        "name": "Shelter S02",
+                        "ref": "Exterior Shelters/Shelter S02/Shelter"
                     },
                     {
-                        "name": "Shelter",
-                        "ref": "Exterior Shelters/Shelter S03/Shelter",
-                        "visibility_rules": ["$sheltersanity"]
+                        "name": "Shelter S03",
+                        "ref": "Exterior Shelters/Shelter S03/Shelter"
                     },
                     {
-                        "name": "Shelter",
-                        "ref": "Exterior Shelters/Shelter S04/Shelter",
-                        "visibility_rules": ["$sheltersanity"]
+                        "name": "Shelter S04",
+                        "ref": "Exterior Shelters/Shelter S04/Shelter"
                     },
                     {
-                        "name": "Shelter",
-                        "ref": "Exterior Shelters/Shelter S05/Shelter",
-                        "visibility_rules": ["$sheltersanity"]
+                        "name": "Shelter S05",
+                        "ref": "Exterior Shelters/Shelter S05/Shelter"
                     },
                     {
-                        "name": "Shelter",
-                        "ref": "Exterior Shelters/Shelter S06/Shelter",
-                        "visibility_rules": ["$sheltersanity"]
+                        "name": "Shelter S06",
+                        "ref": "Exterior Shelters/Shelter S06/Shelter"
                     },
                     {
-                        "name": "Shelter",
-                        "ref": "Exterior Shelters/Shelter S07/Shelter",
-                        "visibility_rules": ["$sheltersanity"]
+                        "name": "Shelter S07",
+                        "ref": "Exterior Shelters/Shelter S07/Shelter"
                     }
                 ],
                 "map_locations": [
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "Vanilla_Monk_Five_Pebbles",
                         "x": 335,
                         "y": 55
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "Vanilla_Survivor_Five_Pebbles",
                         "x": 335,
                         "y": 55
                     },
                     {
-                        "map": "Vanilla_Survivor_Five_Pebbles",
+                        "size": 48,
+                        "shape": "rect",
+                        "map": "Vanilla_Hunter_Five_Pebbles",
                         "x": 335,
                         "y": 55
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "MSC_Monk_Five_Pebbles",
                         "x": 335,
                         "y": 55
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "MSC_Survivor_Five_Pebbles",
                         "x": 335,
                         "y": 55
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "MSC_Hunter_Five_Pebbles",
                         "x": 335,
                         "y": 55
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "Gourmand_Five_Pebbles",
                         "x": 335,
                         "y": 55
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "Arti_Five_Pebbles",
                         "x": 335,
                         "y": 55
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "Spear_Five_Pebbles",
                         "x": 335,
                         "y": 55
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "The_Rot",
                         "x": 545,
                         "y": 55
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "Vanilla_Monk_Five_Pebbles",
                         "x": 440,
                         "y": 1470
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "Vanilla_Survivor_Five_Pebbles",
                         "x": 440,
                         "y": 1470
                     },
                     {
-                        "map": "Vanilla_Survivor_Five_Pebbles",
+                        "size": 48,
+                        "shape": "rect",
+                        "map": "Vanilla_Hunter_Five_Pebbles",
                         "x": 440,
                         "y": 1470
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "MSC_Monk_Five_Pebbles",
                         "x": 440,
                         "y": 1470
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "MSC_Survivor_Five_Pebbles",
                         "x": 440,
                         "y": 1470
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "MSC_Hunter_Five_Pebbles",
                         "x": 440,
                         "y": 1470
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "Gourmand_Five_Pebbles",
                         "x": 440,
                         "y": 1470
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "Arti_Five_Pebbles",
                         "x": 440,
                         "y": 1470
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "Spear_Five_Pebbles",
                         "x": 440,
                         "y": 1470
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "The_Rot",
                         "x": 840,
                         "y": 1550
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "Spear_Waterfront",
                         "x": 330,
                         "y": 390
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "Arti_Waterfront",
                         "x": 335,
                         "y": 60
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "Vanilla_Monk_Shaded",
                         "x": 2307,
                         "y": 345
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "Vanilla_Survivor_Shaded",
                         "x": 2307,
                         "y": 345
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "Vanilla_Hunter_Shaded",
                         "x": 2307,
                         "y": 345
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "MSC_Monk_Shaded",
                         "x": 2325,
                         "y": 345
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "MSC_Survivor_Shaded",
                         "x": 2325,
                         "y": 345
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "MSC_Hunter_Shaded",
                         "x": 2325,
                         "y": 345
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "Gourmand_Shaded",
                         "x": 2325,
                         "y": 345
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "Arti_Shaded",
                         "x": 2325,
                         "y": 345
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "Riv_Shaded",
                         "x": 2325,
                         "y": 345
                     },
                     {
+                        "size": 48,
+                        "shape": "rect",
                         "map": "Spear_Shaded",
                         "x": 2325,
                         "y": 345
+                    },
+                    {
+                        "size": 48,
+                        "shape": "rect",
+                        "map": "Vanilla_Monk_Chimney",
+                        "x": 710,
+                        "y": 90
+                    },
+                    {
+                        "size": 48,
+                        "shape": "rect",
+                        "map": "Vanilla_Survivor_Chimney",
+                        "x": 710,
+                        "y": 90
+                    },
+                    {
+                        "size": 48,
+                        "shape": "rect",
+                        "map": "Vanilla_Hunter_Chimney",
+                        "x": 710,
+                        "y": 90
+                    },
+                    {
+                        "size": 48,
+                        "shape": "rect",
+                        "map": "MSC_Monk_Chimney",
+                        "x": 700,
+                        "y": 90
+                    },
+                    {
+                        "size": 48,
+                        "shape": "rect",
+                        "map": "MSC_Survivor_Chimney",
+                        "x": 700,
+                        "y": 90
+                    },
+                    {
+                        "size": 48,
+                        "shape": "rect",
+                        "map": "MSC_Hunter_Chimney",
+                        "x": 700,
+                        "y": 90
+                    },
+                    {
+                        "size": 48,
+                        "shape": "rect",
+                        "map": "Gourmand_Chimney",
+                        "x": 700,
+                        "y": 90
+                    },
+                    {
+                        "size": 48,
+                        "shape": "rect",
+                        "map": "Arti_Chimney",
+                        "x": 700,
+                        "y": 90
+                    },
+                    {
+                        "size": 48,
+                        "shape": "rect",
+                        "map": "Riv_Chimney",
+                        "x": 700,
+                        "y": 90
+                    },
+                    {
+                        "size": 48,
+                        "shape": "rect",
+                        "map": "Spear_Chimney",
+                        "x": 700,
+                        "y": 90
                     }
                 ]
             },
@@ -260,7 +403,7 @@
                 "sections": [
                     {
                         "name": "Six Grains of Gravel, Mountains Abound",
-                        "ref": "@The Exterior/The Exterior/Echo"
+                        "ref": "The Exterior/The Exterior/Echo"
                     }
                 ],
                 "map_locations": [
@@ -321,20 +464,11 @@
                 "sections": [
                     {
                         "name": "Exterior Token",
-                        "ref": "@The Exterior/The Exterior/Level Token"
+                        "ref": "The Exterior/The Exterior/Level Token"
                     },
                     {
                         "name": "Yellow Lizard Token",
-                        "ref": "@The Exterior/The Exterior/Yellow Lizard Token",
-                        "visibility_rules": [
-                            "monk,$has_no_MSC",
-                            "survivor",
-                            "hunter",
-                            "gourmand",
-                            "arti",
-                            "riv",
-                            "spearmaster"
-                        ]
+                        "ref": "The Exterior/The Exterior/Yellow Lizard Token"
                     }
                 ],
                 "map_locations": [
@@ -395,7 +529,7 @@
                 "sections": [
                     {
                         "name": "Safari Token",
-                        "ref": "@The Exterior/The Exterior/Safari Token"
+                        "ref": "The Exterior/The Exterior/Safari Token"
                     }
                 ],
                 "map_locations": [
@@ -437,11 +571,11 @@
                 ]
             },
             {
-                "name": "Pearl",
+                "name": "Pale Green Pearl",
                 "sections": [
                     {
-                        "name": "Pale Green Pearl",
-                        "ref": "@The Exterior/The Exterior/Pearl"
+                        "name": "Pearl",
+                        "ref": "The Exterior/The Exterior/Pearl"
                     }
                 ],
                 "map_locations": [
@@ -498,11 +632,11 @@
                 ]
             },
             {
-                "name": "Arena Token",
+                "name": "SlimeMold Token",
                 "sections": [
                     {
-                        "name": "SlimeMold Token",
-                        "ref": "@The Exterior/The Exterior/SlimeMold Token"
+                        "name": "Arena Token",
+                        "ref": "The Exterior/The Exterior/SlimeMold Token"
                     }
                 ],
                 "map_locations": [
@@ -544,11 +678,11 @@
                 ]
             },
             {
-                "name": "Arena Token",
+                "name": "GrappleWorm Token",
                 "sections": [
                     {
-                        "name": "GrappleWorm Token",
-                        "ref": "@The Exterior/The Exterior/GrappleWorm Token"
+                        "name": "Arena Token",
+                        "ref": "The Exterior/The Exterior/GrappleWorm Token"
                     }
                 ],
                 "map_locations": [
@@ -599,7 +733,7 @@
                 "sections": [
                     {
                         "name": "Broadcast",
-                        "ref": "@The Exterior/The Exterior/Broadcast"
+                        "ref": "The Exterior/The Exterior/Broadcast"
                     }
                 ],
                 "map_locations": [
@@ -614,8 +748,10 @@
     },
     {
         "name": "Exterior Shelters",
-        "access_rules": ["$has_exterior_access,$sheltersanity"],
-        "visibility_rules": ["$sheltersanity"],
+        "access_rules": ["$has_exterior_access"],
+        "visibility_rules": ["sheltersanity"],
+        "chest_unopened_img": "images/icons/Shelter.png",
+        "chest_opened_img": "images/gathered/Shelter.png",
         "children": [
             {
                 "name": "Shelter S01",
@@ -626,51 +762,61 @@
                 ],
                 "map_locations": [
                     {
+                        "shape": "rect",
                         "map": "Vanilla_Monk_Exterior",
                         "x": 519,
                         "y": 1008
                     },
                     {
+                        "shape": "rect",
                         "map": "MSC_Monk_Exterior",
                         "x": 519,
                         "y": 1008
                     },
                     {
+                        "shape": "rect",
                         "map": "Vanilla_Survivor_Exterior",
                         "x": 519,
                         "y": 1008
                     },
                     {
+                        "shape": "rect",
                         "map": "MSC_Survivor_Exterior",
                         "x": 519,
                         "y": 1008
                     },
                     {
+                        "shape": "rect",
                         "map": "Vanilla_Hunter_Exterior",
                         "x": 519,
                         "y": 1008
                     },
                     {
+                        "shape": "rect",
                         "map": "MSC_Hunter_Exterior",
                         "x": 519,
                         "y": 1008
                     },
                     {
+                        "shape": "rect",
                         "map": "Gourmand_Exterior",
                         "x": 519,
                         "y": 1008
                     },
                     {
+                        "shape": "rect",
                         "map": "Arti_Exterior",
                         "x": 519,
                         "y": 1008
                     },
                     {
+                        "shape": "rect",
                         "map": "Riv_Exterior",
                         "x": 519,
                         "y": 1008
                     },
                     {
+                        "shape": "rect",
                         "map": "Spear_Exterior",
                         "x": 519,
                         "y": 1008
@@ -686,51 +832,61 @@
                 ],
                 "map_locations": [
                     {
+                        "shape": "rect",
                         "map": "Vanilla_Monk_Exterior",
                         "x": 1416,
                         "y": 930
                     },
                     {
+                        "shape": "rect",
                         "map": "MSC_Monk_Exterior",
                         "x": 1416,
                         "y": 930
                     },
                     {
+                        "shape": "rect",
                         "map": "Vanilla_Survivor_Exterior",
                         "x": 1416,
                         "y": 930
                     },
                     {
+                        "shape": "rect",
                         "map": "MSC_Survivor_Exterior",
                         "x": 1416,
                         "y": 930
                     },
                     {
+                        "shape": "rect",
                         "map": "Vanilla_Hunter_Exterior",
                         "x": 1416,
                         "y": 930
                     },
                     {
+                        "shape": "rect",
                         "map": "MSC_Hunter_Exterior",
                         "x": 1416,
                         "y": 930
                     },
                     {
+                        "shape": "rect",
                         "map": "Gourmand_Exterior",
                         "x": 1416,
                         "y": 930
                     },
                     {
+                        "shape": "rect",
                         "map": "Arti_Exterior",
                         "x": 1416,
                         "y": 930
                     },
                     {
+                        "shape": "rect",
                         "map": "Riv_Exterior",
                         "x": 1416,
                         "y": 930
                     },
                     {
+                        "shape": "rect",
                         "map": "Spear_Exterior",
                         "x": 1416,
                         "y": 930
@@ -746,51 +902,61 @@
                 ],
                 "map_locations": [
                     {
+                        "shape": "rect",
                         "map": "Vanilla_Monk_Exterior",
                         "x": 283,
                         "y": 298
                     },
                     {
+                        "shape": "rect",
                         "map": "MSC_Monk_Exterior",
                         "x": 283,
                         "y": 298
                     },
                     {
+                        "shape": "rect",
                         "map": "Vanilla_Survivor_Exterior",
                         "x": 283,
                         "y": 298
                     },
                     {
+                        "shape": "rect",
                         "map": "MSC_Survivor_Exterior",
                         "x": 283,
                         "y": 298
                     },
                     {
+                        "shape": "rect",
                         "map": "Vanilla_Hunter_Exterior",
                         "x": 283,
                         "y": 298
                     },
                     {
+                        "shape": "rect",
                         "map": "MSC_Hunter_Exterior",
                         "x": 283,
                         "y": 298
                     },
                     {
+                        "shape": "rect",
                         "map": "Gourmand_Exterior",
                         "x": 283,
                         "y": 298
                     },
                     {
+                        "shape": "rect",
                         "map": "Arti_Exterior",
                         "x": 283,
                         "y": 298
                     },
                     {
+                        "shape": "rect",
                         "map": "Riv_Exterior",
                         "x": 283,
                         "y": 298
                     },
                     {
+                        "shape": "rect",
                         "map": "Spear_Exterior",
                         "x": 283,
                         "y": 298
@@ -806,51 +972,61 @@
                 ],
                 "map_locations": [
                     {
+                        "shape": "rect",
                         "map": "Vanilla_Monk_Exterior",
                         "x": 214,
                         "y": 945
                     },
                     {
+                        "shape": "rect",
                         "map": "MSC_Monk_Exterior",
                         "x": 214,
                         "y": 945
                     },
                     {
+                        "shape": "rect",
                         "map": "Vanilla_Survivor_Exterior",
                         "x": 214,
                         "y": 945
                     },
                     {
+                        "shape": "rect",
                         "map": "MSC_Survivor_Exterior",
                         "x": 214,
                         "y": 945
                     },
                     {
+                        "shape": "rect",
                         "map": "Vanilla_Hunter_Exterior",
                         "x": 214,
                         "y": 945
                     },
                     {
+                        "shape": "rect",
                         "map": "MSC_Hunter_Exterior",
                         "x": 214,
                         "y": 945
                     },
                     {
+                        "shape": "rect",
                         "map": "Gourmand_Exterior",
                         "x": 214,
                         "y": 945
                     },
                     {
+                        "shape": "rect",
                         "map": "Arti_Exterior",
                         "x": 214,
                         "y": 945
                     },
                     {
+                        "shape": "rect",
                         "map": "Riv_Exterior",
                         "x": 214,
                         "y": 945
                     },
                     {
+                        "shape": "rect",
                         "map": "Spear_Exterior",
                         "x": 214,
                         "y": 945
@@ -866,51 +1042,61 @@
                 ],
                 "map_locations": [
                     {
+                        "shape": "rect",
                         "map": "Vanilla_Monk_Exterior",
                         "x": 1974,
                         "y": 1643
                     },
                     {
+                        "shape": "rect",
                         "map": "MSC_Monk_Exterior",
                         "x": 1974,
                         "y": 1643
                     },
                     {
+                        "shape": "rect",
                         "map": "Vanilla_Survivor_Exterior",
                         "x": 1974,
                         "y": 1643
                     },
                     {
+                        "shape": "rect",
                         "map": "MSC_Survivor_Exterior",
                         "x": 1974,
                         "y": 1643
                     },
                     {
+                        "shape": "rect",
                         "map": "Vanilla_Hunter_Exterior",
                         "x": 1974,
                         "y": 1643
                     },
                     {
+                        "shape": "rect",
                         "map": "MSC_Hunter_Exterior",
                         "x": 1974,
                         "y": 1643
                     },
                     {
+                        "shape": "rect",
                         "map": "Gourmand_Exterior",
                         "x": 1974,
                         "y": 1643
                     },
                     {
+                        "shape": "rect",
                         "map": "Arti_Exterior",
                         "x": 1974,
                         "y": 1643
                     },
                     {
+                        "shape": "rect",
                         "map": "Riv_Exterior",
                         "x": 1974,
                         "y": 1643
                     },
                     {
+                        "shape": "rect",
                         "map": "Spear_Exterior",
                         "x": 1974,
                         "y": 1643
@@ -926,51 +1112,61 @@
                 ],
                 "map_locations": [
                     {
+                        "shape": "rect",
                         "map": "Vanilla_Monk_Exterior",
                         "x": 1967,
                         "y": 1300
                     },
                     {
+                        "shape": "rect",
                         "map": "MSC_Monk_Exterior",
                         "x": 1967,
                         "y": 1300
                     },
                     {
+                        "shape": "rect",
                         "map": "Vanilla_Survivor_Exterior",
                         "x": 1967,
                         "y": 1300
                     },
                     {
+                        "shape": "rect",
                         "map": "MSC_Survivor_Exterior",
                         "x": 1967,
                         "y": 1300
                     },
                     {
+                        "shape": "rect",
                         "map": "Vanilla_Hunter_Exterior",
                         "x": 1967,
                         "y": 1300
                     },
                     {
+                        "shape": "rect",
                         "map": "MSC_Hunter_Exterior",
                         "x": 1967,
                         "y": 1300
                     },
                     {
+                        "shape": "rect",
                         "map": "Gourmand_Exterior",
                         "x": 1967,
                         "y": 1300
                     },
                     {
+                        "shape": "rect",
                         "map": "Arti_Exterior",
                         "x": 1967,
                         "y": 1300
                     },
                     {
+                        "shape": "rect",
                         "map": "Riv_Exterior",
                         "x": 1967,
                         "y": 1300
                     },
                     {
+                        "shape": "rect",
                         "map": "Spear_Exterior",
                         "x": 1967,
                         "y": 1300
@@ -986,51 +1182,61 @@
                 ],
                 "map_locations": [
                     {
+                        "shape": "rect",
                         "map": "Vanilla_Monk_Exterior",
                         "x": 2090,
                         "y": 938
                     },
                     {
+                        "shape": "rect",
                         "map": "MSC_Monk_Exterior",
                         "x": 2041,
                         "y": 951
                     },
                     {
+                        "shape": "rect",
                         "map": "Vanilla_Survivor_Exterior",
                         "x": 2090,
                         "y": 938
                     },
                     {
+                        "shape": "rect",
                         "map": "MSC_Survivor_Exterior",
                         "x": 2041,
                         "y": 951
                     },
                     {
+                        "shape": "rect",
                         "map": "Vanilla_Hunter_Exterior",
                         "x": 2090,
                         "y": 938
                     },
                     {
+                        "shape": "rect",
                         "map": "MSC_Hunter_Exterior",
                         "x": 2041,
                         "y": 951
                     },
                     {
+                        "shape": "rect",
                         "map": "Gourmand_Exterior",
                         "x": 2041,
                         "y": 951
                     },
                     {
+                        "shape": "rect",
                         "map": "Arti_Exterior",
                         "x": 2041,
                         "y": 951
                     },
                     {
+                        "shape": "rect",
                         "map": "Riv_Exterior",
                         "x": 2041,
                         "y": 951
                     },
                     {
+                        "shape": "rect",
                         "map": "Spear_Exterior",
                         "x": 2041,
                         "y": 951
