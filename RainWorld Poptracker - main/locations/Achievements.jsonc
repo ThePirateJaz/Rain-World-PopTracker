@@ -6,91 +6,355 @@
                 "name": "Food Quest",
                 "sections": [
                     {
-                        "name": "Slime Mold"
+                        "name": "Slime Mold",
+                        "access_rules": [
+                            "$has_shaded_access,[glow],mouth",
+                            "$has_exterior_access,west,mouth",
+                            "$has_shoreline_access,saint",
+                            "$has_sky_islands_access,inv",
+                            "$has_silent_access"
+                        ]
                     },
                     {
-                        "name": "Blue Fruit"
+                        "name": "Blue Fruit",
+                        "access_rules": [
+                            "$has_shoreline_access",
+                            "$has_subterranean_access,mouth",
+                            "$has_exterior_access,mouth",
+                            "$has_outskirts_access,mouth",
+                            "$has_industrial_access,mouth",
+                            "$has_shaded_access,mouth",
+                            "$has_chimney_access,mouth",
+                            "$has_drainage_access,mouth",
+                            "$has_garbage_access,mouth",
+                            "$has_sky_islands_access,mouth",
+                            "$has_farm_arrays_access,mouth",
+                            "$has_silent_access",
+                            "$has_rubicon_access",
+                            "$has_metro_access",
+                            "$has_waterfront_access,mouth",
+                            "$has_outer_expanse_access",
+                            "$has_submerged_access",
+                            "$has_pipeyard_access,mouth"
+                        ]
                     },
                     {
-                        "name": "Batfly"
+                        "name": "Batfly",
+                        "access_rules": [
+                            "$has_outskirts_access,notvegan",
+                            "$has_industrial_access,notvegan",
+                            "$has_drainage_access,notvegan",
+                            "$has_garbage_access,notvegan",
+                            "$has_shoreline_access,notvegan",
+                            "$has_waterfront_access",
+                            "$has_shaded_access",
+                            "$has_exterior_access,wall",
+                            "$has_chimney_access,notvegan",
+                            "$has_sky_islands_access,notvegan",
+                            "$has_farm_arrays_access,notvegan",
+                            "$has_subterranean_access,notvegan",
+                            "$has_pipeyard_access,notvegan",
+                            "$has_submerged_access,notvegan",
+                            "$has_outer_expanse_access",
+                            "$has_metro_access",
+                            "$has_lttm_access"
+                        ]
                     },
                     {
-                        "name": "Mushroom"
+                        "name": "Mushroom",
+                        "access_rules": [
+                            "$has_subterranean_access",
+                            "$has_drainage_access",
+                            "$has_outskirts_access",
+                            "$has_farm_arrays_access",
+                            "$has_shaded_access,[glow]",
+                            "$has_chimney_access",
+                            "$has_exterior_access,west",
+                            "$has_garbage_access",
+                            "$has_industrial_access",
+                            "$has_sky_islands_access",
+                            "$has_pipeyard_access",
+                            "$has_outer_expanse_access"
+                        ]
                     },
                     {
-                        "name": "Black Lizard"
+                        "name": "Black Lizard",
+                        "access_rules": [
+                            "$has_shaded_access,[glow],crunch",
+                            "$has_subterranean_access,[glow],crunch",
+                            "$has_pipeyard_access,crunch"
+                        ]
                     },
                     {
-                        "name": "Bubble Fruit"
+                        "name": "Bubble Fruit",
+                        "access_rules": [
+                            "$has_garbage_access,mouth",
+                            "$has_drainage_access,mouth",
+                            "$has_shoreline_access",
+                            "$has_subterranean_access,mouth",
+                            "$has_shaded_access,[glow],mouth",
+                            "$has_industrial_access,mouth",
+                            "$has_farm_arrays_access,mouth",
+                            "$has_waterfront_access,mouth",
+                            "$has_outer_expanse_access",
+                            "$has_submerged_access",
+                            "$has_pipeyard_access,mouth"
+                        ]
                     },
                     {
-                        "name": "Jellyfish"
+                        "name": "Jellyfish",
+                        "access_rules": [
+                            "$has_shoreline_access,notvegan",
+                            "$has_submerged_access,notvegan",
+                            "$has_sky_islands_access,inv"
+                        ]
                     },
                     {
-                        "name": "Jetfish"
+                        "name": "Jetfish",
+                        "access_rules": [
+                            "$has_shoreline_access,crunch",
+                            "$has_subterranean_access,crunch",
+                            "$has_submerged_access,crunch",
+                            "$has_pipeyard_access,crunch",
+                            "$has_waterfront_access"
+                        ]
                     },
                     {
-                        "name": "Glow Weed"
+                        "name": "Glow Weed",
+                        "access_rules": [
+                            "$has_shoreline_access",
+                            "$has_submerged_access"
+                        ]
                     },
                     {
-                        "name": "Eel Lizard or Salamander"
+                        "name": "Eel Lizard or Salamander",
+                        "access_rules": [
+                            "$has_chimney_access,crunch",
+                            "$has_shoreline_access,crunch",
+                            "$has_pipeyard_access,crunch",
+                            "$has_submerged_access,crunch",
+                            "$has_drainage_access,crunch",
+                            "$has_subterranean_access,crunch",
+                            "$has_waterfront_access"
+                        ]
                     },
                     {
-                        "name": "Snail"
+                        "name": "Snail",
+                        "access_rules": [
+                            "$has_drainage_access,crunch",
+                            "$has_garbage_access,crunch",
+                            "$has_shoreline_access,crunch",
+                            "$has_chimney_access,crunch,MSC",
+                            "$has_industrial_access,gourmand",
+                            "$has_pipeyard_access,crunch",
+                            "$has_waterfront_access"
+                        ]
                     },
                     {
-                        "name": "Hazer"
+                        "name": "Hazer",
+                        "access_rules": [
+                            "$has_industrial_access,notvegan",
+                            "$has_drainage_access,notvegan",
+                            "$has_garbage_access,notvegan",
+                            "$has_shoreline_access,notvegan",
+                            "$has_farm_arrays_access,notvegan",
+                            "$has_outskirts_access,monk","$has_outskirts_access,hunter","$has_outskirts_access,arti","$has_outskirts_access,spearmaster",
+                            "$has_chimney_access,MSC",
+                            "$has_shoreline_access,MSC,notvegan",
+                            "$has_farm_arrays_access,notvegan"
+                        ]
                     },
                     {
-                        "name": "Eggbug"
+                        "name": "Eggbug",
+                        "access_rules": [
+                            "$has_outskirts_access,crunch",
+                            "$has_sky_islands_access,crunch",
+                            "$has_farm_arrays_access,crunch",
+                            "$has_industrial_access,arti","$has_industrial_access,hunter","$has_industrial_access,spearmaster",
+                            "$has_garbage_access,hunter","$has_garbage_access,arti","$has_garbage_access,spearmaster",
+                            "$has_shaded_access,crunch",
+                            "$has_chimney_access,hunter","$has_chimney_access,arti","$has_chimney_access,spearmaster",
+                            "$has_subterranean_access,hunter","$has_subterranean_access,arti","$has_subterranean_access,spearmster",
+                            "$has_pipeyard_access,crunch",
+                            "$has_outer_expanse_access,gourmand",
+                            "$has_metro_access",
+                            "$has_waterfront_access"
+                        ]
                     },
                     {
-                        "name": "Lilypuck"
+                        "name": "Lilypuck",
+                        "access_rules": [
+                            "$has_drainage_access,mouth",
+                            "$has_shaded_access,[glow],mouth",
+                            "$has_pipeyard_access,mouth"
+                        ]
                     },
                     {
-                        "name": "Yellow Lizard"
+                        "name": "Yellow Lizard",
+                        "access_rules": [
+                            "$has_exterior_access,west,crunch","$has_exterior_access,wall,crunch",
+                            "$has_sky_islands_access,crunch",
+                            "$has_farm_arrays_access,gourmand",
+                            "$has_submerged_access,crunch",
+                            "$has_waterfront_access",
+                            "$has_metro_access",
+                            "$has_lttm_access"
+                        ]
                     },
                     {
-                        "name": "Grapple Worm"
+                        "name": "Grapple Worm",
+                        "access_rules": [
+                            "$has_exterior_access,crunch",
+                            "$has_chimney_access,crunch",
+                            "$has_metro_access"
+                        ]
                     },
                     {
-                        "name": "Neuron Fly"
+                        "name": "Neuron Fly",
+                        "access_rules": [
+                            "5P",
+                            "Rot",
+                            "$has_shoreline_access",
+                            "$has_lttm_access"
+                        ]
                     },
                     {
-                        "name": "CentiWing"
+                        "name": "CentiWing",
+                        "access_rules": [
+                            "$has_sky_islands_access,notvegan",
+                            "$has_farm_arrays_access,arti","$has_farm_arrays_access,riv","$has_farm_arrays_access,spearmaster",
+                            "$has_metro_access",
+                            "$has_industrial_access,riv",
+                            "$has_chimney_access,riv",
+                            "$has_pipeyard_access,riv"
+                        ]
                     },
                     {
-                        "name": "Dandelion Peach"
+                        "name": "Dandelion Peach",
+                        "access_rules": [
+                            "$has_sky_islands_access,mouth",
+                            "$has_rubicon_access"
+                        ]
                     },
                     {
-                        "name": "Cyan Lizard"
+                        "name": "Cyan Lizard",
+                        "access_rules": [
+                            "$has_industrial_access,crunch",
+                            "$has_drainage_access,hunter","$has_drainage_access,arti","$has_drainage_access,spearmaster",
+                            "$has_garbage_access,hunter","$has_garbage_access,arti","$has_garbage_access,spearmaster",
+                            "$has_exterior_access,hunter","$has_exterior_access,arti","$has_exterior_access,spearmaster",
+                            "$has_chimney_access,hunter","$has_chimney_access,arti","$has_chimney_access,spearmaster",
+                            "$has_sky_islands_access,crunch",
+                            "$has_subterranean_access,crunch",
+                            "$has_pipeyard_access,crunch",
+                            "$has_metro_access",
+                            "$has_waterfront_access",
+                            "$has_lttm_access"
+                        ]
                     },
                     {
-                        "name": "Gooieduck"
+                        "name": "Gooieduck",
+                        "access_rules": [
+                            "$has_farm_arrays_access,mouth",
+                            "$has_subterranean_access,mouth",
+                            "$has_outer_expanse_access"
+                        ]
                     },
                     {
-                        "name": "Red Centipede or Aquapede"
+                        "name": "Red Centipede or Aquapede",
+                        "access_rules": [
+                            "$has_shoreline_access,notvegan",
+                            "$has_submerged_access,notvegan",
+                            "$has_garbage_access,riv","$has_garbage_access,hunter","$has_garbage_access,arti","$has_garbage_access,gourmand",
+                            "$has_pipeyard_access,crunch",
+                            "$has_subterranean_access,crunch",
+                            "$has_drainage_access,spearmaster"
+                        ]
                     },
                     {
-                        "name": "Popcorn Plant"
+                        "name": "Popcorn Plant",
+                        "access_rules": [
+                            "$has_farm_arrays_access",
+                            "$has_sky_islands_access",
+                            "$has_garbage_access",
+                            "$has_industrial_access",
+                            "$has_subterranean_access",
+                            "$has_chimney_access",
+                            "$has_shoreline_access",
+                            "$has_outskirts_access,monk","$has_outskirts_access,survivor","$has_outskirts_access,gourmand","$has_outskirts_access,arti","$has_outskirts_access,riv","$has_outskirts_access,spearmaster",
+                            "$has_outskirts_access,saint"
+                        ]
                     },
                     {
-                        "name": "Centipede"
+                        "name": "Centipede",
+                        "access_rules": [
+                            "$has_industrial_access,notvegan",
+                            "$has_garbage_access,notvegan",
+                            "$has_shaded_access,[glow],notvegan,notriv",
+                            "$has_farm_arrays_access,notvegan",
+                            "$has_subterranean_access,notvegan",
+                            "$has_outskirts_access,monk","$has_outskirts_access,riv","$has_outskirts_access,hunter","$has_outskirts_access,arti","$has_outskirts_access,spearmaster",
+                            "$has_chimney_access,notvegan,MSC",
+                            "$has_sky_islands_access,notvegan,MSC",
+                            "$has_pipeyard_access,notvegan",
+                            "$has_outer_expanse_access",
+                            "$has_metro_access",
+                            "$has_drainage_access,hunter","$has_drainage_access,arti","$has_drainage_access,spearmaster"
+                        ]
                     },
                     {
-                        "name": "Vulture Grub"
+                        "name": "Vulture Grub",
+                        "access_rules": [
+                            "$has_industrial_access,notvegan",
+                            "$has_garbage_access,notvegan",
+                            "$has_chimney_access,notvegan",
+                            "$has_farm_arrays_access,notvegan"
+                        ]
                     },
                     {
-                        "name": "Noodlefly"
+                        "name": "Noodlefly",
+                        "access_rules": [
+                            "$has_outskirts_access,notvegan",
+                            "$has_sky_islands_access,notvegan,notriv",
+                            "$has_farm_arrays_access,notvegan",
+                            "$has_chimney_access,hunter","$has_chimney_access,arti","$has_chimney_access,spearmaster",
+                            "$has_outer_expanse_access",
+                            "$has_subterranean_access,survivor,MSC","$has_subterranean_access,hunter,MSC","$has_subterranean_access,gourmand","$has_subterranean_access,arti","$has_subterranean_access,riv","$has_subterranean_access,spearmaster"
+                        ]
                     },
                     {
-                        "name": "Green Lizard"
+                        "name": "Green Lizard",
+                        "access_rules": [
+                            "$has_outskirts_access,crunch",
+                            "$has_industrial_access,crunch",
+                            "$has_drainage_access,crunch",
+                            "$has_garbage_access,crunch",
+                            "$has_farm_arrays_access,crunch",
+                            "$has_subterranean_access,hunter,vanilla"          
+                        ]
                     },
                     {
-                        "name": "Blue Lizard"
+                        "name": "Blue Lizard",
+                        "access_rules": [
+                            "$has_industrial_access,crunch",
+                            "$has_exterior_access,crunch,wall",
+                            "$has_chimney_access,crunch",
+                            "$has_sky_islands_access,crunch",
+                            "$has_farm_arrays_access,crunch",
+                            "$has_subterranean_access,crunch",
+                            "$has_pipeyard_access,gourmand",
+                            "$has_outer_expanse_access,gourmand",
+                            "$has_submerged_access,crunch",
+                            "$has_garbage_access,arti","$has_garbage_access,spearmaster",
+                            "$has_waterfront_access",
+                            "$has_lttm_access"
+                        ]
                     },
                     {
-                        "name": "Pink Lizard"
+                        "name": "Pink Lizard",
+                        "access_rules": [
+                            
+                        ]
                     },
                     {
                         "name": "White Lizard"

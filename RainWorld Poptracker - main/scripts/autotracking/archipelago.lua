@@ -80,6 +80,17 @@ end
 
 -- apply everything needed from slot_data, called from onClear
 function apply_slot_data(slot_data)
+	
+	if slot_data["which_gate_behavior"] == 0 then
+		gatelogic = onlygate
+	elseif slot_data["which_gate_behavior"] == 1 then
+		gatelogic = gateandkarma
+	elseif slot_data["which_gate_behavior"] == 2 then
+		gatelogic = gateorkarma
+	elseif slot_data["which_gate_behavior"] == 3 then
+		gatelogic = onlykarma
+	end
+	
 	CURRENT_CAMPAIGN = slot_data["which_campaign"]
 	local vanillagame = nil
 	local vanillaneeded = nil
@@ -111,15 +122,25 @@ function apply_slot_data(slot_data)
 		Tracker:FindObjectForCode("Gate_UpperMoon-WaterMap").CurrentStage = 1
 		Tracker:FindObjectForCode("Gate_LowerMoon-WaterMap").CurrentStage = 1
 	end
+	if slot_data["which_campaign"] == 2 or slot_data["which_campaign"] == 3 or slot_data["which_campaign"] == 4 or slot_data["which_campaign"] == 6 then
+		Tracker:FindObjectForCode("crunch").Active = true
+	end
+	if slot_data["which_campaign"] ~= 6 then
+		Tracker:FindObjectForCode("mouth").Active = true
+	end
 	if slot_data["which_campaign"] == 5 then
 		Tracker:FindObjectForCode("Pebbsi").CurrentStage = 1
 		Tracker:FindObjectForCode("Gate_Wall-Pebbsi").CurrentStage = 1
 		Tracker:FindObjectForCode("Gate_Underhang-Pebbsi").CurrentStage = 1
+	else
+		Tracker:FindObjectForCode("notriv").Active = true
 	end
 	if slot_data["which_campaign"] == 7 then
 		Tracker:FindObjectForCode("Gate-WaterMap-Pebbs").CurrentStage = 1
 		Tracker:FindObjectForCode("Drainage").CurrentStage = 1
 		Tracker:FindObjectForCode("Castle").CurrentStage = 1
+	else
+		Tracker:FindObjectForCode("notvegan").Active = true
 	end
 	if slot_data["starting_room"] ~= nil then
 		local spawn = SPAWN_TABLE[slot_data["starting_room"]]
@@ -190,9 +211,11 @@ function onClear(slot_data)
 	end
 	Tracker:FindObjectForCode("Gate").CurrentStage = 0
 	Tracker:FindObjectForCode("Gate").Active = false
+	Tracker:FindObjectForCode("notriv").Active = false
 	Tracker:FindObjectForCode("region").CurrentStage = 0
 	Tracker:FindObjectForCode("region").Active = false
 	Tracker:FindObjectForCode("early").Active = false
+	Tracker:FindObjectForCode("food").Active = false
 	apply_slot_data(slot_data)
 	LOCAL_ITEMS = {}
 	GLOBAL_ITEMS = {}

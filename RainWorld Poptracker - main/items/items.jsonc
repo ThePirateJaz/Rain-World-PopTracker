@@ -9,12 +9,27 @@
   {
     "name": "Option-Glow",
     "type": "toggle",
-    "codes": "glow-option"
+    "codes": "glow-option,glow"
   },
   {
     "name": "Vanilla",
     "type": "toggle",
     "codes": "vanilla"
+  },
+  {
+    "name": "Mouth",
+    "type": "toggle",
+    "codes": "mouth,food"
+  },
+  {
+    "name": "Crunch",
+    "type": "toggle",
+    "codes": "crunch,food"
+  },
+  {
+    "name": "notvegan",
+    "type": "toggle",
+    "codes": "notvegan,food"
   },
   {
     "name": "Sheltersanity",
@@ -50,6 +65,11 @@
     "name": "Scug-Riv",
     "type": "toggle",
     "codes": "riv"
+  },
+  {
+    "name": "Not Riv",
+    "type": "toggle",
+    "codes": "notriv"
   },
   {
     "name": "Scug-Spear",
@@ -152,7 +172,7 @@
     "name": "The Glow",
     "type": "toggle",
     "img": "images/items/Neuron Fly.png",
-    "codes": "glow"
+    "codes": "glow,glow-item"
   },
   {
     "name": "The Mark",
@@ -250,6 +270,21 @@
     ]
   },
   {
+    "name": "West",
+    "type": "toggle",
+    "codes": "west,region"
+  },
+  {
+    "name": "East",
+    "type": "toggle",
+    "codes": "east,region"
+  },
+  {
+    "name": "Wall",
+    "type": "toggle",
+    "codes": "wall,region"
+  },
+  {
     "name": "The Exterior",
     "type": "toggle",
     "img": "images/items/Regions/Exterior.png",
@@ -272,6 +307,11 @@
         "codes": "Rot,Pebbsi,region"
       }
     ]
+  },
+  {
+    "name": "Puppet Chamber",
+    "type": "toggle",
+    "codes": "puppet,region"
   },
   {
     "name": "Chimney Canopy",
