@@ -1,0 +1,12 @@
+{
+    "versions": [
+        {
+            "package_version": "0.1.0",
+            "download_url": "http://example.com/pack_1.0.0.zip",
+            "sha256": "e16aaded23a013446d1e8cd0a8d4e8631a91ad2ffcefc7b1f45ba4f8829a415d",
+            "changelog": [
+                "Location Rework"
+            ]
+        }
+    ]
+}
