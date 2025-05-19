@@ -3,7 +3,7 @@
         {
             "package_version": "0.2.0",
             "download_url": "https://github.com/ThePirateJaz/Rain-World-PopTracker/releases/download/v0.2.0/RainWorld-Poptracker-main.zip",
-            "sha256": "dd610853c85016f82d27866c93b7b0066674c910e331b805ddbf97ba1615de07",
+            "sha256": "faf2d7c76911a1f58ad6f97a9b69a537d152e248cfce4d59ed57e0e6b3da35ea",
             "changelog": [
                 "Inv integration,Gate logic rework,minor all around tweaks and bug fixes"
             ]
