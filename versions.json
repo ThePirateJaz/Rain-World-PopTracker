@@ -1,11 +1,11 @@
 {
     "versions": [
         {
-            "package_version": "0.1.0",
-            "download_url": "http://example.com/pack_1.0.0.zip",
-            "sha256": "e16aaded23a013446d1e8cd0a8d4e8631a91ad2ffcefc7b1f45ba4f8829a415d",
+            "package_version": "0.2.0",
+            "download_url": "https://github.com/ThePirateJaz/Rain-World-PopTracker/releases/download/v0.2.0/RainWorld-Poptracker-main.zip",
+            "sha256": "dd610853c85016f82d27866c93b7b0066674c910e331b805ddbf97ba1615de07",
             "changelog": [
-                "Location Rework"
+                "Inv integration,Gate logic rework,minor all around tweaks and bug fixes"
             ]
         }
     ]
