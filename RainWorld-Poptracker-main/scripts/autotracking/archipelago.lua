@@ -83,12 +83,16 @@ function apply_slot_data(slot_data)
 	
 	if slot_data["which_gate_behavior"] == 0 then
 		gatelogic = onlygate
+		Tracker:FindObjectForCode("onlygate").Active = true
 	elseif slot_data["which_gate_behavior"] == 1 then
 		gatelogic = gateandkarma
+		Tracker:FindObjectForCode("gateandkarma").Active = true
 	elseif slot_data["which_gate_behavior"] == 2 then
 		gatelogic = gateorkarma
+		Tracker:FindObjectForCode("gataorkarma").Active = true
 	elseif slot_data["which_gate_behavior"] == 3 then
 		gatelogic = onlykarma
+		Tracker:FindObjectForCode("onlykarma").Active = true
 	end
 	
 	CURRENT_CAMPAIGN = slot_data["which_campaign"]

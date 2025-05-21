@@ -66,5 +66,84 @@
         ]
       }
     ]
+  },
+  "popoutsettings": {
+        "type":"array",
+        "orientation": "vertical",
+        "content": [
+            {
+				"type": "group",
+				"header": "Slug Cat Campaign",
+				"content": [
+          {
+            "type": "itemgrid",
+            "item_margin": "10, 10",
+            "rows": [
+              [
+                "monk","survivor","hunter","gourmand"
+              ],
+              [
+                "arti","riv","spearmaster","saint"
+              ],
+              [
+                "inv"
+              ]
+            ]
+          }
+				]
+			  },
+        {
+          "type": "group",
+          "header": "Gate Logic",
+          "content": [
+            {
+              "type": "itemgrid",
+              "item_margin": "10,10",
+              "rows": [
+                [
+                  "onlygate","onlykarma","gateandkarma","gateorkarma"
+                ]
+              ]
+            }
+          ]
+        },
+			  {
+				"type": "group",
+				"header": "Sheltersanity and Glow Required",
+				"header_background": "#3e4b57",
+				"content": [
+				  {
+					"type": "item",
+					"item": "sheltersanity"
+				  }
+				]
+			  },
+			  {
+				"type": "group",
+				"header": "Starting Region",
+				"content": [
+				  {
+					"type": "itemgrid",
+					"rows": [
+            [
+              "","Sky","Chimney","Exterior","5P","Metro"
+            ],
+            [
+              "","Pipeyard","Industrial","Shaded"
+            ],
+            [
+              "Farm","Outskirts","Garbage","Shoreline",
+            ],
+            [
+              "Outer","Drainage","","Submerged"
+            ],
+            [
+              "Subterranean"
+            ]
+          ]
+				  }
+				]
+      }
+		]
   }
 }
