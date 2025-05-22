@@ -15,9 +15,6 @@ end
 -- Utility Script for helper functions etc.
 ScriptHost:LoadScript("scripts/utils.lua")
 
--- Logic
-ScriptHost:LoadScript("scripts/logic/logic.lua")
-
 -- Custom Items
 ScriptHost:LoadScript("scripts/custom_items/class.lua")
 ScriptHost:LoadScript("scripts/custom_items/progressiveTogglePlus.lua")
@@ -55,6 +52,8 @@ if not IS_ITEMS_ONLY then -- <--- use variant info to optimize loading
     Tracker:AddLocations("locations/Waterfront Facility.jsonc")
 end
 
+-- Logic
+ScriptHost:LoadScript("scripts/logic/logic.lua")
 
 -- Layout
 Tracker:AddLayouts("layouts/items.jsonc")

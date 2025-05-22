@@ -12,6 +12,30 @@
     "codes": "glow-option,glow"
   },
   {
+    "name": "Gate and Karma",
+    "type": "toggle",
+    "codes": "gateandkarma,Gate",
+    "img": "images/items/Regions/gateandkarma.png"
+  },
+  {
+    "name": "Gate or Karma",
+    "type": "toggle",
+    "codes": "gateorkarma,Gate",
+    "img": "images/items/Regions/gateorkarma.png"
+  },
+  {
+    "name": "Only Gate",
+    "type": "toggle",
+    "codes": "onlygate,Gate",
+    "img": "images/items/Regions/onlygate.png"
+  },
+  {
+    "name": "Only Karma",
+    "type": "toggle",
+    "codes": "onlykarma,Gate",
+    "img": "images/items/Regions/onlykarma.png"
+  },
+  {
     "name": "Vanilla",
     "type": "toggle",
     "codes": "vanilla"
@@ -34,42 +58,49 @@
   {
     "name": "Sheltersanity",
     "type": "toggle",
-    "codes": "sheltersanity"
+    "codes": "sheltersanity",
+    "img": "images/icons/Shelter.png"
   },
   {
     "name": "Scug-Yellow",
     "type": "toggle",
-    "codes": "monk"
+    "codes": "monk",
+    "img": "images/items/scug/monk.png"
   },
   {
     "name": "Scug-White",
     "type": "toggle",
-    "codes": "survivor"
+    "codes": "survivor",
+    "img": "images/items/scug/survivor.png"
   },
   {
     "name": "Scug-Red",
     "type": "toggle",
-    "codes": "hunter"
+    "codes": "hunter",
+    "img": "images/items/scug/hunter.png"
   },
   {
     "name": "Scug-Arti",
     "type": "toggle",
-    "codes": "arti"
+    "codes": "arti",
+    "img": "images/items/scug/arti.png"
   },
   {
     "name": "Not Arti",
     "type": "toggle",
-    "codes": "notarti"
+    "codes": "notarti,food"
   },
   {
     "name": "Scug-Gourmand",
     "type": "toggle",
-    "codes": "gourmand"
+    "codes": "gourmand",
+    "img": "images/items/scug/gourmand.png"
   },
   {
     "name": "Scug-Riv",
     "type": "toggle",
-    "codes": "riv"
+    "codes": "riv",
+    "img": "images/items/scug/riv.png"
   },
   {
     "name": "Not Riv",
@@ -79,17 +110,20 @@
   {
     "name": "Scug-Spear",
     "type": "toggle",
-    "codes": "spearmaster"
+    "codes": "spearmaster",
+    "img": "images/items/scug/spearmaster.png"
   },
   {
     "name": "Scug-Saint",
     "type": "toggle",
-    "codes": "saint"
+    "codes": "saint",
+    "img": "images/items/scug/saint.png"
   },
   {
     "name": "Scug-Inv",
     "type": "toggle",
-    "codes": "inv"
+    "codes": "inv",
+    "img": "images/items/scug/inv.png"
   },
   {
     "name": "Scug",

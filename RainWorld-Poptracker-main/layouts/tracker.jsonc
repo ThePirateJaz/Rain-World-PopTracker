@@ -1,22 +1,22 @@
 {
   //sets the trackers layout
   //more info: https://github.com/black-sliver/PopTracker/blob/master/doc/PACKS.md#layouts
-  //"settings_popup": {
-  //  "type": "array",
-  //  "orientation": "horizontal",
-  //  "h_alignment": "left",
-  //  "content": [
-  //    {
-  //      "type": "group",
-  //      "header": "Settings",
-  //      "dock": "bottom",
-  //      "content": {
-  //        "type": "layout",
-  //        "key": "popoutsettings"
-  //      }
-  //    }
-  //  ]
-  //},
+//  "settings_popup": {
+//    "type": "array",
+//    "orientation": "horizontal",
+//    "h_alignment": "left",
+//    "content": [
+//      {
+//        "type": "group",
+//        "header": "Settings",
+//        "dock": "bottom",
+//        "content": {
+//          "type": "layout",
+//          "key": "popoutsettings"
+//        }
+//      }
+//    ]
+//  },
   "tracker_horizontal": {
     "type": "container",
     "background": "#000000",
