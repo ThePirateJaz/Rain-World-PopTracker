@@ -36,7 +36,34 @@ CAMPAIGN_NAMING =
     [6] = "Spearmaster",
     [7] = "Saint",
     [8] = "Thanks, Andrew",
-    [9] = "Watcher",
+    [9] = "Watcher"
+}
+
+CAMPAIGN_NAMES = 
+{
+    [0] = "monk",
+    [1] = "survivor",
+    [2] = "hunter",
+    [3] = "gourmand",
+    [4] = "arti",
+    [5] = "riv",
+    [6] = "spearmaster",
+    [7] = "saint",
+    [8] = "inv"
+}
+
+CAMPAIGN_NUMBERS = 
+{
+    ["monk"] = 0,
+    ["survivor"] = 1,
+    ["hunter"] = 2,
+    ["gourmand"] = 3,
+    ["arti"] = 4,
+    ["riv"] = 5,
+    ["spearmaster"] = 6,
+    ["saint"] = 7,
+    ["inv"] = 8,
+    ["watcher"] = 9
 }
 
 SAINT_TABLE =
@@ -47,7 +74,7 @@ SAINT_TABLE =
     ["Farm Arrays"] = "Desolate Fields",
     ["Subterranean"] = "Primordial Underground",
     ["Garbage Wastes"] = "Glacial Wasteland",
-    ["Pipeyard"] = "BarrenConduits",
+    ["Pipeyard"] = "Barren Conduits",
     ["Sky Islands"] = "Windswept Spires",
     ["Shoreline"] = "Frigid Coast"
 }

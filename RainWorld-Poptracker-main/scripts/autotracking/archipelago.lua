@@ -84,14 +84,26 @@ function apply_slot_data(slot_data)
 	if slot_data["which_gate_behavior"] == 0 then
 		gatelogic = onlygate
 		Tracker:FindObjectForCode("onlygate").Active = true
+		Tracker:FindObjectForCode("gateandkarma").Active = false
+		Tracker:FindObjectForCode("gateorkarma").Active = false
+		Tracker:FindObjectForCode("onlykarma").Active = false
 	elseif slot_data["which_gate_behavior"] == 1 then
 		gatelogic = gateandkarma
+		Tracker:FindObjectForCode("onlygate").Active = false
 		Tracker:FindObjectForCode("gateandkarma").Active = true
+		Tracker:FindObjectForCode("gateorkarma").Active = false
+		Tracker:FindObjectForCode("onlykarma").Active = false
 	elseif slot_data["which_gate_behavior"] == 2 then
 		gatelogic = gateorkarma
-		Tracker:FindObjectForCode("gataorkarma").Active = true
+		Tracker:FindObjectForCode("onlygate").Active = false
+		Tracker:FindObjectForCode("gateandkarma").Active = false
+		Tracker:FindObjectForCode("gateorkarma").Active = true
+		Tracker:FindObjectForCode("onlykarma").Active = false
 	elseif slot_data["which_gate_behavior"] == 3 then
 		gatelogic = onlykarma
+		Tracker:FindObjectForCode("onlygate").Active = false
+		Tracker:FindObjectForCode("gateandkarma").Active = false
+		Tracker:FindObjectForCode("gateorkarma").Active = false
 		Tracker:FindObjectForCode("onlykarma").Active = true
 	end
 	

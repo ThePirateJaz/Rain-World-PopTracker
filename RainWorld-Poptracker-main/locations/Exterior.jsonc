@@ -30,7 +30,7 @@
                     {
                         "name": "Yellow Lizard Token",
                         "visibility_rules":[
-                            "monk,$has_no_MSC",
+                            "monk,vanilla",
                             "survivor",
                             "hunter",
                             "gourmand",
@@ -58,7 +58,7 @@
                     {
                         "name": "GrappleWorm Token",
                         "visibility_rules": [
-                            "monk,$has_no_MSC",
+                            "monk,vanilla",
                             "survivor",
                             "hunter",
                             "gourmand",
@@ -901,50 +901,50 @@
                     {
                         "shape": "rect",
                         "map": "Vanilla_Monk_Exterior",
-                        "x": 1416,
-                        "y": 930
+                        "x": 1400,
+                        "y": 914
                     },
                     {
                         "shape": "rect",
                         "map": "MSC_Monk_Exterior",
-                        "x": 1416,
-                        "y": 930
+                        "x": 1400,
+                        "y": 914
                     },
                     {
                         "shape": "rect",
                         "map": "Vanilla_Survivor_Exterior",
-                        "x": 1416,
-                        "y": 930
+                        "x": 1400,
+                        "y": 914
                     },
                     {
                         "shape": "rect",
                         "map": "MSC_Survivor_Exterior",
-                        "x": 1416,
-                        "y": 930
+                        "x": 1400,
+                        "y": 914
                     },
                     {
                         "shape": "rect",
                         "map": "Vanilla_Hunter_Exterior",
-                        "x": 1416,
-                        "y": 930
+                        "x": 1400,
+                        "y": 914
                     },
                     {
                         "shape": "rect",
                         "map": "MSC_Hunter_Exterior",
-                        "x": 1416,
-                        "y": 930
+                        "x": 1400,
+                        "y": 914
                     },
                     {
                         "shape": "rect",
                         "map": "Gourmand_Exterior",
-                        "x": 1416,
-                        "y": 930
+                        "x": 1400,
+                        "y": 914
                     },
                     {
                         "shape": "rect",
                         "map": "Arti_Exterior",
-                        "x": 1416,
-                        "y": 930
+                        "x": 1400,
+                        "y": 914
                     },
                     {
                         "shape": "rect",
@@ -955,14 +955,14 @@
                     {
                         "shape": "rect",
                         "map": "Spear_Exterior",
-                        "x": 1416,
-                        "y": 930
+                        "x": 1400,
+                        "y": 914
                     },
                     {
                         "shape": "rect",
                         "map": "Inv_Exterior",
-                        "x": 1416,
-                        "y": 930
+                        "x": 1400,
+                        "y": 914
                     }
                 ]
             },

@@ -3,12 +3,15 @@
   {
     "name": "MSC",
     "type": "toggle",
-    "img": "images/items/toggle.png",
+    "img": "images/items/Regions/MSC.png",
+    "disabled_img": "images/items/Regions/noDLC.png",
     "codes": "MSC"
   },
   {
-    "name": "Option-Glow",
+    "name": "Glow Settings",
     "type": "toggle",
+    "img": "images/items/Regions/dontneedglow.png",
+    "disabled_img": "images/items/Regions/needglow.png",
     "codes": "glow-option,glow"
   },
   {
@@ -64,25 +67,25 @@
   {
     "name": "Scug-Yellow",
     "type": "toggle",
-    "codes": "monk",
+    "codes": "monk,campaign",
     "img": "images/items/scug/monk.png"
   },
   {
     "name": "Scug-White",
     "type": "toggle",
-    "codes": "survivor",
+    "codes": "survivor,campaign",
     "img": "images/items/scug/survivor.png"
   },
   {
     "name": "Scug-Red",
     "type": "toggle",
-    "codes": "hunter",
+    "codes": "hunter,campaign",
     "img": "images/items/scug/hunter.png"
   },
   {
     "name": "Scug-Arti",
     "type": "toggle",
-    "codes": "arti",
+    "codes": "arti,campaign",
     "img": "images/items/scug/arti.png"
   },
   {
@@ -93,13 +96,13 @@
   {
     "name": "Scug-Gourmand",
     "type": "toggle",
-    "codes": "gourmand",
+    "codes": "gourmand,campaign,glow",
     "img": "images/items/scug/gourmand.png"
   },
   {
     "name": "Scug-Riv",
     "type": "toggle",
-    "codes": "riv",
+    "codes": "riv,campaign",
     "img": "images/items/scug/riv.png"
   },
   {
@@ -110,24 +113,25 @@
   {
     "name": "Scug-Spear",
     "type": "toggle",
-    "codes": "spearmaster",
+    "codes": "spearmaster,campaign",
     "img": "images/items/scug/spearmaster.png"
   },
   {
     "name": "Scug-Saint",
     "type": "toggle",
-    "codes": "saint",
+    "codes": "saint,campaign",
     "img": "images/items/scug/saint.png"
   },
   {
     "name": "Scug-Inv",
     "type": "toggle",
-    "codes": "inv",
+    "codes": "inv,campaign,glow",
     "img": "images/items/scug/inv.png"
   },
   {
     "name": "Scug",
     "type": "progressive",
+    "loop": true,
     "allow_disabled": false,
     "inherit_codes": true,
     "initial_stage_idx": 0,

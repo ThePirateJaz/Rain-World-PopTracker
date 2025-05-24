@@ -2,6 +2,7 @@
 --debugging info
 gatelogicdebug = false
 regiondebug = false
+scugdebug = true
 function gateprint(...)
     if gatelogicdebug then
         print(...)
@@ -12,21 +13,30 @@ function regionprint(...)
         print(...)
     end
 end
+function scugprint(...)
+    if scugdebug then
+        print(...)
+    end
+end
 
 --Gate Logics aare defined here in the case of differing gate logic
 function gateandkarma(gate,karma,n)
     if gate == "Gate_Wall-Metropolis" or karma == "drone" then
         gateprint(string.format("Checking Metro Gate with drone"))
         if ((Tracker:FindObjectForCode(gate).Active) and (Tracker:FindObjectForCode(karma).Active)) then
+            gateprint("Has this gate!")
             return true
         else
+            gateprint("Does NOT have this gate!")
             return false
         end
     end
     gateprint(string.format("Checking gate %s and %s level %s",gate,karma,n))
     if ((Tracker:FindObjectForCode(gate).Active) and (Tracker:FindObjectForCode(karma).CurrentStage >= (n-1))) then
+        gateprint("Has this gate, should have access!")
         return true
     else
+        gateprint("Does NOT have this gate!")
         return false
     end
 end
@@ -34,66 +44,144 @@ function gateorkarma(gate,karma,n)
     if gate == "Gate_Wall-Metropolis" or karma == "drone" then
         gateprint("Checking Metropolis gate")
         if ((Tracker:FindObjectForCode(gate).Active) or (Tracker:FindObjectForCode(karma).Active)) then
+            gateprint("Has this gate, should have access!")
             return true
         else
+            gateprint("Has this gate, should have access!")
             return false
         end
     end
     gateprint(string.format("Checking gate %s or %s level %s",gate,karma,n))
-    return ((Tracker:FindObjectForCode(gate).Active) or (Tracker:FindObjectForCode(karma).CurrentStage >= (n-1)))
+    if ((Tracker:FindObjectForCode(gate).Active) or (Tracker:FindObjectForCode(karma).CurrentStage >= (n-1))) then
+        gateprint("Has this gate, should have access!")
+        return true
+    else
+        gateprint("Does NOT have this gate!")
+        return false
+    end
 end
 function onlygate(gate,karma,n)
     gateprint(string.format("Checking gate %s",gate))
-    return Tracker:FindObjectForCode(gate).Active
+    if Tracker:FindObjectForCode(gate).Active then
+        gateprint("Has this gate, should have access!")
+        return true
+    else
+        gateprint("Does not have this gate!")
+        return false
+    end
 end
 function onlykarma(gate,karma,n)
     if karma == "drone" then
-        return Tracker:FindObjectForCode(karma).Active
+        if Tracker:FindObjectForCode(karma).Active then
+            gateprint("Has this gate, should have access!")
+            return true
+        else
+            gateprint("Does NOT have this gate!")
+            return false
+        end
     end
     gateprint(string.format("Checking %s level %s",karma,n))
-    return Tracker:FindObjectForCode(karma).CurrentStage >= (n-1)
+    if Tracker:FindObjectForCode(karma).CurrentStage >= (n-1) then
+        gateprint("Has this gate, should have access!")
+        return true
+    else
+        gateprint("Does NOT have this gate!")
+        return false
+    end
 end
 
 --in case tracker isn't connected to ap, gate logic will be assigned here
-gatelogic = function(gate,karma,n)
-    return false
-end
-if Tracker:FindObjectForCode("gateorkarma").Active then
-    gatelogic = gateorkarma
-elseif Tracker:FindObjectForCode("onlygate").Active then
-    gatelogic = onlygate
-elseif Tracker:FindObjectForCode("onlykarma").Active then
-    gatelogic = onlykarma
-elseif Tracker:FindObjectForCode("gateandkarma").Active then
-    gatelogic = gateandkarma
-end
-
---for manually settings the current slugcat campaign
-if not CURRENT_CAMPAIGN then
-    if Tracker:FindObjectForCode("monk").Active then
-        Tracker:FindObjectForCode("scug").CurrentStage = 0
-    elseif Tracker:FindObjectForCode("survivor").Active then
-        Tracker:FindObjectForCode("scug").CurrentStage = 1
-    elseif Tracker:FindObjectForCode("hunter").Active then
-        Tracker:FindObjectForCode("scug").CurrentStage = 2
-    elseif Tracker:FindObjectForCode("gourmand").Active then
-        Tracker:FindObjectForCode("scug").CurrentStage = 3
-    elseif Tracker:FindObjectForCode("arti").Active then
-        Tracker:FindObjectForCode("scug").CurrentStage = 4
-    elseif Tracker:FindObjectForCode("riv").Active then
-        Tracker:FindObjectForCode("scug").CurrentStage = 5
-    elseif Tracker:FindObjectForCode("spearmaster").Active then
-        Tracker:FindObjectForCode("scug").CurrentStage = 5
-    elseif Tracker:FindObjectForCode("saint").Active then
-        Tracker:FindObjectForCode("scug").CurrentStage = 6
-    elseif Tracker:FindObjectForCode("inv").Active then
-        Tracker:FindObjectForCode("scug").CurrentStage = 7
+function gatelogic(gate,karma,n)
+    characterselect()
+    dlcselect()
+    if Tracker:FindObjectForCode("gateorkarma").Active then
+        if gateorkarma(gate,karma,n) then
+            return true
+        else
+            return false
+        end
+    elseif Tracker:FindObjectForCode("onlygate").Active then
+        if onlygate(gate,karma,n) then
+            return true
+        else
+            return false
+        end
+    elseif Tracker:FindObjectForCode("onlykarma").Active then
+        if onlykarma(gate,karma,n) then
+            return true
+        else
+            return false
+        end
+    elseif Tracker:FindObjectForCode("gateandkarma").Active then
+        if gateandkarma(gate,karma,n) then
+            return true
+        else
+            return false
+        end
+    else
+        return false
     end
 end
 
+--for manually adjusting dlc settings if tracker isn't connected to AP
+dlcplaceholder = Tracker:FindObjectForCode("MSC").Active
+function dlcselect()
+    if Tracker:FindObjectForCode("MSC").Active and (Tracker:FindObjectForCode("MSC").Active ~= dlcplaceholder) then
+        Tracker:FindObjectForCode("vanilla").Active = false
+        dlcplaceholder = Tracker:FindObjectForCode("MSC").Active
+    elseif Tracker:FindObjectForCode("MSC").Active == false and (Tracker:FindObjectForCode("MSC").Active ~= dlcplaceholder) then
+        Tracker:FindObjectForCode("vanilla").Active = true
+        dlcplaceholder = Tracker:FindObjectForCode("MSC").Active
+    end
+end
+
+--for manually settings the current slugcat campaign
+character = Tracker:FindObjectForCode("scug").CurrentStage
+firstset = false
+function characterselect()
+    if not firstset then
+        activecampaign = CAMPAIGN_NAMES[Tracker:FindObjectForCode("scug").CurrentStage]
+        firstset = true
+    end
+    if not CURRENT_CAMPAIGN then
+        if character ~= Tracker:FindObjectForCode("scug").CurrentStage then
+            scugprint("Checking Campaign")
+            if (Tracker:FindObjectForCode(CAMPAIGN_NAMES[Tracker:FindObjectForCode("scug").CurrentStage]).Active == false) then
+                scugplaceholder = character
+                scugprint(string.format("%s is NOT active, but it should be",CAMPAIGN_NAMES[Tracker:FindObjectForCode("scug").CurrentStage]))
+                scugprint(string.format("%s was the previous character,deactivating",CAMPAIGN_NAMES[character]))
+                Tracker:FindObjectForCode(CAMPAIGN_NAMES[character]).Active = false
+                scugprint(string.format("%s should be deactivated, activating %s",CAMPAIGN_NAMES[scugplaceholder],CAMPAIGN_NAMES[Tracker:FindObjectForCode("scug").CurrentStage]))
+                Tracker:FindObjectForCode(CAMPAIGN_NAMES[Tracker:FindObjectForCode("scug").CurrentStage]).Active = true
+                scugprint(string.format("%s has been activated", CAMPAIGN_NAMES[Tracker:FindObjectForCode("scug").CurrentStage]))
+                character = Tracker:FindObjectForCode("scug").CurrentStage
+                activecampaign = CAMPAIGN_NAMES[Tracker:FindObjectForCode("scug").CurrentStage]
+                scugprint(string.format("%s is the new placeholder",CAMPAIGN_NAMES[character]))
+            else
+                scugprint(string.format("%s is the current stage, Active state: %s",CAMPAIGN_NAMES[Tracker:FindObjectForCode("scug").CurrentStage],Tracker:FindObjectForCode(CAMPAIGN_NAMES[Tracker:FindObjectForCode("scug").CurrentStage]).Active))
+                character = Tracker:FindObjectForCode("scug").CurrentStage
+                activecampaign = CAMPAIGN_NAMES[Tracker:FindObjectForCode("scug").CurrentStage]
+            end
+        else
+            for names, code in pairs(CAMPAIGN_NAMES) do
+                if Tracker:FindObjectForCode(code).Active and (code ~= activecampaign) then
+                    scugprint(string.format("There are two active campaigns! %s needs to be overwritten with %s",activecampaign,code))
+                    Tracker:FindObjectForCode(activecampaign).Active = false
+                    scugprint(string.format("Turned off %s, setting campaign to stage %s", activecampaign,names))
+                    character = names
+                    activecampaign = code
+                    Tracker:FindObjectForCode("scug").CurrentStage = names
+                    scugprint(string.format("scug stage set to %s", names))
+                end
+            end
+        end
+    else
+        print(string.format("Current campaign is %s",CURRENT_CAMPAIGN))
+    end
+end
 
 --borderline recursive region access logic
-local visited = {}
+visited = {}
 function has_outskirts_access()
     regionprint("Checking Outskirts access...")
     if visited["outskirts"] then
@@ -279,7 +367,7 @@ function has_subterranean_access()
         Tracker:FindObjectForCode("Subterranean").Active = true
         return true
     end
-    if gatelogic("Gate_Pipeyard-Subterranean","Karma",5) and has_pipeyard_access() then
+    if gatelogic("Gate_Pipeyard-Subterranean","Karma",5) and has_pipeyard_access() and Tracker:FindObjectForCode("glow").Active then
         visited["subterranean"] = false
         regionprint("Subterranean access from Pipeyard")
         Tracker:FindObjectForCode("Subterranean").Active = true
@@ -291,7 +379,7 @@ function has_subterranean_access()
         Tracker:FindObjectForCode("Subterranean").Active = true
         return true
     end
-    if gatelogic("Gate_Subterranean-Drainage","Karma",4) and has_drainage_access() then
+    if gatelogic("Gate_Subterranean-Drainage","Karma",4) and has_drainage_access() and Tracker:FindObjectForCode("glow").Active then
         visited["subterranean"] = false
         regionprint("Subterranean access from Drainage")
         Tracker:FindObjectForCode("Subterranean").Active = true

@@ -33,6 +33,14 @@
                     },
                     {
                         "name": "Spider Token",
+                        "access_rules": [
+                            "[glow]",
+                            "$has_industrial_access,Gate_Industrial-Shaded,Karma5,gateandkarma",
+                            "$has_industrial_access,Gate_Industrial-Shaded,gateorkarma",
+                            "$has_industrial_access,Gate_Industrial-Shaded,onlygate",
+                            "$has_industrial_access,Karma5,gateorkarma",
+                            "$has_industrial_access,Karma5,onlykarma"
+                        ],
                         "chest_unopened_img": "images/icons/Spider.png",
                         "chest_opened_img": "images/gathered/Spider.png"
                     },
@@ -44,6 +52,14 @@
                     },
                     {
                         "name": "LanternMouse Token",
+                        "access_rules": [
+                            "[glow]",
+                            "$has_shoreline_access,Gate_Shaded-Shoreline,Karma2,gateandkarma",
+                            "$has_shoreline_access,Gate_Shaded-Shoreline,gateorkarma",
+                            "$has_shoreline_access,Gate_Shaded-Shoreline,onlygate",
+                            "$has_shoreline_access,Karma2,gateorkarma",
+                            "$has_shoreline_access,Karma2,onlykarma"
+                        ],
                         "chest_unopened_img": "images/icons/Lantern Mouse.png",
                         "chest_opened_img": "images/gathered/Lantern Mouse.png"
                     },
@@ -57,13 +73,25 @@
                             "spearmaster",
                             "inv"
                         ],
-                        "access_rules": ["[glow]","$has_exterior_access,Gate_Shaded-Exterior"],
+                        "access_rules": [
+                            "[glow]",
+                            "$has_exterior_access,Gate_Shaded-Exterior,east,gateandkarma",
+                            "$has_exterior_access,Gate_Shaded-Exterior,east,onlygate",
+                            "$has_exterior_access,east,gateorkarma",
+                            "$has_exterior_access,east,onlykarma"
+                        ],
                         "chest_unopened_img": "images/icons/Miros Bird.png",
                         "chest_opened_img": "images/gathered/Miros Bird.png"
                     },
                     {
                         "name": "Flashbang Token",
-                        "access_rules": ["[glow]","$has_exterior_access,Gate_Shaded-Exterior"],
+                        "access_rules": [
+                            "[glow]",
+                            "$has_exterior_access,Gate_Shaded-Exterior,east,gateandkarma",
+                            "$has_exterior_access,Gate_Shaded-Exterior,east,onlygate",
+                            "$has_exterior_access,east,gateorkarma",
+                            "$has_exterior_access,east,onlykarma"
+                        ],
                         "chest_unopened_img": "images/icons/Flashbang.png",
                         "chest_opened_img": "images/gathered/Flashbang.png"
                     },
@@ -1066,7 +1094,14 @@
                 "sections": [
                     {
                         "name": "Broadcast",
-                        "access_rules": ["spearmaster"],
+                        "access_rules": [
+                            "spearmaster,[glow]",
+                            "spearmaster,$has_waterfront_access,Gate_Shaded-Shoreline,Karma2,gateandkarma",
+                            "spearmaster,$has_waterfront_access,Gate_Shaded-Shoreline,onlygate",
+                            "spearmaster,$has_waterfront_access,Gate_Shaded-Shoreline,gateorkarma",
+                            "spearmaster,$has_waterfront_access,Karma2,gateorkarma",
+                            "spearmaster,$has_waterfront_access,Karma2,onlykarma"
+                        ],
                         "visibility_rules": ["spearmaster"],
                         "chest_unopened_img": "images/icons/Overseer.png",
                         "chest_opened_img": "images/gathered/Overseer.png"
@@ -1091,7 +1126,14 @@
         "children": [
             {
                 "name": "Shelter S01",
-                "access_rules": ["[glow]"],
+                "access_rules": [
+                    "[glow]",
+                    "$has_industrial_access,Gate_Industrial-Shaded,Karma5,gateandkarma",
+                    "$has_industrial_access,Gate_Industrial-Shaded,gateorkarma",
+                    "$has_industrial_access,Gate_Industrial-Shaded,onlygate",
+                    "$has_industrial_access,Karma5,gateorkarma",
+                    "$has_industrial_access,Karma5,onlykarma"
+                ],
                 "sections": [
                     {
                         "name": "Shelter"
@@ -1245,6 +1287,14 @@
             },
             {
                 "name": "Shelter S03",
+                "access_rules": [
+                    "[glow]",
+                    "$has_industrial_access,Gate_Industrial-Shaded,Karma5,gateandkarma",
+                    "$has_industrial_access,Gate_Industrial-Shaded,gateorkarma",
+                    "$has_industrial_access,Gate_Industrial-Shaded,onlygate",
+                    "$has_industrial_access,Karma5,gateorkarma",
+                    "$has_industrial_access,Karma5,onlykarma"
+                ],
                 "sections": [
                     {
                         "name": "Shelter"
@@ -1398,6 +1448,14 @@
             },
             {
                 "name": "Shelter S05",
+                "access_rules": [
+                    "[glow]",
+                    "$has_shoreline_access,Gate_Shaded-Shoreline,Karma2,gateandkarma",
+                    "$has_shoreline_access,Gate_Shaded-Shoreline,onlygate",
+                    "$has_shoreline_access,Gate_Shaded-Shoreline,gateorkarma",
+                    "$has_shoreline_access,Karma2,onlykarma",
+                    "$has_shoreline_access,Karma2,gateorkarma"
+                ],
                 "sections": [
                     {
                         "name": "Shelter"
@@ -1705,7 +1763,13 @@
             },
             {
                 "name": "Shelter S09",
-                "access_rules": ["[glow]"],
+                "access_rules": [
+                    "[glow]",
+                    "$has_exterior_access,Gate_Shaded-Exterior,east,onlygate",
+                    "$has_exterior_access,Gate_Shaded-Exterior,east,gateandkarma",
+                    "$has_exterior_access,east,gateorkarma",
+                    "$has_exterior_access,east,onlykarma"
+                ],
                 "sections": [
                     {
                         "name": "Shelter"
@@ -1859,7 +1923,14 @@
             },
             {
                 "name": "Shelter S11",
-                "access_rules": ["MSC"],
+                "access_rules": [
+                    "MSC,[glow]",
+                    "MSC,$has_garbage_access,Gate_Garbage-Shaded,onlygate",
+                    "MSC,$has_garbage_access,Gate_Garbage-Shaded,gateorkarma",
+                    "MSC,$has_garbage_access,Gate_Garbage-Shaded,Karma4,gateandkarma",
+                    "MSC,$has_garbage_access,Karma4,onlykarma",
+                    "MSC,has_garbage_access,Karma4,gateorkarma"
+                ],
                 "visibility_rules": ["MSC"],
                 "sections": [
                     {

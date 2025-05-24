@@ -45,7 +45,7 @@
                     },
                     {
                         "name": "Broadcast LM0",
-                        "ref": "Waterfront Facility/Broadcast LM0/Chatlog"
+                        "ref": "Waterfront Facility/Bright Magenta Pearl/Chatlog"
                     },
                     {
                         "name": "Broadcast LM1",
@@ -250,6 +250,12 @@
                         "name": "Pearl",
                         "chest_unopened_img": "images/icons/Bright Magenta Pearl.png",
                         "chest_opened_img": "images/gathered/Pearl.png"
+                    },
+                    {
+                        "name": "Chatlog",
+                        "visibility_rules": ["spearmaster"],
+                        "chest_unopened_img": "images/icons/Overseer.png",
+                        "chest_opened_img": "images/gathered/Overseer.png"
                     }
                 ],
                 "map_locations": [
@@ -348,25 +354,6 @@
                 ]
             },
             {
-                "name": "Broadcast LM0",
-                "access_rules": ["spearmaster"],
-                "visibility_rules": ["spearmaster"],
-                "sections": [
-                    {
-                        "name": "Chatlog",
-                        "chest_unopened_img": "images/icons/Overseer.png",
-                        "chest_opened_img": "images/gathered/Overseer.png"
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "Spear_Waterfront",
-                        "x": 1130,
-                        "y": 872
-                    }
-                ]
-            },
-            {
                 "name": "Broadcast LM1",
                 "access_rules": ["spearmaster"],
                 "visibility_rules": ["spearmaster"],
@@ -380,8 +367,8 @@
                 "map_locations": [
                     {
                         "map": "Spear_Waterfront",
-                        "x": 1603,
-                        "y": 207
+                        "x": 952,
+                        "y": 797
                     }
                 ]
             }

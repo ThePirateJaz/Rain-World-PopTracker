@@ -114,7 +114,7 @@
                     },
                     {
                         "name": "Chatlog SI5",
-                        "ref": "Sky Islands/Dark Green Pearl/Chatlog SI5"
+                        "ref": "Sky Islands/Chatlog SI5/Chatlog"
                     },
                     {
                         "name": "Shelter S03",
@@ -552,7 +552,7 @@
                     {
                         "map": "Spear_Sky_Islands",
                         "x": 746,
-                        "y": 742
+                        "y": 472
                     },
                     {
                         "map": "Saint_Sky_Islands",
@@ -648,7 +648,7 @@
                         "y": 107
                       },
                       {
-                        "map": "Spear_Chimney",
+                        "map": "Spear_Sky_Islands",
                         "x": 725,
                         "y": 62
                       },
@@ -669,15 +669,8 @@
                 "sections": [
                     {
                         "name": "Pearl",
-                        "visibility_rules": ["MSC"],
                         "chest_unopened_img": "images/icons/Dark Green Pearl.png",
                         "chest_opened_img": "images/gathered/Pearl.png"
-                    },
-                    {
-                        "name": "Chatlog SI5",
-                        "visibility_rules": ["spearmaster"],
-                        "chest_unopened_img": "images/icons/Overseer.png",
-                        "chest_opened_img": "images/gathered/Overseer.png"
                     }
                 ],
                 "map_locations": [
@@ -1203,6 +1196,24 @@
                         "map": "Spear_Sky_Islands",
                         "x": 403,
                         "y": 375
+                    }
+                ]
+            },
+            {
+                "name": "Chatlog SI5",
+                "sections": [
+                    {
+                        "name": "Chatlog",
+                        "visibility_rules": ["spearmaster"],
+                        "chest_unopened_img": "images/icons/Overseer.png",
+                        "chest_opened_img": "images/gathered/Overseer.png"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Spear_Sky_Islands",
+                        "x": 181,
+                        "y": 373
                     }
                 ]
             }

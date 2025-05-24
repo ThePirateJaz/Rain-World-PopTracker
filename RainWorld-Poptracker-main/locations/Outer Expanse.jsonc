@@ -55,7 +55,7 @@
                         "name": "Slugpup Token",
                         "visibility_rules":[
                             "monk",
-                            "gourmand"
+                            "survivor"
                         ],
                         "chest_unopened_img": "images/icons/Slugpup.png",
                         "chest_opened_img": "images/gathered/Slugpup.png"

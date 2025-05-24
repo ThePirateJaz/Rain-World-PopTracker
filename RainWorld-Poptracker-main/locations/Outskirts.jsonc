@@ -541,7 +541,7 @@
             {
                 "name": "Light Pink Pearl",
                 "access_rules": ["MSC,[early],","MSC,[$has_outer_expanse_access],[Gate_Outer_Expanse-Outskirts]"],
-                "visibility_rules": ["MSC"],
+                "visibility_rules": ["MSC,monk","MSC,survivor","gourmand","spearmaster","saint"],
                 "sections": [
                     {
                         "name": "Pearl",
@@ -561,22 +561,7 @@
                         "y": 388
                     },
                     {
-                        "map": "MSC_Hunter_Outskirts",
-                        "x": 529,
-                        "y": 388
-                    },
-                    {
                         "map": "Gourmand_Outskirts",
-                        "x": 529,
-                        "y": 388
-                    },
-                    {
-                        "map": "Arti_Outskirts",
-                        "x": 529,
-                        "y": 388
-                    },
-                    {
-                        "map": "Riv_Outskirts",
                         "x": 529,
                         "y": 388
                     },
@@ -888,7 +873,7 @@
                         "shape": "rect",
                         "map": "Saint_Outskirts",
                         "x": 850,
-                        "y": 426
+                        "y": 419
                     }
                 ]
             },
@@ -963,7 +948,7 @@
                     {
                         "shape": "rect",
                         "map": "Saint_Outskirts",
-                        "x": 355,
+                        "x": 361,
                         "y": 368
                     }
                 ]
@@ -1046,7 +1031,8 @@
             },
             {
                 "name": "Shelter S05",
-                "access_rules": ["MSC","[early]","[$has_outer_expanse_access],[Gate_Outer_Expanse-Outskirts]"],
+                "access_rules": ["MSC,[early]","[$has_outer_expanse_access]"],
+                "visibility_rules": ["MSC,monk","MSC,survivor","gourmand","spearmaster","saint"],
                 "sections": [
                     {
                         "name": "Shelter"
@@ -1067,25 +1053,7 @@
                     },
                     {
                         "shape": "rect",
-                        "map": "MSC_Hunter_Outskirts",
-                        "x": 423,
-                        "y": 414
-                    },
-                    {
-                        "shape": "rect",
                         "map": "Gourmand_Outskirts",
-                        "x": 423,
-                        "y": 414
-                    },
-                    {
-                        "shape": "rect",
-                        "map": "Arti_Outskirts",
-                        "x": 423,
-                        "y": 414
-                    },
-                    {
-                        "shape": "rect",
-                        "map": "Riv_Outskirts",
                         "x": 423,
                         "y": 414
                     },
@@ -1099,7 +1067,7 @@
                         "shape": "rect",
                         "map": "Saint_Outskirts",
                         "x": 423,
-                        "y": 414
+                        "y": 407
                     }
                 ]
             }

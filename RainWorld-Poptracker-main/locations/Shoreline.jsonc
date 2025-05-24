@@ -15,6 +15,7 @@
                     {
                         "name": "Meet Looks to the Moon",
                         "access_rules": ["speech"],
+                        "visibility_rules": ["monk","survivor","gourmand"],
                         "chest_unopened_img": "images/icons/Looks to the Moon.png",
                         "chest_opened_img": "images/gathered/Looks to the Moon.png"
                     },
@@ -24,8 +25,7 @@
                         "visibility_rules": [
                             "monk",
                             "survivor",
-                            "gourmand",
-                            "riv"
+                            "gourmand"
                         ],
                         "chest_unopened_img": "images/icons/Looks to the Moon.png",
                         "chest_opened_img": "images/gathered/Looks to the Moon.png"
@@ -494,6 +494,7 @@
             },
             {
                 "name": "Looks to the Moon",
+                "shape": "rect",
                 "sections": [
                     {
                         "name": "Meet Looks to the Moon",
@@ -638,37 +639,37 @@
                     {
                         "map": "MSC_Monk_Shoreline",
                         "x": 1908,
-                        "y": 333
+                        "y": 383
                     },
                     {
                         "map": "MSC_Survivor_Shoreline",
                         "x": 1908,
-                        "y": 333
+                        "y": 383
                     },
                     {
                         "map": "MSC_Hunter_Shoreline",
                         "x": 1908,
-                        "y": 333
+                        "y": 383
                     },
                     {
                         "map": "Gourmand_Shoreline",
                         "x": 1908,
-                        "y": 333
+                        "y": 383
                     },
                     {
                         "map": "Riv_Shoreline",
                         "x": 1908,
-                        "y": 333
+                        "y": 383
                     },
                     {
                         "map": "Saint_Shoreline",
                         "x": 1908,
-                        "y": 330
+                        "y": 380
                     },
                     {
                         "map": "Inv_Shoreline",
                         "x": 1908,
-                        "y": 333
+                        "y": 383
                     }
                 ]
             },

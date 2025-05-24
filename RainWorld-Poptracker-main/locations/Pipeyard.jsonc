@@ -13,6 +13,7 @@
                     },
                     {
                         "name": "Safari Token",
+                        "access_rules": ["[glow]"],
                         "chest_unopened_img": "images/icons/Safari Token.png",
                         "chest_opened_img": "images/gathered/Safari Token.png"
                     },
@@ -33,6 +34,7 @@
                             "saint",
                             "inv"
                         ],
+                        "access_rules": ["[glow]"],
                         "chest_unopened_img": "images/icons/Eel Lizard.png",
                         "chest_opened_img": "images/gathered/Eel Lizard.png"
                     },
@@ -788,6 +790,14 @@
             },
             {
                 "name": "Shelter S02",
+                "access_rules": [
+                    "[glow]",
+                    "$has_shoreline_access,Gate_Pipeyard-Shoreline,Karma3,gateandkarma",
+                    "$has_shoreline_access,Gate_Pipeyard-Shoreline,onlygate",
+                    "$has_shoreline_access,Gate_Pipeyard-Shoreline,gateorkarma",
+                    "$has_shoreline_access,Karma3,gateorkarma",
+                    "$has_shoreline_access,Karma3,onlykarma"
+                ],
                 "sections": [
                     {
                         "name": "Shelter"
@@ -840,6 +850,14 @@
             },
             {
                 "name": "Shelter S03",
+                "access_rules": [
+                    "[glow]",
+                    "$has_subterranean_access,Gate_Pipeyard-Subterranean,Karma3,gateandkarma",
+                    "$has_subterranean_access,Gate_Pipeyard-Subterranean,onlygate",
+                    "$has_subterranean_access,Gate_Pipeyard-Subterranean,gateorkarma",
+                    "$has_subterranean_access,Karma3,gateorkarma",
+                    "$has_subterranean_access,Karma3,onlykarma"
+                ],
                 "sections": [
                     {
                         "name": "Shelter"
@@ -1032,6 +1050,7 @@
             },
             {
                 "name": "Shelter S06",
+                "access_rules": ["[glow]"],
                 "sections": [
                     {
                         "name": "Shelter"
@@ -1096,6 +1115,7 @@
             },
             {
                 "name": "Shelter S07",
+                "access_rules": ["[glow]"],
                 "sections": [
                     {
                         "name": "Shelter"
@@ -1160,6 +1180,7 @@
             },
             {
                 "name": "Shelter S08",
+                "access_rules": ["[glow]"],
                 "sections": [
                     {
                         "name": "Shelter"
