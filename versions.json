@@ -1,11 +1,11 @@
 {
     "versions": [
         {
-            "package_version": "0.3.0",
-            "download_url": "https://github.com/ThePirateJaz/Rain-World-PopTracker/releases/download/v0.3.0/RainWorld-Poptracker-main.zip",
-            "sha256": "ae1c1bb20a6d2925d443c6cd68737f0f18fa716301947385ba0e3b6e11f89dff",
+            "package_version": "0.3.1",
+            "download_url": "https://github.com/ThePirateJaz/Rain-World-PopTracker/releases/download/v0.3.1/RainWorld-Poptracker-main.zip",
+            "sha256": "0ea7cb90effd3b4dd8f10c8926e9f167d13aa6356ec26f343a2fc4c416d8b984",
             "changelog": [
-                "Manual Settings Pop-out Menu and Dark Area Logic"
+                "Saint related hotfix"
             ]
         }
     ]

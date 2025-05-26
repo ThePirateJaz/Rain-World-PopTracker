@@ -155,7 +155,7 @@ function apply_slot_data(slot_data)
 		Tracker:FindObjectForCode("notriv").Active = true
 	end
 	if slot_data["which_campaign"] == 7 then
-		Tracker:FindObjectForCode("Gate-WaterMap-Pebbs").CurrentStage = 1
+		Tracker:FindObjectForCode("Gate_WaterMap-Pebbs").CurrentStage = 1
 		Tracker:FindObjectForCode("Drainage").CurrentStage = 1
 		Tracker:FindObjectForCode("Castle").CurrentStage = 1
 	else
@@ -167,12 +167,12 @@ function apply_slot_data(slot_data)
 		print(string.format("%s is the starting region",spawn))
 		print(string.format("%s is the full name of starting region", name))
 		Tracker:FindObjectForCode(spawn).Active = true
-		if slot_data == 7 and SAINT_TABLE[name] then
-			Tracker:UiHint("ActivateTab",SAINT_TABLE[name])
-		elseif slot_data == 8 and INV_TABLE[name] then
-			Tracker:UiHint("ActivateTab",INV_TABLE[name])
+		if slot_data["which_campaign"] == 7 and SAINT_TABLE[name] then
+			Tracker:UiHint("ActivateTab", SAINT_TABLE[name])
+		elseif slot_data["which_campaign"] == 8 and INV_TABLE[name] then
+			Tracker:UiHint("ActivateTab", INV_TABLE[name])
 		else
-			Tracker:UiHint("ActivateTab",name)
+			Tracker:UiHint("ActivateTab", name)
 		end
 	else
 		print("Default spawn")
