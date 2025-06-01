@@ -110,7 +110,7 @@ function apply_slot_data(slot_data)
 	CURRENT_CAMPAIGN = slot_data["which_campaign"]
 	local vanillagame = nil
 	local vanillaneeded = nil
-	if slot_data["which_campaign"] < 2 then
+	if slot_data["which_campaign"] <= 2 then
 		if slot_data["is_msc_enabled"] == 0 then
 			vanillagame = true
 		end
@@ -161,7 +161,7 @@ function apply_slot_data(slot_data)
 	else
 		Tracker:FindObjectForCode("notvegan").Active = true
 	end
-	local spawn = SPAWN_TABLE[slot_data["starting_room"]]
+	local spawn = SPAWN_TABLE[string.upper(slot_data["starting_room"])]
 	local name = SPAWN_NAMING[spawn]
 	if spawn then
 		print(string.format("%s is the starting region",spawn))
@@ -247,13 +247,16 @@ function onClear(slot_data)
 			print(string.format("onClear: skipping item_table with no item_code: %s",item_table))
 		end
 	end
-	Tracker:FindObjectForCode("Gate").CurrentStage = 0
-	Tracker:FindObjectForCode("Gate").Active = false
-	Tracker:FindObjectForCode("notriv").Active = false
-	Tracker:FindObjectForCode("region").CurrentStage = 0
-	Tracker:FindObjectForCode("region").Active = false
-	Tracker:FindObjectForCode("early").Active = false
-	Tracker:FindObjectForCode("food").Active = false
+	for _, dummy_table in pairs(DUMMYITEMS) do
+		local dummy_code = dummy_table[1]
+		local dummy_type = dummy_table[2]
+		if dummy_code then
+			resetItem(dummy_code,dummy_type)
+			print(string.format("onClear: clearing dummy item %s", dummy_code))
+		elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
+			print(string.format("onClear: skipping dummy_table with no dummy_code: %s", dummy_table))
+		end
+	end
 	apply_slot_data(slot_data)
 	LOCAL_ITEMS = {}
 	GLOBAL_ITEMS = {}

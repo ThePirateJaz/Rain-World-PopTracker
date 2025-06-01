@@ -1,11 +1,11 @@
 {
     "versions": [
         {
-            "package_version": "0.3.1",
-            "download_url": "https://github.com/ThePirateJaz/Rain-World-PopTracker/releases/download/v0.3.1/RainWorld-Poptracker-main.zip",
-            "sha256": "0ea7cb90effd3b4dd8f10c8926e9f167d13aa6356ec26f343a2fc4c416d8b984",
+            "package_version": "0.3.2",
+            "download_url": "https://github.com/ThePirateJaz/Rain-World-PopTracker/releases/download/v0.3.2/RainWorld-Poptracker-main.zip",
+            "sha256": "076a466ec4c58d852038fd4541fdb38860a007b6084f7c7c62690eacef1bf7c9",
             "changelog": [
-                "Saint related hotfix"
+                "Spawn determination hotfix"
             ]
         }
     ]
