@@ -129,6 +129,11 @@
     "img": "images/items/scug/inv.png"
   },
   {
+    "name": "Scug-Watcher",
+    "type": "toggle",
+    "codes": "watcher"
+  },
+  {
     "name": "Scug",
     "type": "progressive",
     "loop": true,
@@ -172,6 +177,10 @@
       {
         "name": "Sofanthiel",
         "img": "images/items/scug/inv.png"
+      },
+      {
+        "name": "Watcher",
+        "img": "images/items/scug/watcher.png"
       }
     ]
   },

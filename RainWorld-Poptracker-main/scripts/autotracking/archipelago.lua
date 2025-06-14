@@ -107,10 +107,31 @@ function apply_slot_data(slot_data)
 		Tracker:FindObjectForCode("onlykarma").Active = true
 	end
 	
-	CURRENT_CAMPAIGN = slot_data["which_campaign"]
+	if slot_data["which_campaign"] == "Yellow" then
+		CURRENT_CAMPAIGN = 0
+	elseif slot_data["which_campaign"] == "White" then
+		CURRENT_CAMPAIGN = 1
+	elseif slot_data["which_campaign"] == "Red" then
+		CURRENT_CAMPAIGN = 2
+	elseif slot_data["which_campaign"] == "Gourmand" then
+		CURRENT_CAMPAIGN = 3
+	elseif slot_data["which_campaign"] == "Artificer" then
+		CURRENT_CAMPAIGN = 4
+	elseif slot_data["which_campaign"] == "Rivulet" then
+		CURRENT_CAMPAIGN = 5
+	elseif slot_data["which_campaign"] == "Spear" then
+		CURRENT_CAMPAIGN = 6
+	elseif slot_data["which_campaign"] == "Saint" then
+		CURRENT_CAMPAIGN = 7
+	elseif slot_data["which_campaign"] == "Sofanthiel" then
+		CURRENT_CAMPAIGN = 8
+	elseif slot_data["which_campaign"] == "Watcher" then
+		CURRENT_CAMPAIGN = 9
+	end
+	
 	local vanillagame = nil
 	local vanillaneeded = nil
-	if slot_data["which_campaign"] <= 2 then
+	if CURRENT_CAMPAIGN <= 2 then
 		if slot_data["is_msc_enabled"] == 0 then
 			vanillagame = true
 		end
@@ -127,34 +148,34 @@ function apply_slot_data(slot_data)
 	if slot_data["is_msc_enabled"] == 1 and Tracker:FindObjectForCode("MSC").Active == false then
 		Tracker:FindObjectForCode("MSC").Active = true
 	elseif slot_data["is_msc_enabled"] == 0 then
-		Tracker:FindObjectForCode("vanilla").Active = true
+		Tracker:FindObjectForCode("vanilla").Active = false
 	end
 	if slot_data["checks_sheltersanity"] == 1 then
 		Tracker:FindObjectForCode("sheltersanity").Active = true
 	end
-	Tracker:FindObjectForCode("scug").CurrentStage = slot_data["which_campaign"]
-	if slot_data["which_campaign"] == 4 or slot_data["which_campaign"] == 6 then
+	Tracker:FindObjectForCode("scug").CurrentStage = CURRENT_CAMPAIGN
+	if CURRENT_CAMPAIGN == 4 or CURRENT_CAMPAIGN == 6 then
 		Tracker:FindObjectForCode("WaterMap").CurrentStage = 1
 		Tracker:FindObjectForCode("Gate_UpperMoon-WaterMap").CurrentStage = 1
 		Tracker:FindObjectForCode("Gate_LowerMoon-WaterMap").CurrentStage = 1
 	end
-	if slot_data["which_campaign"] == 2 or slot_data["which_campaign"] == 3 or slot_data["which_campaign"] == 4 or slot_data["which_campaign"] == 6 then
+	if CURRENT_CAMPAIGN == 2 or CURRENT_CAMPAIGN == 3 or CURRENT_CAMPAIGN == 4 or CURRENT_CAMPAIGN == 6 then
 		Tracker:FindObjectForCode("crunch").Active = true
 	end
-	if slot_data["which_canmpaign"] ~= 4 then
+	if CURRENT_CAMPAIGN ~= 4 then
 		Tracker:FindObjectForCode("notarti").Active = true
 	end
-	if slot_data["which_campaign"] ~= 6 then
+	if CURRENT_CAMPAIGN ~= 6 then
 		Tracker:FindObjectForCode("mouth").Active = true
 	end
-	if slot_data["which_campaign"] == 5 then
+	if CURRENT_CAMPAIGN == 5 then
 		Tracker:FindObjectForCode("Pebbsi").CurrentStage = 1
 		Tracker:FindObjectForCode("Gate_Wall-Pebbsi").CurrentStage = 1
 		Tracker:FindObjectForCode("Gate_Underhang-Pebbsi").CurrentStage = 1
 	else
 		Tracker:FindObjectForCode("notriv").Active = true
 	end
-	if slot_data["which_campaign"] == 7 then
+	if CURRENT_CAMPAIGN == 7 then
 		Tracker:FindObjectForCode("Gate_WaterMap-Pebbs").CurrentStage = 1
 		Tracker:FindObjectForCode("Drainage").CurrentStage = 1
 		Tracker:FindObjectForCode("Castle").CurrentStage = 1
@@ -167,42 +188,49 @@ function apply_slot_data(slot_data)
 		print(string.format("%s is the starting region",spawn))
 		print(string.format("%s is the full name of starting region", name))
 		Tracker:FindObjectForCode(spawn).Active = true
-		if slot_data["which_campaign"] == 7 and SAINT_TABLE[name] then
+		if CURRENT_CAMPAIGN == 7 and SAINT_TABLE[name] then
 			Tracker:UiHint("ActivateTab", SAINT_TABLE[name])
-		elseif slot_data["which_campaign"] == 8 and INV_TABLE[name] then
+		elseif CURRENT_CAMPAIGN == 8 and INV_TABLE[name] then
 			Tracker:UiHint("ActivateTab", INV_TABLE[name])
 		else
 			Tracker:UiHint("ActivateTab", name)
 		end
 	else
 		print("Default spawn")
-		if slot_data["which_campaign"] == 0 or slot_data["which_campaign"] == 1 then
+		if CURRENT_CAMPAIGN == 0 or CURRENT_CAMPAIGN == 1 then
 			Tracker:FindObjectForCode("Outskirts").Active = true
 			Tracker:UiHint("ActiveTab","Outskirts")
-		elseif slot_data["which_campaign"] == 2 then
+		elseif CURRENT_CAMPAIGN == 2 then
 			Tracker:FindObjectForCode("Farm").Active = true
 			Tracker:UiHint("ActivateTab","Farm Arrays")
-		elseif slot_data["which_campaign"] == 3 then
+		elseif CURRENT_CAMPAIGN == 3 then
 			Tracker:FindObjectForCode("Shaded").Active = true
 			Tracker:UiHint("ActivateTab","Shaded Citadel")
-		elseif slot_data["which_campaign"] == 4 then
+		elseif CURRENT_CAMPAIGN == 4 then
 			Tracker:FindObjectForCode("Garbage").Active = true
 			Tracker:UiHint("ActivateTab","Garbage Wastes")
-		elseif slot_data["which_campaign"] == 5 then
+		elseif CURRENT_CAMPAIGN == 5 then
 			Tracker:FindObjectForCode("Drainage").Active = true
 			Tracker:UiHint("ActivateTab","Drainage System")
-		elseif slot_data["which_campaign"] == 6 then
+		elseif CURRENT_CAMPAIGN == 6 then
 			Tracker:FindObjectForCode("Outskirts").Active = true
 			Tracker:FindObjectForCode("early").Active = true
 			Tracker:UiHint("ActivateTab","Outskirts")
-		elseif slot_data["which_campaign"] == 7 then
+		elseif CURRENT_CAMPAIGN == 7 then
 			Tracker:FindObjectForCode("Sky").Active = true
 			Tracker:UiHint("ActivateTab","Sky Islands")
-		elseif slot_data["which_campaign"] == 8 then
+		elseif CURRENT_CAMPAIGN == 8 then
 			Tracker:FindObjectForCode("Shaded").Active = true
 			Tracker:UiHint("ActivateTab","Shaded Citadel")
 		end
 	end
+	monkchecks = slot_data["difficulty_monk"]
+	hunterchecks = slot_data["difficulty_hunter"]
+	chieftainchecks = slot_data["difficulty_chieftain"]
+	nomadchecks = slot_data["difficulty_nomad"]
+	outlawchecks = slot_data["difficulty_outlaw"]
+	echochecks = slot_data["difficulty_echo_low_karma"]
+	subchecks = slot_data["checks_submerged"]
 end
 
 -- called right after an AP slot is connected
@@ -328,7 +356,7 @@ function onItem(index, item_id, item_name, player_number)
 		Tracker:FindObjectForCode("Gate_LowerMoon-WaterMap").Active = true
 	end
 	if Tracker:FindObjectForCode("Gate_Wall-Five_Pebbles").Active and (Tracker:FindObjectForCode("Gate_Wall-Pebbsi").Active == false) then
-		Tracker:FindObjectForCode("Gate_Wall-Pebbsi").active = true
+		Tracker:FindObjectForCode("Gate_Wall-Pebbsi").Active = true
 	end
 	if Tracker:FindObjectForCode("Gate_Underhang-Five_Pebbles").Active and (Tracker:FindObjectForCode("Gate_Underhang-Pebbsi").Active == false) then
 		Tracker:FindObjectForCode("Gate_Underhang-Pebbsi").Active = true
