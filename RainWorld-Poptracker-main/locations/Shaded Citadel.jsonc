@@ -8,7 +8,7 @@
                 "sections": [
                     {
                         "name": "Echo",
-                        "access_rules": ["[glow]"],
+                        "access_rules": ["[glow],$echoaccess"],
                         "chest_unopened_img": "images/icons/Echo.png",
                         "chest_opened_img": "images/gathered/Echo.png"
                     },
@@ -28,6 +28,7 @@
                     {
                         "name": "Pearl",
                         "access_rules": ["[glow]"],
+                        "visibility_rules": ["MSC","survivor","hunter"],
                         "chest_unopened_img": "images/icons/Deep Magenta Pearl.png",
                         "chest_opened_img": "images/gathered/Pearl.png"
                     },
@@ -108,6 +109,42 @@
                     {
                         "name": "Chatlog",
                         "ref": "Shaded Citadel/Broadcast/Chatlog"
+                    },
+                    {
+                        "name": "Dev Token A21",
+                        "ref": "Shaded Dev Tokens/Dev Token A21/Dev Token"
+                    },
+                    {
+                        "name": "Dev Token E01",
+                        "ref": "Shaded Dev Tokens/Dev Token E01/Dev Token"
+                    },
+                    {
+                        "name": "Dev Token E03",
+                        "ref": "Shaded Dev Tokens/Dev Token E03/Dev Token"
+                    },
+                    {
+                        "name": "Dev Token E05",
+                        "ref": "Shaded Dev Tokens/Dev Token E05/Dev Token"
+                    },
+                    {
+                        "name": "Dev Token Gourmand",
+                        "ref": "Shaded Dev Tokens/Dev Token Gourmand/Dev Token"
+                    },
+                    {
+                        "name": "Dev Token Riv",
+                        "ref": "Shaded Dev Tokens/Dev Token Riv/Dev Token"
+                    },
+                    {
+                        "name": "Flower B16",
+                        "ref": "Shaded Karma Flowers/Flower B16/Karma Flower"
+                    },
+                    {
+                        "name": "Flower D02",
+                        "ref": "Shaded Karma Flowers/Flower D02/Karma Flower"
+                    },
+                    {
+                        "name": "Flower E05",
+                        "ref": "Shaded Karma Flowers/Flower E05/Karma Flower"
                     },
                     {
                         "name": "Shelter S01",
@@ -1112,6 +1149,384 @@
                         "map": "Spear_Shaded",
                         "x": 1410,
                         "y": 225
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Shaded Dev Tokens",
+        "access_rules": ["$has_shaded_access,MSC"],
+        "visibility_rules": ["MSC,devchecks"],
+        "children": [
+            {
+                "name": "Dev Token Riv",
+                "access_rules": ["riv,[glow]"],
+                "visibility_rules": ["riv"],
+                "sections": [
+                    {
+                        "name": "Dev Token"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Riv_Shaded",
+                        "x": 1811,
+                        "y": 540
+                    }
+                ]
+            },
+            {
+                "name": "Dev Token Gourmand",
+                "access_rules": ["gourmand,[glow]"],
+                "visibility_rules": ["gourmand"],
+                "sections": [
+                    {
+                        "name": "Dev Token"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Gourmand_Shaded",
+                        "x": 1098,
+                        "y": 448
+                    }
+                ]
+            },
+            {
+                "name": "Dev Token E03",
+                "access_rules": ["inv"],
+                "visibility_rules": ["inv"],
+                "sections": [
+                    {
+                        "name": "Dev Token"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Inv_Shaded",
+                        "x": 1430,
+                        "y": 559
+                    }
+                ]
+            },
+            {
+                "name": "Dev Token E01",
+                "access_rules": ["[glow]"],
+                "sections": [
+                    {
+                        "name": "Dev Token"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "MSC_Monk_Shaded",
+                        "x": 1497,
+                        "y": 553
+                    },
+                    {
+                        "map": "MSC_Survivor_Shaded",
+                        "x": 1497,
+                        "y": 553
+                    },
+                    {
+                        "map": "MSC_Hunter_Shaded",
+                        "x": 1497,
+                        "y": 553
+                    },
+                    {
+                        "map": "Gourmand_Shaded",
+                        "x": 1497,
+                        "y": 553
+                    },
+                    {
+                        "map": "Arti_Shaded",
+                        "x": 1497,
+                        "y": 553
+                    },
+                    {
+                        "map": "Spear_Shaded",
+                        "x": 1497,
+                        "y": 553
+                    },
+                    {
+                        "map": "Inv_Shaded",
+                        "x": 1497,
+                        "y": 553
+                    }
+                ]
+            },
+            {
+                "name": "Dev Token A21",
+                "access_rules": ["[glow]"],
+                "sections": [
+                    {
+                        "name": "Dev Token"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "MSC_Monk_Shaded",
+                        "x": 1014,
+                        "y": 235
+                    },
+                    {
+                        "map": "MSC_Survivor_Shaded",
+                        "x": 1014,
+                        "y": 235
+                    },
+                    {
+                        "map": "MSC_Hunter_Shaded",
+                        "x": 1014,
+                        "y": 235
+                    },
+                    {
+                        "map": "Gourmand_Shaded",
+                        "x": 1014,
+                        "y": 235
+                    },
+                    {
+                        "map": "Arti_Shaded",
+                        "x": 1014,
+                        "y": 235
+                    },
+                    {
+                        "map": "Riv_Shaded",
+                        "x": 1014,
+                        "y": 235
+                    },
+                    {
+                        "map": "Spear_Shaded",
+                        "x": 1014,
+                        "y": 235
+                    },
+                    {
+                        "map": "Inv_Shaded",
+                        "x": 1014,
+                        "y": 235
+                    }
+                ]
+            },
+            {
+                "name": "Dev Token E05",
+                "access_rules": ["[glow]"],
+                "sections": [
+                    {
+                        "name": "Dev Token"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "MSC_Monk_Shaded",
+                        "x": 1524,
+                        "y": 235
+                    },
+                    {
+                        "map": "MSC_Survivor_Shaded",
+                        "x": 1524,
+                        "y": 235
+                    },
+                    {
+                        "map": "MSC_Hunter_Shaded",
+                        "x": 1524,
+                        "y": 235
+                    },
+                    {
+                        "map": "Gourmand_Shaded",
+                        "x": 1524,
+                        "y": 235
+                    },
+                    {
+                        "map": "Arti_Shaded",
+                        "x": 1524,
+                        "y": 235
+                    },
+                    {
+                        "map": "Riv_Shaded",
+                        "x": 1524,
+                        "y": 235
+                    },
+                    {
+                        "map": "Spear_Shaded",
+                        "x": 1524,
+                        "y": 235
+                    },
+                    {
+                        "map": "Inv_Shaded",
+                        "x": 1524,
+                        "y": 235
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Shaded Karma Flowers",
+        "access_rules": ["$has_shaded_access"],
+        "visibility_rules": ["flowerchecks,nothunter"],
+        "children": [
+            {
+                "name": "Flower E05",
+                "sections": [
+                    {
+                        "name": "Karma Flower"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Vanilla_Monk_Shaded",
+                        "x": 1611,
+                        "y": 238
+                    },
+                    {
+                        "map": "Vanilla_Survivor_Shaded",
+                        "x": 1611,
+                        "y": 238
+                    },
+                    {
+                        "map": "MSC_Monk_Shaded",
+                        "x": 1611,
+                        "y": 238
+                    },
+                    {
+                        "map": "MSC_Survivor_Shaded",
+                        "x": 1611,
+                        "y": 238
+                    },
+                    {
+                        "map": "Gourmand_Shaded",
+                        "x": 1611,
+                        "y": 238
+                    },
+                    {
+                        "map": "Arti_Shaded",
+                        "x": 1611,
+                        "y": 238
+                    },
+                    {
+                        "map": "Riv_Shaded",
+                        "x": 1611,
+                        "y": 238
+                    },
+                    {
+                        "map": "Spear_Shaded",
+                        "x": 1611,
+                        "y": 238
+                    },
+                    {
+                        "map": "Inv_Shaded",
+                        "x": 1611,
+                        "y": 238
+                    }
+                ]
+            },
+            {
+                "name": "Flower B16",
+                "sections": [
+                    {
+                        "name": "Karma Flower"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Vanilla_Monk_Shaded",
+                        "x": 512,
+                        "y": 348
+                    },
+                    {
+                        "map": "Vanilla_Survivor_Shaded",
+                        "x": 512,
+                        "y": 348
+                    },
+                    {
+                        "map": "MSC_Monk_Shaded",
+                        "x": 512,
+                        "y": 348
+                    },
+                    {
+                        "map": "MSC_Survivor_Shaded",
+                        "x": 512,
+                        "y": 348
+                    },
+                    {
+                        "map": "Gourmand_Shaded",
+                        "x": 512,
+                        "y": 348
+                    },
+                    {
+                        "map": "Arti_Shaded",
+                        "x": 512,
+                        "y": 348
+                    },
+                    {
+                        "map": "Riv_Shaded",
+                        "x": 512,
+                        "y": 348
+                    },
+                    {
+                        "map": "Spear_Shaded",
+                        "x": 512,
+                        "y": 348
+                    },
+                    {
+                        "map": "Inv_Shaded",
+                        "x": 512,
+                        "y": 348
+                    }
+                ]
+            },
+            {
+                "name": "Flower D02",
+                "sections": [
+                    {
+                        "name": "Karma Flower"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Vanilla_Monk_Shaded",
+                        "x": 962,
+                        "y": 550
+                    },
+                    {
+                        "map": "Vanilla_Survivor_Shaded",
+                        "x": 962,
+                        "y": 550
+                    },
+                    {
+                        "map": "MSC_Monk_Shaded",
+                        "x": 962,
+                        "y": 550
+                    },
+                    {
+                        "map": "MSC_Survivor_Shaded",
+                        "x": 962,
+                        "y": 550
+                    },
+                    {
+                        "map": "Gourmand_Shaded",
+                        "x": 962,
+                        "y": 550
+                    },
+                    {
+                        "map": "Arti_Shaded",
+                        "x": 962,
+                        "y": 550
+                    },
+                    {
+                        "map": "Riv_Shaded",
+                        "x": 962,
+                        "y": 550
+                    },
+                    {
+                        "map": "Spear_Shaded",
+                        "x": 962,
+                        "y": 550
+                    },
+                    {
+                        "map": "Inv_Shaded",
+                        "x": 962,
+                        "y": 550
                     }
                 ]
             }

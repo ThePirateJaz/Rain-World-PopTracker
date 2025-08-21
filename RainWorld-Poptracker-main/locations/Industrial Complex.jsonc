@@ -20,6 +20,7 @@
                     },
                     {
                         "name": "Pearl",
+                        "visibility_rules": ["MSC","survivor","hunter"],
                         "chest_unopened_img": "images/icons/Bright Blue Pearl.png",
                         "chest_opened_img": "images/gathered/Pearl.png"
                     },
@@ -54,6 +55,38 @@
                         "visibility_rules": ["spearmaster"],
                         "chest_unopened_img": "images/icons/Overseer.png",
                         "chest_opened_img": "images/gathered/Overseer.png"
+                    },
+                    {
+                        "name": "Dev Token A17",
+                        "ref": "Industrial Dev Tokens/Dev Token A17/Dev Token"
+                    },
+                    {
+                        "name": "Dev Token A19",
+                        "ref": "Industrial Dev Tokens/Dev Token A19/Dev Token"
+                    },
+                    {
+                        "name": "Dev Token C04",
+                        "ref": "Industrial Dev Tokens/Dev Token C04/Dev Token"
+                    },
+                    {
+                        "name": "Dev Token C13",
+                        "ref": "Industrial Dev Tokens/Dev Token C13/Dev Token"
+                    },
+                    {
+                        "name": "Dev Token C14",
+                        "ref": "Industrial Dev Tokens/Dev Token C14/Dev Token"
+                    },
+                    {
+                        "name": "Flower A20",
+                        "ref": "Industrial Flowers/Flower A20/Karma Flower"
+                    },
+                    {
+                        "name": "Flower A21",
+                        "ref": "Industrial Flowers/Flower A21/Karma Flower"
+                    },
+                    {
+                        "name": "Flower B12",
+                        "ref": "Industrial Flowers/Flower B12/Karma Flower"
                     },
                     {
                         "name": "Shelter S01",
@@ -993,6 +1026,475 @@
                         "map": "Spear_Industrial",
                         "x": 417,
                         "y": 500
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Industrial Dev Tokens",
+        "access_rules": ["$has_industrial_access,MSC"],
+        "visibility_rules": ["MSC,devchecks"],
+        "children": [
+            {
+                "name": "Dev Token C13",
+                "sections": [
+                    {
+                        "name": "Dev Token"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "MSC_Monk_Industrial",
+                        "x": 1208,
+                        "y": 354
+                    },
+                    {
+                        "map": "MSC_Survivor_Industrial",
+                        "x": 1208,
+                        "y": 354
+                    },
+                    {
+                        "map": "MSC_Hunter_Industrial",
+                        "x": 1208,
+                        "y": 354
+                    },
+                    {
+                        "map": "Gourmand_Industrial",
+                        "x": 1208,
+                        "y": 354
+                    },
+                    {
+                        "map": "Arti_Industrial",
+                        "x": 1208,
+                        "y": 354
+                    },
+                    {
+                        "map": "Riv_Industrial",
+                        "x": 1208,
+                        "y": 354
+                    },
+                    {
+                        "map": "Spear_Industrial",
+                        "x": 1208,
+                        "y": 354
+                    },
+                    {
+                        "map": "Saint_Industrial",
+                        "x": 1204,
+                        "y": 354
+                    },
+                    {
+                        "map": "Inv_Industrial",
+                        "x": 1208,
+                        "y": 354
+                    }
+                ]
+            },
+            {
+                "name": "Dev Token C14",
+                "sections": [
+                    {
+                        "name": "Dev Token"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "MSC_Monk_Industrial",
+                        "x": 438,
+                        "y": 262
+                    },
+                    {
+                        "map": "MSC_Survivor_Industrial",
+                        "x": 438,
+                        "y": 262
+                    },
+                    {
+                        "map": "MSC_Hunter_Industrial",
+                        "x": 438,
+                        "y": 262
+                    },
+                    {
+                        "map": "Gourmand_Industrial",
+                        "x": 438,
+                        "y": 262
+                    },
+                    {
+                        "map": "Arti_Industrial",
+                        "x": 438,
+                        "y": 262
+                    },
+                    {
+                        "map": "Riv_Industrial",
+                        "x": 438,
+                        "y": 262
+                    },
+                    {
+                        "map": "Spear_Industrial",
+                        "x": 438,
+                        "y": 262
+                    },
+                    {
+                        "map": "Saint_Industrial",
+                        "x": 434,
+                        "y": 262
+                    },
+                    {
+                        "map": "Inv_Industrial",
+                        "x": 438,
+                        "y": 262
+                    }
+                ]
+            },
+            {
+                "name": "Dev Token C04",
+                "sections": [
+                    {
+                        "name": "Dev Token"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "MSC_Monk_Industrial",
+                        "x": 565,
+                        "y": 311
+                    },
+                    {
+                        "map": "MSC_Survivor_Industrial",
+                        "x": 565,
+                        "y": 311
+                    },
+                    {
+                        "map": "MSC_Hunter_Industrial",
+                        "x": 565,
+                        "y": 311
+                    },
+                    {
+                        "map": "Gourmand_Industrial",
+                        "x": 565,
+                        "y": 311
+                    },
+                    {
+                        "map": "Arti_Industrial",
+                        "x": 565,
+                        "y": 311
+                    },
+                    {
+                        "map": "Riv_Industrial",
+                        "x": 565,
+                        "y": 311
+                    },
+                    {
+                        "map": "Spear_Industrial",
+                        "x": 565,
+                        "y": 311
+                    },
+                    {
+                        "map": "Saint_Industrial",
+                        "x": 561,
+                        "y": 311
+                    },
+                    {
+                        "map": "Inv_Industrial",
+                        "x": 565,
+                        "y": 311
+                    }
+                ]
+            },
+            {
+                "name": "Dev Token A17",
+                "sections": [
+                    {
+                        "name": "Dev Token"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "MSC_Monk_Industrial",
+                        "x": 396,
+                        "y": 450
+                    },
+                    {
+                        "map": "MSC_Survivor_Industrial",
+                        "x": 396,
+                        "y": 450
+                    },
+                    {
+                        "map": "MSC_Hunter_Industrial",
+                        "x": 396,
+                        "y": 450
+                    },
+                    {
+                        "map": "Gourmand_Industrial",
+                        "x": 396,
+                        "y": 450
+                    },
+                    {
+                        "map": "Arti_Industrial",
+                        "x": 396,
+                        "y": 450
+                    },
+                    {
+                        "map": "Riv_Industrial",
+                        "x": 396,
+                        "y": 450
+                    },
+                    {
+                        "map": "Spear_Industrial",
+                        "x": 396,
+                        "y": 450
+                    },
+                    {
+                        "map": "Saint_Industrial",
+                        "x": 392,
+                        "y": 450
+                    },
+                    {
+                        "map": "Inv_Industrial",
+                        "x": 396,
+                        "y": 450
+                    }
+                ]
+            },
+            {
+                "name": "Dev Token A19",
+                "sections": [
+                    {
+                        "name": "Dev Token"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "MSC_Monk_Industrial",
+                        "x": 717,
+                        "y": 510
+                    },
+                    {
+                        "map": "MSC_Survivor_Industrial",
+                        "x": 717,
+                        "y": 510
+                    },
+                    {
+                        "map": "MSC_Hunter_Industrial",
+                        "x": 717,
+                        "y": 510
+                    },
+                    {
+                        "map": "Gourmand_Industrial",
+                        "x": 717,
+                        "y": 510
+                    },
+                    {
+                        "map": "Arti_Industrial",
+                        "x": 717,
+                        "y": 510
+                    },
+                    {
+                        "map": "Riv_Industrial",
+                        "x": 717,
+                        "y": 510
+                    },
+                    {
+                        "map": "Spear_Industrial",
+                        "x": 717,
+                        "y": 510
+                    },
+                    {
+                        "map": "Saint_Industrial",
+                        "x": 717,
+                        "y": 510
+                    },
+                    {
+                        "map": "Inv_Industrial",
+                        "x": 717,
+                        "y": 510
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Industrial Flowers",
+        "access_rules": ["$has_industrial_access"],
+        "visibility_rules": ["flowerchecks,nothunter"],
+        "children": [
+            {
+                "name": "Flower B12",
+                "sections": [
+                    {
+                        "name": "Karma Flower"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Vanilla_Monk_Industrial",
+                        "x": 228,
+                        "y": 324
+                    },
+                    {
+                        "map": "Vanilla_Survivor_Industrial",
+                        "x": 228,
+                        "y": 324
+                    },
+                    {
+                        "map": "MSC_Monk_Industrial",
+                        "x": 228,
+                        "y": 322
+                    },
+                    {
+                        "map": "MSC_Survivor_Industrial",
+                        "x": 228,
+                        "y": 322
+                    },
+                    {
+                        "map": "Gourmand_Industrial",
+                        "x": 228,
+                        "y": 322
+                    },
+                    {
+                        "map": "Arti_Industrial",
+                        "x": 228,
+                        "y": 322
+                    },
+                    {
+                        "map": "Riv_Industrial",
+                        "x": 228,
+                        "y": 322
+                    },
+                    {
+                        "map": "Spear_Industrial",
+                        "x": 228,
+                        "y": 322
+                    },
+                    {
+                        "map": "Saint_Industrial",
+                        "x": 224,
+                        "y": 322
+                    },
+                    {
+                        "map": "Inv_Industrial",
+                        "x": 228,
+                        "y": 322
+                    }
+                ]
+            },
+            {
+                "name": "Flower A20",
+                "sections": [
+                    {
+                        "name": "Karma Flower"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Vanilla_Monk_Industrial",
+                        "x": 312,
+                        "y": 291
+                    },
+                    {
+                        "map": "Vanilla_Survivor_Industrial",
+                        "x": 312,
+                        "y": 291
+                    },
+                    {
+                        "map": "MSC_Monk_Industrial",
+                        "x": 312,
+                        "y": 259
+                    },
+                    {
+                        "map": "MSC_Survivor_Industrial",
+                        "x": 312,
+                        "y": 259
+                    },
+                    {
+                        "map": "Gourmand_Industrial",
+                        "x": 312,
+                        "y": 259
+                    },
+                    {
+                        "map": "Arti_Industrial",
+                        "x": 312,
+                        "y": 259
+                    },
+                    {
+                        "map": "Riv_Industrial",
+                        "x": 312,
+                        "y": 259
+                    },
+                    {
+                        "map": "Spear_Industrial",
+                        "x": 312,
+                        "y": 259
+                    },
+                    {
+                        "map": "Saint_Industrial",
+                        "x": 308,
+                        "y": 259
+                    },
+                    {
+                        "map": "Inv_Industrial",
+                        "x": 312,
+                        "y": 259
+                    }
+                ]
+            },
+            {
+                "name": "Flower A21",
+                "sections": [
+                    {
+                        "name": "Karma Flower"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Vanilla_Monk_Industrial",
+                        "x": 568,
+                        "y": 400
+                    },
+                    {
+                        "map": "Vanilla_Survivor_Industrial",
+                        "x": 568,
+                        "y": 400
+                    },
+                    {
+                        "map": "MSC_Monk_Industrial",
+                        "x": 616,
+                        "y": 400
+                    },
+                    {
+                        "map": "MSC_Survivor_Industrial",
+                        "x": 616,
+                        "y": 400
+                    },
+                    {
+                        "map": "Gourmand_Industrial",
+                        "x": 616,
+                        "y": 400
+                    },
+                    {
+                        "map": "Arti_Industrial",
+                        "x": 616,
+                        "y": 400
+                    },
+                    {
+                        "map": "Riv_Industrial",
+                        "x": 616,
+                        "y": 400
+                    },
+                    {
+                        "map": "Spear_Industrial",
+                        "x": 616,
+                        "y": 400
+                    },
+                    {
+                        "map": "Saint_Industrial",
+                        "x": 616,
+                        "y": 400
+                    },
+                    {
+                        "map": "Inv_Industrial",
+                        "x": 616,
+                        "y": 400
                     }
                 ]
             }

@@ -8,6 +8,7 @@
                 "sections":[
                     {
                         "name": "Echo",
+                        "access_rules": ["$echoaccess"],
                         "chest_unopened_img": "images/icons/Echo.png",
                         "chest_opened_img": "images/gathered/Echo.png"
                     },
@@ -43,6 +44,7 @@
                     },
                     {
                         "name": "Pearl",
+                        "visibility_rules": ["MSC","survivor","hunter"],
                         "chest_unopened_img": "images/icons/Gold Pearl.png",
                         "chest_opened_img": "images/gathered/Pearl.png"
                     },
@@ -68,6 +70,26 @@
                         ],
                         "chest_unopened_img": "images/icons/Dropwig.png",
                         "chest_opened_img": "images/gathered/Dropwig.png"
+                    },
+                    {
+                        "name": "Sump Token",
+                        "ref": "Chimney Dev Tokens/Sump Token/Dev Token"
+                    },
+                    {
+                        "name": "Clog Token",
+                        "ref": "Chimney Dev Tokens/Clog Token/Dev Token"
+                    },
+                    {
+                        "name": "Strainer Token",
+                        "ref": "Chimney Dev Tokens/Strainer Token/Dev Token"
+                    },
+                    {
+                        "name": "Flower B06",
+                        "ref": "Chimney Flowers/Flower B06/Karma Flower"
+                    },
+                    {
+                        "name": "Flower Sump 5",
+                        "ref": "Chimney Flowers/Flower Sump 5/Karma Flower"
                     },
                     {
                         "name": "Chatlog",
@@ -881,6 +903,297 @@
                         "map": "Spear_Chimney",
                         "x": 356,
                         "y": 675
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Chimney Dev Tokens",
+        "access_rules": ["$has_chimney_access,MSC"],
+        "visibility_rules": ["MSC,devchecks"],
+        "children": [
+            {
+                "name": "Sump Token",
+                "sections": [
+                    {
+                        "name": "Dev Token"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "MSC_Monk_Chimney",
+                        "x": 652,
+                        "y": 952
+                    },
+                    {
+                        "map": "MSC_Survivor_Chimney",
+                        "x": 652,
+                        "y": 952
+                    },
+                    {
+                        "map": "MSC_Hunter_Chimney",
+                        "x": 652,
+                        "y": 952
+                    },
+                    {
+                        "map": "Gourmand_Chimney",
+                        "x": 652,
+                        "y": 952
+                    },
+                    {
+                        "map": "Arti_Chimney",
+                        "x": 652,
+                        "y": 952
+                    },
+                    {
+                        "map": "Riv_Chimney",
+                        "x": 652,
+                        "y": 952
+                    },
+                    {
+                        "map": "Spear_Chimney",
+                        "x": 652,
+                        "y": 952
+                    },
+                    {
+                        "map": "Saint_Chimney",
+                        "x": 652,
+                        "y": 952
+                    },
+                    {
+                        "map": "Inv_Chimney",
+                        "x": 652,
+                        "y": 952
+                    }
+                ]
+            },
+            {
+                "name": "Clog Token",
+                "sections": [
+                    {
+                        "name": "Dev Token"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "MSC_Monk_Chimney",
+                        "x": 338,
+                        "y": 980
+                    },
+                    {
+                        "map": "MSC_Survivor_Chimney",
+                        "x": 338,
+                        "y": 980
+                    },
+                    {
+                        "map": "MSC_Hunter_Chimney",
+                        "x": 338,
+                        "y": 980
+                    },
+                    {
+                        "map": "Gourmand_Chimney",
+                        "x": 338,
+                        "y": 980
+                    },
+                    {
+                        "map": "Arti_Chimney",
+                        "x": 338,
+                        "y": 980
+                    },
+                    {
+                        "map": "Riv_Chimney",
+                        "x": 338,
+                        "y": 980
+                    },
+                    {
+                        "map": "Spear_Chimney",
+                        "x": 338,
+                        "y": 980
+                    },
+                    {
+                        "map": "Saint_Chimney",
+                        "x": 338,
+                        "y": 980
+                    },
+                    {
+                        "map": "Inv_Chimney",
+                        "x": 338,
+                        "y": 980
+                    }
+                ]
+            },
+            {
+                "name": "Strainer Token",
+                "sections": [
+                    {
+                        "name": "Dev Token"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "MSC_Monk_Chimney",
+                        "x": 316,
+                        "y": 1021
+                    },
+                    {
+                        "map": "MSC_Survivor_Chimney",
+                        "x": 316,
+                        "y": 1021
+                    },
+                    {
+                        "map": "MSC_Hunter_Chimney",
+                        "x": 316,
+                        "y": 1021
+                    },
+                    {
+                        "map": "Gourmand_Chimney",
+                        "x": 316,
+                        "y": 1021
+                    },
+                    {
+                        "map": "Arti_Chimney",
+                        "x": 316,
+                        "y": 1021
+                    },
+                    {
+                        "map": "Riv_Chimney",
+                        "x": 316,
+                        "y": 1021
+                    },
+                    {
+                        "map": "Spear_Chimney",
+                        "x": 316,
+                        "y": 1021
+                    },
+                    {
+                        "map": "Saint_Chimney",
+                        "x": 316,
+                        "y": 1021
+                    },
+                    {
+                        "map": "Inv_Chimney",
+                        "x": 316,
+                        "y": 1021
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Chimney Flowers",
+        "access_rules": ["$has_chimney_access"],
+        "visibility_rules": ["nothunter,flowerchecks"],
+        "children": [
+            {
+                "name": "Flower B06",
+                "sections": [
+                    {
+                        "name": "Karma Flower"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Vanilla_Monk_Chimney",
+                        "x": 231,
+                        "y": 648
+                    },
+                    {
+                        "map": "Vanilla_Survivor_Chimney",
+                        "x": 231,
+                        "y": 648
+                    },
+                    {
+                        "map": "MSC_Monk_Chimney",
+                        "x": 231,
+                        "y": 648
+                    },
+                    {
+                        "map": "MSC_Survivor_Chimney",
+                        "x": 231,
+                        "y": 648
+                    },
+                    {
+                        "map": "Gourmand_Chimney",
+                        "x": 231,
+                        "y": 648
+                    },
+                    {
+                        "map": "Arti_Chimney",
+                        "x": 231,
+                        "y": 648
+                    },
+                    {
+                        "map": "Riv_Chimney",
+                        "x": 231,
+                        "y": 648
+                    },
+                    {
+                        "map": "Spear_Chimney",
+                        "x": 231,
+                        "y": 648
+                    },
+                    {
+                        "map": "Saint_Chimney",
+                        "x": 231,
+                        "y": 648
+                    },
+                    {
+                        "map": "Inv_Chimney",
+                        "x": 231,
+                        "y": 648
+                    }
+                ]
+            },
+            {
+                "name": "Flower Sump 5",
+                "access_rules": ["MSC"],
+                "visibility_rules": ["MSC"],
+                "sections": [
+                    {
+                        "name": "Karma Flower"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "MSC_Monk_Chimney",
+                        "x": 818,
+                        "y": 998
+                    },
+                    {
+                        "map": "MSC_Survivor_Chimney",
+                        "x": 818,
+                        "y": 998
+                    },
+                    {
+                        "map": "Gourmand_Chimney",
+                        "x": 818,
+                        "y": 998
+                    },
+                    {
+                        "map": "Arti_Chimney",
+                        "x": 818,
+                        "y": 998
+                    },
+                    {
+                        "map": "Riv_Chimney",
+                        "x": 818,
+                        "y": 998
+                    },
+                    {
+                        "map": "Spear_Chimney",
+                        "x": 818,
+                        "y": 998
+                    },
+                    {
+                        "map": "Saint_Chimney",
+                        "x": 818,
+                        "y": 998
+                    },
+                    {
+                        "map": "Inv_Chimney",
+                        "x": 818,
+                        "y": 998
                     }
                 ]
             }

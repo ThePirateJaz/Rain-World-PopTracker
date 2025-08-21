@@ -37,6 +37,50 @@
                         "chest_opened_img": "images/gathered/Mother Long Legs.png"
                     },
                     {
+                        "name": "Dev Token A04",
+                        "ref": "Rot Dev Tokens/Dev Token A04/Dev Token"
+                    },
+                    {
+                        "name": "Dev Token A13",
+                        "ref": "Rot Dev Tokens/Dev Token A13/Dev Token"
+                    },
+                    {
+                        "name": "Dev Token B01",
+                        "ref": "Rot Dev Tokens/Dev Token B01/Dev Token"
+                    },
+                    {
+                        "name": "Dev Token Cache",
+                        "ref": "Rot Dev Tokens/Dev Token Cache/Dev Token"
+                    },
+                    {
+                        "name": "Dev Token Core Access",
+                        "ref": "Rot Dev Tokens/Dev Token Core Access/Dev Token"
+                    },
+                    {
+                        "name": "Dev Token Dead 2",
+                        "ref": "Rot Dev Tokens/Dev Token Dead 2/Dev Token"
+                    },
+                    {
+                        "name": "Dev Token Dead 3",
+                        "ref": "Rot Dev Tokens/Dev Token Dead 3/Dev Token"
+                    },
+                    {
+                        "name": "Dev Token GSB1",
+                        "ref": "Rot Dev Tokens/Dev Token GSB1/Dev Token"
+                    },
+                    {
+                        "name": "Dev Token Hunt",
+                        "ref": "Rot Dev Tokens/Dev Token Hunt/Dev Token"
+                    },
+                    {
+                        "name": "Dev Token Pipe",
+                        "ref": "Rot Dev Tokens/Dev Token Pipe/Dev Token"
+                    },
+                    {
+                        "name": "Dev Token Terror",
+                        "ref": "Rot Dev Tokens/Dev Token Terror/Dev Token"
+                    },
+                    {
                         "name": "Shelter S01",
                         "ref": "Rot Shelters/Shelter S01/Shelter"
                     },
@@ -183,6 +227,178 @@
                         "map": "Riv_Rot",
                         "x": 1251,
                         "y": 904
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Rot Dev Tokens",
+        "access_rules": ["$has_rot_access"],
+        "visibility_rules": ["devchecks"],
+        "children": [
+            {
+                "name": "Dev Token A04",
+                "sections": [
+                    {
+                        "name": "Dev Token"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Riv_Rot",
+                        "x": 260,
+                        "y": 974
+                    }
+                ]
+            },
+            {
+                "name": "Dev Token B01",
+                "sections": [
+                    {
+                        "name": "Dev Token"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Riv_Rot",
+                        "x": 829,
+                        "y": 1387
+                    }
+                ]
+            },
+            {
+                "name": "Dev Token A13",
+                "sections": [
+                    {
+                        "name": "Dev Token"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Riv_Rot",
+                        "x": 1196,
+                        "y": 1152
+                    }
+                ]
+            },
+            {
+                "name": "Dev Token Hunt",
+                "sections": [
+                    {
+                        "name": "Dev Token"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Riv_Rot",
+                        "x": 689,
+                        "y": 1157
+                    }
+                ]
+            },
+            {
+                "name": "Dev Token Cache",
+                "sections": [
+                    {
+                        "name": "Dev Token"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Riv_Rot",
+                        "x": 846,
+                        "y": 1062
+                    }
+                ]
+            },
+            {
+                "name": "Dev Token Pipe",
+                "sections": [
+                    {
+                        "name": "Dev Token"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Riv_Rot",
+                        "x": 694,
+                        "y": 792
+                    }
+                ]
+            },
+            {
+                "name": "Dev Token Core Access",
+                "sections": [
+                    {
+                        "name": "Dev Token"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Riv_Rot",
+                        "x": 439,
+                        "y": 896
+                    }
+                ]
+            },
+            {
+                "name": "Dev Token Dead 2",
+                "sections": [
+                    {
+                        "name": "Dev Token"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Riv_Rot",
+                        "x": 1062,
+                        "y": 838
+                    }
+                ]
+            },
+            {
+                "name": "Dev Token Dead 3",
+                "sections": [
+                    {
+                        "name": "Dev Token"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Riv_Rot",
+                        "x": 1171,
+                        "y": 791
+                    }
+                ]
+            },
+            {
+                "name": "Dev Token Terror",
+                "sections": [
+                    {
+                        "name": "Dev Token"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Riv_Rot",
+                        "x": 1239,
+                        "y": 1162
+                    }
+                ]
+            },
+            {
+                "name": "Dev Token GSB1",
+                "sections": [
+                    {
+                        "name": "Dev Token"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Riv_Rot",
+                        "x": 835,
+                        "y": 600
                     }
                 ]
             }

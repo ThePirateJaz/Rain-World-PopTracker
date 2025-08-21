@@ -80,7 +80,12 @@ end
 
 -- apply everything needed from slot_data, called from onClear
 function apply_slot_data(slot_data)
-	
+	if slot_data["checks_flowersanity"] == 1 then
+		Tracker:FindObjectForCode("flowerchecks").Active = true
+	end
+	if slot_data["checks_devtokens"] == 1 then
+		Tracker:FindObjectForCode("devchecks").Active = true
+	end
 	if slot_data["which_gate_behavior"] == 0 then
 		gatelogic = onlygate
 		Tracker:FindObjectForCode("onlygate").Active = true
@@ -109,24 +114,33 @@ function apply_slot_data(slot_data)
 	
 	if slot_data["which_campaign"] == "Yellow" then
 		CURRENT_CAMPAIGN = 0
+		Tracker:FindObjectForCode("nothunter").Active = true
 	elseif slot_data["which_campaign"] == "White" then
 		CURRENT_CAMPAIGN = 1
+		Tracker:FindObjectForCode("nothunter").Active = true
 	elseif slot_data["which_campaign"] == "Red" then
 		CURRENT_CAMPAIGN = 2
 	elseif slot_data["which_campaign"] == "Gourmand" then
 		CURRENT_CAMPAIGN = 3
+		Tracker:FindObjectForCode("nothunter").Active = true
 	elseif slot_data["which_campaign"] == "Artificer" then
 		CURRENT_CAMPAIGN = 4
+		Tracker:FindObjectForCode("nothunter").Active = true
 	elseif slot_data["which_campaign"] == "Rivulet" then
 		CURRENT_CAMPAIGN = 5
+		Tracker:FindObjectForCode("nothunter").Active = true
 	elseif slot_data["which_campaign"] == "Spear" then
 		CURRENT_CAMPAIGN = 6
+		Tracker:FindObjectForCode("nothunter").Active = true
 	elseif slot_data["which_campaign"] == "Saint" then
 		CURRENT_CAMPAIGN = 7
+		Tracker:FindObjectForCode("nothunter").Active = true
 	elseif slot_data["which_campaign"] == "Sofanthiel" then
 		CURRENT_CAMPAIGN = 8
+		Tracker:FindObjectForCode("nothunter").Active = true
 	elseif slot_data["which_campaign"] == "Watcher" then
 		CURRENT_CAMPAIGN = 9
+		Tracker:FindObjectForCode("nothunter").Active = true
 	end
 	
 	local vanillagame = nil
@@ -152,6 +166,9 @@ function apply_slot_data(slot_data)
 	end
 	if slot_data["checks_sheltersanity"] == 1 then
 		Tracker:FindObjectForCode("sheltersanity").Active = true
+	end
+	if slot_data["difficulty_glow"] == 0 then
+		Tracker:FindObjectForCode("glow-option").Active = true
 	end
 	Tracker:FindObjectForCode("scug").CurrentStage = CURRENT_CAMPAIGN
 	if CURRENT_CAMPAIGN == 4 or CURRENT_CAMPAIGN == 6 then
@@ -199,7 +216,7 @@ function apply_slot_data(slot_data)
 		print("Default spawn")
 		if CURRENT_CAMPAIGN == 0 or CURRENT_CAMPAIGN == 1 then
 			Tracker:FindObjectForCode("Outskirts").Active = true
-			Tracker:UiHint("ActiveTab","Outskirts")
+			Tracker:UiHint("ActivateTab","Outskirts")
 		elseif CURRENT_CAMPAIGN == 2 then
 			Tracker:FindObjectForCode("Farm").Active = true
 			Tracker:UiHint("ActivateTab","Farm Arrays")
@@ -410,6 +427,7 @@ function onBounce(json)
 	print(string.format("called onBounce: %s", dump_table(json)))
 	-- your code goes here
 	local roomid = nil
+	slot_name, roomid = next(json.data)
 	CURRENT_ROOM = string.lower(json.data[slot_name])
 	print(string.format(CURRENT_ROOM))
 	if CAMPAIGN_NAMING[CURRENT_CAMPAIGN] == "Saint" and SAINT_TABLE[TABS_MAPPING[CURRENT_ROOM]] ~= nil then

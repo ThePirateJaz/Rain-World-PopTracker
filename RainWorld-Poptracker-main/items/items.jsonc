@@ -44,6 +44,16 @@
     "codes": "vanilla"
   },
   {
+    "name": "Dev Token Sanity",
+    "type": "toggle",
+    "codes": "devchecks"
+  },
+  {
+    "name": "Flowersanity",
+    "type": "toggle",
+    "codes": "flowerchecks"
+  },
+  {
     "name": "Mouth",
     "type": "toggle",
     "codes": "mouth,food"
@@ -57,6 +67,11 @@
     "name": "notvegan",
     "type": "toggle",
     "codes": "notvegan,food"
+  },
+  {
+    "name": "nothunter",
+    "type": "toggle",
+    "codes": "nothunter"
   },
   {
     "name": "Sheltersanity",

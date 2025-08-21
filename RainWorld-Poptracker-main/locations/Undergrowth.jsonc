@@ -52,6 +52,26 @@
                         "chest_opened_img": "images/gathered/Snail.png"
                     },
                     {
+                        "name": "Dev Token B02",
+                        "ref": "Under Dev Tokens/Dev Token B02/Dev Token"
+                    },
+                    {
+                        "name": "Dev Token B04",
+                        "ref": "Under Dev Tokens/Dev Token B04/Dev Token"
+                    },
+                    {
+                        "name": "Dev Token C01",
+                        "ref": "Under Dev Tokens/Dev Token C01/Dev Token"
+                    },
+                    {
+                        "name": "Flower A11",
+                        "ref": "Under Karma Flowers/Flower A11/Karma Flower"
+                    },
+                    {
+                        "name": "Flower A20",
+                        "ref": "Under Karma Flowers/Flower A20/Karma Flower"
+                    },
+                    {
                         "name": "Shelter S01R",
                         "ref": "Undergrowth Shelters/Shelter S01R/Shelter"
                     },
@@ -251,8 +271,97 @@
         ]
     },
     {
+        "name": "Under Dev Tokens",
+        "access_rules": ["$has_drainage_access,saint"],
+        "visibility_rules": ["devchecks"],
+        "children": [
+            {
+                "name": "Dev Token B02",
+                "sections": [
+                    {
+                        "name": "Dev Token"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Saint_Undergrowth",
+                        "x": 241,
+                        "y": 373
+                    }
+                ]
+            },
+            {
+                "name": "Dev Token B04",
+                "sections": [
+                    {
+                        "name": "Dev Token"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Saint_Undergrowth",
+                        "x": 566,
+                        "y": 317
+                    }
+                ]
+            },
+            {
+                "name": "Dev Token C01",
+                "sections": [
+                    {
+                        "name": "Dev Token"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Saint_Undergrowth",
+                        "x": 887,
+                        "y": 357
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Under Karma Flowers",
+        "access_rules": ["$has_drainage_access,saint"],
+        "visibility_rules": ["flowerchecks"],
+        "children": [
+            {
+                "name": "Flower A20",
+                "sections": [
+                    {
+                        "name": "Karma Flower"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Saint_Undergrowth",
+                        "x": 471,
+                        "y": 408
+                    }
+                ]
+            },
+            {
+                "name": "Flower A11",
+                "sections": [
+                    {
+                        "name": "Karma Flower"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Saint_Undergrowth",
+                        "x": 789,
+                        "y": 364
+                    }
+                ]
+            }
+        ]
+    },
+    {
         "name": "Undergrowth Shelters",
-        "access_rules": ["$has_drainage_access"],
+        "access_rules": ["$has_drainage_access,saint"],
         "visibility_rules": ["sheltersanity"],
         "chest_unopened_img": "images/icons/Shelter.png",
         "chest_opened_img": "images/gathered/Shelter.png",

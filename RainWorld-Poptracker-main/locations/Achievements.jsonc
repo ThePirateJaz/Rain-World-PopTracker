@@ -673,7 +673,8 @@
                 "name": "The Monk",
                 "sections": [
                     {
-                        "name": "The Monk"
+                        "name": "The Monk",
+                        "access_rules": ["$monkaccess"]
                     }
                 ],
                 "map_locations": [
@@ -706,7 +707,8 @@
                 "name": "The Hunter",
                 "sections": [
                     {
-                        "name": "The Hunter"
+                        "name": "The Hunter",
+                        "access_rules": ["$hunteraccess"]
                     }
                 ],
                 "map_locations": [
@@ -789,7 +791,7 @@
                     {
                         "name": "The Nomad",
                         "access_rules": [
-                            "$wanderer_pips|5"
+                            "$nomadaccess"
                         ]
                     }
                 ],

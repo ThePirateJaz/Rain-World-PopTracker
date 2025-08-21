@@ -47,6 +47,30 @@
                         "chest_opened_img": "images/gathered/Overseer.png"
                     },
                     {
+                        "name": "Dev Token A23",
+                        "ref": "Outskirts/Dev Token A23/Dev Token"
+                    },
+                    {
+                        "name": "Dev Token A53",
+                        "ref": "Outskirts/Dev Token A53/Dev Token"
+                    },
+                    {
+                        "name": "Dev Token Cave 1",
+                        "ref": "Outskirts/Dev Token Cave 1/Dev Token"
+                    },
+                    {
+                        "name": "Dev Token Pump",
+                        "ref": "Outskirts/Dev Token Pump/Dev Token"
+                    },
+                    {
+                        "name": "Flower A12",
+                        "ref": "Outskirts Karma Flowers/Flower A12/Karma Flower"
+                    },
+                    {
+                        "name": "Flower A39",
+                        "ref": "Outskirts Karma Flowers/Flower A39/Karma Flower"
+                    },
+                    {
                         "name": "Shelter S01",
                         "ref": "Outskirts Shelters/Shelter S01/Shelter"
                     },
@@ -476,16 +500,12 @@
                 "sections": [
                     {
                         "name": "Pearl",
+                        "visibility_rules": ["MSC","survivor","hunter"],
                         "chest_unopened_img": "images/icons/Light Blue Pearl.png",
                         "chest_opened_img": "images/gathered/Pearl.png"
                     }
                 ],
                 "map_locations": [
-                    {
-                        "map": "Vanilla_Monk_Outskirts",
-                        "x": 381,
-                        "y": 272
-                    },
                     {
                         "map": "MSC_Monk_Outskirts",
                         "x": 430,
@@ -789,6 +809,294 @@
                         "map": "Spear_Outskirts",
                         "x": 1119,
                         "y": 192
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Outskirts Dev Tokens",
+        "access_rules": ["$has_outskirts_access,MSC"],
+        "visibility_rules": ["MSC,devchecks"],
+        "children": [
+            {
+                "name": "Dev Token A53",
+                "sections": [
+                    {
+                        "name": "Dev Token"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "MSC_Monk_Outskirts",
+                        "x": 998,
+                        "y": 289
+                    },
+                    {
+                        "map": "MSC_Survivor_Outskirts",
+                        "x": 998,
+                        "y": 289
+                    },
+                    {
+                        "map": "MSC_Hunter_Outskirts",
+                        "x": 998,
+                        "y": 289
+                    },
+                    {
+                        "map": "Gourmand_Outskirts",
+                        "x": 998,
+                        "y": 289
+                    },
+                    {
+                        "map": "Arti_Outskirts",
+                        "x": 998,
+                        "y": 289
+                    },
+                    {
+                        "map": "Riv_Outskirts",
+                        "x": 998,
+                        "y": 289
+                    },
+                    {
+                        "map": "Spear_Outskirts",
+                        "x": 998,
+                        "y": 289
+                    },
+                    {
+                        "map": "Saint_Outskirts",
+                        "x": 998,
+                        "y": 289
+                    },
+                    {
+                        "map": "Inv_Outskirts",
+                        "x": 998,
+                        "y": 289
+                    }
+                ]
+            },
+            {
+                "name": "Dev Token A23",
+                "sections": [
+                    {
+                        "name": "Dev Token"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "MSC_Monk_Outskirts",
+                        "x": 923,
+                        "y": 410
+                    },
+                    {
+                        "map": "MSC_Survivor_Outskirts",
+                        "x": 923,
+                        "y": 410
+                    },
+                    {
+                        "map": "MSC_Hunter_Outskirts",
+                        "x": 923,
+                        "y": 410
+                    },
+                    {
+                        "map": "Gourmand_Outskirts",
+                        "x": 923,
+                        "y": 410
+                    },
+                    {
+                        "map": "Arti_Outskirts",
+                        "x": 923,
+                        "y": 410
+                    },
+                    {
+                        "map": "Riv_Outskirts",
+                        "x": 923,
+                        "y": 410
+                    },
+                    {
+                        "map": "Spear_Outskirts",
+                        "x": 923,
+                        "y": 410
+                    },
+                    {
+                        "map": "Saint_Outskirts",
+                        "x": 923,
+                        "y": 410
+                    },
+                    {
+                        "map": "Inv_Outskirts",
+                        "x": 923,
+                        "y": 410
+                    }
+                ]
+            },
+            {
+                "name": "Dev Token Cave 1",
+                "access_rules": ["spearmaster","inv"],
+                "visibility_rules": ["spearmaster","inv"],
+                "sections": [
+                    {
+                        "name": "Dev Token"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Spear_Outskirts",
+                        "x": 647,
+                        "y": 377
+                    },
+                    {
+                        "map": "Inv_Outskirts",
+                        "x": 647,
+                        "y": 377
+                    }
+                ]
+            },
+            {
+                "name": "Dev Token Pump",
+                "access_rules": ["spearmaster","inv"],
+                "visibility_rules": ["spearmaster","inv"],
+                "sections": [
+                    {
+                        "name": "Dev Token"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Spear_Outskirts",
+                        "x": 592,
+                        "y": 537
+                    },
+                    {
+                        "map": "Inv_Outskirts",
+                        "x": 592,
+                        "y": 537
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Outskirts Karma Flowers",
+        "access_rules": ["$has_outskirts_access,nothunter"],
+        "visibility_rules": ["flowerchecks,nothunter"],
+        "children": [
+            {
+                "name": "Flower A39",
+                "sections": [
+                    {
+                        "name": "Karma Flower"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Vanilla_Monk_Outskirts",
+                        "x": 884,
+                        "y": 280
+                    },
+                    {
+                        "map": "Vanilla_Survivor_Outskirts",
+                        "x": 884,
+                        "y": 280
+                    },
+                    {
+                        "map": "MSC_Monk_Outskirts",
+                        "x": 933,
+                        "y": 280
+                    },
+                    {
+                        "map": "MSC_Survivor_Outskirts",
+                        "x": 933,
+                        "y": 280
+                    },
+                    {
+                        "map": "Gourmand_Outskirts",
+                        "x": 933,
+                        "y": 280
+                    },
+                    {
+                        "map": "Arti_Outskirts",
+                        "x": 933,
+                        "y": 280
+                    },
+                    {
+                        "map": "Riv_Outskirts",
+                        "x": 933,
+                        "y": 280
+                    },
+                    {
+                        "map": "Spear_Outskirts",
+                        "x": 933,
+                        "y": 280
+                    },
+                    {
+                        "map": "Saint_Outskirts",
+                        "x": 933,
+                        "y": 280
+                    },
+                    {
+                        "map": "Inv_Outskirts",
+                        "x": 933,
+                        "y": 280
+                    }
+                ]
+            },
+            {
+                "name": "Flower A12",
+                "sections": [
+                    {
+                        "name": "Karma Flower"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Vanilla_Monk_Outskirts",
+                        "x": 498,
+                        "y": 150
+                    },
+                    {
+                        "map": "Vanilla_Survivor_Outskirts",
+                        "x": 498,
+                        "y": 150
+                    },
+                    {
+                        "map": "MSC_Monk_Outskirts",
+                        "x": 547,
+                        "y": 150
+                    },
+                    {
+                        "map": "MSC_Survivor_Outskirts",
+                        "x": 547,
+                        "y": 150
+                    },
+                    {
+                        "map": "Gourmand_Outskirts",
+                        "x": 547,
+                        "y": 150
+                    },
+                    {
+                        "map": "Arti_Outskirts",
+                        "x": 547,
+                        "y": 150
+                    },
+                    {
+                        "map": "Riv_Outskirts",
+                        "x": 547,
+                        "y": 150
+                    },
+                    {
+                        "map": "Spear_Outskirts",
+                        "x": 547,
+                        "y": 150
+                    },
+                    {
+                        "map": "Saint_Outskirts",
+                        "x": 547,
+                        "y": 150
+                    },
+                    {
+                        "map": "Inv_Outskirts",
+                        "x": 547,
+                        "y": 150
                     }
                 ]
             }

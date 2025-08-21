@@ -41,7 +41,10 @@ DUMMYITEMS = {
     [36] = {"Gate_Wall-Pebbsi","progressive"},
     [37] = {"Gate_Underhang-Pebbsi","progressive"},
     [38] = {"Gate_UpperMoon-WaterMap","progressive"},
-    [39] = {"Gate_LowerMoon-WaterMap","progressive"}
+    [39] = {"Gate_LowerMoon-WaterMap","progressive"},
+    [40] = {"nothunter","toggle"},
+    [41] = {"devchecks","toggle"},
+    [42] = {"flowerchecks","toggle"}
 }
 
 ITEM_MAPPING = {

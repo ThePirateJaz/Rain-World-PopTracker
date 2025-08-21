@@ -67,6 +67,22 @@
                         "ref": "Pipeyard/Broadcast 9/Broadcast"
                     },
                     {
+                        "name": "Dev Token A02",
+                        "ref": "Pipeyard Dev Tokens/Dev Token A02/Dev Token"
+                    },
+                    {
+                        "name": "Dev Token C05",
+                        "ref": "Pipeyard Dev Tokens/Dev Token C05/Dev Token"
+                    },
+                    {
+                        "name": "Dev Token C13",
+                        "ref": "Pipeyard Dev Tokens/Dev Token C13/Dev Token"
+                    },
+                    {
+                        "name": "Dev Token F01",
+                        "ref": "Pipeyard Dev Tokens/Dev Token F01/Dev Token"
+                    },
+                    {
                         "name": "Shelter S01",
                         "ref": "Pipeyard Shelters/Shelter S01/Shelter"
                     },
@@ -712,6 +728,233 @@
                         "map": "Spear_Pipeyard",
                         "x": 449,
                         "y": 330
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Pipeyard Dev Tokens",
+        "access_rules": ["$has_pipeyard_access"],
+        "visibility_rules": ["devchecks"],
+        "children": [
+            {
+                "name": "Dev Token A02",
+                "sections": [
+                    {
+                        "name": "Dev Token"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "MSC_Monk_Pipeyard",
+                        "x": 278,
+                        "y": 327
+                    },
+                    {
+                        "map": "MSC_Survivor_Pipeyard",
+                        "x": 278,
+                        "y": 327
+                    },
+                    {
+                        "map": "MSC_Hunter_Pipeyard",
+                        "x": 278,
+                        "y": 327
+                    },
+                    {
+                        "map": "Gourmand_Pipeyard",
+                        "x": 278,
+                        "y": 327
+                    },
+                    {
+                        "map": "Arti_Pipeyard",
+                        "x": 278,
+                        "y": 327
+                    },
+                    {
+                        "map": "Riv_Pipeyard",
+                        "x": 278,
+                        "y": 327
+                    },
+                    {
+                        "map": "Spear_Pipeyard",
+                        "x": 278,
+                        "y": 327
+                    },
+                    {
+                        "map": "Saint_Pipeyard",
+                        "x": 278,
+                        "y": 327
+                    },
+                    {
+                        "map": "Inv_Pipeyard",
+                        "x": 278,
+                        "y": 327
+                    }
+                ]
+            },
+            {
+                "name": "Dev Token C05",
+                "sections": [
+                    {
+                        "name": "Dev Token"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "MSC_Monk_Pipeyard",
+                        "x": 858,
+                        "y": 344
+                    },
+                    {
+                        "map": "MSC_Survivor_Pipeyard",
+                        "x": 858,
+                        "y": 344
+                    },
+                    {
+                        "map": "MSC_Hunter_Pipeyard",
+                        "x": 858,
+                        "y": 344
+                    },
+                    {
+                        "map": "Gourmand_Pipeyard",
+                        "x": 858,
+                        "y": 344
+                    },
+                    {
+                        "map": "Arti_Pipeyard",
+                        "x": 858,
+                        "y": 344
+                    },
+                    {
+                        "map": "Riv_Pipeyard",
+                        "x": 858,
+                        "y": 344
+                    },
+                    {
+                        "map": "Spear_Pipeyard",
+                        "x": 858,
+                        "y": 344
+                    },
+                    {
+                        "map": "Saint_Pipeyard",
+                        "x": 858,
+                        "y": 344
+                    },
+                    {
+                        "map": "Inv_Pipeyard",
+                        "x": 858,
+                        "y": 344
+                    }
+                ]
+            },
+            {
+                "name": "Dev Token C13",
+                "sections": [
+                    {
+                        "name": "Dev Token"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "MSC_Monk_Pipeyard",
+                        "x": 928,
+                        "y": 300
+                    },
+                    {
+                        "map": "MSC_Survivor_Pipeyard",
+                        "x": 928,
+                        "y": 300
+                    },
+                    {
+                        "map": "MSC_Hunter_Pipeyard",
+                        "x": 928,
+                        "y": 300
+                    },
+                    {
+                        "map": "Gourmand_Pipeyard",
+                        "x": 928,
+                        "y": 300
+                    },
+                    {
+                        "map": "Arti_Pipeyard",
+                        "x": 928,
+                        "y": 300
+                    },
+                    {
+                        "map": "Riv_Pipeyard",
+                        "x": 928,
+                        "y": 300
+                    },
+                    {
+                        "map": "Spear_Pipeyard",
+                        "x": 928,
+                        "y": 300
+                    },
+                    {
+                        "map": "Saint_Pipeyard",
+                        "x": 928,
+                        "y": 300
+                    },
+                    {
+                        "map": "Inv_Pipeyard",
+                        "x": 928,
+                        "y": 300
+                    }
+                ]
+            },
+            {
+                "name": "Dev Token F01",
+                "sections": [
+                    {
+                        "name": "Dev Token"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "MSC_Monk_Pipeyard",
+                        "x": 707,
+                        "y": 654
+                    },
+                    {
+                        "map": "MSC_Survivor_Pipeyard",
+                        "x": 707,
+                        "y": 654
+                    },
+                    {
+                        "map": "MSC_Hunter_Pipeyard",
+                        "x": 707,
+                        "y": 654
+                    },
+                    {
+                        "map": "Gourmand_Pipeyard",
+                        "x": 707,
+                        "y": 654
+                    },
+                    {
+                        "map": "Arti_Pipeyard",
+                        "x": 707,
+                        "y": 654
+                    },
+                    {
+                        "map": "Riv_Pipeyard",
+                        "x": 707,
+                        "y": 654
+                    },
+                    {
+                        "map": "Spear_Pipeyard",
+                        "x": 707,
+                        "y": 654
+                    },
+                    {
+                        "map": "Saint_Pipeyard",
+                        "x": 707,
+                        "y": 654
+                    },
+                    {
+                        "map": "Inv_Pipeyard",
+                        "x": 707,
+                        "y": 654
                     }
                 ]
             }
